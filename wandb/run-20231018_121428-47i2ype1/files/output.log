@@ -1,0 +1,720 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-15>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + x*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-32>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 5)
+<lambdifygenerated-38>:2: RuntimeWarning: invalid value encountered in log
+  return x*arctan(x) - log(cos(x)) + sin(x)
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-45>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-54>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x) + arcsin(x)
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-69>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(2)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-76>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) - x
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*sin(x) + cosh(x)
+<lambdifygenerated-78>:2: RuntimeWarning: invalid value encountered in arccos
+  return x/arccos(2)
+<lambdifygenerated-79>:2: RuntimeWarning: invalid value encountered in arctanh
+  return log(x)*arctanh(x**2)
+<lambdifygenerated-82>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*log(x) - x*arctanh(x) + x + log(x)
+<lambdifygenerated-83>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2 + x - arcsin(x)
+<lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + x*arctanh(5)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-93>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 4)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-96>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in exp
+  return -4*x*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*exp(x)
+<lambdifygenerated-101>:2: RuntimeWarning: overflow encountered in sinh
+  return x + 2*sinh(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-130>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x + 1)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*sinh(x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*arctanh(4)
+<lambdifygenerated-158>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-162>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) - x
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(x + 2) - 2*log(cos(x))
+x**5/5 + x**2/2 1.047356664561062e-11
+2*x**2 + x 0.0006787167928755794
+None 0
+None 0
+x/(x + 6) 0.33945874407586757
+cos(1)/x 0.3392877261895716
+-2*x + cos(x)/x 0.204490996425402
+None 0
+6*x**5 0
+None 0
+2*x**4 3.3876561967083894e-06
+4*x**3/3 1.221831052410901e-06
+None 0
+-x**3/3 - x**2/2 + x 4.878622313562765e-06
+x/(x + 3) 0.33945978695606027
+None 0
+x**2*sinh(1)/2 0.0023149241368851476
+x*sin(4) + 2*x 0.5748152170686003
+5*sqrt(2)*x**(3/2)/9 0.050687337981076275
+-x**6/16 + x**2*log(x**2)/2 3.6914664723418895e-14
+x**2 + x*cosh(x) 0
+2*x*(x + 3) 0.0006765631628525488
+(3 - x)/x 0.339115427231413
+None 0
+None 0
+None 0
+None 0
+x + 2 0.5068619382403772
+None 0
+x**2*sin(5)/5 0.006936740368831868
+None 0
+x**2/2 + sin(x)*cos(x)/5 0.0027214720390319226
+sin(x**2)/2 0.3392811848988465
+None 0
+None 0
+-1/x 0.3392871568322311
+sin(2*x + 4) 0.33929845090194427
+0 0
+None 0
+2*(2*x + 1)/x 0.3399823830557645
+sqrt(x) + 4 0.34435913571972065
+(2*x**2 + x)/x 0.996503935379723
+x + exp(x) - atanh(x) 0
+-x**2 0.0013522009232730563
+None 0
+None 0
+x*(2*x + 4) + x 0.0006769928343990578
+x - 1/x**2 0.5060894833639529
+None 0
+exp(2*x + 5) 0
+None 0
+x + 2/x 0.5060911602427728
+-2*x**(7/2)/7 1.9398454026348556e-07
+-4*x**2 + 2*x 0.00033925623500248017
+None 0
+5*x*(x - 4) 0.0002729524636697269
+x*(x + 4) + 2*x 0.001348792711787962
+x*atan(x) - log(cos(x)) + sin(x) 0
+None 0
+x - cos(x) 0.5061124786667865
+x*log(tanh(x) - 1) - x - log(tanh(x) + 1) 0
+log(2*x**2) 0.34162884608376914
+None 0
+None 0
+None 0
+x**2/2 + 5*log(x) 0.0027211616394624666
+0 0
+x**2 + 28*x 0.0013122221403375036
+x + asin(x) 0
+x + sin(x) + 1 0.506513397056345
+x*(x + 1/x) 0.0013591076167547575
+x**4 + x + 1 0
+None 0
+x**4/4 - x**3/3 + x**2/2 7.494191203106304e-09
+None 0
+4*x**3/3 - x**2 1.2229154357223628e-06
+3*sin(x/4) 0.339284786699454
+-2*x + log(x)**2*tan(x) 0.19274226765437413
+None 0
+sin(x) 0.33930455964231593
+exp(x) + asin(x) 0
+x**2 + 4*x 0.0013522149845783898
+x**6/3 + 5*x**3 + x**2/2 6.921499494145866e-15
+x/(x**3 + x) 0.3392875311893554
+2*x + tan(5) 0.9889314089342996
+sqrt(x) + x + 3 0.5170516903411565
+x**4/12 + x**3/3 2.2346647071426955e-08
+1/(x**2 + x) 0.33928753072497175
+None 0
+None 0
+None 0
+x + log(x)**2 0.5222960375553362
+49*x**3/36 1.1968957017858476e-06
+None 0
+x**2 + 5*x 0.0013505017583528081
+-6*x**2 + 2*x 0.00022619650116169576
+None 0
+sqrt(3)*x**(5/2)/3 8.206807250064957e-05
+sqrt(2*x + 3) 0.3454951334583436
+x**2*exp(x) + x 0
+x**2*acos(2)/2 0
+None 0
+7*x/2 - 8*atan(3*x/2) 0.41087971488639763
+None 0
+4*x**(7/2)/7 + x**6/2 4.614332876355385e-15
+6*sin(x) 0.33938843496397864
+None 0
+x**2*(x**3 + x)**2 0
+None 0
+None 0
+None 0
+x**3/(3*log(2)) 3.3876406567187473e-06
+None 0
+2*x - cos(x) 0.9947197281248353
+None 0
+x*exp(x) - x 0
+4*sin(x) + cosh(x) 0
+x/acos(2) 0
+None 0
+log(x)*atanh(x**2) 0
+x*sin(x + 2) 0.31368182551130247
+1/(x + 3) 0.3392878864692343
+x**2*log(x) - x*atanh(x) + x + log(x) 0
+x**2 + x - asin(x) 0
+5*x**3 + x 7.000244079263718e-07
+x + x*atanh(5) 0
+x**2*tan(3)/12 0.08589202344127492
+sqrt(2*x + 3) 0.3454951334583436
+None 0
+x*(x + acos(x)) 0
+None 0
+None 0
+3*x**2 - x 0.0004528681979452462
+(x**2 + x)**4 1.6925547136116876e-06
+None 0
+None 0
+None 0
+None 0
+x**2/2 + 8*log(x) 0.0027209755126002045
+2*x**(5/2)/5 + x**4/2 3.741298042813923e-09
+x*(cosh(x) + 4) 0
+None 0
+x*(x**5 + x) 0
+None 0
+3/(5*x) 0.3392877482333191
+exp(x + 3) 0
+4*x**2 + x 0.0003393651051005055
+None 0
+x**6 - x**2/4 2.3071665448338547e-15
+None 0
+-4*x*exp(x) 0
+124/x**3 0.33928751246869615
+x + 2*sinh(x) 0
+5 - x 0.25567267187438425
+None 0
+2*x**2 - sin(x) 0.0006791491716263039
+None 0
+x*(x + 3) 0.0013539324051945055
+None 0
+x**2/2 0.0027214718923122224
+x**4/4 + 4*x**3/3 7.437634978040544e-09
+None 0
+None 0
+3*x**2/2 0.0009057124741368726
+x**2/(4*cos(4)) 0.003513336538181316
+2*sin(x) 0.3393215067517316
+None 0
+2*x - sin(x) 0.9944728254273256
+None 0
+x**6/6 + x**3/3 1.3842999231574666e-14
+None 0
+None 0
+x**2*log(4)/2 0.0019618191167669508
+x**3/3 - x**2 4.9047338645978755e-06
+None 0
+61*x**2 2.2254324952166243e-05
+x**8 + 3*x**2/2 1.335717249221286e-16
+4*x + 4*log(x) 0.3359423808418956
+-x - log(sqrt(x) + 1) 0.2548661312342674
+4 - x**2 0.0013522102974583231
+x**2/2 + x*tan(1) 0.002710698262998194
+None 0
+x**4/9 1.6836362180501168e-08
+None 0
+8*x**2 + x 0.00016968422928512764
+-x - exp(x) 0
+x**4/4 + 2*x 7.48282749557435e-09
+tan(3*x + 3) 0.3391295058842942
+x**2/2 - 3*x*exp(x) - exp(x) 0
+None 0
+x 0.5060894985039149
+1/(2*x**2 + x) 0.3392875288923006
+x**5/5 + 2*x 1.0473566682838632e-11
+None 0
+None 0
+5*x*log(x) 0.0323639445367693
+None 0
+cosh(2*x + 1) 0
+x**2*sinh(x) 0
+None 0
+2*x + sin(x) 0.9947828011911483
+2*x 0.9947650539244662
+5*x**2/2 + 6*x 0.0005415985268627505
+1/(2*x) 0.33928771130672614
+None 0
+-cos(x + 2) 0.33929868086964554
+x**2*log(x) + x 0.00020276984782082353
+x**4/4 + x**2/2 + 3*x 7.482807715274181e-09
+-x**3*sin(x) + x 2.377346036489544e-06
+None 0
+None 0
+cos(x)/x 0.33928750331824276
+x**2/2 + (3*x + 2)**(3/2)/3 0.0024227380116479593
+acos(3*x) 0
+2/(3*x) 0.3392877728483829
+cos(4*x + 1) 0.33926471377712564
+None 0
+2*(x + 2)**3 8.08801649872738e-07
+4*x**5/5 + x**2/2 2.618391668403418e-12
+x**3/log(x**2) 2.1983654651787115e-05
+sqrt(3)/(2*x + 5) 0.3392878392887881
+x*atan(x) + log(x + 1) - atan(x) 0.7063499264121796
+None 0
+None 0
+tan(x + 3) 0.3390937828304326
+-x/5 0.31830545393533793
+2*x*atanh(4) 0
+-x + sin(x)*cos(x) 0.2551756652892885
+x**2*(log(x) + 1) 0.00017645670063450868
+None 0
+5*x**2/2 0.000543254381207303
+x/(x + 3) 0.33945978695606027
+x**3*sin(1)/3 5.808092721224244e-06
+None 0
+None 0
+exp(2*x + 1) 0
+None 0
+None 0
+4*x**2 + 3*x 0.00033914920035148916
+None 0
+2*x**2 + 5 0.0006791461517861048
+tanh(2*x + 1)/2 0.33937417975006273
+None 0
+x*atanh(x) - x 0
+x*(x + 5) 0.0013505017583528081
+x**3/3 + x**2/2 4.878685607605478e-06
+x**3 + x**2 1.6271847117915078e-06
+4*x/3 0.6052790726197276
+-2*log(x + 2) - 2*log(cos(x)) 0
+3 - 3*x 0.17073303525075853
+None 0
+None 0
+x + sin(x) 0.5061273230511186
+2*x*log(2*x**3) 0.025898807730881865
+5*x/(x + 1) 0.34015370344215373
+sin(3*x + 1) 0.3392976657679001
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.10527157038450241
+top: 0.33945873379707336
+<lambdifygenerated-173>:2: RuntimeWarning: overflow encountered in sinh
+  return (43/6)*(-sinh(x))**(3/2)
+<lambdifygenerated-173>:2: RuntimeWarning: invalid value encountered in power
+  return (43/6)*(-sinh(x))**(3/2)
+<lambdifygenerated-175>:2: RuntimeWarning: overflow encountered in exp
+  return 25*exp(x**2)
+<lambdifygenerated-179>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(4*x)
+<lambdifygenerated-181>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x) + arcsin(x)
+<lambdifygenerated-181>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(2*x) + arcsin(x)
+<lambdifygenerated-185>:2: RuntimeWarning: invalid value encountered in log
+  return -x*log(sin(x)) - cos(x)
+<lambdifygenerated-193>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*x*log(cos(x))
+<lambdifygenerated-194>:2: RuntimeWarning: overflow encountered in exp
+  return 15*exp(x)
+<lambdifygenerated-195>:2: RuntimeWarning: invalid value encountered in sqrt
+  return (1/4)*sin(x)*cos(x) + (1/2)/sqrt(tan(x))
+<lambdifygenerated-196>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(x**2 + 1) - (1/2)/arctan(x)**2
+<lambdifygenerated-197>:2: RuntimeWarning: overflow encountered in exp
+  return (x + exp(x) - 4)*log(x)
+<lambdifygenerated-202>:2: RuntimeWarning: invalid value encountered in power
+  return sin(x)**(4/3)
+<lambdifygenerated-203>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*arctanh(x)
+<lambdifygenerated-207>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(tan(x))
+<lambdifygenerated-208>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(cos(x))
+<lambdifygenerated-211>:2: RuntimeWarning: overflow encountered in exp
+  return x**(2/3) + exp(x + 5)
+<lambdifygenerated-222>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(x + 3)
+<lambdifygenerated-234>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(x) + (1/3)*sqrt(1 - 4*x**2) + exp(x)
+<lambdifygenerated-234>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arcsin(x) + (1/3)*sqrt(1 - 4*x**2) + exp(x)
+<lambdifygenerated-234>:2: RuntimeWarning: overflow encountered in exp
+  return x*arcsin(x) + (1/3)*sqrt(1 - 4*x**2) + exp(x)
+<lambdifygenerated-235>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + exp(arcsin(x))
+<lambdifygenerated-236>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 - exp(x)
+<lambdifygenerated-239>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x - 2/3*log(tan((1/2)*x) - 1)
+<lambdifygenerated-241>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + 2*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:478: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+<lambdifygenerated-247>:2: RuntimeWarning: overflow encountered in exp
+  return 2*sqrt(x) + x**2 + exp(x)
+<lambdifygenerated-255>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arccosh(x) + sqrt(1 - x**2) + (1/4)*arccosh(x)**2
+<lambdifygenerated-260>:2: RuntimeWarning: overflow encountered in exp
+  return (1/26)*x**2 + exp(x)
+<lambdifygenerated-264>:2: RuntimeWarning: invalid value encountered in arccos
+  return -1/25*x**3 + x*arccos(x) - 2/9*sqrt(9*x**(3/2) - 1)
+<lambdifygenerated-266>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x)
+<lambdifygenerated-266>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*exp(x)
+<lambdifygenerated-267>:2: RuntimeWarning: invalid value encountered in log
+  return sqrt(x) + x + log(-tan(2*x - 1))
+<lambdifygenerated-269>:2: RuntimeWarning: invalid value encountered in log
+  return x + log(cos(x)) + x**(-2.0)
+<lambdifygenerated-271>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 6/arcsin(x)**(1/8)
+<lambdifygenerated-272>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(sqrt(x)) + (1/2)*log(2 - 4*cos(sqrt(x)))
+<lambdifygenerated-275>:2: RuntimeWarning: overflow encountered in power
+  return (sqrt(x) + x)**(2*x**(3/2))
+<lambdifygenerated-285>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) - 3)
+<lambdifygenerated-286>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1/2 - x**(2/3))
+43*(-sinh(x))**(3/2)/6 0
+-3*x + x*log(3) 0.20857681265783998
+25*exp(x**2) 0
+None 0
+None 0
+4*x + acosh(x) 0.33910343274888605
+2*x**(3/2) - 1/(3*sin(x)) 0.019362277890183015
+x**(3/2) - 2*x 0.04265045790372709
+x**2/2 + exp(4*x) 0
+None 0
+None 0
+None 0
+None 0
+6*sin(x)**2 0.33979290977196186
+None 0
+exp(2*x) + asin(x) 0
+3*x + log(x) 0.5059471687869965
+2*x**(2/3) + sin(2*x) 0.3666943247871785
+sin(log(x)) + cosh(log(x)) 0.40626041271428054
+None 0
+-x*log(sin(x)) - cos(x) 0
+sin(x)**3/3 + cos(x) 0.3392802741580757
+acosh(x + 4) 0.3405165570148222
+126*(x + 3)**3 7.791514374485646e-07
+x**2/2 - x*cos(x) + sin(x) 0.0027208189181296325
+x*sqrt(x + 1)*sin(2*x) 0.046132315033836954
+None 0
+(x + 1)**(10/3)/10 1.7055375047527208e-06
+None 0
+None 0
+None 0
+None 0
+x/cos(x) 0.058986276540497574
+None 0
+-x*log(cos(x))/2 0
+15*exp(x) 0
+None 0
+sin(x)*cos(x)/4 + 1/(2*sqrt(tan(x))) 0
+None 0
+x*acos(x) - sqrt(x**2 + 1) - 1/(2*atan(x)**2) 0
+None 0
+(x + exp(x) - 4)*log(x) 0
+None 0
+x/cos(4) 0.22555479121270794
+-sin(log(x))**4/6 0.33928554760797097
+13*x**(60/13) 2.203614530941566e-12
+None 0
+None 0
+None 0
+None 0
+None 0
+x 0.5060894985039149
+None 0
+sin(x)**(4/3) 0
+atanh(x)/2 0
+None 0
+None 0
+x + log(x) + tanh(x) 0.5089452434956679
+None 0
+8/x**(110/3) 0.3392875266018107
+None 0
+sqrt(x + 1) - 2*log(x + 2) 0.34140312773548304
+sqrt(tan(x)) 0
+None 0
+None 0
+None 0
+-2*log(cos(x)) 0
+16009*x**3/145 1.4755478178262176e-08
+None 0
+x**4/4 + x 7.482827542236945e-09
+None 0
+x**(2/3) + exp(x + 5) 0
+E*(x + cos(x))**2 0.0004997283541807902
+x + tan(x/2) 0.5055410795085507
+x**2*(x - tan(x)) 1.627826643687658e-06
+None 0
+sin(x)**3 0.3392971211661386
+2*x - log(x + 2)/2 0.9896863650413226
+-4*x + log(2*x) 0.14657589148769434
+None 0
+None 0
+None 0
+tanh(x)**2 0.3394608643777144
+None 0
+None 0
+x*cos(x)/2 + asinh(x + 1)/2 0.33203559205355987
+None 0
+None 0
+None 0
+None 0
+cos(1/5)*cos(5*x) 0.3392914593850081
+None 0
+1166*(34*x + 5)**9/9 8.249853290646014e-19
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+exp(x + 3)/2 0
+None 0
+-5*x**3 + 5*x**2/2 3.260137350672432e-07
+None 0
+x**2/4 + x*sin(x) + cos(x) 0.005452409395164164
+x + sin(2)**(x - cos(x)) 0.5060896501619252
+None 0
+None 0
+x**2/2 + x*log(x) - 20*x 0.0028173830960539358
+2*x + sin(2*x) 0.9943959112391769
+x*sin(x) - 2*cos(x) 0.33848339875175326
+pi*x/2 + tan(1) 0.7046677929929913
+None 0
+None 0
+3*x**(3/2) + x + 2 0.012675049966704282
+x**2*asinh(x) 0.00018378450515740477
+sqrt(3*x + 2) 0.34691496269623934
+None 0
+None 0
+None 0
+None 0
+None 0
+(x + 2)/x**3 0.33928753493421443
+None 0
+x*asin(x) + sqrt(1 - 4*x**2)/3 + exp(x) 0
+x + exp(asin(x)) 0
+x**3/3 - exp(x) 0
+None 0
+None 0
+None 0
+None 0
+None 0
+log(x**2/10) 0.3411045254115622
+None 0
+None 0
+None 0
+None 0
+x - atan(x)**3/3 0.5055933734360659
+x/2 - 2*log(tan(x/2) - 1)/3 0
+None 0
+x**4 + 5*x**2/2 1.870700723435033e-09
+3*x + 2*exp(x) 0
+None 0
+x**2*(1 - 3*x) 5.432487883596367e-07
+None 0
+-2*sin(x + 2) 0.33932047835066786
+None 0
+None 0
+5*x + 2 0.25557442561727794
+x**(3/8)*exp(x/2) 0.0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+3*log(x/2) 0.34226101052971053
+None 0
+2*sqrt(x) + x**2 + exp(x) 0
+x - log(tanh(tanh(tanh(tanh(x + 1) + 1) + 1) + 1) + 1) 0.5058296969705984
+None 0
+None 0
+44*x**3/3 + x 1.110754441284162e-07
+23*cos(x) 0.3390238080951761
+x**(5/2)/4 0.00018954491899120184
+log(5)/40 0
+None 0
+log(3*x**2) 0.341699901169121
+x + cos(x - 1) 0.5061087858283747
+x*acosh(x) + sqrt(1 - x**2) + acosh(x)**2/4 0
+x*(sqrt(2) + 1/sqrt(x)) 0.6509680630431425
+None 0
+1075/x**2 0.33922746991920794
+None 0
+2*atan(x) 0.33983178833242594
+None 0
+None 0
+-sin(x) 0.3392704076763217
+x**2/26 + exp(x) 0
+None 0
+None 0
+x*(x + tan(2*x)) 0.0013582022616691455
+None 0
+None 0
+3026*x 0.0003403018142874098
+None 0
+None 0
+x*(sin(x) + tan(x)) 0.05884467233834509
+-x**3/25 + x*acos(x) - 2*sqrt(9*x**(3/2) - 1)/9 0
+x*log(x) + log(x**2 + 1)/2 0.1840076837494499
+5*x*exp(x) 0
+None 0
+sqrt(x) + x + log(-tan(2*x - 1)) 0
+None 0
+x*(2*x + 5) 0.0006769928343990578
+None 0
+None 0
+None 0
+None 0
+None 0
+x + log(cos(x)) + x**(-2) 0
+x + 9 0.5095772598431395
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+None 0
+6/asin(x)**(1/8) 0
+x*log(sqrt(x)) + log(2 - 4*cos(sqrt(x)))/2 0
+None 0
+None 0
+None 0
+7*x/5 0.6299729295361042
+None 0
+None 0
+None 0
+None 0
+None 0
+x**4/4 + x*log(x) 7.482827274992905e-09
+(sqrt(x) + x)**(2*x**(3/2)) 0
+x + sin(x) + 4 0.5076738709251842
+None 0
+(x + 5)/x 0.33946270054784217
+None 0
+None 0
+None 0
+8*tan(2*x + 3)**2/5 0.06243409469166796
+0 0
+None 0
+2110*x 0.00048810304702572255
+None 0
+3*(cos(x) + 4)/x 0.3392918634235022
+None 0
+2*x + acosh(3)/3 0.9957860539895564
+None 0
+None 0
+None 0
+x*log(x**2 + x) 0.0847846044252661
+x + asinh(2*x) 0.5090955653066417
+x*(cosh(x) - 3) 0
+None 0
+None 0
+None 0
+None 0
+sqrt(1/2 - x**(2/3)) 0
+None 0
+None 0
+None 0
+5*x*acosh(x) - 5*sqrt(x**2 + 1) 0.03400132128512103
+mean: 0.08173340559005737
+top: 0.33910343050956726
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Traceback (most recent call last):
+  File "avaliation.py", line 124, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 390, in forward
+    attn_outputs = self.attn(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 331, in forward
+    attn_output, attn_weights = self._attn(query, key, value, attention_mask, head_mask)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 208, in _attn
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/functional.py", line 1843, in softmax
+    ret = input.softmax(dim)
+KeyboardInterrupt

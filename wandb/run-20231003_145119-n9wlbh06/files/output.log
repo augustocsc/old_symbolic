@@ -1,0 +1,15 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Traceback (most recent call last):
+  File "avaliation.py", line 80, in <module>
+    expression = line['expression']
+TypeError: string indices must be integers
+                                      expression   term_count   constant_count  ...   best_reward   mean_reward   top_reward
+prefix                                                                          ...
+Y x                                            x            1                0  ...           NaN           NaN          NaN
+Y mul div INT+ 1 INT+ 2 pow x INT+ 2      x**2/2            2                1  ...           NaN           NaN          NaN
+Y mul INT+ 2 x                               2*x            2                1  ...           NaN           NaN          NaN
+Y pow x INT+ 2                              x**2            1                0  ...           NaN           NaN          NaN
+Y mul INT+ 2 pow x INT+ 2                 2*x**2            2                1  ...           NaN           NaN          NaN
+[5 rows x 8 columns]
+ expression

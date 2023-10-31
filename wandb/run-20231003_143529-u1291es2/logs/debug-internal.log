@@ -1,0 +1,187 @@
+2023-10-03 14:35:29,020 INFO    StreamThr :3417435 [internal.py:wandb_internal():86] W&B internal server running at pid: 3417435, started at: 2023-10-03 14:35:29.019941
+2023-10-03 14:35:29,022 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: status
+2023-10-03 14:35:29,025 INFO    WriterThread:3417435 [datastore.py:open_for_write():85] open: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/run-u1291es2.wandb
+2023-10-03 14:35:29,026 DEBUG   SenderThread:3417435 [sender.py:send():380] send: header
+2023-10-03 14:35:29,026 DEBUG   SenderThread:3417435 [sender.py:send():380] send: run
+2023-10-03 14:35:29,290 INFO    SenderThread:3417435 [dir_watcher.py:__init__():211] watching files in: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files
+2023-10-03 14:35:29,290 INFO    SenderThread:3417435 [sender.py:_start_run_threads():1122] run started: u1291es2 with start time 1696358129.020012
+2023-10-03 14:35:29,296 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: check_version
+2023-10-03 14:35:29,296 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: check_version
+2023-10-03 14:35:29,379 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: run_start
+2023-10-03 14:35:29,387 DEBUG   HandlerThread:3417435 [system_info.py:__init__():32] System info init
+2023-10-03 14:35:29,387 DEBUG   HandlerThread:3417435 [system_info.py:__init__():47] System info init done
+2023-10-03 14:35:29,387 INFO    HandlerThread:3417435 [system_monitor.py:start():181] Starting system monitor
+2023-10-03 14:35:29,387 INFO    SystemMonitor:3417435 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-03 14:35:29,388 INFO    HandlerThread:3417435 [system_monitor.py:probe():201] Collecting system info
+2023-10-03 14:35:29,388 INFO    SystemMonitor:3417435 [interfaces.py:start():190] Started cpu monitoring
+2023-10-03 14:35:29,389 INFO    SystemMonitor:3417435 [interfaces.py:start():190] Started disk monitoring
+2023-10-03 14:35:29,390 INFO    SystemMonitor:3417435 [interfaces.py:start():190] Started gpu monitoring
+2023-10-03 14:35:29,390 INFO    SystemMonitor:3417435 [interfaces.py:start():190] Started memory monitoring
+2023-10-03 14:35:29,392 INFO    SystemMonitor:3417435 [interfaces.py:start():190] Started network monitoring
+2023-10-03 14:35:29,424 DEBUG   HandlerThread:3417435 [system_info.py:probe():196] Probing system
+2023-10-03 14:35:29,430 DEBUG   HandlerThread:3417435 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-03 14:35:29,430 DEBUG   HandlerThread:3417435 [system_info.py:probe():244] Probing system done
+2023-10-03 14:35:29,430 DEBUG   HandlerThread:3417435 [system_monitor.py:probe():210] {'os': 'Linux-4.18.0-477.21.1.el8_8.x86_64-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2023-10-03T18:35:29.424583', 'startedAt': '2023-10-03T18:35:29.014665', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'avaliation.py', 'codePathLocal': 'avaliation.py', 'codePath': 'avaliation.py', 'host': 'GPG-OPPENHEIMER.CHEME.CMU.EDU', 'username': 'augusto', 'executable': '/home/augusto/miniconda3/envs/sr/bin/python', 'cpu_count': 48, 'cpu_count_logical': 96, 'cpu_freq': {'current': 3193.8810312500004, 'min': 1500.0, 'max': 4037.5}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 2612.579, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}], 'disk': {'/': {'total': 249.8779296875, 'used': 153.58038330078125}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 1007.2281532287598}}
+2023-10-03 14:35:29,430 INFO    HandlerThread:3417435 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-03 14:35:29,430 INFO    HandlerThread:3417435 [system_monitor.py:probe():214] Publishing system info
+2023-10-03 14:35:29,430 DEBUG   HandlerThread:3417435 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-03 14:35:29,431 DEBUG   HandlerThread:3417435 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-03 14:35:29,431 DEBUG   HandlerThread:3417435 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-03 14:35:30,292 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/conda-environment.yaml
+2023-10-03 14:35:30,292 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/requirements.txt
+2023-10-03 14:35:30,418 DEBUG   HandlerThread:3417435 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-03 14:35:30,419 INFO    HandlerThread:3417435 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-03 14:35:30,422 DEBUG   SenderThread:3417435 [sender.py:send():380] send: files
+2023-10-03 14:35:30,422 INFO    SenderThread:3417435 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-03 14:35:30,427 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-03 14:35:30,427 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: stop_status
+2023-10-03 14:35:30,430 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-03 14:35:30,644 DEBUG   SenderThread:3417435 [sender.py:send():380] send: telemetry
+2023-10-03 14:35:30,644 DEBUG   SenderThread:3417435 [sender.py:send():380] send: config
+2023-10-03 14:35:30,759 INFO    wandb-upload_0:3417435 [upload_job.py:push():131] Uploaded file /tmp/tmpzk9hj1urwandb/jm7ycmdi-wandb-metadata.json
+2023-10-03 14:35:31,291 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/conda-environment.yaml
+2023-10-03 14:35:31,292 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/output.log
+2023-10-03 14:35:31,292 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/wandb-metadata.json
+2023-10-03 14:35:31,360 DEBUG   SenderThread:3417435 [sender.py:send():380] send: exit
+2023-10-03 14:35:31,360 INFO    SenderThread:3417435 [sender.py:send_exit():585] handling exit code: 1
+2023-10-03 14:35:31,360 INFO    SenderThread:3417435 [sender.py:send_exit():587] handling runtime: 1
+2023-10-03 14:35:31,361 INFO    SenderThread:3417435 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-03 14:35:31,361 INFO    SenderThread:3417435 [sender.py:send_exit():593] send defer
+2023-10-03 14:35:31,362 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,362 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-03 14:35:31,362 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,362 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-03 14:35:31,362 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 1
+2023-10-03 14:35:31,362 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,362 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-03 14:35:31,362 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,362 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-03 14:35:31,362 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 2
+2023-10-03 14:35:31,363 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,363 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-03 14:35:31,363 INFO    HandlerThread:3417435 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-03 14:35:31,363 DEBUG   SystemMonitor:3417435 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-03 14:35:31,363 DEBUG   SystemMonitor:3417435 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-03 14:35:31,363 DEBUG   SystemMonitor:3417435 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-03 14:35:31,364 INFO    HandlerThread:3417435 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-03 14:35:31,364 INFO    HandlerThread:3417435 [interfaces.py:finish():202] Joined disk monitor
+2023-10-03 14:35:31,600 INFO    HandlerThread:3417435 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-03 14:35:31,600 INFO    HandlerThread:3417435 [interfaces.py:finish():202] Joined memory monitor
+2023-10-03 14:35:31,600 INFO    HandlerThread:3417435 [interfaces.py:finish():202] Joined network monitor
+2023-10-03 14:35:31,600 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,600 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-03 14:35:31,600 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 3
+2023-10-03 14:35:31,601 DEBUG   SenderThread:3417435 [sender.py:send():380] send: stats
+2023-10-03 14:35:31,601 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,601 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-03 14:35:31,601 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,601 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-03 14:35:31,601 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 4
+2023-10-03 14:35:31,601 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,601 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-03 14:35:31,602 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,602 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-03 14:35:31,602 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 5
+2023-10-03 14:35:31,602 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,602 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-03 14:35:31,602 DEBUG   SenderThread:3417435 [sender.py:send():380] send: summary
+2023-10-03 14:35:31,602 INFO    SenderThread:3417435 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-03 14:35:31,602 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,603 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-03 14:35:31,603 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 6
+2023-10-03 14:35:31,603 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,603 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-03 14:35:31,603 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,603 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-03 14:35:31,605 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: status_report
+2023-10-03 14:35:31,706 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 7
+2023-10-03 14:35:31,707 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:31,707 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 7
+2023-10-03 14:35:31,707 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:31,707 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-03 14:35:32,292 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/config.yaml
+2023-10-03 14:35:32,292 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/wandb-summary.json
+2023-10-03 14:35:32,360 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-03 14:35:33,292 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/output.log
+2023-10-03 14:35:33,321 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 8
+2023-10-03 14:35:33,321 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: poll_exit
+2023-10-03 14:35:33,322 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:33,322 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 8
+2023-10-03 14:35:33,322 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:33,322 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-03 14:35:33,322 INFO    SenderThread:3417435 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-03 14:35:33,323 INFO    SenderThread:3417435 [job_builder.py:_get_source_type():404] no source found
+2023-10-03 14:35:33,323 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 9
+2023-10-03 14:35:33,323 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:33,323 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 9
+2023-10-03 14:35:33,323 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:33,323 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-03 14:35:33,323 INFO    SenderThread:3417435 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-03 14:35:33,361 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-03 14:35:34,293 INFO    Thread-12 :3417435 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/output.log
+2023-10-03 14:35:34,293 INFO    SenderThread:3417435 [dir_watcher.py:finish():388] scan: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files
+2023-10-03 14:35:34,293 INFO    SenderThread:3417435 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/config.yaml config.yaml
+2023-10-03 14:35:34,294 INFO    SenderThread:3417435 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/requirements.txt requirements.txt
+2023-10-03 14:35:34,294 INFO    SenderThread:3417435 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/conda-environment.yaml conda-environment.yaml
+2023-10-03 14:35:34,294 INFO    SenderThread:3417435 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/wandb-metadata.json wandb-metadata.json
+2023-10-03 14:35:34,294 INFO    SenderThread:3417435 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/output.log output.log
+2023-10-03 14:35:34,294 INFO    SenderThread:3417435 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/wandb-summary.json wandb-summary.json
+2023-10-03 14:35:34,295 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 10
+2023-10-03 14:35:34,295 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: poll_exit
+2023-10-03 14:35:34,295 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:34,295 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 10
+2023-10-03 14:35:34,298 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:34,298 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-03 14:35:34,298 INFO    SenderThread:3417435 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-03 14:35:34,362 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-03 14:35:34,364 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: poll_exit
+2023-10-03 14:35:34,508 INFO    wandb-upload_1:3417435 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/requirements.txt
+2023-10-03 14:35:34,590 INFO    wandb-upload_0:3417435 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/config.yaml
+2023-10-03 14:35:34,713 INFO    wandb-upload_3:3417435 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/output.log
+2023-10-03 14:35:34,721 INFO    wandb-upload_4:3417435 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/wandb-summary.json
+2023-10-03 14:35:34,806 INFO    wandb-upload_2:3417435 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/files/conda-environment.yaml
+2023-10-03 14:35:35,006 INFO    Thread-11 :3417435 [sender.py:transition_state():613] send defer: 11
+2023-10-03 14:35:35,006 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:35,006 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 11
+2023-10-03 14:35:35,007 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:35,007 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-03 14:35:35,007 INFO    SenderThread:3417435 [file_pusher.py:join():181] waiting for file pusher
+2023-10-03 14:35:35,007 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 12
+2023-10-03 14:35:35,008 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:35,008 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 12
+2023-10-03 14:35:35,008 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:35,008 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-03 14:35:35,008 INFO    SenderThread:3417435 [file_stream.py:finish():595] file stream finish called
+2023-10-03 14:35:35,096 INFO    SenderThread:3417435 [file_stream.py:finish():599] file stream finish is done
+2023-10-03 14:35:35,097 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 13
+2023-10-03 14:35:35,097 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:35,097 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 13
+2023-10-03 14:35:35,097 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:35,097 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-03 14:35:35,098 INFO    SenderThread:3417435 [sender.py:transition_state():613] send defer: 14
+2023-10-03 14:35:35,098 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: defer
+2023-10-03 14:35:35,098 INFO    HandlerThread:3417435 [handler.py:handle_request_defer():170] handle defer: 14
+2023-10-03 14:35:35,098 DEBUG   SenderThread:3417435 [sender.py:send():380] send: final
+2023-10-03 14:35:35,098 DEBUG   SenderThread:3417435 [sender.py:send():380] send: footer
+2023-10-03 14:35:35,098 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: defer
+2023-10-03 14:35:35,098 INFO    SenderThread:3417435 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-03 14:35:35,098 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-03 14:35:35,099 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: poll_exit
+2023-10-03 14:35:35,099 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-03 14:35:35,099 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: poll_exit
+2023-10-03 14:35:35,100 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: server_info
+2023-10-03 14:35:35,100 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: server_info
+2023-10-03 14:35:35,101 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: get_summary
+2023-10-03 14:35:35,101 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: sampled_history
+2023-10-03 14:35:35,102 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-03 14:35:35,102 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: job_info
+2023-10-03 14:35:35,156 DEBUG   SenderThread:3417435 [sender.py:send_request():407] send_request: job_info
+2023-10-03 14:35:35,157 INFO    MainThread:3417435 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-10-03 14:35:35,157 INFO    MainThread:3417435 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-10-03 14:35:35,157 INFO    MainThread:3417435 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2023-10-03 14:35:35,157 DEBUG   HandlerThread:3417435 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-03 14:35:35,158 INFO    HandlerThread:3417435 [handler.py:finish():844] shutting down handler
+2023-10-03 14:35:36,102 INFO    WriterThread:3417435 [datastore.py:close():294] close: /home/augusto/symbolic/wandb/run-20231003_143529-u1291es2/run-u1291es2.wandb
+2023-10-03 14:35:36,157 INFO    SenderThread:3417435 [sender.py:finish():1534] shutting down sender
+2023-10-03 14:35:36,157 INFO    SenderThread:3417435 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-03 14:35:36,157 INFO    SenderThread:3417435 [file_pusher.py:join():181] waiting for file pusher

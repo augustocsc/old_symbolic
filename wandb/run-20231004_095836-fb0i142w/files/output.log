@@ -1,0 +1,272 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-2>:2: RuntimeWarning: divide by zero encountered in reciprocal
+  return log(x)**(-1.0)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x*exp(x) + x)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x*exp(x) + x)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-8>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 0.007565199863165617
+top: 0.9965618252754211
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:16<00:00, 16.19s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-21>:2: RuntimeWarning: overflow encountered in exp
+  return x**3*exp(x)
+<lambdifygenerated-21>:2: RuntimeWarning: overflow encountered in multiply
+  return x**3*exp(x)
+<lambdifygenerated-31>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x**3)
+<lambdifygenerated-31>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x**3)
+mean: 0.0008199512958526611
+top: 0.020512565970420837
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.42s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-39>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-39>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return -arctanh(x)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -arctanh(x)
+<lambdifygenerated-43>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+mean: 0.00049155781744048
+top: 0.03080938756465912
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.27s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-52>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 5)
+<lambdifygenerated-53>:2: RuntimeWarning: invalid value encountered in arccos
+  return x - arccos(x)
+<lambdifygenerated-58>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-60>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)**2
+<lambdifygenerated-60>:2: RuntimeWarning: overflow encountered in square
+  return cosh(x)**2
+<lambdifygenerated-63>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-63>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*sinh(x)
+mean: 0.01059942040592432
+top: 0.9999966621398926
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.11s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-73>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 2)
+<lambdifygenerated-76>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x - 1)
+<lambdifygenerated-76>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x - 1)
+<lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + x
+<lambdifygenerated-87>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x - 1)
+mean: 0.0023847513366490602
+top: 0.04009493067860603
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.47s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-105>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x*(x + arctanh(x))
+<lambdifygenerated-105>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*(x + arctanh(x))
+<lambdifygenerated-108>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-108>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-114>:2: RuntimeWarning: invalid value encountered in log
+  return log(sin(x))
+mean: 0.002061244798824191
+top: 0.02297687530517578
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.01s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.005797314457595348
+top: 0.8902674317359924
+<lambdifygenerated-132>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x)
+<lambdifygenerated-135>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-136>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(log(x)) + x
+<lambdifygenerated-138>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-138>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+<lambdifygenerated-139>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-140>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.09s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-148>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(x) + exp(x)
+<lambdifygenerated-151>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2*arccos(x)
+<lambdifygenerated-155>:2: RuntimeWarning: overflow encountered in exp
+  return exp(4*x)
+<lambdifygenerated-157>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)
+<lambdifygenerated-160>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+<lambdifygenerated-164>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)/x
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in exp
+  return x**4*exp(x)
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in multiply
+  return x**4*exp(x)
+mean: 0.0015235327882692218
+top: 0.02300749532878399
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.36s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-173>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-174>:2: RuntimeWarning: overflow encountered in cosh
+  return tan(x) + cosh(x)
+<lambdifygenerated-175>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-180>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 5*arctanh(x)
+<lambdifygenerated-180>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 5*arctanh(x)
+<lambdifygenerated-184>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x) + cosh(x)
+<lambdifygenerated-185>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-186>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x)
+mean: 0.0008065237198024988
+top: 0.022957967594265938
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.21s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0019102765945717692
+top: 0.024502895772457123
+<lambdifygenerated-191>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.72s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0018702228553593159
+top: 0.0771050825715065
+<lambdifygenerated-213>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x))
+<lambdifygenerated-213>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x))
+<lambdifygenerated-222>:2: RuntimeWarning: overflow encountered in exp
+  return x**3 + exp(x)
+<lambdifygenerated-225>:2: RuntimeWarning: overflow encountered in exp
+  return x + 2*exp(x)
+<lambdifygenerated-231>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.79s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-246>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x)*cosh(x)
+<lambdifygenerated-249>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x)*cosh(x)
+<lambdifygenerated-251>:2: RuntimeWarning: invalid value encountered in arccos
+  return sin(x) + arccos(x)
+<lambdifygenerated-255>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(x + cosh(x))
+<lambdifygenerated-255>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + cosh(x))
+mean: 0.0022175065241754055
+top: 0.08584277331829071
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.50s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-263>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x + 2)
+mean: 0.0011892467737197876
+top: 0.04014342650771141
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.37s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0007167248986661434
+top: 0.022935276851058006
+<lambdifygenerated-278>:2: RuntimeWarning: invalid value encountered in arcsin
+  return sqrt(x) + arcsin(x)
+<lambdifygenerated-280>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)**2
+<lambdifygenerated-281>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.42s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-287>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*sqrt(1 - x**2) + x
+<lambdifygenerated-299>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 2)
+mean: 0.0010375329293310642
+top: 0.030433716252446175
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.45s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-305>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + cosh(x)
+<lambdifygenerated-308>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x) + 3
+mean: 0.0006272998871281743
+top: 0.02296365611255169
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.56s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-319>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-320>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2)
+<lambdifygenerated-323>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + 5
+<lambdifygenerated-323>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + 5
+<lambdifygenerated-332>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)*cosh(x)
+<lambdifygenerated-332>:2: RuntimeWarning: overflow encountered in cosh
+  return sinh(x)*cosh(x)
+<lambdifygenerated-332>:2: RuntimeWarning: overflow encountered in multiply
+  return sinh(x)*cosh(x)
+<lambdifygenerated-333>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+mean: 0.00887071993201971
+top: 0.951989471912384
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.90s/it]
+  0%|                                                                                                | 0/1 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0016238272655755281
+top: 0.024554621428251266
+<lambdifygenerated-338>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x)
+<lambdifygenerated-349>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x + 2)
+<lambdifygenerated-351>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-356>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + sin(x)
+Error in expression:  sqrt(x[0])
+100%|████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:15<00:00, 15.33s/it]

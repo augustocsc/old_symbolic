@@ -1,0 +1,27 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+Traceback (most recent call last):
+  File "avaliation.py", line 130, in <module>
+    exprs, rewards = reward_pipeline(response_tensors, data)
+  File "avaliation.py", line 36, in reward_pipeline
+    exprs = [Expression(prefix.strip().split(" "), data) for prefix in prefixes]
+  File "avaliation.py", line 36, in <listcomp>
+    exprs = [Expression(prefix.strip().split(" "), data) for prefix in prefixes]
+  File "/home/augusto/symbolic/Expression.py", line 26, in __init__
+    self.score = self.compute_reward(data.y, method=method)
+  File "/home/augusto/symbolic/Expression.py", line 45, in compute_reward
+    return self.nrmse(y, self.y_pred)
+  File "/home/augusto/symbolic/Expression.py", line 56, in nrmse
+    reward = mean_squared_error(y, y_pred, squared=False)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/utils/_param_validation.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py", line 474, in mean_squared_error
+    y_type, y_true, y_pred, multioutput = _check_reg_targets(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py", line 99, in _check_reg_targets
+    check_consistent_length(y_true, y_pred)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/utils/validation.py", line 407, in check_consistent_length
+    raise ValueError(
+ValueError: Found input variables with inconsistent numbers of samples: [1000, 1]

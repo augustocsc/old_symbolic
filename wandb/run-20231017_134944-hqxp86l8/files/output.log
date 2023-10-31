@@ -1,0 +1,9 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+                 type  ...              "expression"
+0  Simple Expressions  ...              2 * x[0] + 3
+1  Simple Expressions  ...    x[0]**2 - 5 * x[0] + 6
+2  Simple Expressions  ...  3 * math.exp(0.1 * x[0])
+3  Simple Expressions  ...       math.log2(x[0] + 1)
+4  Simple Expressions  ...             abs(x[0] - 2)
+[5 rows x 3 columns]

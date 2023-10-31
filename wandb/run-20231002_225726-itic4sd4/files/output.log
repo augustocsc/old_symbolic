@@ -1,0 +1,14 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+0                     x**2/2
+1                        2*x
+2                       x**2
+3                     2*x**2
+4                   2*x**3/3
+                ...
+9992    5*x**3/3 + 15*x**2/2
+9993             -8*x**2 + x
+9994      -8*x**3/3 + x**2/2
+9995             x/(x + 4/x)
+9996         x - 2*atan(x/2)
+Name: x, Length: 9997, dtype: object

@@ -1,0 +1,1006 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+<lambdifygenerated-2>:2: RuntimeWarning: divide by zero encountered in reciprocal
+  return log(x)**(-1.0)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x*exp(x) + x)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x*exp(x) + x)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-8>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 0.0006767769809812307
+top: 4.0659051592228934e-05
+<lambdifygenerated-19>:2: RuntimeWarning: overflow encountered in sinh
+  return sqrt(x) + sinh(x)
+mean: 0.0004275831743143499
+top: 0.0
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in sinh
+  return -5*sinh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in multiply
+  return -5*sinh(x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-37>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+mean: 0.00043588585685938597
+top: 0.0
+<lambdifygenerated-40>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 5)
+<lambdifygenerated-41>:2: RuntimeWarning: invalid value encountered in arccos
+  return x - arccos(x)
+mean: 0.00048074376536533237
+top: 0.0
+<lambdifygenerated-52>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x - 1)
+<lambdifygenerated-52>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x - 1)
+mean: 0.002357993507757783
+top: 0.0
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in sinh
+  return 3*sinh(x)
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*sinh(x)
+<lambdifygenerated-70>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-70>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-72>:2: RuntimeWarning: invalid value encountered in log
+  return log(sin(x))
+<lambdifygenerated-81>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-81>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+mean: 0.004247533157467842
+top: 0.03051162138581276
+<lambdifygenerated-87>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 4)
+<lambdifygenerated-89>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-93>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-94>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-96>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x) + 2
+mean: 0.007115600630640984
+top: 0.0
+<lambdifygenerated-102>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(x) + exp(x)
+<lambdifygenerated-104>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2*arccos(x)
+<lambdifygenerated-114>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(3*x)
+mean: 0.007128222845494747
+top: 0.0
+<lambdifygenerated-116>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-117>:2: RuntimeWarning: overflow encountered in cosh
+  return tan(x) + cosh(x)
+<lambdifygenerated-121>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-124>:2: RuntimeWarning: overflow encountered in cosh
+  return -cosh(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x) + cosh(x)
+<lambdifygenerated-129>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 4
+<lambdifygenerated-133>:2: RuntimeWarning: overflow encountered in exp
+  return -x*exp(x)
+<lambdifygenerated-133>:2: RuntimeWarning: overflow encountered in multiply
+  return -x*exp(x)
+<lambdifygenerated-138>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-139>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(x + cosh(x))
+<lambdifygenerated-139>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + cosh(x))
+mean: 0.004383719060570002
+top: 0.015567408874630928
+<lambdifygenerated-142>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-143>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-146>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x) + 1
+<lambdifygenerated-151>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-161>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x) + sin(x)
+<lambdifygenerated-161>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x) + sin(x)
+mean: 0.001652162754908204
+top: 0.030348436906933784
+<lambdifygenerated-173>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(8*x)
+<lambdifygenerated-178>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-180>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + exp(x)
+<lambdifygenerated-184>:2: RuntimeWarning: overflow encountered in exp
+  return x + 2*exp(x)
+<lambdifygenerated-188>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-192>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x)
+mean: 0.0013638403033837676
+top: 0.030706221237778664
+<lambdifygenerated-194>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x)) + x
+<lambdifygenerated-194>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x)) + x
+<lambdifygenerated-197>:2: RuntimeWarning: overflow encountered in exp
+  return -4*x*exp(x)
+<lambdifygenerated-197>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*exp(x)
+<lambdifygenerated-199>:2: RuntimeWarning: invalid value encountered in arccos
+  return cos(x) + arccos(x)
+<lambdifygenerated-201>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x) + cosh(x)
+<lambdifygenerated-204>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 5)
+<lambdifygenerated-205>:2: RuntimeWarning: invalid value encountered in arccos
+  return sin(x) + arccos(x)
+mean: 0.000573954894207418
+top: 0.007818779908120632
+<lambdifygenerated-212>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x))
+<lambdifygenerated-212>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x))
+<lambdifygenerated-215>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x + 1)
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + x
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + x
+mean: 0.0008942051790654659
+top: 0.0
+<lambdifygenerated-232>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**(-1.0)
+<lambdifygenerated-239>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)**4
+<lambdifygenerated-244>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-249>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x) + cosh(x)
+mean: 0.006374024320393801
+top: 0.0
+<lambdifygenerated-252>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+<lambdifygenerated-255>:2: RuntimeWarning: invalid value encountered in arccos
+  return tan(x) + arccos(x)
+<lambdifygenerated-262>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 2)
+<lambdifygenerated-270>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 2)
+<lambdifygenerated-272>:2: RuntimeWarning: overflow encountered in exp
+  return -x*exp(x)
+<lambdifygenerated-272>:2: RuntimeWarning: overflow encountered in multiply
+  return -x*exp(x)
+<lambdifygenerated-275>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + cos(x)
+<lambdifygenerated-276>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+mean: 0.008646172471344471
+top: 0.0
+<lambdifygenerated-279>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-281>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-282>:2: RuntimeWarning: overflow encountered in cosh
+  return exp(cosh(x))
+<lambdifygenerated-282>:2: RuntimeWarning: overflow encountered in exp
+  return exp(cosh(x))
+<lambdifygenerated-285>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-296>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 1)
+<lambdifygenerated-298>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+mean: 0.0009367745951749384
+top: 0.0
+<lambdifygenerated-300>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x)
+<lambdifygenerated-300>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*exp(x)
+<lambdifygenerated-304>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 6)*exp(x)
+<lambdifygenerated-304>:2: RuntimeWarning: overflow encountered in multiply
+  return (x + 6)*exp(x)
+<lambdifygenerated-306>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-311>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + 5
+<lambdifygenerated-311>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + 5
+<lambdifygenerated-312>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(x) + x
+<lambdifygenerated-315>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+<lambdifygenerated-316>:2: RuntimeWarning: overflow encountered in exp
+  return -5*x + exp(x)
+<lambdifygenerated-319>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+mean: 0.002512074541300535
+top: 0.0
+<lambdifygenerated-320>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x*arctanh(x)
+<lambdifygenerated-320>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x)
+<lambdifygenerated-321>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x)
+<lambdifygenerated-329>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x + 4)
+<lambdifygenerated-330>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-332>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + sin(x)
+mean: 0.0007402738556265831
+top: 0.0
+<lambdifygenerated-335>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 1
+<lambdifygenerated-340>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 3)
+mean: 0.009359144605696201
+top: 0.0
+<lambdifygenerated-350>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x*exp(x) + x)
+<lambdifygenerated-350>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x*exp(x) + x)
+<lambdifygenerated-352>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2*arcsin(x)
+<lambdifygenerated-358>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2*cosh(x)
+<lambdifygenerated-358>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*cosh(x)
+mean: 0.0069923605769872665
+top: 0.0
+<lambdifygenerated-365>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x) + cosh(x)
+<lambdifygenerated-371>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(4*x)
+<lambdifygenerated-372>:2: RuntimeWarning: overflow encountered in exp
+  return 6*x*exp(x)
+<lambdifygenerated-372>:2: RuntimeWarning: overflow encountered in multiply
+  return 6*x*exp(x)
+<lambdifygenerated-374>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x)
+<lambdifygenerated-374>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*exp(x)
+<lambdifygenerated-376>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-377>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 3)
+<lambdifygenerated-377>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 3)
+mean: 0.006997439078986645
+top: 0.01656610146164894
+<lambdifygenerated-402>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)**2
+<lambdifygenerated-406>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+<lambdifygenerated-417>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x)
+<lambdifygenerated-417>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x)
+mean: 0.0010332940146327019
+top: 0.0
+<lambdifygenerated-430>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 1)
+mean: 0.006147080101072788
+top: 0.0
+<lambdifygenerated-439>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(5*x)
+<lambdifygenerated-443>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 1
+<lambdifygenerated-451>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x*(x + 3))
+<lambdifygenerated-452>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*arccos(x)
+mean: 0.007707197219133377
+top: 0.8580936193466187
+<lambdifygenerated-474>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x)
+<lambdifygenerated-476>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 1)
+mean: 0.010848005302250385
+top: 0.01561148464679718
+<lambdifygenerated-480>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x)*cosh(x)
+<lambdifygenerated-483>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 4)
+<lambdifygenerated-484>:2: RuntimeWarning: invalid value encountered in arccos
+  return x - arccos(x)
+<lambdifygenerated-488>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-497>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 4)
+mean: 0.017216432839632034
+top: 4.0553812141297385e-05
+<lambdifygenerated-501>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(2*x)
+mean: 0.008263722993433475
+top: 0.02694246917963028
+<lambdifygenerated-524>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-531>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-537>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+<lambdifygenerated-540>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x + exp(x)
+<lambdifygenerated-542>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+mean: 0.011835780926048756
+top: 0.0
+<lambdifygenerated-550>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-555>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-559>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+<lambdifygenerated-561>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-561>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+mean: 0.004238724708557129
+top: 5.485234488844526e-11
+<lambdifygenerated-562>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(5*x)
+<lambdifygenerated-564>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 4)*exp(x)
+<lambdifygenerated-564>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 4)*exp(x)
+<lambdifygenerated-574>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+mean: 0.007758189458400011
+top: 0.0
+<lambdifygenerated-586>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)
+<lambdifygenerated-590>:2: RuntimeWarning: overflow encountered in exp
+  return x**3*exp(x)
+<lambdifygenerated-590>:2: RuntimeWarning: overflow encountered in multiply
+  return x**3*exp(x)
+<lambdifygenerated-598>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 2*arctanh(x)
+<lambdifygenerated-598>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*arctanh(x)
+<lambdifygenerated-600>:2: RuntimeWarning: overflow encountered in power
+  return (x + sin(x))**x
+mean: 0.011650914326310158
+top: 0.0
+<lambdifygenerated-611>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-611>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-612>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x)
+<lambdifygenerated-612>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x)
+<lambdifygenerated-615>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-615>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+<lambdifygenerated-618>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x)
+<lambdifygenerated-618>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*exp(x)
+mean: 0.006833201739937067
+top: 0.0
+<lambdifygenerated-620>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-623>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-624>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+<lambdifygenerated-626>:2: RuntimeWarning: overflow encountered in exp
+  return 4*exp(x)
+<lambdifygenerated-626>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*exp(x)
+<lambdifygenerated-628>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(2*x)
+mean: 0.00035844382364302874
+top: 0.030394114553928375
+<lambdifygenerated-629>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-629>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+<lambdifygenerated-640>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 2)
+mean: 0.009877733886241913
+top: 0.0
+<lambdifygenerated-650>:2: RuntimeWarning: overflow encountered in exp
+  return x*(exp(x) - 5)
+<lambdifygenerated-650>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(exp(x) - 5)
+<lambdifygenerated-652>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 3*arcsin(x)
+<lambdifygenerated-653>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(x + cosh(x))
+<lambdifygenerated-653>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + cosh(x))
+<lambdifygenerated-654>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-654>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+mean: 0.003781014820560813
+top: 4.070633804076351e-05
+<lambdifygenerated-660>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-660>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-661>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-663>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 3)*exp(x)
+<lambdifygenerated-663>:2: RuntimeWarning: overflow encountered in multiply
+  return (x + 3)*exp(x)
+<lambdifygenerated-665>:2: RuntimeWarning: invalid value encountered in log
+  return log(-x)
+<lambdifygenerated-672>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-672>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+mean: 0.0006046865019015968
+top: 0.030460558831691742
+<lambdifygenerated-676>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-677>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 1)
+<lambdifygenerated-682>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-682>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x)
+<lambdifygenerated-688>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(2)
+mean: 0.01813194528222084
+top: 0.015464937314391136
+<lambdifygenerated-707>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-713>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+mean: 0.004388811998069286
+top: 0.015521728433668613
+<lambdifygenerated-724>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 1)
+<lambdifygenerated-727>:2: RuntimeWarning: overflow encountered in cosh
+  return -cosh(x)
+mean: 0.0042610024102032185
+top: 0.0
+<lambdifygenerated-738>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-740>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x)
+<lambdifygenerated-742>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + tan(x)
+<lambdifygenerated-747>:2: RuntimeWarning: overflow encountered in exp
+  return 3*exp(x)
+<lambdifygenerated-747>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*exp(x)
+<lambdifygenerated-749>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-749>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-750>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-750>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+<lambdifygenerated-752>:2: RuntimeWarning: invalid value encountered in log
+  return log(cos(x)) - 1
+<lambdifygenerated-759>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + exp(x)
+mean: 0.01155848614871502
+top: 4.8184979561938235e-08
+<lambdifygenerated-764>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x)
+<lambdifygenerated-764>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x)
+<lambdifygenerated-776>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-776>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+<lambdifygenerated-783>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 5)
+mean: 0.011464543640613556
+top: 0.0
+<lambdifygenerated-784>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-787>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 1)
+<lambdifygenerated-794>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+<lambdifygenerated-795>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-813>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+mean: 0.008571221493184566
+top: 0.0
+<lambdifygenerated-825>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 1)
+mean: 0.00742910522967577
+top: 0.0
+<lambdifygenerated-826>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-826>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+<lambdifygenerated-829>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*cosh(x)
+<lambdifygenerated-829>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*cosh(x)
+<lambdifygenerated-835>:2: RuntimeWarning: overflow encountered in exp
+  return 6*x + exp(x)
+mean: 0.007080209907144308
+top: 0.0
+<lambdifygenerated-841>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x + 1)
+<lambdifygenerated-842>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + tan(x)
+<lambdifygenerated-849>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-850>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+mean: 0.009005019441246986
+top: 0.015563758090138435
+<lambdifygenerated-853>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x)
+<lambdifygenerated-855>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-864>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 2*arcsin(x)
+<lambdifygenerated-865>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x) + 2
+<lambdifygenerated-870>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-875>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-875>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x)
+mean: 0.015015962533652782
+top: 0.0
+<lambdifygenerated-899>:2: RuntimeWarning: overflow encountered in exp
+  return x*(exp(x) + 4)
+<lambdifygenerated-899>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(exp(x) + 4)
+mean: 0.024520274251699448
+top: 0.8580936193466187
+<lambdifygenerated-900>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-913>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-916>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-919>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x + 9)
+mean: 0.0326877161860466
+top: 0.0
+<lambdifygenerated-935>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + exp(x)
+<lambdifygenerated-939>:2: RuntimeWarning: overflow encountered in exp
+  return x**3*exp(x)
+<lambdifygenerated-939>:2: RuntimeWarning: overflow encountered in multiply
+  return x**3*exp(x)
+<lambdifygenerated-940>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(x + cosh(x))
+<lambdifygenerated-940>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + cosh(x))
+mean: 0.03142950311303139
+top: 0.015533648431301117
+<lambdifygenerated-965>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 5)
+<lambdifygenerated-973>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(x - 2)
+<lambdifygenerated-974>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 1)
+<lambdifygenerated-977>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(x) + exp(x)
+<lambdifygenerated-978>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x)
+mean: 0.02755805477499962
+top: 0.0
+<lambdifygenerated-983>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+<lambdifygenerated-992>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-998>:2: RuntimeWarning: overflow encountered in exp
+  return exp(4*x)
+<lambdifygenerated-999>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + exp(x)
+mean: 0.020687000826001167
+top: 0.0
+<lambdifygenerated-1014>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 2*x + arcsin(x)
+<lambdifygenerated-1018>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 3*sin(x)
+<lambdifygenerated-1023>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-1023>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-1028>:2: RuntimeWarning: overflow encountered in exp
+  return 8*x + exp(x)
+mean: 0.01796037144958973
+top: 0.0
+<lambdifygenerated-1047>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1048>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 1)*exp(x)
+<lambdifygenerated-1048>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 1)*exp(x)
+<lambdifygenerated-1051>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+<lambdifygenerated-1052>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(2*x)
+mean: 0.024506494402885437
+top: 0.015533126890659332
+<lambdifygenerated-1056>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 2)
+<lambdifygenerated-1059>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(2*x)
+<lambdifygenerated-1061>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 2)
+<lambdifygenerated-1061>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 2)
+<lambdifygenerated-1069>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+<lambdifygenerated-1073>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 2)
+<lambdifygenerated-1081>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 2
+<lambdifygenerated-1082>:2: RuntimeWarning: overflow encountered in cosh
+  return 3*cosh(x)
+<lambdifygenerated-1082>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*cosh(x)
+mean: 0.017673924565315247
+top: 0.03039197437465191
+<lambdifygenerated-1097>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+mean: 0.017506398260593414
+top: 0.8580936193466187
+<lambdifygenerated-1102>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x - arcsin(x)
+<lambdifygenerated-1113>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 6)
+<lambdifygenerated-1116>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x)
+<lambdifygenerated-1116>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x)
+mean: 0.011409866623580456
+top: 0.01546494010835886
+<lambdifygenerated-1120>:2: RuntimeWarning: invalid value encountered in arccos
+  return pi*arccos(x)
+<lambdifygenerated-1126>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1126>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1134>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 5)
+<lambdifygenerated-1135>:2: RuntimeWarning: overflow encountered in exp
+  return x + 4*exp(x)
+<lambdifygenerated-1135>:2: RuntimeWarning: overflow encountered in multiply
+  return x + 4*exp(x)
+mean: 0.037581946700811386
+top: 0.030461058020591736
+<lambdifygenerated-1144>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(5)
+<lambdifygenerated-1155>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(2*x)
+<lambdifygenerated-1157>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-1160>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + sin(x)
+<lambdifygenerated-1162>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(3*x)
+mean: 0.021472692489624023
+top: 0.030706094577908516
+<lambdifygenerated-1171>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 2)
+<lambdifygenerated-1180>:2: RuntimeWarning: overflow encountered in cosh
+  return -cosh(x)
+<lambdifygenerated-1185>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 1)
+<lambdifygenerated-1189>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arccosh(x)
+mean: 0.03744904696941376
+top: 0.01546494010835886
+<lambdifygenerated-1209>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-1219>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x)
+<lambdifygenerated-1224>:2: RuntimeWarning: overflow encountered in exp
+  return x*(exp(x) + 1)
+<lambdifygenerated-1224>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(exp(x) + 1)
+mean: 0.05508532375097275
+top: 0.0
+<lambdifygenerated-1236>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(2*x)
+<lambdifygenerated-1245>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x)) + x
+<lambdifygenerated-1245>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x)) + x
+<lambdifygenerated-1258>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 3)
+mean: 0.06447972357273102
+top: 0.8542097806930542
+<lambdifygenerated-1264>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x*arctanh(x)
+<lambdifygenerated-1264>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x)
+<lambdifygenerated-1277>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)*cos(x)
+<lambdifygenerated-1278>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x)
+<lambdifygenerated-1290>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x**2)
+mean: 0.04172276705503464
+top: 0.8580936193466187
+<lambdifygenerated-1307>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-1308>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 5)
+<lambdifygenerated-1308>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(cosh(x) + 5)
+<lambdifygenerated-1309>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) - cos(x)
+<lambdifygenerated-1319>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+mean: 0.051288388669490814
+top: 0.8580936193466187
+<lambdifygenerated-1326>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(x + cosh(x))
+<lambdifygenerated-1326>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + cosh(x))
+<lambdifygenerated-1330>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(x) + exp(x)
+<lambdifygenerated-1335>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x)
+<lambdifygenerated-1335>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x)
+<lambdifygenerated-1338>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 3)
+<lambdifygenerated-1339>:2: RuntimeWarning: overflow encountered in sinh
+  return -sinh(x)
+<lambdifygenerated-1341>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*sqrt(1 - x**2)
+<lambdifygenerated-1342>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x)
+<lambdifygenerated-1342>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x)
+mean: 0.020863942801952362
+top: 0.015465853735804558
+<lambdifygenerated-1358>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 2)
+<lambdifygenerated-1363>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)
+<lambdifygenerated-1375>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 2)
+<lambdifygenerated-1377>:2: RuntimeWarning: invalid value encountered in arccos
+  return -arccos(x)
+<lambdifygenerated-1379>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+mean: 0.04092792421579361
+top: 0.0
+<lambdifygenerated-1400>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x) + 1
+mean: 0.04386414960026741
+top: 0.8580936193466187
+<lambdifygenerated-1404>:2: RuntimeWarning: invalid value encountered in arccos
+  return tan(x) + arccos(x)
+<lambdifygenerated-1405>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-1409>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(2*x)
+mean: 0.03779778257012367
+top: 0.007801458239555359
+<lambdifygenerated-1434>:2: RuntimeWarning: overflow encountered in sinh
+  return x*(x + sinh(x))
+<lambdifygenerated-1434>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + sinh(x))
+<lambdifygenerated-1435>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-1443>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-1461>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+mean: 0.04445864260196686
+top: 0.01546485722064972
+<lambdifygenerated-1467>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x + sqrt(1 - x**2)
+<lambdifygenerated-1471>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2*cosh(x)
+<lambdifygenerated-1471>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*cosh(x)
+<lambdifygenerated-1472>:2: RuntimeWarning: divide by zero encountered in log
+  return log(log(x**2))
+<lambdifygenerated-1474>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-1474>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-1494>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 5*arcsin(x)
+<lambdifygenerated-1496>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x - arcsin(x)
+mean: 0.028219182044267654
+top: 0.8542783856391907
+<lambdifygenerated-1509>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+<lambdifygenerated-1516>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-1521>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 4)
+<lambdifygenerated-1523>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x) + 1
+<lambdifygenerated-1530>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+<lambdifygenerated-1535>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 6)
+mean: 0.061506301164627075
+top: 0.8580936193466187
+<lambdifygenerated-1544>:2: RuntimeWarning: invalid value encountered in log
+  return log(sin(x + 3))
+<lambdifygenerated-1548>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)
+<lambdifygenerated-1550>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-1552>:2: RuntimeWarning: overflow encountered in cosh
+  return x + 4*cosh(x)
+<lambdifygenerated-1552>:2: RuntimeWarning: overflow encountered in multiply
+  return x + 4*cosh(x)
+<lambdifygenerated-1557>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1557>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1563>:2: RuntimeWarning: overflow encountered in sinh
+  return x - sinh(x)
+<lambdifygenerated-1567>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + x
+<lambdifygenerated-1567>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + x
+<lambdifygenerated-1571>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x)
+mean: 0.034812845289707184
+top: 0.01546494010835886
+<lambdifygenerated-1574>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 2*arcsin(x)
+<lambdifygenerated-1575>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-1580>:2: RuntimeWarning: overflow encountered in exp
+  return (x + exp(x))**exp(x)
+<lambdifygenerated-1580>:2: RuntimeWarning: overflow encountered in power
+  return (x + exp(x))**exp(x)
+<lambdifygenerated-1587>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+mean: 0.020767904818058014
+top: 0.0
+<lambdifygenerated-1601>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1601>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1609>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-1619>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x)
+mean: 0.03414769470691681
+top: 0.0
+<lambdifygenerated-1628>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + exp(arcsin(x))
+<lambdifygenerated-1631>:2: RuntimeWarning: divide by zero encountered in log
+  return log(x**8)
+<lambdifygenerated-1631>:2: RuntimeWarning: invalid value encountered in log
+  return log(x**8)
+<lambdifygenerated-1635>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 2)
+mean: 0.02744724601507187
+top: 0.8579038977622986
+mean: 0.07763061672449112
+top: 0.8580936193466187
+mean: 0.0641457661986351
+top: 4.070588693139143e-05
+<lambdifygenerated-1704>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 1
+<lambdifygenerated-1711>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1711>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1718>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1718>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(x)
+<lambdifygenerated-1732>:2: RuntimeWarning: invalid value encountered in log
+  return x + log(cos(log(x)))
+<lambdifygenerated-1734>:2: RuntimeWarning: invalid value encountered in arccos
+  return exp(arccos(x))
+<lambdifygenerated-1739>:2: RuntimeWarning: invalid value encountered in log
+  return log(cos(x**2))
+<lambdifygenerated-1740>:2: RuntimeWarning: overflow encountered in exp
+  return x**5 + exp(x)
+<lambdifygenerated-1745>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x) + 2
+<lambdifygenerated-1746>:2: RuntimeWarning: overflow encountered in sinh
+  return 3*sinh(x)
+<lambdifygenerated-1746>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*sinh(x)
+mean: 0.06721961498260498
+top: 0.9982779622077942
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-1767>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1772>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x - 3)
+<lambdifygenerated-1782>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x) + x
+<lambdifygenerated-1782>:2: RuntimeWarning: overflow encountered in multiply
+  return x*sinh(x) + x
+mean: 0.007725410163402557
+top: 0.020490339025855064
+mean: 0.007069943472743034
+top: 0.0
+<lambdifygenerated-1803>:2: RuntimeWarning: divide by zero encountered in log
+  return x*cos(log(log(x)))
+<lambdifygenerated-1803>:2: RuntimeWarning: invalid value encountered in cos
+  return x*cos(log(log(x)))
+<lambdifygenerated-1814>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 8)
+mean: 0.004104444291442633
+top: 0.0
+mean: 0.003929279278963804
+top: 0.0
+<lambdifygenerated-1836>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(3)
+<lambdifygenerated-1837>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x + cosh(x)
+<lambdifygenerated-1845>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(x) + exp(x)
+<lambdifygenerated-1848>:2: RuntimeWarning: overflow encountered in cosh
+  return -3*cosh(x)
+<lambdifygenerated-1848>:2: RuntimeWarning: overflow encountered in multiply
+  return -3*cosh(x)
+mean: 0.003867119550704956
+top: 0.0
+Traceback (most recent call last):
+  File "avaliation.py", line 124, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 390, in forward
+    attn_outputs = self.attn(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 331, in forward
+    attn_output, attn_weights = self._attn(query, key, value, attention_mask, head_mask)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 211, in _attn
+    attn_weights = attn_weights.type(value.dtype)
+KeyboardInterrupt

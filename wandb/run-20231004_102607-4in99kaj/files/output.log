@@ -1,0 +1,184 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+  0%|                                                                                               | 0/10 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-2>:2: RuntimeWarning: divide by zero encountered in reciprocal
+  return log(x)**(-1.0)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x*exp(x) + x)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x*exp(x) + x)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-8>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 8.155621617333964e-05
+top: 0.006204635836184025
+ 10%|████████▋                                                                              | 1/10 [00:16<02:27, 16.34s/it]<lambdifygenerated-22>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 1)
+<lambdifygenerated-24>:2: RuntimeWarning: invalid value encountered in arccos
+  return exp(arccos(5*x))
+<lambdifygenerated-38>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-38>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x)
+<lambdifygenerated-39>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)**2
+<lambdifygenerated-39>:2: RuntimeWarning: overflow encountered in square
+  return cosh(x)**2
+<lambdifygenerated-42>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+<lambdifygenerated-50>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 3)
+mean: 0.0003198757185600698
+top: 0.006965664215385914
+ 20%|█████████████████▍                                                                     | 2/10 [00:31<02:06, 15.84s/it]<lambdifygenerated-60>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-63>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x + exp(x)
+<lambdifygenerated-71>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+<lambdifygenerated-74>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x)
+<lambdifygenerated-79>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-82>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x))
+<lambdifygenerated-82>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x))
+<lambdifygenerated-83>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+mean: 0.0002751232823356986
+top: 0.00767844682559371
+ 30%|██████████████████████████                                                             | 3/10 [00:47<01:49, 15.71s/it]<lambdifygenerated-84>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x))
+<lambdifygenerated-84>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x))
+<lambdifygenerated-85>:2: RuntimeWarning: overflow encountered in cosh
+  return 33*cosh(x)
+<lambdifygenerated-85>:2: RuntimeWarning: overflow encountered in multiply
+  return 33*cosh(x)
+<lambdifygenerated-92>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-95>:2: RuntimeWarning: invalid value encountered in arccos
+  return x - arccos(x)
+<lambdifygenerated-98>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+mean: 0.0001454480370739475
+top: 0.019813381135463715
+ 40%|██████████████████████████████████▊                                                    | 4/10 [01:02<01:33, 15.61s/it]<lambdifygenerated-117>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(arcsin(x))
+<lambdifygenerated-125>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+mean: 0.0001994551857933402
+top: 0.010291170328855515
+ 50%|███████████████████████████████████████████▌                                           | 5/10 [01:18<01:18, 15.63s/it]<lambdifygenerated-141>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x)
+<lambdifygenerated-141>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x)
+<lambdifygenerated-148>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-148>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in log
+  return log(sin(x))
+<lambdifygenerated-160>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x*exp(x)
+<lambdifygenerated-160>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x*exp(x)
+<lambdifygenerated-162>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+mean: 0.000279619445791468
+top: 0.01699458807706833
+ 60%|████████████████████████████████████████████████████▏                                  | 6/10 [01:33<01:02, 15.52s/it]<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 4)
+<lambdifygenerated-174>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-175>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)**2
+<lambdifygenerated-176>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-176>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-178>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-179>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x - 2)
+<lambdifygenerated-182>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(log(x)) + x
+<lambdifygenerated-184>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+mean: 0.00031522673089057207
+top: 0.04171452298760414
+ 70%|████████████████████████████████████████████████████████████▉                          | 7/10 [01:49<00:46, 15.43s/it]<lambdifygenerated-191>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(x) + exp(x)
+<lambdifygenerated-195>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2*arccos(x)
+<lambdifygenerated-198>:2: RuntimeWarning: overflow encountered in exp
+  return exp(8*x)
+<lambdifygenerated-204>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+<lambdifygenerated-207>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(3*x)
+<lambdifygenerated-208>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x)
+<lambdifygenerated-208>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*exp(x)
+<lambdifygenerated-209>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + x
+<lambdifygenerated-209>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + x
+mean: 6.0791313444497064e-05
+top: 0.010019510984420776
+ 80%|█████████████████████████████████████████████████████████████████████▌                 | 8/10 [02:04<00:30, 15.42s/it]<lambdifygenerated-212>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-213>:2: RuntimeWarning: overflow encountered in cosh
+  return tan(x) + cosh(x)
+<lambdifygenerated-216>:2: RuntimeWarning: invalid value encountered in arccos
+  return sqrt(x) + arccos(x)
+<lambdifygenerated-218>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-220>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x)
+<lambdifygenerated-220>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*exp(x)
+<lambdifygenerated-221>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x) - 1
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 4)*exp(x)
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 4)*exp(x)
+<lambdifygenerated-227>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 2)
+<lambdifygenerated-228>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 5
+<lambdifygenerated-229>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*cosh(x)
+<lambdifygenerated-229>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*cosh(x)
+mean: 0.00029825730598531663
+top: 0.042196132242679596
+ 90%|██████████████████████████████████████████████████████████████████████████████▎        | 9/10 [02:19<00:15, 15.33s/it]<lambdifygenerated-232>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-233>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + x
+<lambdifygenerated-233>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + x
+<lambdifygenerated-237>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)
+mean: 0.00030265835812315345
+top: 0.014172659255564213
+100%|██████████████████████████████████████████████████████████████████████████████████████| 10/10 [02:35<00:00, 15.53s/it]
+Traceback (most recent call last):
+  File "avaliation.py", line 160, in <module>
+    line["time"] = end_time - start_time
+NameError: name 'end_time' is not defined

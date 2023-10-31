@@ -1,0 +1,14 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+0                    Y mul div INT+ 1 INT+ 2 pow x INT+ 2
+1                                          Y mul INT+ 2 x
+2                                          Y pow x INT+ 2
+3                               Y mul INT+ 2 pow x INT+ 2
+4                    Y mul div INT+ 2 INT+ 3 pow x INT+ 3
+                              ...
+9992    Y add mul div INT+ 5 INT+ 3 pow x INT+ 3 mul d...
+9993                      Y add x mul INT- 8 pow x INT+ 2
+9994    Y add mul div INT+ 1 INT+ 2 pow x INT+ 2 mul d...
+9995     Y mul x pow add x mul INT+ 4 pow x INT- 1 INT- 1
+9996      Y add x mul INT- 2 atan mul div INT+ 1 INT+ 2 x
+Name: Y x, Length: 9997, dtype: object

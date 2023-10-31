@@ -1,0 +1,1361 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:100: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Working with expression:  2 * x[0] + 3
+Error in expression:  2 * x[0] + 3
+Loading experiment Linear Equation
+Working with expression:  2 * x[0] + 3
+<lambdifygenerated-7>:2: RuntimeWarning: divide by zero encountered in log
+  return 38*x**2 + x*log(x) - 26*x
+<lambdifygenerated-7>:2: RuntimeWarning: invalid value encountered in log
+  return 38*x**2 + x*log(x) - 26*x
+<lambdifygenerated-7>:2: RuntimeWarning: invalid value encountered in multiply
+  return 38*x**2 + x*log(x) - 26*x
+<lambdifygenerated-9>:2: RuntimeWarning: invalid value encountered in log
+  return -1/4*log(cos(2*x))
+<lambdifygenerated-11>:2: RuntimeWarning: divide by zero encountered in log
+  return 2*x - 2*log(x)
+<lambdifygenerated-11>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - 2*log(x)
+<lambdifygenerated-13>:2: RuntimeWarning: divide by zero encountered in divide
+  return x + 5/x
+<lambdifygenerated-15>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return (1/3)*x**3 + x*arctanh(x) - log(x + 1) - arctanh(x)
+<lambdifygenerated-15>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/3)*x**3 + x*arctanh(x) - log(x + 1) - arctanh(x)
+<lambdifygenerated-17>:2: RuntimeWarning: divide by zero encountered in divide
+  return (3 - x)/x
+<lambdifygenerated-29>:2: RuntimeWarning: divide by zero encountered in divide
+  return -4/x**2
+<lambdifygenerated-32>:2: RuntimeWarning: divide by zero encountered in divide
+  return cos(2)/x
+<lambdifygenerated-33>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(x)**2 - 1
+<lambdifygenerated-33>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(x)**2 - 1
+<lambdifygenerated-33>:2: RuntimeWarning: invalid value encountered in multiply
+  return x*log(x)**2 - 1
+<lambdifygenerated-35>:2: RuntimeWarning: invalid value encountered in power
+  return 8*x**(3/2)
+<lambdifygenerated-39>:2: RuntimeWarning: divide by zero encountered in divide
+  return exp(3)/x
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in log
+  return log((3/2)*x**2)
+<lambdifygenerated-44>:2: RuntimeWarning: divide by zero encountered in divide
+  return 8/x**2
+<lambdifygenerated-46>:2: RuntimeWarning: divide by zero encountered in log
+  return 5*log(x)
+<lambdifygenerated-46>:2: RuntimeWarning: invalid value encountered in log
+  return 5*log(x)
+<lambdifygenerated-50>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 5)
+<lambdifygenerated-55>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/2)*x + log(x + 1) + (1/2)*arctan(x)
+<lambdifygenerated-58>:2: RuntimeWarning: divide by zero encountered in log
+  return log(x**5)
+<lambdifygenerated-58>:2: RuntimeWarning: invalid value encountered in log
+  return log(x**5)
+<lambdifygenerated-59>:2: RuntimeWarning: divide by zero encountered in log
+  return log(x)**4
+<lambdifygenerated-59>:2: RuntimeWarning: invalid value encountered in log
+  return log(x)**4
+<lambdifygenerated-62>:2: RuntimeWarning: divide by zero encountered in divide
+  return (2*x + 5)/x
+<lambdifygenerated-64>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/3)*x**3 - log(x)
+<lambdifygenerated-64>:2: RuntimeWarning: invalid value encountered in log
+  return (1/3)*x**3 - log(x)
+<lambdifygenerated-69>:2: RuntimeWarning: divide by zero encountered in log
+  return 4*log(x)
+<lambdifygenerated-69>:2: RuntimeWarning: invalid value encountered in log
+  return 4*log(x)
+<lambdifygenerated-72>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*log(2*sqrt(x)) + 3*x
+<lambdifygenerated-72>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(2*sqrt(x)) + 3*x
+<lambdifygenerated-72>:2: RuntimeWarning: invalid value encountered in multiply
+  return x*log(2*sqrt(x)) + 3*x
+<lambdifygenerated-75>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/2)*x**2 - x*log(2*x) + x
+<lambdifygenerated-75>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - x*log(2*x) + x
+<lambdifygenerated-75>:2: RuntimeWarning: invalid value encountered in multiply
+  return (1/2)*x**2 - x*log(2*x) + x
+<lambdifygenerated-80>:2: RuntimeWarning: divide by zero encountered in divide
+  return (x + 1)/x
+<lambdifygenerated-83>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(3)*sqrt(x)*arccos(x)
+<lambdifygenerated-90>:2: RuntimeWarning: divide by zero encountered in power
+  return x + x**(-1.0)
+<lambdifygenerated-94>:2: RuntimeWarning: divide by zero encountered in log
+  return 5*log(x)**2
+<lambdifygenerated-94>:2: RuntimeWarning: invalid value encountered in log
+  return 5*log(x)**2
+<lambdifygenerated-101>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/2)*x**2 - 2*x*log(x)
+<lambdifygenerated-101>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - 2*x*log(x)
+<lambdifygenerated-101>:2: RuntimeWarning: invalid value encountered in multiply
+  return (1/2)*x**2 - 2*x*log(x)
+None 0.0000
+x**2 + x*cos(4) 0.0000
+x*exp(2*x) 0.0000
+None 0.0000
+2*x*(x + exp(x)) 0.0000
+tanh(3*x)/4 0.0000
+x**2 + 1 0.0000
+x*exp(2*x) + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+38*x**2 + x*log(x) - 26*x 0.0000
+3*sqrt(2)*x**2/2 0.0000
+None 0.0000
+-log(cos(2*x))/4 0.0000
+x**2 + exp(x) 0.0000
+2*x - 2*log(x) 0.0000
+-3*x**2 + x 0.0000
+x + 5/x 0.0000
+x**5/5 + 3*x 0.0000
+x**3/3 + x*atanh(x) - log(x + 1) - atanh(x) 0.0000
+x*(x**3 + x + 5) 0.0000
+(3 - x)/x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + 2 0.0000
+None 0.0000
+5*x**3 + x 0.0000
+(x + 2)**2 0.0000
+None 0.0000
+x + sin(x) + 1 0.0000
+None 0.0000
+None 0.0000
+x**5/8 0.0000
+x*exp(x + 1) 0.0000
+None 0.0000
+54*x*sin(x) 0.0000
+None 0.0000
+4*x**2 + 8*x 0.0000
+None 0.0000
+-log(cos(2*x**2/3))/4 0.0000
+None 0.0000
+x**2/2 + x*tan(4) 0.0000
+None 0.0000
+None 0.0000
+5 - 6*x 0.0000
+-4/x**2 0.0000
+x*exp(-x) 0.0000
+x**2*cosh(1) 0.0000
+cos(2)/x 0.0000
+x*log(x)**2 - 1 0.0000
+2*x**2 + x 0.0000
+8*x**(3/2) 0.0000
+(x**2 + x + 2)**2 0.0000
+-x**3 + x**2 + x*log(x + 3) + 3*log(x + 3) 0.0000
+4*x**3/3 + 3*x**2 0.0000
+exp(3)/x 0.0000
+log(3*x**2/2) 0.0000
+x**2*log(2) 0.0000
+None 0.0000
+-x**2/2 - log(x**2 + 1)/6 0.0000
+sin(2*x) + 2 0.0000
+8/x**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + 3*x 0.0000
+5*log(x) 0.0000
+None 0.0000
+x*(4 - x) 0.0000
+None 0.0000
+x/(3*x + 2) 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + log(tanh(x) + 1)/2 0.0000
+atanh(x + 5) 0.0000
+x**2 + 2 0.0000
+10*x*(x**2 + x) 0.0000
+exp(x)*tan(x)/2 0.0000
+sqrt(x + 1) 0.0000
+None 0.0000
+x/2 + log(x + 1) + atan(x)/2 0.0000
+exp(asin(x))/2 0.0000
+x**5/5 + 25*x 0.0000
+None 0.0000
+log(x**5) 0.0000
+log(x)**4 0.0000
+x**2 + sin(x)*cos(5) 0.0000
+x + cos(2) 0.0000
+(2*x + 5)/x 0.0000
+x/(2 - x) 0.0000
+None 0.0000
+None 0.0000
+x**3/3 - log(x) 0.0000
+None 0.0000
+3*x + 5 0.0000
+log(tan(2*x + 5)**2 + 1)/5 0.0000
+None 0.0000
+2*x*cosh(1) 0.0000
+sin(2*x) 0.0000
+4*log(x) 0.0000
+9*x**3/166 0.0000
+None 0.0000
+5*x**2/2 0.0000
+None 0.0000
+x*log(2*sqrt(x)) + 3*x 0.0000
+x - log(tanh(x) + 1) - sinh(x) 0.0000
+x**2*(1 - x) 0.0000
+x**2/2 - x*log(2*x) + x 0.0000
+None 0.0000
+4*x**2*exp(x) + x 0.0000
+x 0.0000
+2*x - cos(x) 0.0000
+x*exp(-3) 0.0000
+(x + 1)/x 0.0000
+None 0.0000
+3*sin(x) 0.0000
+x*(2*x + 1) 0.0000
+atanh(x) 0.0000
+x**6/6 - x**2/2 0.0000
+tanh(x + 1) 0.0000
+x**5 + x + 4 0.0000
+x**3/3 + x**2 0.0000
+None 0.0000
+sqrt(3)*sqrt(x)*acos(x) 0.0000
+-5*x - 5*log(x + 5) 0.0000
+x + 1/x 0.0000
+None 0.0000
+3*x**3 0.0000
+x**2 - x + 1 0.0000
+-16*x*cos(x) + 8*sqrt(1 - x**2)*cos(x) + 24*cos(x) 0.0000
+None 0.0000
+None 0.0000
+5*log(x)**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + 4*x**2 0.0000
+None 0.0000
+asinh(x - 1) 0.0000
+None 0.0000
+x*(x + tan(x) + 4) 0.0000
+None 0.0000
+5*x*cosh(x) + exp(x) - 5*sinh(x) 0.0000
+None 0.0000
+x**2*(x**2/2 - x) 0.0000
+x**2 + 9*x 0.0000
+x**2/2 - 2*x*log(x) 0.0000
+None 0.0000
+x**2 - log(cos(x)) 0.0000
+None 0.0000
+None 0.0000
+-x**2/2 - exp(x) 0.0000
+None 0.0000
+x**6/6 + acos(x)/2 0.0000
+None 0.0000
+x**2/2 + 4*x - sin(x) 0.0000
+None 0.0000
+(x**2 + 1)**2 0.0000
+None 0.0000
+None 0.0000
+2*x*cos(x) - 2*sin(x) 0.0000
+x + exp(4) 0.0000
+None 0.0000
+x + (x**2 + x)/x 0.0000
+x**(-7/2) 0.0000
+None 0.0000
+None 0.0000
+-x**2/2 + exp(2*x) 0.0000
+x**3/6 0.0000
+9*x**8/4 0.0000
+None 0.0000
+2*x + sinh(x) 0.0000
+x*(x**2 + 3*x) 0.0000
+-x**2/2 + 4*log(x) 0.0000
+None 0.0000
+x**2/10 0.0000
+x**2*(2*x**2 + x) 0.0000
+9*x**3 + x 0.0000
+-x**3/3 + x**2/2 + 5*x 0.0000
+166*x**5/5 0.0000
+4*x**7/7 + x**3/3 + x**2/2 0.0000
+None 0.0000
+2*x + sin(x) 0.0000
+x + tan(1)/x 0.0000
+x*exp(-x)/2 0.0000
+None 0.0000
+5*x**2/2 0.0000
+x**3 + x*exp(x) 0.0000
+x**2/2 + (x - 1)*exp(x) 0.0000
+2*x**(5/2)/5 + 5*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(x**2 + x)**2 0.0000
+None 0.0000
+-x**4/4 + 2*x**3/3 0.0000
+x + log(4*x) 0.0000
+None 0.0000
+-x**2 + 8*x 0.0000
+x**2 + x - sin(x) 0.0000
+4*x**4 + 2 0.0000
+x**2/tanh(1) 0.0000
+None 0.0000
+None 0.0000
+x**5/5 - 2*x*log(x) 0.0000
+x + (x**2 + 4*x)**3 0.0000
+-tanh(x) 0.0000
+2*x + tan(x) 0.0000
+None 0.0000
+sqrt(x) + 2*x**3 0.0000
+x*tanh(x)**2 0.0000
+-x**2 + x 0.0000
+None 0.0000
+x**4 + 7*x/2 0.0000
+8*x**7 0.0000
+None 0.0000
+-x**3/3 + x**2 0.0000
+x**2/(x**2 + x) 0.0000
+None 0.0000
+(x**2 + 2)**3 0.0000
+2*x - cos(x) 0.0000
+None 0.0000
+4*cos(x) 0.0000
+None 0.0000
+exp(x)*cos(x) 0.0000
+None 0.0000
+x**2*exp(x) + x**2 - x*log(x) - x 0.0000
+None 0.0000
+5*x**2/12 0.0000
+log(x) - log(x - 1) 0.0000
+None 0.0000
+None 0.0000
+tan(x)*acosh(x) 0.0000
+None 0.0000
+None 0.0000
+exp(2 - x) 0.0000
+(6*x + 5)**3/6 0.0000
+None 0.0000
+None 0.0000
+x*sin(1) + 2*x 0.0000
+3*x*(x + 1) 0.0000
+-x**10 + 5*x 0.0000
+None 0.0000
+-5*log(cos(x)) 0.0000
+3*x**4/4 + x**3/3 0.0000
+None 0.0000
+17*x**2 0.0000
+<lambdifygenerated-109>:2: RuntimeWarning: invalid value encountered in divide
+  return x + (x**2 + x)/x
+<lambdifygenerated-110>:2: RuntimeWarning: divide by zero encountered in power
+  return x**(-7/2)
+<lambdifygenerated-110>:2: RuntimeWarning: invalid value encountered in power
+  return x**(-7/2)
+<lambdifygenerated-116>:2: RuntimeWarning: divide by zero encountered in log
+  return -1/2*x**2 + 4*log(x)
+<lambdifygenerated-116>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*x**2 + 4*log(x)
+<lambdifygenerated-124>:2: RuntimeWarning: divide by zero encountered in divide
+  return x + tan(1)/x
+<lambdifygenerated-129>:2: RuntimeWarning: invalid value encountered in power
+  return (2/5)*x**(5/2) + 5*x
+<lambdifygenerated-132>:2: RuntimeWarning: divide by zero encountered in log
+  return x + log(4*x)
+<lambdifygenerated-132>:2: RuntimeWarning: invalid value encountered in log
+  return x + log(4*x)
+<lambdifygenerated-137>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/5)*x**5 - 2*x*log(x)
+<lambdifygenerated-137>:2: RuntimeWarning: invalid value encountered in log
+  return (1/5)*x**5 - 2*x*log(x)
+<lambdifygenerated-137>:2: RuntimeWarning: invalid value encountered in multiply
+  return (1/5)*x**5 - 2*x*log(x)
+<lambdifygenerated-141>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(x) + 2*x**3
+<lambdifygenerated-147>:2: RuntimeWarning: divide by zero encountered in divide
+  return x**2/(x**2 + x)
+<lambdifygenerated-147>:2: RuntimeWarning: invalid value encountered in divide
+  return x**2/(x**2 + x)
+<lambdifygenerated-152>:2: RuntimeWarning: divide by zero encountered in log
+  return x**2*exp(x) + x**2 - x*log(x) - x
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in log
+  return x**2*exp(x) + x**2 - x*log(x) - x
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in multiply
+  return x**2*exp(x) + x**2 - x*log(x) - x
+<lambdifygenerated-154>:2: RuntimeWarning: divide by zero encountered in log
+  return log(x) - log(x - 1)
+<lambdifygenerated-154>:2: RuntimeWarning: invalid value encountered in log
+  return log(x) - log(x - 1)
+<lambdifygenerated-155>:2: RuntimeWarning: invalid value encountered in arccosh
+  return tan(x)*arccosh(x)
+<lambdifygenerated-164>:2: RuntimeWarning: invalid value encountered in divide
+  return x**2/sin(x) + x
+<lambdifygenerated-168>:2: RuntimeWarning: invalid value encountered in power
+  return (2/3)*x**(3/2) + 2*x**2
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+x**2/sin(x) + x 0.0000
+-x**3/3 - x 0.0000
+x**2*(x + sin(x)) + x 0.0000
+x**4/24 0.0000
+2*x**(3/2)/3 + 2*x**2 0.0000
+mean: 0.0
+top: 0.0
+Loading experiment Linear Equation
+Working with expression:  2 * x[0] + 3
+<lambdifygenerated-171>:2: RuntimeWarning: divide by zero encountered in log
+  return 2*x*log(x) - x
+<lambdifygenerated-171>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x*log(x) - x
+<lambdifygenerated-171>:2: RuntimeWarning: invalid value encountered in multiply
+  return 2*x*log(x) - x
+<lambdifygenerated-174>:2: RuntimeWarning: invalid value encountered in power
+  return x**(15/4)
+<lambdifygenerated-177>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/2)*x**2 + 4*log(x)
+<lambdifygenerated-177>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 + 4*log(x)
+<lambdifygenerated-179>:2: RuntimeWarning: divide by zero encountered in divide
+  return 85/x**2
+<lambdifygenerated-180>:2: RuntimeWarning: divide by zero encountered in log
+  return x + (log(x) + 1)/x
+<lambdifygenerated-180>:2: RuntimeWarning: invalid value encountered in log
+  return x + (log(x) + 1)/x
+<lambdifygenerated-181>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*(sqrt(x) + 2*x + 2)
+<lambdifygenerated-182>:2: RuntimeWarning: divide by zero encountered in log
+  return -x*log(2*x) + 2*x
+<lambdifygenerated-182>:2: RuntimeWarning: invalid value encountered in log
+  return -x*log(2*x) + 2*x
+<lambdifygenerated-182>:2: RuntimeWarning: invalid value encountered in multiply
+  return -x*log(2*x) + 2*x
+<lambdifygenerated-183>:2: RuntimeWarning: invalid value encountered in sqrt
+  return 4/sqrt(x)
+<lambdifygenerated-183>:2: RuntimeWarning: divide by zero encountered in divide
+  return 4/sqrt(x)
+<lambdifygenerated-185>:2: RuntimeWarning: divide by zero encountered in divide
+  return -(1/2)/x**2
+<lambdifygenerated-189>:2: RuntimeWarning: invalid value encountered in power
+  return (2/3)*x**(3/2) - x**2
+<lambdifygenerated-192>:2: RuntimeWarning: divide by zero encountered in log
+  return log(x) - log(cos(x))
+<lambdifygenerated-192>:2: RuntimeWarning: invalid value encountered in log
+  return log(x) - log(cos(x))
+<lambdifygenerated-201>:2: RuntimeWarning: invalid value encountered in divide
+  return 5*x/arcsin(x)
+<lambdifygenerated-202>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(x) + 6
+<lambdifygenerated-203>:2: RuntimeWarning: divide by zero encountered in divide
+  return 9/x
+None 0.0000
+x**2 + x*atan(x) - log(x**2 + 1) 0.0000
+None 0.0000
+x**2/2 + 2*x - 2*log(x + 2) 0.0000
+None 0.0000
+None 0.0000
+2*x*log(x) - x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*exp(-x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(x**2*exp(x) + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**(15/4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(x + tan(x) + 4) 0.0000
+None 0.0000
+x*(x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 4*log(x) 0.0000
+x**2*cos(4) 0.0000
+85/x**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + (log(x) + 1)/x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(sqrt(x) + 2*x + 2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x*log(2*x) + 2*x 0.0000
+None 0.0000
+4/sqrt(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+asinh(x + 2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-1/(2*x**2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**4*(x**3 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**6/3 + x**5/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+(x**2 + x)**3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**(3/2)/3 - x**2 0.0000
+None 0.0000
+None 0.0000
+x + cos(x) + 2 0.0000
+None 0.0000
+x**5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+log(x) - log(cos(x)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*(x**2 + x) 0.0000
+2*exp(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + x**2/2 0.0000
+x**9/8 0.0000
+-2*x*tan(2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/(4*cosh(2)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+5*x**2/2 - 3*log(x + 3) 0.0000
+None 0.0000
+x**3/3 - 8*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+5*x/asin(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(x) + 6 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+9/x 0.0000
+None 0.0000
+None 0.0000
+mean: 0.0
+top: 0.0
+Loading experiment Linear Equation
+Working with expression:  2 * x[0] + 3
+<lambdifygenerated-210>:2: RuntimeWarning: divide by zero encountered in power
+  return 4*x*exp(x**(-1.0))
+<lambdifygenerated-210>:2: RuntimeWarning: invalid value encountered in multiply
+  return 4*x*exp(x**(-1.0))
+<lambdifygenerated-212>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return -3*arctanh(x)/x
+<lambdifygenerated-212>:2: RuntimeWarning: invalid value encountered in divide
+  return -3*arctanh(x)/x
+<lambdifygenerated-213>:2: RuntimeWarning: invalid value encountered in divide
+  return x + (x**3 + x)/x
+<lambdifygenerated-218>:2: RuntimeWarning: invalid value encountered in power
+  return (8/5)*x**(5/2) + x**2
+<lambdifygenerated-224>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(x + 1) + 2*x + 2*log(x + 2)
+<lambdifygenerated-226>:2: RuntimeWarning: divide by zero encountered in log
+  return 2*x**2*log(x) - x
+<lambdifygenerated-226>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x**2*log(x) - x
+<lambdifygenerated-226>:2: RuntimeWarning: invalid value encountered in multiply
+  return 2*x**2*log(x) - x
+<lambdifygenerated-230>:2: RuntimeWarning: divide by zero encountered in log
+  return (x + log(x))*tan(x)
+<lambdifygenerated-230>:2: RuntimeWarning: invalid value encountered in log
+  return (x + log(x))*tan(x)
+<lambdifygenerated-230>:2: RuntimeWarning: invalid value encountered in multiply
+  return (x + log(x))*tan(x)
+<lambdifygenerated-233>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/3)*x**3 + x*log(x) - x
+<lambdifygenerated-233>:2: RuntimeWarning: invalid value encountered in log
+  return (1/3)*x**3 + x*log(x) - x
+<lambdifygenerated-233>:2: RuntimeWarning: invalid value encountered in multiply
+  return (1/3)*x**3 + x*log(x) - x
+<lambdifygenerated-235>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x*tanh(x) + 2*x - log(tanh(x) - 1) - log(tanh(x) + 1)
+<lambdifygenerated-236>:2: RuntimeWarning: divide by zero encountered in divide
+  return x + (1/2)/x
+<lambdifygenerated-241>:2: RuntimeWarning: divide by zero encountered in log
+  return -1/2*x**2 - log(x)
+<lambdifygenerated-241>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*x**2 - log(x)
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x**2 + 5*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**6/3 + x**2/2 0.0000
+3*exp(x) + acos(x) 0.0000
+-x*cos(x) + sin(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x + exp(x) 0.0000
+2/cosh(x) 0.0000
+4*x*exp(1/x) 0.0000
+None 0.0000
+-7*cos(2*x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-3*atanh(x)/x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + (x**3 + x)/x 0.0000
+None 0.0000
+4*x*asin(x) 0.0000
+None 0.0000
+None 0.0000
+5*x**2/2 0.0000
+None 0.0000
+-x**2 + x - 4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + x**2/2 + 6*x 0.0000
+None 0.0000
+8*x**(5/2)/5 + x**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + x 0.0000
+None 0.0000
+-x**3/3 + 4*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(x + 1) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-4*x - 4 0.0000
+4*x**6 0.0000
+x*log(x + 1) + 2*x + 2*log(x + 2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**7/7 + x**4/4 + x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**2*log(x) - x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*tan(2) + 2*x 0.0000
+sin(2*x + 4)/2 0.0000
+None 0.0000
+5/6 0.0000
+(x + log(x))*tan(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**3/3 + 9*x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + tanh(1) 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + x*log(x) - x 0.0000
+(x**2 + 1)**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x*tanh(x) + 2*x - log(tanh(x) - 1) - log(tanh(x) + 1) 0.0000
+None 0.0000
+x + 1/(2*x) 0.0000
+x + (x**2 + 2*x)*exp(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + cosh(4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**2 - x 0.0000
+x**3/3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x**2/2 - log(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+cos(3*x + 3) 0.0000
+None 0.0000
+None 0.0000
+mean: 0.0
+top: 0.0
+Loading experiment Linear Equation
+Working with expression:  2 * x[0] + 3
+<lambdifygenerated-244>:2: RuntimeWarning: divide by zero encountered in divide
+  return 9/x**4
+<lambdifygenerated-250>:2: RuntimeWarning: invalid value encountered in power
+  return (2/5)*x**(5/2) - 1/2*x**2
+<lambdifygenerated-251>:2: RuntimeWarning: divide by zero encountered in divide
+  return (1/5)/x**3
+<lambdifygenerated-255>:2: RuntimeWarning: divide by zero encountered in log
+  return 2*x*log(x) - x
+<lambdifygenerated-255>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x*log(x) - x
+<lambdifygenerated-255>:2: RuntimeWarning: invalid value encountered in multiply
+  return 2*x*log(x) - x
+<lambdifygenerated-259>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(x) + x + 2
+<lambdifygenerated-259>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(x) + x + 2
+<lambdifygenerated-259>:2: RuntimeWarning: invalid value encountered in multiply
+  return x*log(x) + x + 2
+<lambdifygenerated-263>:2: RuntimeWarning: invalid value encountered in power
+  return (2/3)*x**(3/2) + (1/2)*x**2
+<lambdifygenerated-265>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/3)*x**3 + (1/2)*x**2 + log(x)
+<lambdifygenerated-265>:2: RuntimeWarning: invalid value encountered in log
+  return (1/3)*x**3 + (1/2)*x**2 + log(x)
+<lambdifygenerated-266>:2: RuntimeWarning: divide by zero encountered in log
+  return 4*log(x)
+<lambdifygenerated-266>:2: RuntimeWarning: invalid value encountered in log
+  return 4*log(x)
+<lambdifygenerated-269>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 3*x*arctanh(x)
+<lambdifygenerated-270>:2: RuntimeWarning: divide by zero encountered in log
+  return log((1/2)*x**2)**(-1.0)
+<lambdifygenerated-271>:2: RuntimeWarning: divide by zero encountered in divide
+  return (1/2)/x**4
+<lambdifygenerated-272>:2: RuntimeWarning: invalid value encountered in power
+  return (2/3)*x**(3/2) + (1/3)*x**3 + 2*x
+<lambdifygenerated-274>:2: RuntimeWarning: divide by zero encountered in log
+  return (1/3)*x**3 + (1/2)*x**2 + exp(x)*log(x)
+<lambdifygenerated-274>:2: RuntimeWarning: invalid value encountered in log
+  return (1/3)*x**3 + (1/2)*x**2 + exp(x)*log(x)
+<lambdifygenerated-276>:2: RuntimeWarning: divide by zero encountered in divide
+  return (x + 5)/x
+<lambdifygenerated-279>:2: RuntimeWarning: divide by zero encountered in log
+  return log(x) + log(5)
+<lambdifygenerated-279>:2: RuntimeWarning: invalid value encountered in log
+  return log(x) + log(5)
+<lambdifygenerated-280>:2: RuntimeWarning: divide by zero encountered in log
+  return 2*x*(2*x + log(x) + 4)
+<lambdifygenerated-280>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x*(2*x + log(x) + 4)
+<lambdifygenerated-280>:2: RuntimeWarning: invalid value encountered in multiply
+  return 2*x*(2*x + log(x) + 4)
+<lambdifygenerated-281>:2: RuntimeWarning: divide by zero encountered in divide
+  return -(3/2)/x**2
+x**3/3 - cos(x) 0.0000
+9/x**4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+atan(2*x + 1) 0.0000
+-x**2/2 + 3*x 0.0000
+-x*cos(x**3) + cos(1) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**4/26 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x**3/3 + x**2/4 0.0000
+None 0.0000
+None 0.0000
+2*x**(5/2)/5 - x**2/2 0.0000
+1/(5*x**3) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+8*x**2 + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+tanh(x + 5) 0.0000
+None 0.0000
+exp(x**2/2) 0.0000
+2*x*log(x) - x 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + sinh(1)/2 0.0000
+None 0.0000
+-x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4*x**4 + 3 0.0000
+None 0.0000
+x*log(x) + x + 2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**6/3 + 2*x**3/3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**3/3 + 3*x**2/2 0.0000
+x*(x + exp(4)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**(3/2)/3 + x**2/2 0.0000
+3*x/4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + x**2/2 + log(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4*log(x) 0.0000
+4*x**3 + x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1/log(4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+3*x*atanh(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1/log(x**2/2) 0.0000
+None 0.0000
+None 0.0000
+1/(2*x**4) 0.0000
+None 0.0000
+None 0.0000
+2*x**(3/2)/3 + x**3/3 + 2*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x - log(tan(x**2) + 1) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + x**2/2 + exp(x)*log(x) 0.0000
+1 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+(x + 5)/x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4 - cos(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(x + 5)*exp(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+log(x) + log(5) 0.0000
+2*x*(2*x + log(x) + 4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-3/(2*x**2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+5*x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x*asin(x) + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-3*x**2 + 2*x 0.0000
+None 0.0000
+mean: 0.0
+top: 0.0
+Loading experiment Linear Equation
+Working with expression:  2 * x[0] + 3
+Traceback (most recent call last):
+  File "avaliation.py", line 112, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 390, in forward
+    attn_outputs = self.attn(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 334, in forward
+    attn_output = self.c_proj(attn_output)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/pytorch_utils.py", line 106, in forward
+    x = torch.addmm(self.bias, x.view(-1, x.size(-1)), self.weight)
+KeyboardInterrupt

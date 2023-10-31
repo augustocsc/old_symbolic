@@ -1,0 +1,633 @@
+2023-10-04 09:43:02,474 INFO    StreamThr :3608384 [internal.py:wandb_internal():86] W&B internal server running at pid: 3608384, started at: 2023-10-04 09:43:02.473443
+2023-10-04 09:43:02,476 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status
+2023-10-04 09:43:02,478 INFO    WriterThread:3608384 [datastore.py:open_for_write():85] open: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/run-vom1zd3r.wandb
+2023-10-04 09:43:02,479 DEBUG   SenderThread:3608384 [sender.py:send():380] send: header
+2023-10-04 09:43:02,479 DEBUG   SenderThread:3608384 [sender.py:send():380] send: run
+2023-10-04 09:43:02,740 INFO    SenderThread:3608384 [dir_watcher.py:__init__():211] watching files in: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files
+2023-10-04 09:43:02,740 INFO    SenderThread:3608384 [sender.py:_start_run_threads():1122] run started: vom1zd3r with start time 1696426982.473466
+2023-10-04 09:43:02,745 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: check_version
+2023-10-04 09:43:02,745 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: check_version
+2023-10-04 09:43:02,821 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: run_start
+2023-10-04 09:43:02,828 DEBUG   HandlerThread:3608384 [system_info.py:__init__():32] System info init
+2023-10-04 09:43:02,828 DEBUG   HandlerThread:3608384 [system_info.py:__init__():47] System info init done
+2023-10-04 09:43:02,828 INFO    HandlerThread:3608384 [system_monitor.py:start():181] Starting system monitor
+2023-10-04 09:43:02,829 INFO    SystemMonitor:3608384 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-04 09:43:02,829 INFO    HandlerThread:3608384 [system_monitor.py:probe():201] Collecting system info
+2023-10-04 09:43:02,830 INFO    SystemMonitor:3608384 [interfaces.py:start():190] Started cpu monitoring
+2023-10-04 09:43:02,830 INFO    SystemMonitor:3608384 [interfaces.py:start():190] Started disk monitoring
+2023-10-04 09:43:02,831 INFO    SystemMonitor:3608384 [interfaces.py:start():190] Started gpu monitoring
+2023-10-04 09:43:02,832 INFO    SystemMonitor:3608384 [interfaces.py:start():190] Started memory monitoring
+2023-10-04 09:43:02,832 INFO    SystemMonitor:3608384 [interfaces.py:start():190] Started network monitoring
+2023-10-04 09:43:02,869 DEBUG   HandlerThread:3608384 [system_info.py:probe():196] Probing system
+2023-10-04 09:43:02,875 DEBUG   HandlerThread:3608384 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-04 09:43:02,875 DEBUG   HandlerThread:3608384 [system_info.py:probe():244] Probing system done
+2023-10-04 09:43:02,875 DEBUG   HandlerThread:3608384 [system_monitor.py:probe():210] {'os': 'Linux-4.18.0-477.21.1.el8_8.x86_64-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2023-10-04T13:43:02.870041', 'startedAt': '2023-10-04T13:43:02.469516', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'avaliation.py', 'codePathLocal': 'avaliation.py', 'codePath': 'avaliation.py', 'host': 'GPG-OPPENHEIMER.CHEME.CMU.EDU', 'username': 'augusto', 'executable': '/home/augusto/miniconda3/envs/sr/bin/python', 'cpu_count': 48, 'cpu_count_logical': 96, 'cpu_freq': {'current': 3192.71009375, 'min': 1500.0, 'max': 4037.5}, 'cpu_freq_per_core': [{'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 4016.188, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3619.453, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}, {'current': 3200.0, 'min': 1500.0, 'max': 4037.5}], 'disk': {'/': {'total': 249.8779296875, 'used': 153.66743850708008}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}, {'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 1007.2281532287598}}
+2023-10-04 09:43:02,875 INFO    HandlerThread:3608384 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-04 09:43:02,875 INFO    HandlerThread:3608384 [system_monitor.py:probe():214] Publishing system info
+2023-10-04 09:43:02,875 DEBUG   HandlerThread:3608384 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-04 09:43:02,876 DEBUG   HandlerThread:3608384 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-04 09:43:02,876 DEBUG   HandlerThread:3608384 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-04 09:43:03,741 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/conda-environment.yaml
+2023-10-04 09:43:03,741 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/requirements.txt
+2023-10-04 09:43:03,864 DEBUG   HandlerThread:3608384 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-04 09:43:03,865 INFO    HandlerThread:3608384 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-04 09:43:03,868 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:43:03,868 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-04 09:43:03,872 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:43:03,873 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:43:03,875 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:43:04,082 DEBUG   SenderThread:3608384 [sender.py:send():380] send: telemetry
+2023-10-04 09:43:04,082 DEBUG   SenderThread:3608384 [sender.py:send():380] send: config
+2023-10-04 09:43:04,215 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/8mm7zi62-wandb-metadata.json
+2023-10-04 09:43:04,740 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/conda-environment.yaml
+2023-10-04 09:43:04,741 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-metadata.json
+2023-10-04 09:43:04,741 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:06,741 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:07,777 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:12,778 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:18,592 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:18,745 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:18,872 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:43:18,872 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:43:18,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:43:21,034 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:43:21,035 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:43:21,234 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:43:21,746 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_0_6fbab56dde67d4e20bad.table.json
+2023-10-04 09:43:21,747 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media
+2023-10-04 09:43:21,747 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:43:21,832 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpcgoccn3s
+2023-10-04 09:43:22,000 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/s5pskp74-media/table/game_log_0_6fbab56dde67d4e20bad.table.json
+2023-10-04 09:43:22,433 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDczMTI1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': None}}
+2023-10-04 09:43:22,433 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:43:22,433 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_0_6fbab56dde67d4e20bad.table.json with policy now
+2023-10-04 09:43:22,434 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:43:22,435 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:43:22,435 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:43:22,730 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/bbhe2ako-media/table/game_log_0_6fbab56dde67d4e20bad.table.json
+2023-10-04 09:43:22,747 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:43:24,436 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:24,748 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:29,437 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:33,872 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:43:33,873 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:43:33,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:43:34,752 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:35,034 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:35,753 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/config.yaml
+2023-10-04 09:43:36,824 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:43:36,824 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:43:36,864 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:43:37,514 INFO    wandb-upload_1:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmp2d8791nq
+2023-10-04 09:43:37,754 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_1_1f8ea6b4f688dc74123e.table.json
+2023-10-04 09:43:37,754 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:43:38,188 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDczMzg3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDczMTI1', 'versionIndex': 0}}}
+2023-10-04 09:43:38,188 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:43:38,188 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_1_1f8ea6b4f688dc74123e.table.json with policy now
+2023-10-04 09:43:38,189 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:43:38,189 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:43:38,190 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:43:38,420 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/ttk9klh2-media/table/game_log_1_1f8ea6b4f688dc74123e.table.json
+2023-10-04 09:43:38,751 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/ignl29t9-media/table/game_log_1_1f8ea6b4f688dc74123e.table.json
+2023-10-04 09:43:38,754 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:43:40,191 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:40,755 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:45,192 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:48,759 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:48,872 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:43:48,873 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:43:48,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:43:50,760 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:51,038 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:43:52,539 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:43:52,539 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:43:52,579 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:43:52,761 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_2_93a770d6622f42879bc5.table.json
+2023-10-04 09:43:52,762 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:43:53,043 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/90ah2g3t-media/table/game_log_2_93a770d6622f42879bc5.table.json
+2023-10-04 09:43:53,228 INFO    wandb-upload_1:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmp4n0lo10b
+2023-10-04 09:43:53,847 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDczNzI3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDczMzg3', 'versionIndex': 1}}}
+2023-10-04 09:43:53,847 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:43:53,847 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_2_93a770d6622f42879bc5.table.json with policy now
+2023-10-04 09:43:53,848 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:43:53,848 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:43:53,849 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:43:54,168 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/g33f0zdk-media/table/game_log_2_93a770d6622f42879bc5.table.json
+2023-10-04 09:43:54,762 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:43:54,763 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:43:56,850 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:01,850 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:02,833 DEBUG   SystemMonitor:3608384 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-04 09:44:02,835 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:44:03,872 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:44:03,873 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:44:03,875 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:44:04,782 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:06,981 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:08,197 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:44:08,197 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:44:08,238 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:44:08,784 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_3_3553285f0152143a6439.table.json
+2023-10-04 09:44:08,785 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:44:09,003 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/h2rp50ua-media/table/game_log_3_3553285f0152143a6439.table.json
+2023-10-04 09:44:09,829 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpqkw64b20
+2023-10-04 09:44:10,506 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDczOTgw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDczNzI3', 'versionIndex': 2}}}
+2023-10-04 09:44:10,506 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:44:10,507 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_3_3553285f0152143a6439.table.json with policy now
+2023-10-04 09:44:10,507 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:44:10,508 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:44:10,509 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:44:10,785 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:44:10,825 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/6rqwnvns-media/table/game_log_3_3553285f0152143a6439.table.json
+2023-10-04 09:44:12,509 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:12,786 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:17,510 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:18,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:44:18,873 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:44:18,875 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:44:20,790 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:23,460 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:23,822 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:44:23,822 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:44:23,833 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:44:24,588 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmp8zyuw9at
+2023-10-04 09:44:24,792 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_4_363769bd912a3a4bb4fc.table.json
+2023-10-04 09:44:24,792 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:44:25,262 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc0MjI4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDczOTgw', 'versionIndex': 3}}}
+2023-10-04 09:44:25,263 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:44:25,263 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_4_363769bd912a3a4bb4fc.table.json with policy now
+2023-10-04 09:44:25,263 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:44:25,264 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:44:25,265 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:44:25,469 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/myjzduvp-media/table/game_log_4_363769bd912a3a4bb4fc.table.json
+2023-10-04 09:44:25,793 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:44:25,797 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/7jxxp9ox-media/table/game_log_4_363769bd912a3a4bb4fc.table.json
+2023-10-04 09:44:26,793 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:29,266 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:32,836 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:44:33,872 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:44:33,873 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:44:33,875 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:44:34,769 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:36,798 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:39,279 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:44:39,280 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:44:39,291 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:44:39,800 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_5_16b396d8ca2b493d6933.table.json
+2023-10-04 09:44:39,800 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:44:39,892 INFO    wandb-upload_1:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpfjjffjvf
+2023-10-04 09:44:40,009 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/2yx36lls-media/table/game_log_5_16b396d8ca2b493d6933.table.json
+2023-10-04 09:44:40,527 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc0NDQ0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc0MjI4', 'versionIndex': 4}}}
+2023-10-04 09:44:40,527 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:44:40,527 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_5_16b396d8ca2b493d6933.table.json with policy now
+2023-10-04 09:44:40,528 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:40,528 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:44:40,529 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:44:40,530 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:44:40,800 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:44:40,861 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/24u4mltw-media/table/game_log_5_16b396d8ca2b493d6933.table.json
+2023-10-04 09:44:42,801 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:45,531 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:48,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:44:48,874 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:44:48,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:44:50,805 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:51,256 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:52,807 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:44:54,638 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:44:54,639 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:44:54,649 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:44:54,808 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_6_324b9e7aef764600ac1c.table.json
+2023-10-04 09:44:54,808 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:44:55,026 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/246fi45m-media/table/game_log_6_324b9e7aef764600ac1c.table.json
+2023-10-04 09:44:55,389 INFO    wandb-upload_1:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpaiuh3vdn
+2023-10-04 09:44:56,132 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc0NzIw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc0NDQ0', 'versionIndex': 5}}}
+2023-10-04 09:44:56,132 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:44:56,132 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_6_324b9e7aef764600ac1c.table.json with policy now
+2023-10-04 09:44:56,133 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:44:56,133 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:44:56,134 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:44:56,447 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/p6qa8yb3-media/table/game_log_6_324b9e7aef764600ac1c.table.json
+2023-10-04 09:44:56,809 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:44:57,135 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:44:58,810 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:02,136 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:02,837 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:45:03,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:45:03,874 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:45:03,875 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:45:06,824 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:07,823 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:08,825 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:10,157 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:45:10,158 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:45:10,169 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:45:10,826 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_7_bcefb80522c83aca4931.table.json
+2023-10-04 09:45:10,826 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:45:10,871 INFO    wandb-upload_1:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpqiwa61ln
+2023-10-04 09:45:11,052 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/4l84tnq9-media/table/game_log_7_bcefb80522c83aca4931.table.json
+2023-10-04 09:45:11,634 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc0OTc4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc0NzIw', 'versionIndex': 6}}}
+2023-10-04 09:45:11,635 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:45:11,635 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_7_bcefb80522c83aca4931.table.json with policy now
+2023-10-04 09:45:11,635 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:45:11,636 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:45:11,637 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:45:11,826 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:45:11,948 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/a9whwytp-media/table/game_log_7_bcefb80522c83aca4931.table.json
+2023-10-04 09:45:12,827 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:13,638 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:18,638 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:18,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:45:18,873 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:45:18,876 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:45:22,832 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:23,832 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:24,120 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:25,464 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:45:25,465 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:45:25,475 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:45:25,833 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_8_f39caa9d2d94efa7d9c9.table.json
+2023-10-04 09:45:25,834 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:45:26,052 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/tj48u23v-media/table/game_log_8_f39caa9d2d94efa7d9c9.table.json
+2023-10-04 09:45:26,323 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpturvaptp
+2023-10-04 09:45:26,952 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc1MjI2', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc0OTc4', 'versionIndex': 7}}}
+2023-10-04 09:45:26,952 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:45:26,952 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_8_f39caa9d2d94efa7d9c9.table.json with policy now
+2023-10-04 09:45:26,953 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:45:26,953 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:45:26,954 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:45:27,275 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/jmp58g8e-media/table/game_log_8_f39caa9d2d94efa7d9c9.table.json
+2023-10-04 09:45:27,835 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:45:28,835 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:29,955 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:32,839 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:45:33,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:45:33,874 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:45:33,876 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:45:35,041 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:38,846 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:39,847 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:40,976 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:41,349 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:45:41,349 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:45:41,360 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:45:41,848 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_9_5c5ee1f2a7bbae7f991a.table.json
+2023-10-04 09:45:41,848 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:45:42,078 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/mqkad808-media/table/game_log_9_5c5ee1f2a7bbae7f991a.table.json
+2023-10-04 09:45:42,117 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmp7xbvu1ra
+2023-10-04 09:45:42,785 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc1NTE3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc1MjI2', 'versionIndex': 8}}}
+2023-10-04 09:45:42,785 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:45:42,785 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_9_5c5ee1f2a7bbae7f991a.table.json with policy now
+2023-10-04 09:45:42,785 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:45:42,786 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:45:42,787 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:45:42,849 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:45:43,087 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/5ilo2eb9-media/table/game_log_9_5c5ee1f2a7bbae7f991a.table.json
+2023-10-04 09:45:44,850 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:46,788 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:48,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:45:48,874 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:45:48,876 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:45:51,953 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:54,857 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:55,857 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:45:57,276 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:45:57,276 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:45:57,286 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:45:57,858 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_10_9b17668534fb8b57898d.table.json
+2023-10-04 09:45:57,859 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:45:57,936 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpl6pks40_
+2023-10-04 09:45:58,083 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/cv8mld61-media/table/game_log_10_9b17668534fb8b57898d.table.json
+2023-10-04 09:45:58,559 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc1ODEw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc1NTE3', 'versionIndex': 9}}}
+2023-10-04 09:45:58,560 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:45:58,560 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_10_9b17668534fb8b57898d.table.json with policy now
+2023-10-04 09:45:58,560 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:45:58,560 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:45:58,561 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:45:58,562 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:45:58,859 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:45:58,887 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/ksq3gtmm-media/table/game_log_10_9b17668534fb8b57898d.table.json
+2023-10-04 09:46:00,860 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:02,840 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:46:03,841 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:03,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:46:03,874 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:46:03,876 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:46:09,625 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:09,865 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:10,866 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:12,860 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:46:12,861 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:46:12,867 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_11_ca993cc2d951025a77d6.table.json
+2023-10-04 09:46:12,867 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:46:12,871 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:46:13,082 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/iq5dfgjq-media/table/game_log_11_ca993cc2d951025a77d6.table.json
+2023-10-04 09:46:13,568 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmp3ia4w5ps
+2023-10-04 09:46:14,245 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc2MTM0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc1ODEw', 'versionIndex': 10}}}
+2023-10-04 09:46:14,245 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:46:14,245 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_11_ca993cc2d951025a77d6.table.json with policy now
+2023-10-04 09:46:14,246 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:46:14,246 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:46:14,247 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:46:14,574 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/2b9vstlo-media/table/game_log_11_ca993cc2d951025a77d6.table.json
+2023-10-04 09:46:14,868 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:46:15,248 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:16,869 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:18,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:46:18,875 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:46:18,875 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:46:21,040 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:25,874 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:26,128 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:26,875 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:28,488 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:46:28,488 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:46:28,499 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:46:28,876 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_12_fd1a50c48a6772da319d.table.json
+2023-10-04 09:46:28,877 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:46:29,094 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/3mymvxuj-media/table/game_log_12_fd1a50c48a6772da319d.table.json
+2023-10-04 09:46:29,188 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmp_drss3u9
+2023-10-04 09:46:29,744 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc2Mzk3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc2MTM0', 'versionIndex': 11}}}
+2023-10-04 09:46:29,744 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:46:29,744 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_12_fd1a50c48a6772da319d.table.json with policy now
+2023-10-04 09:46:29,744 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:46:29,745 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:46:29,746 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:46:29,877 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:46:30,051 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/1gg3sflr-media/table/game_log_12_fd1a50c48a6772da319d.table.json
+2023-10-04 09:46:30,877 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:31,747 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:32,841 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:46:33,873 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:46:33,874 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:46:33,876 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:46:37,008 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:40,883 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:41,883 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:42,781 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:44,138 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:46:44,138 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:46:44,150 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:46:44,843 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmp_cu3plp9
+2023-10-04 09:46:44,885 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_13_a1362fcbbf833d01a6e9.table.json
+2023-10-04 09:46:44,885 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:46:45,579 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc2Njgx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc2Mzk3', 'versionIndex': 12}}}
+2023-10-04 09:46:45,579 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:46:45,579 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_13_a1362fcbbf833d01a6e9.table.json with policy now
+2023-10-04 09:46:45,580 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:46:45,580 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:46:45,581 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:46:45,886 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:46:45,947 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/9hse93pb-media/table/game_log_13_a1362fcbbf833d01a6e9.table.json
+2023-10-04 09:46:46,249 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/nd18spww-media/table/game_log_13_a1362fcbbf833d01a6e9.table.json
+2023-10-04 09:46:46,886 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:48,582 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:48,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:46:48,874 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:46:48,877 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:46:53,946 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:56,892 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:57,893 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:46:59,335 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:46:59,661 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:46:59,662 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:46:59,672 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:46:59,894 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_14_92f2240ff4db9ae9a9e6.table.json
+2023-10-04 09:46:59,894 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:47:00,112 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/lyhuejdb-media/table/game_log_14_92f2240ff4db9ae9a9e6.table.json
+2023-10-04 09:47:00,382 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmps8az4me2
+2023-10-04 09:47:01,110 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc2OTU2', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc2Njgx', 'versionIndex': 13}}}
+2023-10-04 09:47:01,111 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:47:01,111 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_14_92f2240ff4db9ae9a9e6.table.json with policy now
+2023-10-04 09:47:01,111 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:47:01,112 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:47:01,113 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:47:01,417 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/ve5b3u09-media/table/game_log_14_92f2240ff4db9ae9a9e6.table.json
+2023-10-04 09:47:01,895 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:47:02,843 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:47:02,896 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:03,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:47:03,875 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:47:03,876 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:47:05,062 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:10,063 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:11,901 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:12,902 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:15,070 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:47:15,071 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:47:15,081 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:47:15,903 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_15_8ec559eb36a9465e2792.table.json
+2023-10-04 09:47:15,904 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:47:16,061 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpzsd0ba0f
+2023-10-04 09:47:16,137 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/f21y1n06-media/table/game_log_15_8ec559eb36a9465e2792.table.json
+2023-10-04 09:47:16,775 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc3MjQ3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc2OTU2', 'versionIndex': 14}}}
+2023-10-04 09:47:16,776 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:47:16,776 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_15_8ec559eb36a9465e2792.table.json with policy now
+2023-10-04 09:47:16,776 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:47:16,777 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:47:16,777 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:16,778 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:47:16,904 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:47:17,081 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/fruets9z-media/table/game_log_15_8ec559eb36a9465e2792.table.json
+2023-10-04 09:47:18,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:47:18,875 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:47:18,877 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:47:18,905 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:21,961 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:27,360 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:27,911 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:28,911 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:30,509 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:47:30,510 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:47:30,519 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:47:30,912 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_16_e3726af3446c72527647.table.json
+2023-10-04 09:47:30,913 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:47:31,106 INFO    wandb-upload_1:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpp4lqn_uu
+2023-10-04 09:47:31,136 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/d7ti2d6n-media/table/game_log_16_e3726af3446c72527647.table.json
+2023-10-04 09:47:31,688 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc3NDk2', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc3MjQ3', 'versionIndex': 15}}}
+2023-10-04 09:47:31,688 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:47:31,688 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_16_e3726af3446c72527647.table.json with policy now
+2023-10-04 09:47:31,689 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:47:31,690 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:47:31,691 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:47:31,913 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:47:32,001 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/4hwabd3i-media/table/game_log_16_e3726af3446c72527647.table.json
+2023-10-04 09:47:32,691 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:32,844 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:47:32,914 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:33,874 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-04 09:47:33,875 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: stop_status
+2023-10-04 09:47:33,877 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:47:38,027 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:42,920 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:43,658 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:43,921 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:46,006 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: log_artifact
+2023-10-04 09:47:46,007 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: log_artifact
+2023-10-04 09:47:46,017 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-04 09:47:46,835 INFO    wandb-upload_0:3608384 [upload_job.py:push():89] Uploaded file /home/augusto/.local/share/wandb/artifacts/staging/tmpu4xfyeg_
+2023-10-04 09:47:46,923 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_created():271] file/dir created: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_17_45d163497dc9ab4718e5.table.json
+2023-10-04 09:47:46,923 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table
+2023-10-04 09:47:47,022 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-04 09:47:47,549 INFO    SenderThread:3608384 [sender.py:send_request_log_artifact():1444] logged artifact run-vom1zd3r-game_log - {'id': 'QXJ0aWZhY3Q6NTk0MDc3NzYx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwNDE0MzAzNQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTk0MDc3NDk2', 'versionIndex': 16}}}
+2023-10-04 09:47:47,550 DEBUG   SenderThread:3608384 [sender.py:send():380] send: files
+2023-10-04 09:47:47,550 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file media/table/game_log_17_45d163497dc9ab4718e5.table.json with policy now
+2023-10-04 09:47:47,550 DEBUG   SenderThread:3608384 [sender.py:send():380] send: history
+2023-10-04 09:47:47,551 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: summary_record
+2023-10-04 09:47:47,552 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:47:47,552 DEBUG   SenderThread:3608384 [sender.py:send():380] send: exit
+2023-10-04 09:47:47,552 INFO    SenderThread:3608384 [sender.py:send_exit():585] handling exit code: 1
+2023-10-04 09:47:47,552 INFO    SenderThread:3608384 [sender.py:send_exit():587] handling runtime: 283
+2023-10-04 09:47:47,553 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:47:47,553 INFO    SenderThread:3608384 [sender.py:send_exit():593] send defer
+2023-10-04 09:47:47,553 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: poll_exit
+2023-10-04 09:47:47,553 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,553 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-04 09:47:47,554 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,554 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-04 09:47:47,554 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 1
+2023-10-04 09:47:47,554 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,554 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-04 09:47:47,554 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,554 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-04 09:47:47,554 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 2
+2023-10-04 09:47:47,554 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,554 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-04 09:47:47,554 INFO    HandlerThread:3608384 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-04 09:47:47,554 DEBUG   SystemMonitor:3608384 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-04 09:47:47,555 DEBUG   SystemMonitor:3608384 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-04 09:47:47,556 INFO    HandlerThread:3608384 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-04 09:47:47,556 INFO    HandlerThread:3608384 [interfaces.py:finish():202] Joined disk monitor
+2023-10-04 09:47:47,757 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/oahzfisl-media/table/game_log_17_45d163497dc9ab4718e5.table.json
+2023-10-04 09:47:47,855 INFO    HandlerThread:3608384 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-04 09:47:47,855 INFO    HandlerThread:3608384 [interfaces.py:finish():202] Joined memory monitor
+2023-10-04 09:47:47,855 INFO    HandlerThread:3608384 [interfaces.py:finish():202] Joined network monitor
+2023-10-04 09:47:47,856 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,856 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-04 09:47:47,856 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 3
+2023-10-04 09:47:47,856 DEBUG   SenderThread:3608384 [sender.py:send():380] send: stats
+2023-10-04 09:47:47,857 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,857 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-04 09:47:47,857 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,857 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-04 09:47:47,857 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 4
+2023-10-04 09:47:47,857 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,857 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-04 09:47:47,857 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,858 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-04 09:47:47,858 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 5
+2023-10-04 09:47:47,858 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,858 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-04 09:47:47,858 DEBUG   SenderThread:3608384 [sender.py:send():380] send: summary
+2023-10-04 09:47:47,859 INFO    SenderThread:3608384 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-04 09:47:47,859 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,859 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-04 09:47:47,859 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 6
+2023-10-04 09:47:47,859 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,859 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-04 09:47:47,860 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,860 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-04 09:47:47,860 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 7
+2023-10-04 09:47:47,860 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: status_report
+2023-10-04 09:47:47,860 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:47,860 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 7
+2023-10-04 09:47:47,860 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:47,860 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-04 09:47:47,924 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:47:48,023 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-04 09:47:48,084 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /tmp/tmp6zzn61sqwandb/k23l47qj-media/table/game_log_17_45d163497dc9ab4718e5.table.json
+2023-10-04 09:47:48,924 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:49,304 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 8
+2023-10-04 09:47:49,304 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: poll_exit
+2023-10-04 09:47:49,304 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:49,304 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 8
+2023-10-04 09:47:49,305 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:49,305 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-04 09:47:49,305 INFO    SenderThread:3608384 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-04 09:47:49,306 INFO    SenderThread:3608384 [job_builder.py:_get_source_type():404] no source found
+2023-10-04 09:47:49,306 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 9
+2023-10-04 09:47:49,306 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:49,306 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 9
+2023-10-04 09:47:49,306 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:49,306 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-04 09:47:49,306 INFO    SenderThread:3608384 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-04 09:47:49,925 INFO    Thread-12 :3608384 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:49,926 INFO    SenderThread:3608384 [dir_watcher.py:finish():388] scan: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files
+2023-10-04 09:47:49,926 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/config.yaml config.yaml
+2023-10-04 09:47:49,926 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/requirements.txt requirements.txt
+2023-10-04 09:47:49,926 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/conda-environment.yaml conda-environment.yaml
+2023-10-04 09:47:49,926 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-metadata.json wandb-metadata.json
+2023-10-04 09:47:49,928 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log output.log
+2023-10-04 09:47:49,929 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json wandb-summary.json
+2023-10-04 09:47:49,936 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_0_6fbab56dde67d4e20bad.table.json media/table/game_log_0_6fbab56dde67d4e20bad.table.json
+2023-10-04 09:47:49,936 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_1_1f8ea6b4f688dc74123e.table.json media/table/game_log_1_1f8ea6b4f688dc74123e.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_2_93a770d6622f42879bc5.table.json media/table/game_log_2_93a770d6622f42879bc5.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_3_3553285f0152143a6439.table.json media/table/game_log_3_3553285f0152143a6439.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_4_363769bd912a3a4bb4fc.table.json media/table/game_log_4_363769bd912a3a4bb4fc.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_5_16b396d8ca2b493d6933.table.json media/table/game_log_5_16b396d8ca2b493d6933.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_6_324b9e7aef764600ac1c.table.json media/table/game_log_6_324b9e7aef764600ac1c.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_7_bcefb80522c83aca4931.table.json media/table/game_log_7_bcefb80522c83aca4931.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_8_f39caa9d2d94efa7d9c9.table.json media/table/game_log_8_f39caa9d2d94efa7d9c9.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_9_5c5ee1f2a7bbae7f991a.table.json media/table/game_log_9_5c5ee1f2a7bbae7f991a.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_10_9b17668534fb8b57898d.table.json media/table/game_log_10_9b17668534fb8b57898d.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_11_ca993cc2d951025a77d6.table.json media/table/game_log_11_ca993cc2d951025a77d6.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_12_fd1a50c48a6772da319d.table.json media/table/game_log_12_fd1a50c48a6772da319d.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_13_a1362fcbbf833d01a6e9.table.json media/table/game_log_13_a1362fcbbf833d01a6e9.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_14_92f2240ff4db9ae9a9e6.table.json media/table/game_log_14_92f2240ff4db9ae9a9e6.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_15_8ec559eb36a9465e2792.table.json media/table/game_log_15_8ec559eb36a9465e2792.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_16_e3726af3446c72527647.table.json media/table/game_log_16_e3726af3446c72527647.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [dir_watcher.py:finish():402] scan save: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/media/table/game_log_17_45d163497dc9ab4718e5.table.json media/table/game_log_17_45d163497dc9ab4718e5.table.json
+2023-10-04 09:47:49,937 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 10
+2023-10-04 09:47:49,938 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:49,938 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 10
+2023-10-04 09:47:49,938 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:49,938 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-04 09:47:49,938 INFO    SenderThread:3608384 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-04 09:47:50,143 INFO    wandb-upload_1:3608384 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/config.yaml
+2023-10-04 09:47:50,144 INFO    wandb-upload_0:3608384 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/requirements.txt
+2023-10-04 09:47:50,334 INFO    wandb-upload_2:3608384 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/conda-environment.yaml
+2023-10-04 09:47:50,383 INFO    wandb-upload_3:3608384 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/output.log
+2023-10-04 09:47:50,470 INFO    wandb-upload_4:3608384 [upload_job.py:push():131] Uploaded file /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/files/wandb-summary.json
+2023-10-04 09:47:50,670 INFO    Thread-11 :3608384 [sender.py:transition_state():613] send defer: 11
+2023-10-04 09:47:50,671 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:50,671 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 11
+2023-10-04 09:47:50,671 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:50,671 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-04 09:47:50,672 INFO    SenderThread:3608384 [file_pusher.py:join():181] waiting for file pusher
+2023-10-04 09:47:50,672 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 12
+2023-10-04 09:47:50,672 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:50,672 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 12
+2023-10-04 09:47:50,672 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:50,672 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-04 09:47:50,672 INFO    SenderThread:3608384 [file_stream.py:finish():595] file stream finish called
+2023-10-04 09:47:51,218 INFO    SenderThread:3608384 [file_stream.py:finish():599] file stream finish is done
+2023-10-04 09:47:51,218 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 13
+2023-10-04 09:47:51,219 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:51,219 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 13
+2023-10-04 09:47:51,219 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:51,219 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-04 09:47:51,219 INFO    SenderThread:3608384 [sender.py:transition_state():613] send defer: 14
+2023-10-04 09:47:51,219 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: defer
+2023-10-04 09:47:51,219 INFO    HandlerThread:3608384 [handler.py:handle_request_defer():170] handle defer: 14
+2023-10-04 09:47:51,220 DEBUG   SenderThread:3608384 [sender.py:send():380] send: final
+2023-10-04 09:47:51,220 DEBUG   SenderThread:3608384 [sender.py:send():380] send: footer
+2023-10-04 09:47:51,220 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: defer
+2023-10-04 09:47:51,220 INFO    SenderThread:3608384 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-04 09:47:51,220 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-04 09:47:51,221 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: poll_exit
+2023-10-04 09:47:51,221 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: server_info
+2023-10-04 09:47:51,221 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: get_summary
+2023-10-04 09:47:51,222 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: server_info
+2023-10-04 09:47:51,223 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: sampled_history
+2023-10-04 09:47:51,224 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-04 09:47:51,225 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: job_info
+2023-10-04 09:47:51,288 DEBUG   SenderThread:3608384 [sender.py:send_request():407] send_request: job_info
+2023-10-04 09:47:51,288 INFO    MainThread:3608384 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-10-04 09:47:51,289 INFO    MainThread:3608384 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-10-04 09:47:51,290 INFO    MainThread:3608384 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2023-10-04 09:47:51,290 DEBUG   HandlerThread:3608384 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-04 09:47:51,290 INFO    HandlerThread:3608384 [handler.py:finish():844] shutting down handler
+2023-10-04 09:47:52,225 INFO    WriterThread:3608384 [datastore.py:close():294] close: /home/augusto/symbolic/wandb/run-20231004_094302-vom1zd3r/run-vom1zd3r.wandb
+2023-10-04 09:47:52,288 INFO    SenderThread:3608384 [sender.py:finish():1534] shutting down sender
+2023-10-04 09:47:52,288 INFO    SenderThread:3608384 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-04 09:47:52,288 INFO    SenderThread:3608384 [file_pusher.py:join():181] waiting for file pusher

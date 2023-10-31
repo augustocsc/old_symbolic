@@ -1,0 +1,870 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) + x
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x) + x
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in multiply
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-10>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(2*x) + x - 1/4*log(cos(2*x))
+<lambdifygenerated-18>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+<lambdifygenerated-18>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+<lambdifygenerated-25>:2: RuntimeWarning: overflow encountered in cosh
+  return -2*cosh(x)
+<lambdifygenerated-25>:2: RuntimeWarning: overflow encountered in multiply
+  return -2*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*(x - 1)*exp(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/3)*(x - 1)*exp(x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in exp
+  return 2*(x - 1)*exp(x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*(x - 1)*exp(x)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x**2*arccos(x)
+<lambdifygenerated-41>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x**2*arctanh(x)
+<lambdifygenerated-41>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*arctanh(x)
+<lambdifygenerated-43>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x) + 1
+<lambdifygenerated-44>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-50>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 5*x*arcsin(x) + x + 5*arcsin(x)
+<lambdifygenerated-52>:2: RuntimeWarning: overflow encountered in sinh
+  return (3/2)*x**2 + sinh(x)
+<lambdifygenerated-61>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + x
+<lambdifygenerated-62>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+<lambdifygenerated-65>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)**2
+<lambdifygenerated-65>:2: RuntimeWarning: overflow encountered in square
+  return x + cosh(x)**2
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-99>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-108>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return (1/2)*x**2 + x*arctanh(x) + 2*arctanh(x)
+<lambdifygenerated-108>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*x**2 + x*arctanh(x) + 2*arctanh(x)
+<lambdifygenerated-109>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x + 5)
+<lambdifygenerated-116>:2: RuntimeWarning: overflow encountered in exp
+  return x**4 + x + exp(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-124>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 2*sin(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*cosh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*cosh(x)
+<lambdifygenerated-134>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*exp(4*x)
+<lambdifygenerated-136>:2: RuntimeWarning: overflow encountered in cosh
+  return -1/4*cosh(2*x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*log(cos(2*x))
+self.infix=x**5/5 + x**2/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=4*x**(3/2)/3 + 3*x**2/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x**2/2 + 4*log(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*exp(2*x) + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**(5/3)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2*(x + exp(x) + 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**2 + 2*x*log(x) + 2*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*sin(x) + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x + (x + 4)*exp(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*log(2*x) + x - log(cos(2*x))/4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=4*x**3/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*(x**2 + 2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=4*x + 5
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**3/3 + 3*x**2/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*sqrt(2)*x**(3/2)/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=-x**2 + 3*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*log(x**3)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*log(x**2 + x) - 2*x + 2*log(x - 2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*log(3*x**2) - x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=9
+type(self.y_pred)=<class 'int'>
+self.infix=x*log(2*x) - log(x + 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=-x**2/4 + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=-x**2/2 + 5*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-x**3/3 + x**2/2 + 1/5
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-2*cosh(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=x*(x + 3) - 2*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=(2*x**2 + x)**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=(x - 1)*exp(x)/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=sqrt(2*x + 5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=89*x**3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*(x - 1)*exp(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=sin(x)**3*cos(4)**3/9
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=5*x*sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=4*sin(x**2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**7/7
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=5*x**4/2 + x**3/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x**6/6 + x**3/3 - x**2/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=-3*x**2*cos(x) + x**2 - 3*x*sin(x) + 3*cos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=sin(x + 3)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=2*x**2*acos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x**2*atanh(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=126*x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=x + asin(x) + 1
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=exp(2*x)/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=log(tan(3*x)**2 + 1)/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*sin(x + 5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=2*x**5/5 + 3*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=log(x)/x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2 + 28*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=5*x*asin(x) + x + 5*asin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2*(x + 1)/4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3*x**2/2 + sinh(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=1/(x + 2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3*x**6/26
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=91*x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=20*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x*log(x**2) + 4*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-1/(18*x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=(4*x**2 + x)/x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x*log(x + 3) - 17*log(x + 7) + 33
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*acos(x) + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x + sinh(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=(x + 15)**5
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=5*x + 1
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x + cosh(x)**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**2 + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**3/3 + 3*x**2 + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**3 + 2*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3*x**2/4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**3*(x + 3)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**3/16
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x + (sqrt(x) - 1)*(x**2 + 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x*asinh(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*sin(acosh(x))
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=log(tan(2*x + 5)**2 + 1)/5
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*exp(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2 + 5*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=8*x**3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3*x**2/2 + 2*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=exp(1 - x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=tan(x + 5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=5*x**2*sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=2*log(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-x - 2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=log(2*x)/x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=4*x**2*tan(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-x*(x + 4) + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=1/(x**2 + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x + x*tan(1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=sqrt(5)*x**(5/2)/25
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=8*x*sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*(x + 1) + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**4 + x*cos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=cos(x - 5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**4/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=log(x + 1)/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=5*x**2/2 + 2*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*acos(x) - sqrt(1 - x**2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-2*x**(3/2)/3 + x*log(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2*(x**2 + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=-x*sin(x) - cos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=x*(x + cos(3))
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*(x**2 - x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**3/3 + 4*x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=asinh(x - 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2/(x**2 + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x**2/2 + x*atanh(x) + 2*atanh(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x - exp(x + 5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**2*(sqrt(x) + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=x**2*(x + 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**3 + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=sinh(1)/x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x*(x**2 + x + 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*log(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**4 + x + exp(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x*(x + 1)*sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**3/3 + x**2/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2*atan(x) + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=cos(2*x + 2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-5*x**4/4 + 5*x**3/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*exp(3*x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**3/3 + x**2/4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=exp(x) + 2*sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**6/34
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=9*x**8/4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**4/4 + x**3 + 4*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=61*x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=2/(5*x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=5*x**3 + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x*cosh(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x + 1/(x**2 + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=1/sqrt(2*x**2 + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=exp(4*x)/4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2/2 + x*log(2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-cosh(2*x)/4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2/2 + x*sin(x) - cos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*exp(-1) + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x/(x + 4)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*(x + sin(5))
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**3 + x + 4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-log(cos(2*x))/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3*x + exp(5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x**2 + 9*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x**3/3 - cos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3*x + log(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=cos(3*x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=x**5/5 - 2*x*log(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=cosh(x + 3)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=4*x + 5
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-exp(x - 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**3/30
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*exp(2*x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x**3/3 + 5*x**2/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**7/7 + 4*x**5/5
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**2 - log(cos(x))
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*(2*x + 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=4*x**5/5 + x**2/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=sin(x + 4)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=2*x**3/3 + 3*x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-x**2*log(x)**2/10
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=-x + tan(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x*tan(4)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**2 + x + (x + 2)**4
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=2*cos(3*x)/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=-log(cos(x)) + sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*(5 - x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=2*x**2*(x + 2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=(2*x - 1)*exp(2*x)/22
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-2
+type(self.y_pred)=<class 'int'>
+self.infix=4*x + 2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-1/(3*x**3)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x*sinh(5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=-x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=-x*cos(x) + 3*sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x**2 + x - acos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=x*(x + 7)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=2*x**(3/2)/3 - cos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+<lambdifygenerated-149>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+<lambdifygenerated-151>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x - 1)
+<lambdifygenerated-153>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-153>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x)
+<lambdifygenerated-156>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x**2 - log(cos(x))
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sin(x)
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in exp
+  return (1/22)*(2*x - 1)*exp(2*x)
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/22)*(2*x - 1)*exp(2*x)
+<lambdifygenerated-177>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2 + x - arccos(x)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 0.0
+top: 0.0
+<lambdifygenerated-191>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-193>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*(x - 1)*exp(x)
+<lambdifygenerated-193>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*(x - 1)*exp(x)
+<lambdifygenerated-196>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(2*x)
+self.infix=None
+self.infix=x/(x + 4)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=2*x*tan(1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=-x**3/3 + x**2*log(x)/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=x*(x*cos(1) + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=27*x*sin(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=sqrt(2)*x**2/23
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=3*x**3 + 3*x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=acosh(x + 4)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x/(x + 5)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x/(x**2 + x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=(x + 4)/x**2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=-log(cos(x))
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=2*x**2 + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=(x - 1)*exp(x)/2
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**4/4 + x**3/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**3/3
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=2*x + exp(2*x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=-x**4/4 + x*log(x) - x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3*log(x + 1)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**2/10
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*log(2*x) - x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=log(6*x + 1)/6
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=3
+type(self.y_pred)=<class 'int'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*exp(4)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=(x + 2)/x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=-x*sin(x) + x - cos(x)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=log(2)/x
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*sinh(2)
+type(self.y_pred)=<class 'numpy.ndarray'>
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=7*x**2/2 + x
+type(self.y_pred)=<class 'numpy.ndarray'>
+mean: 0.0
+top: 0.0
+Traceback (most recent call last):
+  File "avaliation.py", line 124, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 390, in forward
+    attn_outputs = self.attn(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 314, in forward
+    query = self._split_heads(query, self.num_heads, self.head_dim)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 279, in _split_heads
+    tensor = tensor.view(new_shape)
+KeyboardInterrupt

@@ -1,0 +1,7 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Traceback (most recent call last):
+  File "avaliation.py", line 90, in <module>
+    y = eval(expression)
+  File "<string>", line 1, in <module>
+TypeError: only size-1 arrays can be converted to Python scalars
