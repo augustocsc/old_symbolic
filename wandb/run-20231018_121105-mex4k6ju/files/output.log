@@ -1,0 +1,710 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) + x
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x) + x
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in multiply
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-10>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(2*x) + x - 1/4*log(cos(2*x))
+<lambdifygenerated-18>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+<lambdifygenerated-18>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+<lambdifygenerated-25>:2: RuntimeWarning: overflow encountered in cosh
+  return -2*cosh(x)
+<lambdifygenerated-25>:2: RuntimeWarning: overflow encountered in multiply
+  return -2*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*(x - 1)*exp(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/3)*(x - 1)*exp(x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in exp
+  return 2*(x - 1)*exp(x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*(x - 1)*exp(x)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x**2*arccos(x)
+<lambdifygenerated-41>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x**2*arctanh(x)
+<lambdifygenerated-41>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*arctanh(x)
+<lambdifygenerated-43>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x) + 1
+<lambdifygenerated-44>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-50>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 5*x*arcsin(x) + x + 5*arcsin(x)
+<lambdifygenerated-52>:2: RuntimeWarning: overflow encountered in sinh
+  return (3/2)*x**2 + sinh(x)
+<lambdifygenerated-61>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + x
+<lambdifygenerated-62>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-65>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)**2
+<lambdifygenerated-65>:2: RuntimeWarning: overflow encountered in square
+  return x + cosh(x)**2
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-99>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-108>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return (1/2)*x**2 + x*arctanh(x) + 2*arctanh(x)
+<lambdifygenerated-108>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*x**2 + x*arctanh(x) + 2*arctanh(x)
+<lambdifygenerated-109>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x + 5)
+<lambdifygenerated-116>:2: RuntimeWarning: overflow encountered in exp
+  return x**4 + x + exp(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-124>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 2*sin(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*cosh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*cosh(x)
+<lambdifygenerated-134>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*exp(4*x)
+<lambdifygenerated-136>:2: RuntimeWarning: overflow encountered in cosh
+  return -1/4*cosh(2*x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*log(cos(2*x))
+<lambdifygenerated-149>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+<lambdifygenerated-151>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x - 1)
+<lambdifygenerated-153>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-153>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x)
+<lambdifygenerated-156>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x**2 - log(cos(x))
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sin(x)
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in exp
+  return (1/22)*(2*x - 1)*exp(2*x)
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/22)*(2*x - 1)*exp(2*x)
+<lambdifygenerated-177>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2 + x - arccos(x)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+self.infix=x**5/5 + x**2/29.625981992354811e-12
+self.infix=None0
+self.infix=4*x**(3/2)/3 + 3*x**2/20.0008307613241807753
+self.infix=None0
+self.infix=x**2/2 + 4*log(x)0.002574212595253672
+self.infix=x*exp(2*x) + x0
+self.infix=x**(5/3)0.012092007502896091
+self.infix=x**2*(x + exp(x) + 1)0
+self.infix=2*x**2 + 2*x*log(x) + 2*x0.0006363300384580297
+self.infix=x*sin(x) + x0.44105608588499723
+self.infix=x + (x + 4)*exp(x)0
+self.infix=x*log(2*x) + x - log(cos(2*x))/40
+self.infix=4*x**3/31.142805062058293e-06
+self.infix=x*(x**2 + 2)1.5237362858947609e-06
+self.infix=4*x + 50.3320460983770466
+self.infix=x**3/3 + 3*x**2/24.547277323157416e-06
+self.infix=2*sqrt(2)*x**(3/2)/30.04004144896038068
+self.infix=None0
+self.infix=-x**2 + 3*x0.0012840243556510149
+self.infix=x*log(x**3)0.053087934224315195
+self.infix=x*log(x**2 + x) - 2*x + 2*log(x - 2)0
+self.infix=x*log(3*x**2) - x0.08116834853121867
+self.infix=90
+self.infix=x*log(2*x) - log(x + 1)0.15894561251037806
+self.infix=None0
+self.infix=-x**2/4 + x0.005084637259378725
+self.infix=None0
+self.infix=-x**2/2 + 5*x0.0025808553498486665
+self.infix=-x**3/3 + x**2/2 + 1/54.5791967911588534e-06
+self.infix=-2*cosh(x)0
+self.infix=None0
+self.infix=None0
+self.infix=x*(x + 3) - 2*x0.0012840371651206268
+self.infix=(2*x**2 + x)**21.8846518877265326e-06
+self.infix=(x - 1)*exp(x)/30
+self.infix=sqrt(2*x + 5)0.3379186238534151
+self.infix=89*x**32.4627405486662963e-06
+self.infix=2*(x - 1)*exp(x)0
+self.infix=None0
+self.infix=sin(x)**3*cos(4)**3/90.33188130182662656
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=5*x*sin(x)0.19589130186220763
+self.infix=None0
+self.infix=4*sin(x**2)0.3318697450179971
+self.infix=x**7/79.862597900449146e-16
+self.infix=5*x**4/2 + x**3/36.937298070513117e-10
+self.infix=None0
+self.infix=x**6/6 + x**3/3 - x**2/21.2602489967721873e-14
+self.infix=None0
+self.infix=-3*x**2*cos(x) + x**2 - 3*x*sin(x) + 3*cos(x)0.0005298932854272223
+self.infix=None0
+self.infix=sin(x + 3)0.3318885121817976
+self.infix=None0
+self.infix=2*x**2*acos(x)0
+self.infix=None0
+self.infix=x**2*atanh(x)0
+self.infix=126*x**21.0191160482350842e-05
+self.infix=None0
+self.infix=None0
+self.infix=x + asin(x) + 10
+self.infix=exp(2*x)/20
+self.infix=log(tan(3*x)**2 + 1)/30.33196031584893404
+self.infix=2*sin(x + 5)0.331877430930313
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=2*x**5/5 + 3*x4.812991012846648e-12
+self.infix=log(x)/x0.33188307252407473
+self.infix=x**2 + 28*x0.0012420575843183916
+self.infix=5*x*asin(x) + x + 5*asin(x)0
+self.infix=x**2*(x + 1)/46.087859214381492e-06
+self.infix=3*x**2/2 + sinh(x)0
+self.infix=1/(x + 2)0.33188145880502445
+self.infix=3*x**6/261.8203596667816425e-14
+self.infix=91*x**21.4110890234816903e-05
+self.infix=None0
+self.infix=20*x0.05242945787827525
+self.infix=None0
+self.infix=x*log(x**2) + 4*x0.061601447278351616
+self.infix=-1/(18*x)0.33188111591667857
+self.infix=(4*x**2 + x)/x0.3327071926574343
+self.infix=None0
+self.infix=x*log(x + 3) - 17*log(x + 7) + 330.1818312874780532
+self.infix=x*acos(x) + x0
+self.infix=2*x + sinh(x)0
+self.infix=(x + 15)**50
+self.infix=5*x + 10.24937878290848742
+self.infix=x + cosh(x)**20
+self.infix=2*x**2 + x0.0006420277406515395
+self.infix=x**3/3 + 3*x**2 + x4.523548543757183e-06
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**3 + 2*x1.5237362858947609e-06
+self.infix=3*x**2/40.0017148922784934841
+self.infix=-x**20.0012792248311872185
+self.infix=x**3*(x + 3)8.086410593628508e-07
+self.infix=x**3/162.4380323839274895e-05
+self.infix=x + (sqrt(x) - 1)*(x**2 + 1)4.6127849904102656e-05
+self.infix=2*x*asinh(x)0.07346807617438364
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x*sin(acosh(x))0.44794511653490315
+self.infix=log(tan(2*x + 5)**2 + 1)/50.3319233223584718
+self.infix=2*exp(x)0
+self.infix=x**2 + 5*x0.0012776453969344404
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=8*x**38.187766055976316e-07
+self.infix=3*x**2/2 + 2*x0.0008553198260791596
+self.infix=exp(1 - x)0.33188113626249105
+self.infix=tan(x + 5)0.33190079802797445
+self.infix=5*x**2*sin(x)0.00038018880957266314
+self.infix=None0
+self.infix=2*log(x)0.334008869086989
+self.infix=-x - 20.24872905234619916
+self.infix=log(2*x)/x0.33188330071259503
+self.infix=4*x**2*tan(x)2.0941485918911704e-05
+self.infix=-x*(x + 4) + x0.0012744599341188154
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=1/(x**2 + x)0.33188113696841154
+self.infix=x + x*tan(1)0.6429492097503589
+self.infix=sqrt(5)*x**(5/2)/250.0004981377391077486
+self.infix=8*x*sin(x)0.14355244551208693
+self.infix=x*(x + 1) + x0.0012824334247654215
+self.infix=x**4 + x*cos(x)1.734585715950234e-09
+self.infix=cos(x - 5)0.3318882220781011
+self.infix=x**4/23.469171436460408e-09
+self.infix=log(x + 1)/30.3322342109885329
+self.infix=None0
+self.infix=None0
+self.infix=5*x**2/2 + 2*x0.000513366850337337
+self.infix=x*acos(x) - sqrt(1 - x**2)0
+self.infix=-2*x**(3/2)/3 + x*log(x)0.06770850103787412
+self.infix=x**2*(x**2 + x)9.683630072127523e-07
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=-x*sin(x) - cos(x)0.3263795494897134
+self.infix=None0
+self.infix=None0
+self.infix=x*(x + cos(3))0.0012872401771742185
+self.infix=x*(x**2 - x)1.5255263890887e-06
+self.infix=x**3/3 + 4*x**24.507895949899368e-06
+self.infix=None0
+self.infix=asinh(x - 1)0.3330566286572074
+self.infix=2/(x**2 + x)0.33188113966016614
+self.infix=None0
+self.infix=x**2/2 + x*atanh(x) + 2*atanh(x)0
+self.infix=x - exp(x + 5)0
+self.infix=2*x**2*(sqrt(x) + x)7.367328965706313e-07
+self.infix=None0
+self.infix=None0
+self.infix=x**2*(x + 1)1.5219588839167095e-06
+self.infix=2*x**3 + x7.618692577812297e-07
+self.infix=sinh(1)/x0.3318815212120835
+self.infix=None0
+self.infix=x*(x**2 + x + 1)1.521956743145398e-06
+self.infix=2*log(x)0.334008869086989
+self.infix=x**4 + x + exp(x)0
+self.infix=None0
+self.infix=x*(x + 1)*sin(x)0.0018950735339513635
+self.infix=2*x**3/3 + x**2/22.2836073634951994e-06
+self.infix=x**2*atan(x) + x0.0008181032167343013
+self.infix=cos(2*x + 2)0.33186950011548
+self.infix=-5*x**4/4 + 5*x**3/31.3897615810717456e-09
+self.infix=x*exp(3*x)0
+self.infix=2*x**3/3 + x**2/42.2846094223043302e-06
+self.infix=exp(x) + 2*sin(x)0
+self.infix=x**6/347.141411000451278e-14
+self.infix=9*x**8/45.488497771477486e-17
+self.infix=x**4/4 + x**3 + 4*x6.90713430324101e-09
+self.infix=61*x**22.105081136308756e-05
+self.infix=None0
+self.infix=None0
+self.infix=2/(5*x)0.33188126599034423
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=5*x**3 + x6.496761307869795e-07
+self.infix=2*x*cosh(x)0
+self.infix=x + 1/(x**2 + x)0.49780716316537277
+self.infix=1/sqrt(2*x**2 + x)0.3318813665841244
+self.infix=None0
+self.infix=None0
+self.infix=exp(4*x)/40
+self.infix=x**2/2 + x*log(2)0.00256997289811335
+self.infix=-cosh(2*x)/40
+self.infix=x**2/2 + x*sin(x) - cos(x)0.0025749032546125423
+self.infix=x*exp(-1) + x0.6100001912897853
+self.infix=x/(x + 4)0.33204481479272024
+self.infix=x*(x + sin(5))0.0012871900521465784
+self.infix=x**3 + x + 41.523738420770859e-06
+self.infix=-log(cos(2*x))/20
+self.infix=3*x + exp(5)0.448787203735498
+self.infix=None0
+self.infix=x**2 + 9*x0.0012713149759334976
+self.infix=None0
+self.infix=x**3/3 - cos(x)4.571233596431962e-06
+self.infix=3*x + log(x)0.4976532035176741
+self.infix=cos(3*x)0.3318836329642701
+self.infix=None0
+self.infix=None0
+self.infix=x**5/5 - 2*x*log(x)9.625982026878139e-12
+self.infix=cosh(x + 3)0
+self.infix=4*x + 50.3320460983770466
+self.infix=-exp(x - 1)0
+self.infix=x**3/304.571393777584487e-05
+self.infix=x*exp(2*x)0
+self.infix=None0
+self.infix=x**3/3 + 5*x**2/24.531443604578254e-06
+self.infix=x**7/7 + 4*x**5/59.862531704897791e-16
+self.infix=2*x**2 - log(cos(x))0
+self.infix=x*(2*x + 1)0.0006420277406515395
+self.infix=4*x**5/5 + x**2/22.4064955043555334e-12
+self.infix=sin(x + 4)0.331886319828269
+self.infix=None0
+self.infix=None0
+self.infix=2*x**3/3 + 3*x**22.2736342552772013e-06
+self.infix=-x**2*log(x)**2/100.00028459259997128686
+self.infix=x0.49780715574368106
+self.infix=None0
+self.infix=-x + tan(x)0.2490214116186542
+self.infix=None0
+self.infix=x*tan(4)0.5404506277314971
+self.infix=2*x**2 + x + (x + 2)**41.2059413550810049e-06
+self.infix=None0
+self.infix=2*cos(3*x)/30.3318828088478109
+self.infix=None0
+self.infix=-log(cos(x)) + sin(x)0
+self.infix=x*(5 - x)0.0012872434563551238
+self.infix=2*x**2*(x + 2)7.600901554865597e-07
+self.infix=(2*x - 1)*exp(2*x)/220
+self.infix=-20
+self.infix=4*x + 20.33254173337085496
+self.infix=-1/(3*x**3)0.33188113377005346
+self.infix=None0
+self.infix=x*sinh(5)0.013603491451962477
+self.infix=None0
+self.infix=-x**20.0012792248311872185
+self.infix=-x*cos(x) + 3*sin(x)0.3180048087466204
+self.infix=x**2 + x - acos(x)0
+self.infix=None0
+self.infix=x*(x + 7)0.0012744725714622417
+self.infix=None0
+self.infix=2*x**(3/2)/3 - cos(x)0.0575713520706794
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.07116197049617767
+top: 0.4410560727119446
+self.infix=11*pi/(12*x**2)0.33188114361913384
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=tanh(log(3))**20
+self.infix=sinh(3*x)0
+self.infix=None0
+self.infix=x + acosh(x)**30.6760830728772037
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**4/4 + x**26.938306925687488e-09
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**2/2 + 2*x - log(cos(x))0
+self.infix=sqrt(x) + sinh(x)0
+self.infix=-x**3/3 + sin(x)4.571156208350181e-06
+self.infix=x*(2*x**2 - log(x))7.618733913947008e-07
+self.infix=None0
+self.infix=x*(x*cos(1) + x)0.0008343124138032561
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=sqrt(3*x + 1)0.3392914371505481
+self.infix=2*x*(x + 4)0.0006392294649435524
+self.infix=None0
+self.infix=sinh(1)/(2*x**6)0.33188113470367947
+self.infix=None0
+self.infix=x**2/2 - log(x)**(1/3)/3 + log(x)0.002574387225278761
+self.infix=acosh(x + 4)0.3330582545136645
+self.infix=3 - exp(x)0
+self.infix=None0
+self.infix=24/250
+self.infix=x*sin(6/x**2)0.3318831009138613
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**3/3 - cosh(x)0
+self.infix=None0
+self.infix=None0
+self.infix=x**5 + 7*x**4/41.921483212870969e-12
+self.infix=3*x**2 + x - 40.00042802147556675584
+self.infix=4*tan(x)0.3322929206618698
+self.infix=sinh(x) + 120
+self.infix=-x**2/2 + exp(-4*x)0.002548823754183617
+self.infix=x*exp(x) + 20*log(x) + 40
+self.infix=tan(2*x - 2)0.33221983916871545
+self.infix=None0
+self.infix=None0
+self.infix=x0.49780715574368106
+self.infix=x + tan(x)**2 - 10.1348818172097493
+self.infix=None0
+self.infix=None0
+self.infix=sin(x)**(-8)2.26245863224629e-30
+self.infix=4*asinh(x)0.33662811316133023
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**2/2 + x*tan(2)0.002588613594905982
+self.infix=None0
+self.infix=None0
+self.infix=x**2 + cosh(x)0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=2*x + 2/tanh(x)0.9982790695021553
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**(5/2) + x4.453467610475426e-05
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=22*x + 4*tan(x)**3/30.0005146673369320692
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=-x/sin(x)0.0010992806494319314
+self.infix=x - tan(x)0.4972241385022143
+self.infix=x + sin(2*x) + 1/x0.49782265643284324
+self.infix=None0
+self.infix=2*x + cos(acosh(x))0.9958343808748338
+self.infix=None0
+self.infix=x*(2 - x)0.0012824206442146207
+self.infix=None0
+self.infix=tan(x) + cosh(log(x))0.3985018034776655
+self.infix=(x + 3)/x**20.3318814726171632
+self.infix=sin(3*x - 1)/30.3318802324570518
+self.infix=None0
+self.infix=x + cos(x + 1)0.49782077563294796
+self.infix=cos(x) + sinh(x)0
+self.infix=None0
+self.infix=None0
+self.infix=-8*x/750.3204867074426041
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=-5*sinh(x)*cosh(x) + 5*cosh(x) + sinh(x)/x0
+self.infix=3 + 1/(x*sin(x)**3)2.016779314728055e-06
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=cos(x/6)0.3318778857537028
+self.infix=None0
+self.infix=None0
+self.infix=x**2*log(x + 2)0.0001913600634839881
+self.infix=None0
+self.infix=None0
+self.infix=4*x*exp(x)0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x*tan(cos(x)**2)/20.37401915015369325
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=cos(x)0.33188070116860685
+self.infix=None0
+self.infix=x**2 + tan(1)0.0012856414611533374
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**2/2 + sin(2*x)0.0025744379423735817
+self.infix=None0
+self.infix=(x + 3)*exp(3*x)0
+self.infix=x - sin(x)0.49782394669724334
+self.infix=8*x + acos(x)/20
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=3*cos(4*x)0.33188008017077325
+self.infix=x*log(3/2) - log(cos(log(2*x)))0
+self.infix=3*log(x + 1)0.3350827046873228
+self.infix=None0
+self.infix=None0
+self.infix=-x**2/2 + x*cos(x) + sin(x)0.00254883267802657
+self.infix=x**(3/2) + x**3/34.5706790862377425e-06
+self.infix=None0
+self.infix=None0
+self.infix=x**2/100.012999345480799077
+self.infix=None0
+self.infix=x/tan(5)**20.3418518397007204
+self.infix=None0
+self.infix=x*(x + cos(x)) - x0.0012872521315085218
+<lambdifygenerated-182>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(3*x)
+<lambdifygenerated-185>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 + 2*x - log(cos(x))
+<lambdifygenerated-186>:2: RuntimeWarning: overflow encountered in sinh
+  return sqrt(x) + sinh(x)
+<lambdifygenerated-195>:2: RuntimeWarning: overflow encountered in exp
+  return 3 - exp(x)
+<lambdifygenerated-198>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/3)*x**3 - cosh(x)
+<lambdifygenerated-202>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x) + 12
+<lambdifygenerated-204>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + 20*log(x) + 4
+<lambdifygenerated-204>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + 20*log(x) + 4
+<lambdifygenerated-211>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + cosh(x)
+<lambdifygenerated-224>:2: RuntimeWarning: overflow encountered in sinh
+  return cos(x) + sinh(x)
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in sinh
+  return -5*sinh(x)*cosh(x) + 5*cosh(x) + sinh(x)/x
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in multiply
+  return -5*sinh(x)*cosh(x) + 5*cosh(x) + sinh(x)/x
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in cosh
+  return -5*sinh(x)*cosh(x) + 5*cosh(x) + sinh(x)/x
+<lambdifygenerated-226>:2: RuntimeWarning: invalid value encountered in add
+  return -5*sinh(x)*cosh(x) + 5*cosh(x) + sinh(x)/x
+<lambdifygenerated-230>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-230>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-235>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 3)*exp(3*x)
+<lambdifygenerated-235>:2: RuntimeWarning: overflow encountered in multiply
+  return (x + 3)*exp(3*x)
+<lambdifygenerated-237>:2: RuntimeWarning: invalid value encountered in arccos
+  return 8*x + (1/2)*arccos(x)
+<lambdifygenerated-239>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(3/2) - log(cos(log(2*x)))
+<lambdifygenerated-251>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 - 11/2*sinh(2*x)
+<lambdifygenerated-252>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - x*cos(exp(x)) + sin(x)
+<lambdifygenerated-252>:2: RuntimeWarning: invalid value encountered in cos
+  return x**2 - x*cos(exp(x)) + sin(x)
+<lambdifygenerated-261>:2: RuntimeWarning: overflow encountered in exp
+  return -1/4*x*(x - 1)*exp(x) + exp(x)
+<lambdifygenerated-261>:2: RuntimeWarning: overflow encountered in multiply
+  return -1/4*x*(x - 1)*exp(x) + exp(x)
+<lambdifygenerated-261>:2: RuntimeWarning: invalid value encountered in add
+  return -1/4*x*(x - 1)*exp(x) + exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-264>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 + x + sinh(x)
+<lambdifygenerated-270>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*sinh(2*x + 2)
+<lambdifygenerated-276>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)**(-1.0)
+self.infix=x**2 + 4*x + log(x + 4)/20.0012792305728925781
+self.infix=-2*sqrt(x) + 2*log(x)0.32573808726935777
+self.infix=None0
+self.infix=-2*sqrt(3*x**2 + 1)/9 - acosh(9*x)0.292943437081832
+self.infix=None0
+self.infix=None0
+self.infix=sin(x)**2*cos(x)/4 + sin(x)**2/2 + sin(x)*cos(x)/20.3319204989438283
+self.infix=-x**2/2 + (2*x - 5)*log(2*x)/20.002596040275164791
+self.infix=None0
+self.infix=x**2/2 - 11*sinh(2*x)/20
+self.infix=None0
+self.infix=x**2 - x*cos(exp(x)) + sin(x)0
+self.infix=-5/x0.33187948279267715
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=2*atan(tanh(1))0
+self.infix=None0
+self.infix=(x - 3)/(3*tan(x))0.003306075978540186
+self.infix=None0
+self.infix=x/(tan(x) - 2)0.05527296229737267
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=-tan(x - 1)0.3317831151429027
+self.infix=None0
+self.infix=-exp(sqrt(x)) + sin(log(x))6.226259121862871e-11
+self.infix=log(x**3)0.33508172328695884
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**2/log(2)0.0008908066702710954
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=-x*(x - 1)*exp(x)/4 + exp(x)0
+self.infix=None0
+self.infix=10 + 1/x0.3335366697126363
+self.infix=None0
+self.infix=None0
+self.infix=x**3*(x**2 + x) + x0
+self.infix=x**2/2 + x + sinh(x)0
+self.infix=x + 2*sin(x) + cos(x)0.4977714592635558
+self.infix=x**5/5 - x**29.625982092807925e-12
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=-2*x + 2*pi**20.20031016837589372
+self.infix=None0
+self.infix=-x**3/9 + 2*sqrt(log(x))/31.3713111485024226e-05
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=2*x + 7/(2*tan(x)**6)1.7784459569855054e-22
+self.infix=sinh(2*x + 2)/20
+self.infix=None0
+self.infix=None0
+self.infix=2*x + sin(x + 5)0.9947124023911977
+self.infix=2*x*cos(log(x)) + x0.5457990397171807
+self.infix=-6*x - 4*tanh(x)**30.11055803401823042
+self.infix=None0
+self.infix=None0
+self.infix=x + 90.5011637751533853
+self.infix=sqrt(x)*sqrt(x**3) + x0.0012840371651206268
+self.infix=None0
+self.infix=1/asin(x)0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=None0
+self.infix=x**(3/2) + x**20.0012419242874889133
+self.infix=sin(2*x + 2)**20.3319606774568125
+self.infix=None0
+self.infix=None0
+mean: 0.06623653322458267
+top: 0.6760830879211426
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Traceback (most recent call last):
+  File "avaliation.py", line 124, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 864, in forward
+    all_cross_attentions = () if output_attentions and self.config.add_cross_attention else None
+KeyboardInterrupt

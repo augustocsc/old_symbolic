@@ -1,0 +1,170 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+  0%|                                                                                               | 0/10 [00:00<?, ?it/s]avaliation.py:117: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-2>:2: RuntimeWarning: divide by zero encountered in reciprocal
+  return log(x)**(-1.0)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x*exp(x) + x)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x*exp(x) + x)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-8>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 8.155621617333964e-05
+top: 0.006204635836184025
+ 10%|████████▋                                                                              | 1/10 [00:16<02:27, 16.36s/it]
+mean: 0.0004482382792048156
+ 10%|████████▋                                                                              | 1/10 [00:16<02:27, 16.36s/it]<lambdifygenerated-20>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 1)
+<lambdifygenerated-24>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 3*arcsin(x)
+<lambdifygenerated-32>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(4)
+<lambdifygenerated-38>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 3)
+<lambdifygenerated-40>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 2)
+<lambdifygenerated-40>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 2)
+ 20%|█████████████████▍                                                                     | 2/10 [00:31<02:07, 15.93s/it]
+mean: 0.00022249296307563782
+ 20%|█████████████████▍                                                                     | 2/10 [00:31<02:07, 15.93s/it]<lambdifygenerated-52>:2: RuntimeWarning: overflow encountered in sinh
+  return -5*sinh(x)
+<lambdifygenerated-52>:2: RuntimeWarning: overflow encountered in multiply
+  return -5*sinh(x)
+<lambdifygenerated-53>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-58>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-58>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-59>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-59>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-60>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + x
+<lambdifygenerated-72>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 1)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:1164: UserWarning: The average ratio of batch (13.29) exceeds threshold 10.00. Skipping batch.
+  warnings.warn(
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:1164: UserWarning: The average ratio of batch (23.15) exceeds threshold 10.00. Skipping batch.
+  warnings.warn(
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:1164: UserWarning: The average ratio of batch (18.85) exceeds threshold 10.00. Skipping batch.
+  warnings.warn(
+ 30%|██████████████████████████                                                             | 3/10 [00:47<01:51, 15.89s/it]<lambdifygenerated-75>:2: RuntimeWarning: overflow encountered in cosh
+  return 33*cosh(x)
+<lambdifygenerated-75>:2: RuntimeWarning: overflow encountered in multiply
+  return 33*cosh(x)
+<lambdifygenerated-81>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-82>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 5)
+<lambdifygenerated-85>:2: RuntimeWarning: overflow encountered in sinh
+  return -sinh(x)
+<lambdifygenerated-87>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 1)
+<lambdifygenerated-88>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)**2
+<lambdifygenerated-88>:2: RuntimeWarning: overflow encountered in square
+  return cosh(x)**2
+mean: 0.0009025703766383231
+top: 0.20135407149791718
+ 40%|██████████████████████████████████▊                                                    | 4/10 [01:03<01:34, 15.71s/it]<lambdifygenerated-98>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**2
+<lambdifygenerated-98>:2: RuntimeWarning: overflow encountered in square
+  return sinh(x)**2
+<lambdifygenerated-99>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x)
+<lambdifygenerated-99>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x)
+mean: 8.532429637853056e-05
+top: 0.006204635836184025
+ 50%|███████████████████████████████████████████▌                                           | 5/10 [01:19<01:18, 15.76s/it]<lambdifygenerated-119>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-119>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-123>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-123>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+mean: 0.00019611581228673458
+top: 0.01699458807706833
+ 60%|████████████████████████████████████████████████████▏                                  | 6/10 [01:34<01:02, 15.66s/it]
+mean: 9.945703641278669e-05
+ 60%|████████████████████████████████████████████████████▏                                  | 6/10 [01:34<01:02, 15.66s/it]<lambdifygenerated-139>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(5*x)
+<lambdifygenerated-143>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-143>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+<lambdifygenerated-144>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+<lambdifygenerated-145>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-145>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-147>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-149>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(log(x)) + x
+ 70%|████████████████████████████████████████████████████████████▉                          | 7/10 [01:49<00:46, 15.56s/it]<lambdifygenerated-156>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2*arccos(x)
+<lambdifygenerated-160>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+<lambdifygenerated-163>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(5*x)
+<lambdifygenerated-167>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(3*x)
+mean: 6.601538916584104e-05
+top: 0.010019510984420776
+ 80%|█████████████████████████████████████████████████████████████████████▌                 | 8/10 [02:05<00:31, 15.56s/it]<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in cosh
+  return tan(x) + cosh(x)
+<lambdifygenerated-173>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-175>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 1)
+<lambdifygenerated-175>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 1)
+<lambdifygenerated-178>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x) + cosh(x)
+<lambdifygenerated-182>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 4)*exp(x)
+<lambdifygenerated-182>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 4)*exp(x)
+mean: 0.00029586689197458327
+top: 0.042196132242679596
+ 90%|██████████████████████████████████████████████████████████████████████████████▎        | 9/10 [02:20<00:15, 15.46s/it]<lambdifygenerated-185>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-186>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-186>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-187>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x) + 1
+<lambdifygenerated-193>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arccos(arcsin(x))
+<lambdifygenerated-193>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(arcsin(x))
+<lambdifygenerated-197>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*cosh(x)
+<lambdifygenerated-197>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*cosh(x)
+mean: 0.000295719102723524
+top: 0.02964351885020733
+100%|██████████████████████████████████████████████████████████████████████████████████████| 10/10 [02:36<00:00, 15.66s/it]
+Traceback (most recent call last):
+  File "avaliation.py", line 160, in <module>
+    line["time"] = end_time - start_time
+NameError: name 'end_time' is not defined

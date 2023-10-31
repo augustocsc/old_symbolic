@@ -1,0 +1,18 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Traceback (most recent call last):
+  File "avaliation.py", line 80, in <module>
+    expression = line.expression
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'expression'
+prefix             Y x
+ expression          x
+ term_count          1
+ constant_count      0
+ operator_count      0
+ epoch_90          NaN
+ best_reward       NaN
+ mean_reward       NaN
+ top_reward        NaN
+Name: 0, dtype: object

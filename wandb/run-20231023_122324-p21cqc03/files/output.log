@@ -1,0 +1,25 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Traceback (most recent call last):
+  File "avaliation.py", line 97, in <module>
+    data = Data.load_experiment(experiment=line)
+  File "/home/augusto/symbolic/Data.py", line 58, in load_experiment
+    saved_data = pd.read_csv(experiment['dataset'])
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/io/common.py", line 716, in get_handle
+    ioargs = _get_filepath_or_buffer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/io/common.py", line 456, in _get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'float'>
+Working with expression:  2 * x[0] + 3
+Error in expression:  2 * x[0] + 3
+Loading experiment Linear Equation
+Working with expression:  2 * x[0] + 3
+Loading dataset from nan

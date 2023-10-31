@@ -1,0 +1,6670 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) + x
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x) + x
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in multiply
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-10>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(2*x) + x - 1/4*log(cos(2*x))
+<lambdifygenerated-18>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+<lambdifygenerated-18>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+<lambdifygenerated-25>:2: RuntimeWarning: overflow encountered in cosh
+  return -2*cosh(x)
+<lambdifygenerated-25>:2: RuntimeWarning: overflow encountered in multiply
+  return -2*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*(x - 1)*exp(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/3)*(x - 1)*exp(x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in exp
+  return 2*(x - 1)*exp(x)
+<lambdifygenerated-31>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*(x - 1)*exp(x)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x**2*arccos(x)
+<lambdifygenerated-41>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x**2*arctanh(x)
+<lambdifygenerated-41>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*arctanh(x)
+<lambdifygenerated-43>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x) + 1
+<lambdifygenerated-44>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-50>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 5*x*arcsin(x) + x + 5*arcsin(x)
+<lambdifygenerated-52>:2: RuntimeWarning: overflow encountered in sinh
+  return (3/2)*x**2 + sinh(x)
+<lambdifygenerated-61>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + x
+<lambdifygenerated-62>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-65>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)**2
+<lambdifygenerated-65>:2: RuntimeWarning: overflow encountered in square
+  return x + cosh(x)**2
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-99>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-108>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return (1/2)*x**2 + x*arctanh(x) + 2*arctanh(x)
+<lambdifygenerated-108>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*x**2 + x*arctanh(x) + 2*arctanh(x)
+<lambdifygenerated-109>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x + 5)
+<lambdifygenerated-116>:2: RuntimeWarning: overflow encountered in exp
+  return x**4 + x + exp(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-124>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 2*sin(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*cosh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*cosh(x)
+<lambdifygenerated-134>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*exp(4*x)
+<lambdifygenerated-136>:2: RuntimeWarning: overflow encountered in cosh
+  return -1/4*cosh(2*x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*log(cos(2*x))
+<lambdifygenerated-149>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+<lambdifygenerated-151>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x - 1)
+<lambdifygenerated-153>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-153>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x)
+<lambdifygenerated-156>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x**2 - log(cos(x))
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sin(x)
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in exp
+  return (1/22)*(2*x - 1)*exp(2*x)
+<lambdifygenerated-170>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/22)*(2*x - 1)*exp(2*x)
+<lambdifygenerated-177>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2 + x - arccos(x)
+self.infix=x**5/5 + x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x**(3/2)/3 + 3*x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + 4*log(x)
+self.y_pred=(1000,)
+self.infix=x*exp(2*x) + x
+self.y_pred=(1000,)
+self.infix=x**(5/3)
+self.y_pred=(1000,)
+self.infix=x**2*(x + exp(x) + 1)
+self.y_pred=(1000,)
+self.infix=2*x**2 + 2*x*log(x) + 2*x
+self.y_pred=(1000,)
+self.infix=x*sin(x) + x
+self.y_pred=(1000,)
+self.infix=x + (x + 4)*exp(x)
+self.y_pred=(1000,)
+self.infix=x*log(2*x) + x - log(cos(2*x))/4
+self.y_pred=(1000,)
+self.infix=4*x**3/3
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 2)
+self.y_pred=(1000,)
+self.infix=4*x + 5
+self.y_pred=(1000,)
+self.infix=x**3/3 + 3*x**2/2
+self.y_pred=(1000,)
+self.infix=2*sqrt(2)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x*log(x**3)
+self.y_pred=(1000,)
+self.infix=x*log(x**2 + x) - 2*x + 2*log(x - 2)
+self.y_pred=(1000,)
+self.infix=x*log(3*x**2) - x
+self.y_pred=(1000,)
+self.infix=9
+self.y_pred=(1,)
+self.infix=x*log(2*x) - log(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2/4 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2/2 + 5*x
+self.y_pred=(1000,)
+self.infix=-x**3/3 + x**2/2 + 1/5
+self.y_pred=(1000,)
+self.infix=-2*cosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + 3) - 2*x
+self.y_pred=(1000,)
+self.infix=(2*x**2 + x)**2
+self.y_pred=(1000,)
+self.infix=(x - 1)*exp(x)/3
+self.y_pred=(1000,)
+self.infix=sqrt(2*x + 5)
+self.y_pred=(1000,)
+self.infix=89*x**3
+self.y_pred=(1000,)
+self.infix=2*(x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x)**3*cos(4)**3/9
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=5*x*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*sin(x**2)
+self.y_pred=(1000,)
+self.infix=x**7/7
+self.y_pred=(1000,)
+self.infix=5*x**4/2 + x**3/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**6/6 + x**3/3 - x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-3*x**2*cos(x) + x**2 - 3*x*sin(x) + 3*cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2*acos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*atanh(x)
+self.y_pred=(1000,)
+self.infix=126*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x + asin(x) + 1
+self.y_pred=(1000,)
+self.infix=exp(2*x)/2
+self.y_pred=(1000,)
+self.infix=log(tan(3*x)**2 + 1)/3
+self.y_pred=(1000,)
+self.infix=2*sin(x + 5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=2*x**5/5 + 3*x
+self.y_pred=(1000,)
+self.infix=log(x)/x
+self.y_pred=(1000,)
+self.infix=x**2 + 28*x
+self.y_pred=(1000,)
+self.infix=5*x*asin(x) + x + 5*asin(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x + 1)/4
+self.y_pred=(1000,)
+self.infix=3*x**2/2 + sinh(x)
+self.y_pred=(1000,)
+self.infix=1/(x + 2)
+self.y_pred=(1000,)
+self.infix=3*x**6/26
+self.y_pred=(1000,)
+self.infix=91*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=20*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(x**2) + 4*x
+self.y_pred=(1000,)
+self.infix=-1/(18*x)
+self.y_pred=(1000,)
+self.infix=(4*x**2 + x)/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(x + 3) - 17*log(x + 7) + 33
+self.y_pred=(1000,)
+self.infix=x*acos(x) + x
+self.y_pred=(1000,)
+self.infix=2*x + sinh(x)
+self.y_pred=(1000,)
+self.infix=(x + 15)**5
+self.y_pred=(1000,)
+self.infix=5*x + 1
+self.y_pred=(1000,)
+self.infix=x + cosh(x)**2
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=x**3/3 + 3*x**2 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**3 + 2*x
+self.y_pred=(1000,)
+self.infix=3*x**2/4
+self.y_pred=(1000,)
+self.infix=-x**2
+self.y_pred=(1000,)
+self.infix=x**3*(x + 3)
+self.y_pred=(1000,)
+self.infix=x**3/16
+self.y_pred=(1000,)
+self.infix=x + (sqrt(x) - 1)*(x**2 + 1)
+self.y_pred=(1000,)
+self.infix=2*x*asinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*sin(acosh(x))
+self.y_pred=(1000,)
+self.infix=log(tan(2*x + 5)**2 + 1)/5
+self.y_pred=(1000,)
+self.infix=2*exp(x)
+self.y_pred=(1000,)
+self.infix=x**2 + 5*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=8*x**3
+self.y_pred=(1000,)
+self.infix=3*x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=exp(1 - x)
+self.y_pred=(1000,)
+self.infix=tan(x + 5)
+self.y_pred=(1000,)
+self.infix=5*x**2*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*log(x)
+self.y_pred=(1000,)
+self.infix=-x - 2
+self.y_pred=(1000,)
+self.infix=log(2*x)/x
+self.y_pred=(1000,)
+self.infix=4*x**2*tan(x)
+self.y_pred=(1000,)
+self.infix=-x*(x + 4) + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=1/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=x + x*tan(1)
+self.y_pred=(1000,)
+self.infix=sqrt(5)*x**(5/2)/25
+self.y_pred=(1000,)
+self.infix=8*x*sin(x)
+self.y_pred=(1000,)
+self.infix=x*(x + 1) + x
+self.y_pred=(1000,)
+self.infix=x**4 + x*cos(x)
+self.y_pred=(1000,)
+self.infix=cos(x - 5)
+self.y_pred=(1000,)
+self.infix=x**4/2
+self.y_pred=(1000,)
+self.infix=log(x + 1)/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=5*x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=x*acos(x) - sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=-2*x**(3/2)/3 + x*log(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=-x*sin(x) - cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + cos(3))
+self.y_pred=(1000,)
+self.infix=x*(x**2 - x)
+self.y_pred=(1000,)
+self.infix=x**3/3 + 4*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=asinh(x - 1)
+self.y_pred=(1000,)
+self.infix=2/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + x*atanh(x) + 2*atanh(x)
+self.y_pred=(1000,)
+self.infix=x - exp(x + 5)
+self.y_pred=(1000,)
+self.infix=2*x**2*(sqrt(x) + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2*(x + 1)
+self.y_pred=(1000,)
+self.infix=2*x**3 + x
+self.y_pred=(1000,)
+self.infix=sinh(1)/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x**2 + x + 1)
+self.y_pred=(1000,)
+self.infix=2*log(x)
+self.y_pred=(1000,)
+self.infix=x**4 + x + exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 1)*sin(x)
+self.y_pred=(1000,)
+self.infix=2*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=x**2*atan(x) + x
+self.y_pred=(1000,)
+self.infix=cos(2*x + 2)
+self.y_pred=(1000,)
+self.infix=-5*x**4/4 + 5*x**3/3
+self.y_pred=(1000,)
+self.infix=x*exp(3*x)
+self.y_pred=(1000,)
+self.infix=2*x**3/3 + x**2/4
+self.y_pred=(1000,)
+self.infix=exp(x) + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=x**6/34
+self.y_pred=(1000,)
+self.infix=9*x**8/4
+self.y_pred=(1000,)
+self.infix=x**4/4 + x**3 + 4*x
+self.y_pred=(1000,)
+self.infix=61*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=2/(5*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=5*x**3 + x
+self.y_pred=(1000,)
+self.infix=2*x*cosh(x)
+self.y_pred=(1000,)
+self.infix=x + 1/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=1/sqrt(2*x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=exp(4*x)/4
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(2)
+self.y_pred=(1000,)
+self.infix=-cosh(2*x)/4
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*sin(x) - cos(x)
+self.y_pred=(1000,)
+self.infix=x*exp(-1) + x
+self.y_pred=(1000,)
+self.infix=x/(x + 4)
+self.y_pred=(1000,)
+self.infix=x*(x + sin(5))
+self.y_pred=(1000,)
+self.infix=x**3 + x + 4
+self.y_pred=(1000,)
+self.infix=-log(cos(2*x))/2
+self.y_pred=(1000,)
+self.infix=3*x + exp(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 9*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3/3 - cos(x)
+self.y_pred=(1000,)
+self.infix=3*x + log(x)
+self.y_pred=(1000,)
+self.infix=cos(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**5/5 - 2*x*log(x)
+self.y_pred=(1000,)
+self.infix=cosh(x + 3)
+self.y_pred=(1000,)
+self.infix=4*x + 5
+self.y_pred=(1000,)
+self.infix=-exp(x - 1)
+self.y_pred=(1000,)
+self.infix=x**3/30
+self.y_pred=(1000,)
+self.infix=x*exp(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3/3 + 5*x**2/2
+self.y_pred=(1000,)
+self.infix=x**7/7 + 4*x**5/5
+self.y_pred=(1000,)
+self.infix=2*x**2 - log(cos(x))
+self.y_pred=(1000,)
+self.infix=x*(2*x + 1)
+self.y_pred=(1000,)
+self.infix=4*x**5/5 + x**2/2
+self.y_pred=(1000,)
+self.infix=sin(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=2*x**3/3 + 3*x**2
+self.y_pred=(1000,)
+self.infix=-x**2*log(x)**2/10
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x + tan(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*tan(4)
+self.y_pred=(1000,)
+self.infix=2*x**2 + x + (x + 2)**4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*cos(3*x)/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-log(cos(x)) + sin(x)
+self.y_pred=(1000,)
+self.infix=x*(5 - x)
+self.y_pred=(1000,)
+self.infix=2*x**2*(x + 2)
+self.y_pred=(1000,)
+self.infix=(2*x - 1)*exp(2*x)/22
+self.y_pred=(1000,)
+self.infix=-2
+self.y_pred=(1,)
+self.infix=4*x + 2
+self.y_pred=(1000,)
+self.infix=-1/(3*x**3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*sinh(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2
+self.y_pred=(1000,)
+self.infix=-x*cos(x) + 3*sin(x)
+self.y_pred=(1000,)
+self.infix=x**2 + x - acos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 7)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**(3/2)/3 - cos(x)
+self.y_pred=(1000,)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 0.07116197049617767
+top: 0.4410560727119446
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-183>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x)
+<lambdifygenerated-191>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 5)*exp(x)
+<lambdifygenerated-191>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 5)*exp(x)
+<lambdifygenerated-192>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(4*x**2)
+<lambdifygenerated-202>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 5)
+<lambdifygenerated-204>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x + 4)
+<lambdifygenerated-205>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x*arctanh(x) + log(x + 1) + (1/2)*arctanh(x)
+<lambdifygenerated-205>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) + log(x + 1) + (1/2)*arctanh(x)
+<lambdifygenerated-215>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x**2*exp(x) + x)
+<lambdifygenerated-215>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x**2*exp(x) + x)
+<lambdifygenerated-218>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + 2*x
+<lambdifygenerated-225>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x)
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in cosh
+  return -2*x*cosh(x) + 2*sinh(x)
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in multiply
+  return -2*x*cosh(x) + 2*sinh(x)
+<lambdifygenerated-226>:2: RuntimeWarning: overflow encountered in sinh
+  return -2*x*cosh(x) + 2*sinh(x)
+<lambdifygenerated-226>:2: RuntimeWarning: invalid value encountered in add
+  return -2*x*cosh(x) + 2*sinh(x)
+<lambdifygenerated-229>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x**2)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-232>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x + 2*arctanh(x)
+<lambdifygenerated-232>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + 2*arctanh(x)
+<lambdifygenerated-233>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-233>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-245>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-255>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*log(cos(2*x))
+<lambdifygenerated-260>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-263>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*(x - 1)*exp(x)
+<lambdifygenerated-263>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*(x - 1)*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-268>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x*(x - arctanh(x))
+<lambdifygenerated-268>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*(x - arctanh(x))
+<lambdifygenerated-273>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 3)*exp(x)
+<lambdifygenerated-273>:2: RuntimeWarning: overflow encountered in multiply
+  return (x + 3)*exp(x)
+<lambdifygenerated-280>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(2*x)
+<lambdifygenerated-286>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-286>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*sinh(x)
+<lambdifygenerated-287>:2: RuntimeWarning: invalid value encountered in log
+  return (1/3)*x**3 - log(cos(x))
+<lambdifygenerated-294>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 3)*exp(x)
+<lambdifygenerated-294>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 3)*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-307>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*arctanh(x + 1)
+<lambdifygenerated-309>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 1)*exp(x)
+<lambdifygenerated-309>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 1)*exp(x)
+<lambdifygenerated-311>:2: RuntimeWarning: divide by zero encountered in divide
+  return x/(x - 2)
+<lambdifygenerated-312>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/3)*x**3 + x*cosh(x) - sin(x)
+<lambdifygenerated-312>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/3)*x**3 + x*cosh(x) - sin(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-324>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(3)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-334>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 - sinh(x)
+<lambdifygenerated-338>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-338>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-340>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + 4)*exp(x)
+<lambdifygenerated-340>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + 4)*exp(x)
+<lambdifygenerated-347>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)**(-1.0)
+<lambdifygenerated-350>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(6*x)
+self.infix=2*x*atan(x)
+self.y_pred=(1000,)
+self.infix=x/(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=(x + 5)**2
+self.y_pred=(1000,)
+self.infix=sinh(2*x)
+self.y_pred=(1000,)
+self.infix=20*log(x)
+self.y_pred=(1000,)
+self.infix=4*x*log(x) + x
+self.y_pred=(1000,)
+self.infix=2*x*tan(1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*tanh(x)
+self.y_pred=(1000,)
+self.infix=x**2/(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=8*x**3/3 + 4*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x**2 + 2)
+self.y_pred=(1000,)
+self.infix=(x - 5)*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(4*x**2)
+self.y_pred=(1000,)
+self.infix=x*(2*x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=8*x**3
+self.y_pred=(1000,)
+self.infix=2*x + log(x)
+self.y_pred=(1000,)
+self.infix=sqrt(3)*x**2
+self.y_pred=(1000,)
+self.infix=x**3/3 + sin(x)
+self.y_pred=(1000,)
+self.infix=x*(1 - x)
+self.y_pred=(1000,)
+self.infix=2*x**(5/2)/5 + x**3/3
+self.y_pred=(1000,)
+self.infix=x*(x*cos(1) + x)
+self.y_pred=(1000,)
+self.infix=27*x*sin(x)
+self.y_pred=(1000,)
+self.infix=acos(x + 5)
+self.y_pred=(1000,)
+self.infix=sqrt(2)*x**2/23
+self.y_pred=(1000,)
+self.infix=asin(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*atanh(x) + log(x + 1) + atanh(x)/2
+self.y_pred=(1000,)
+self.infix=3*x + log(2*x)
+self.y_pred=(1000,)
+self.infix=sqrt(2*x + 1)
+self.y_pred=(1000,)
+self.infix=2*x*(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + cos(x)
+self.y_pred=(1000,)
+self.infix=acosh(x + 4)
+self.y_pred=(1000,)
+self.infix=3*x + 3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 4*log(x)
+self.y_pred=(1000,)
+self.infix=x*sin(2*x)
+self.y_pred=(1000,)
+self.infix=x*(x**2*exp(x) + x)
+self.y_pred=(1000,)
+self.infix=x**2 + x - cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + 23)
+self.y_pred=(1000,)
+self.infix=x*acos(x) + 2*x
+self.y_pred=(1000,)
+self.infix=-x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x + sin(x)
+self.y_pred=(1000,)
+self.infix=x**2/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=x**2 - 1
+self.y_pred=(1000,)
+self.infix=4*tan(x)
+self.y_pred=(1000,)
+self.infix=3*x + 1
+self.y_pred=(1000,)
+self.infix=x**2/2 + exp(x)
+self.y_pred=(1000,)
+self.infix=-2*x*cosh(x) + 2*sinh(x)
+self.y_pred=(1000,)
+self.infix=tan(x - 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x/(x + 5)
+self.y_pred=(1000,)
+self.infix=sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**5
+self.y_pred=(1000,)
+self.infix=4*asinh(x)
+self.y_pred=(1000,)
+self.infix=x + 2*atanh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=3*x**2/2 + 5*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + 5*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=9*x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=(x*log(x) + x)/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(sqrt(x) + cos(x))
+self.y_pred=(1000,)
+self.infix=x/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=tan(4*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x*atan(x)
+self.y_pred=(1000,)
+self.infix=2*x + log(tanh(x**2))/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*(-x**2 + x)
+self.y_pred=(1000,)
+self.infix=x - exp(x)
+self.y_pred=(1000,)
+self.infix=x + asinh(x**3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**(3/2)/3 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(1 - x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=(x + 4)/x**2
+self.y_pred=(1000,)
+self.infix=-1/x
+self.y_pred=(1000,)
+self.infix=tanh(x)/3
+self.y_pred=(1000,)
+self.infix=x + cos(x + 4)
+self.y_pred=(1000,)
+self.infix=3*x + 3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x - acosh(x)
+self.y_pred=(1000,)
+self.infix=-log(cos(2*x))/2
+self.y_pred=(1000,)
+self.infix=3*x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=2/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x**2/sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(2*x + 4)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-log(cos(x))
+self.y_pred=(1000,)
+self.infix=cos(x + 5)
+self.y_pred=(1000,)
+self.infix=x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=(x - 1)*exp(x)/2
+self.y_pred=(1000,)
+self.infix=x*log(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=251*x**5
+self.y_pred=(1000,)
+self.infix=cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + tanh(x)
+self.y_pred=(1000,)
+self.infix=x*(x - atanh(x))
+self.y_pred=(1000,)
+self.infix=2*x + log(x**2)
+self.y_pred=(1000,)
+self.infix=x**4/4 + x**3/3
+self.y_pred=(1000,)
+self.infix=2*x + 1
+self.y_pred=(1000,)
+self.infix=x**3 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(x + 3)*exp(x)
+self.y_pred=(1000,)
+self.infix=x*sinh(3)
+self.y_pred=(1000,)
+self.infix=x**2/2 + 8*x
+self.y_pred=(1000,)
+self.infix=x**3/3
+self.y_pred=(1000,)
+self.infix=2*x**7/7
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2/4 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**2/2 + x*log(x**2) - x
+self.y_pred=(1000,)
+self.infix=2*x + exp(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=30*x**4
+self.y_pred=(1000,)
+self.infix=x**4/4 + 10*x
+self.y_pred=(1000,)
+self.infix=3*log(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=4*x + sin(x)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=2*sinh(x)
+self.y_pred=(1000,)
+self.infix=x**3/3 - log(cos(x))
+self.y_pred=(1000,)
+self.infix=x**2/10
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 1)**2
+self.y_pred=(1000,)
+self.infix=log(tan(x + 4)**2 + 1)/2
+self.y_pred=(1000,)
+self.infix=x*log(2*x) - x
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=2*x*(x + 4)
+self.y_pred=(1000,)
+self.infix=(x - 3)*exp(x)
+self.y_pred=(1000,)
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=x*(x + 4) + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4/2 + 2*x**3/3
+self.y_pred=(1000,)
+self.infix=-x**2/2 + x*log(x)
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=7*x**2/2
+self.y_pred=(1000,)
+self.infix=x**4/4
+self.y_pred=(1000,)
+self.infix=4*x**3 + x**2
+self.y_pred=(1000,)
+self.infix=sqrt(2)*x**(3/2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*(2*x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x**2*sin(x)
+self.y_pred=(1000,)
+self.infix=2*x - 1
+self.y_pred=(1000,)
+self.infix=2*atanh(x + 1)
+self.y_pred=(1000,)
+self.infix=x*exp(4)
+self.y_pred=(1000,)
+self.infix=(x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x + 2)
+self.y_pred=(1000,)
+self.infix=x/(x - 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3/3 + x*cosh(x) - sin(x)
+self.y_pred=(1000,)
+self.infix=-2*x*sin(x) + x + 2*cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-1/x
+self.y_pred=(1000,)
+self.infix=x*exp(-1) + x
+self.y_pred=(1000,)
+self.infix=3*x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=log(x**5/5)
+self.y_pred=(1000,)
+self.infix=x - log(x + cos(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*(sqrt(x) + x)**2
+self.y_pred=(1000,)
+self.infix=sqrt(2)*x/2
+self.y_pred=(1000,)
+self.infix=9*x**3
+self.y_pred=(1000,)
+self.infix=x**2*(x**4 + x)
+self.y_pred=(1000,)
+self.infix=2/x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*atanh(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x - sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(x + 5)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-x**2 + x
+self.y_pred=(1000,)
+self.infix=x*log(x) + x
+self.y_pred=(1000,)
+self.infix=x + 2*sin(x) + cos(x)
+self.y_pred=(1000,)
+self.infix=-x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=3*x**2*cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=2*x**2 - x
+self.y_pred=(1000,)
+self.infix=x**2*(2*x**2 + x)
+self.y_pred=(1000,)
+self.infix=x**2/2 - sinh(x)
+self.y_pred=(1000,)
+self.infix=x*(3*x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x - acosh(x)
+self.y_pred=(1000,)
+self.infix=7*x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=2*x*(x + exp(x))
+self.y_pred=(1000,)
+self.infix=x*sinh(2)
+self.y_pred=(1000,)
+self.infix=x**2*(x + 4)*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=x*log(x**2) - x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3/3 + x**2/4
+self.y_pred=(1000,)
+self.infix=x + 9
+self.y_pred=(1000,)
+self.infix=x*exp(sqrt(x))
+self.y_pred=(1000,)
+self.infix=x*sin(x) + 2*x
+self.y_pred=(1000,)
+self.infix=1/asin(x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + 10*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=x + exp(6*x)
+self.y_pred=(1000,)
+self.infix=x**2 + x*exp(3)
+self.y_pred=(1000,)
+self.infix=1/(x**2 + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=7*x**2/2 + x
+self.y_pred=(1000,)
+mean: 0.10009529441595078
+top: 0.47278088331222534
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+self.infix=cosh(x + 5)
+self.y_pred=(1000,)
+self.infix=x + (x - 1)**2
+self.y_pred=(1000,)
+self.infix=x**2/2 + exp(x)
+self.y_pred=(1000,)
+self.infix=acosh(2*x)
+self.y_pred=(1000,)
+self.infix=2*sin(x)*cos(x)
+self.y_pred=(1000,)
+self.infix=-x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=2*x + cos(2)
+self.y_pred=(1000,)
+self.infix=5*exp(2*x)
+self.y_pred=(1000,)
+self.infix=-log(cos(x))
+self.y_pred=(1000,)
+self.infix=2*x + exp(x)
+self.y_pred=(1000,)
+self.infix=(1 - x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + exp(4))
+self.y_pred=(1000,)
+self.infix=-x + sin(2*x)
+self.y_pred=(1000,)
+self.infix=x**5/5 + x**2/4
+self.y_pred=(1000,)
+self.infix=x*exp(-1)
+self.y_pred=(1000,)
+self.infix=4*x*acos(x)
+self.y_pred=(1000,)
+self.infix=9*x**4/2
+self.y_pred=(1000,)
+self.infix=x + acosh(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + exp(x)
+self.y_pred=(1000,)
+self.infix=x*(2*x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*log(2*x)
+self.y_pred=(1000,)
+self.infix=x + cos(x) + 1
+self.y_pred=(1000,)
+self.infix=x*(x + tan(x))
+self.y_pred=(1000,)
+self.infix=(x + 1)/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=5*x + 4
+self.y_pred=(1000,)
+self.infix=sin(x - 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(8)
+self.y_pred=(1000,)
+self.infix=2*x**2 + x*exp(4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*asinh(x)**2
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 4*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + x*asin(2)
+self.y_pred=(1000,)
+self.infix=2*x**(5/2)/5
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-sin(3*x)/3
+self.y_pred=(1000,)
+self.infix=4*x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(tan(2*x))/2
+self.y_pred=(1000,)
+self.infix=-x*log(2*x) + 2*x
+self.y_pred=(1000,)
+self.infix=x**2*tan(3)/2
+self.y_pred=(1000,)
+self.infix=(x + asin(x))**2
+self.y_pred=(1000,)
+self.infix=2*x**2 - x
+self.y_pred=(1000,)
+self.infix=sqrt(2)/x
+self.y_pred=(1000,)
+self.infix=4*x*exp(x)
+self.y_pred=(1000,)
+self.infix=2*x + sinh(x)
+self.y_pred=(1000,)
+self.infix=log(x)/x
+self.y_pred=(1000,)
+self.infix=-x*log(x**2) - x
+self.y_pred=(1000,)
+self.infix=sinh(2*x + 2)
+self.y_pred=(1000,)
+self.infix=x + tan(x)/x
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=(x + 3)**4
+self.y_pred=(1000,)
+self.infix=4*log(x)/x
+self.y_pred=(1000,)
+self.infix=2*x*exp(2*x)
+self.y_pred=(1000,)
+self.infix=sin(x)**4
+self.y_pred=(1000,)
+self.infix=log(x)*cos(3)
+self.y_pred=(1000,)
+self.infix=2*tan(3*x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*atan(x - 1) - atan(x + 1)
+self.y_pred=(1000,)
+self.infix=sinh(x)**2
+self.y_pred=(1000,)
+self.infix=2*x*cos(x)
+self.y_pred=(1000,)
+self.infix=x**2 + log(x)
+self.y_pred=(1000,)
+self.infix=-x**2/25
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x**2*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=-exp(x - 4)
+self.y_pred=(1000,)
+self.infix=sin(x)**2/x
+self.y_pred=(1000,)
+self.infix=1 - x**2
+self.y_pred=(1000,)
+self.infix=4*x**4 + 3*x**2/2
+self.y_pred=(1000,)
+self.infix=5*cos(x)
+self.y_pred=(1000,)
+self.infix=sqrt(2)*x**2
+self.y_pred=(1000,)
+self.infix=x*exp(3)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x*log(x) - x
+self.y_pred=(1000,)
+self.infix=2*sinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*atan(x)
+self.y_pred=(1000,)
+self.infix=4*asinh(x)
+self.y_pred=(1000,)
+self.infix=3*exp(4)
+self.y_pred=(1,)
+self.infix=None
+self.infix=3*x**2*log(x)**2
+self.y_pred=(1000,)
+self.infix=x*(x + 2)*log(x)
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x**(3/2)*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=acos(2*x)
+self.y_pred=(1000,)
+self.infix=x*(-x*cos(x) + x)
+self.y_pred=(1000,)
+self.infix=x*log(x + 3)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=(2*x + 1)**2
+self.y_pred=(1000,)
+self.infix=log(tan(2*x)**2 + 1)/2
+self.y_pred=(1000,)
+self.infix=2*x*log(x**2) + 2*x
+self.y_pred=(1000,)
+self.infix=x*(x + 4)
+self.y_pred=(1000,)
+self.infix=3*x + exp(x)
+self.y_pred=(1000,)
+self.infix=3*exp(2*x)
+self.y_pred=(1000,)
+self.infix=x*(x + cos(5))
+self.y_pred=(1000,)
+self.infix=sin(x)
+self.y_pred=(1000,)
+self.infix=acosh(x)**2
+self.y_pred=(1000,)
+self.infix=6*x**4
+self.y_pred=(1000,)
+self.infix=x*tan(x + 2)
+self.y_pred=(1000,)
+self.infix=sin(3*x + 1)/3
+self.y_pred=(1000,)
+self.infix=x*atan(x) + x
+self.y_pred=(1000,)
+self.infix=x/2 - log(cos(x))/2
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=5*x - sin(x)
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=tan(2*x + 3)
+self.y_pred=(1000,)
+self.infix=3*x*log(x)
+self.y_pred=(1000,)
+self.infix=3*x**2*cos(x) + 9*x*sin(x) + 9*sin(x)
+self.y_pred=(1000,)
+self.infix=25*x**4
+self.y_pred=(1000,)
+self.infix=x**3/3 + (x + 2)*exp(x) + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*sin(1/x)
+self.y_pred=(1000,)
+self.infix=4*x + 3
+self.y_pred=(1000,)
+self.infix=x**2 + 10*x
+self.y_pred=(1000,)
+self.infix=x*(2*x + 5)
+self.y_pred=(1000,)
+self.infix=1/(3*x)
+self.y_pred=(1000,)
+self.infix=2*x + 1/2
+self.y_pred=(1000,)
+self.infix=7*x**2/2
+self.y_pred=(1000,)
+self.infix=x**4/4 + x*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*tan(x + 3)
+self.y_pred=(1000,)
+self.infix=x**2/2 + (-x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=x - sinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/sin(x)
+self.y_pred=(1000,)
+self.infix=log(x)/3
+self.y_pred=(1000,)
+self.infix=4*sin(x**2)
+self.y_pred=(1000,)
+self.infix=-2*x*sin(x) + 2*cos(x)
+self.y_pred=(1000,)
+self.infix=x**2*exp(4)
+self.y_pred=(1000,)
+self.infix=-4/x
+self.y_pred=(1000,)
+self.infix=2*exp(4*x)
+self.y_pred=(1000,)
+self.infix=-sinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(2*x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*atan(x) + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/(x + 3)
+self.y_pred=(1000,)
+self.infix=2*exp(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=10*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=log(3*x)
+self.y_pred=(1000,)
+self.infix=sqrt(3)*x**4
+self.y_pred=(1000,)
+self.infix=x**3*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=2/x
+self.y_pred=(1000,)
+self.infix=x**7/7 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*log(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x**2 + x)**4
+self.y_pred=(1000,)
+self.infix=(x + 5)**2
+self.y_pred=(1000,)
+self.infix=x*cosh(1)
+self.y_pred=(1000,)
+self.infix=x*(x - 3)
+self.y_pred=(1000,)
+self.infix=2*x*sin(x) + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=exp(x)*tan(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(4*x**2)
+self.y_pred=(1000,)
+self.infix=2*cosh(x)
+self.y_pred=(1000,)
+self.infix=24*x + 2
+self.y_pred=(1000,)
+self.infix=2*x**3*atan(x)
+self.y_pred=(1000,)
+self.infix=x**4/4 + 3*x**2/2
+self.y_pred=(1000,)
+self.infix=x*(x + 1) + x
+self.y_pred=(1000,)
+self.infix=2*x*sinh(x)
+self.y_pred=(1000,)
+self.infix=sin(x - 3)
+self.y_pred=(1000,)
+self.infix=x - exp(x)
+self.y_pred=(1000,)
+self.infix=x*(x - 1)
+self.y_pred=(1000,)
+self.infix=x**4/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=x/sin(2)
+self.y_pred=(1000,)
+self.infix=asinh(x)**2
+self.y_pred=(1000,)
+self.infix=x**3/3 + 4*x
+self.y_pred=(1000,)
+self.infix=2*atanh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=4*log(2*x)
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 - 1
+self.y_pred=(1000,)
+self.infix=2*x + 2*exp(x)
+self.y_pred=(1000,)
+self.infix=x*(x + acos(x))
+self.y_pred=(1000,)
+self.infix=8*x**4
+self.y_pred=(1000,)
+self.infix=(2*x + 2)*exp(x)
+self.y_pred=(1000,)
+self.infix=0
+self.y_pred=(1,)
+self.infix=log(3*x + 1)/9
+self.y_pred=(1000,)
+self.infix=2*x*acos(x)
+self.y_pred=(1000,)
+self.infix=(8*x - 4)*exp(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x**2 + x)**2
+self.y_pred=(1000,)
+self.infix=asinh(2*x)
+self.y_pred=(1000,)
+self.infix=9*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x**2 + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*log(-x**2) - 4*x
+self.y_pred=(1000,)
+self.infix=x**2/2 - x
+self.y_pred=(1000,)
+self.infix=10*cos(x)
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 11)
+self.y_pred=(1000,)
+self.infix=6*x**2
+self.y_pred=(1000,)
+self.infix=x + sin(asinh(x))
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=x/(1 - x)
+self.y_pred=(1000,)
+self.infix=x*acosh(x) + 2*x
+self.y_pred=(1000,)
+self.infix=2*x**(5/2)/5 + 2*x**3/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-cos(x)
+self.y_pred=(1000,)
+self.infix=(x + 3)**4
+self.y_pred=(1000,)
+self.infix=x + 2*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=165*x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*log(2)
+self.y_pred=(1000,)
+self.infix=x**3 + exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=9*x**2
+self.y_pred=(1000,)
+self.infix=1/(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*log(x)
+self.y_pred=(1000,)
+self.infix=x**3/3 + (x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=(x + 2)/x
+self.y_pred=(1000,)
+self.infix=x**3/3 + 3*x**2/2
+self.y_pred=(1000,)
+self.infix=26*x**3
+self.y_pred=(1000,)
+self.infix=655*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(3*x)
+self.y_pred=(1000,)
+self.infix=x*(2*x + 3)
+self.y_pred=(1000,)
+self.infix=x**2*exp(2*x)
+self.y_pred=(1000,)
+self.infix=x*(x + 6)
+self.y_pred=(1000,)
+self.infix=x*(5*x**2 + x)
+self.y_pred=(1000,)
+self.infix=104*x**2
+self.y_pred=(1000,)
+self.infix=x**2 - sinh(x)
+self.y_pred=(1000,)
+self.infix=2*x - log(cos(x))
+self.y_pred=(1000,)
+self.infix=x**2/2
+self.y_pred=(1000,)
+self.infix=tan(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=cos(x + 4)
+self.y_pred=(1000,)
+self.infix=exp(x) + log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*acos(2)
+self.y_pred=(1000,)
+self.infix=log(x)
+self.y_pred=(1000,)
+self.infix=x*(x**3 + x + 3)
+self.y_pred=(1000,)
+self.infix=x**4/4
+self.y_pred=(1000,)
+self.infix=None
+<lambdifygenerated-354>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 5)
+<lambdifygenerated-356>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x)
+<lambdifygenerated-361>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(2*x)
+<lambdifygenerated-362>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-363>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-369>:2: RuntimeWarning: invalid value encountered in arccos
+  return 4*x*arccos(x)
+<lambdifygenerated-372>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-384>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (1/2)*x**2 + x*arcsin(2)
+<lambdifygenerated-388>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*log(tan(2*x))
+<lambdifygenerated-391>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (x + arcsin(x))**2
+<lambdifygenerated-394>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-394>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-395>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+<lambdifygenerated-398>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x + 2)
+<lambdifygenerated-403>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(2*x)
+<lambdifygenerated-403>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(2*x)
+<lambdifygenerated-408>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**2
+<lambdifygenerated-408>:2: RuntimeWarning: overflow encountered in square
+  return sinh(x)**2
+<lambdifygenerated-414>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x - 4)
+<lambdifygenerated-422>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-422>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*sinh(x)
+<lambdifygenerated-430>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-438>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-439>:2: RuntimeWarning: overflow encountered in exp
+  return 3*exp(2*x)
+<lambdifygenerated-447>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x - 1/2*log(cos(x))
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-455>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 + (x + 2)*exp(x) + 1
+<lambdifygenerated-455>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/3)*x**3 + (x + 2)*exp(x) + 1
+<lambdifygenerated-465>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (-x - 1)*exp(x)
+<lambdifygenerated-465>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 + (-x - 1)*exp(x)
+<lambdifygenerated-466>:2: RuntimeWarning: overflow encountered in sinh
+  return x - sinh(x)
+<lambdifygenerated-473>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(4*x)
+<lambdifygenerated-474>:2: RuntimeWarning: overflow encountered in sinh
+  return -sinh(x)
+<lambdifygenerated-478>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(2*x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-491>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)*tan(5)
+<lambdifygenerated-491>:2: RuntimeWarning: overflow encountered in multiply
+  return exp(x)*tan(5)
+<lambdifygenerated-492>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(4*x**2)
+<lambdifygenerated-493>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-493>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+<lambdifygenerated-498>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x)
+<lambdifygenerated-498>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*sinh(x)
+<lambdifygenerated-500>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-506>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 2*arctanh(x)
+<lambdifygenerated-506>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*arctanh(x)
+<lambdifygenerated-510>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + 2*exp(x)
+<lambdifygenerated-511>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-513>:2: RuntimeWarning: overflow encountered in exp
+  return (2*x + 2)*exp(x)
+<lambdifygenerated-513>:2: RuntimeWarning: overflow encountered in multiply
+  return (2*x + 2)*exp(x)
+<lambdifygenerated-516>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x*arccos(x)
+<lambdifygenerated-517>:2: RuntimeWarning: overflow encountered in exp
+  return (8*x - 4)*exp(x)
+<lambdifygenerated-517>:2: RuntimeWarning: overflow encountered in multiply
+  return (8*x - 4)*exp(x)
+<lambdifygenerated-522>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(-x**2) - 4*x
+<lambdifygenerated-530>:2: RuntimeWarning: divide by zero encountered in divide
+  return x/(1 - x)
+<lambdifygenerated-535>:2: RuntimeWarning: overflow encountered in exp
+  return x + 2*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-539>:2: RuntimeWarning: overflow encountered in exp
+  return x**3 + exp(x)
+<lambdifygenerated-543>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 + (x - 1)*exp(x)
+<lambdifygenerated-543>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/3)*x**3 + (x - 1)*exp(x)
+<lambdifygenerated-550>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(2*x)
+<lambdifygenerated-550>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(2*x)
+<lambdifygenerated-554>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2 - sinh(x)
+<lambdifygenerated-555>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - log(cos(x))
+<lambdifygenerated-559>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + log(x)
+<lambdifygenerated-560>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x*arccos(2)
+mean: 0.09911059588193893
+top: 0.9941416382789612
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+self.infix=x**2 + 2*x - cos(x)
+self.y_pred=(1000,)
+self.infix=3*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2*(x + 1)**2
+self.y_pred=(1000,)
+self.infix=-log(cos(2*x))/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=atanh(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(2*x) - 5*x
+self.y_pred=(1000,)
+self.infix=(x**2 + x)/x
+self.y_pred=(1000,)
+self.infix=x**2*cosh(4)
+self.y_pred=(1000,)
+self.infix=sin(x + 4)
+self.y_pred=(1000,)
+self.infix=4 - x
+self.y_pred=(1000,)
+self.infix=asin(3*x)
+self.y_pred=(1000,)
+self.infix=1
+self.y_pred=(1,)
+self.infix=4*x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x*(2*x + 10)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*acosh(5)
+self.y_pred=(1000,)
+self.infix=-2*x*sin(x) + 4*cos(x)
+self.y_pred=(1000,)
+self.infix=log(x)
+self.y_pred=(1000,)
+self.infix=-cosh(3*x)
+self.y_pred=(1000,)
+self.infix=4*atanh(x)
+self.y_pred=(1000,)
+self.infix=(x + 1)*exp(-x)
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=2*sinh(x)
+self.y_pred=(1000,)
+self.infix=2*tan(x)**2
+self.y_pred=(1000,)
+self.infix=(tanh(x) + 1)/x
+self.y_pred=(1000,)
+self.infix=acos(x)/x
+self.y_pred=(1000,)
+self.infix=x*acosh(2*x)
+self.y_pred=(1000,)
+self.infix=5/(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(tan(x + 2)**2 + 1)/3
+self.y_pred=(1000,)
+self.infix=x**2 + 1
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 1)
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + x*exp(2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=x + acosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-exp(2*x + 5)/2
+self.y_pred=(1000,)
+self.infix=x**2 + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(2)
+self.y_pred=(1000,)
+self.infix=(x + 2)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*cosh(x)
+self.y_pred=(1000,)
+self.infix=x**6/6
+self.y_pred=(1000,)
+self.infix=log(4*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(2*x**2 + x)
+self.y_pred=(1000,)
+self.infix=4*x*log(x)
+self.y_pred=(1000,)
+self.infix=2*x + 1
+self.y_pred=(1000,)
+self.infix=sin(x) - 1
+self.y_pred=(1000,)
+self.infix=exp(4*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*(3*x + 1)
+self.y_pred=(1000,)
+self.infix=4*x*(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**5/5
+self.y_pred=(1000,)
+self.infix=sin(x)**4
+self.y_pred=(1000,)
+self.infix=x*(x + 3) + 2*x
+self.y_pred=(1000,)
+self.infix=3*exp(4*x)
+self.y_pred=(1000,)
+self.infix=log(2*x**2)
+self.y_pred=(1000,)
+self.infix=4*x*acosh(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x + 3)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(2)
+self.y_pred=(1000,)
+self.infix=5*atanh(x)
+self.y_pred=(1000,)
+self.infix=1/x
+self.y_pred=(1000,)
+self.infix=25*x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*sinh(3)
+self.y_pred=(1000,)
+self.infix=log(2*x + 1)/2
+self.y_pred=(1000,)
+self.infix=x**3/5
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x*tan(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2/2 - x
+self.y_pred=(1000,)
+self.infix=2*x**(3/2)/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=-x**2
+self.y_pred=(1000,)
+self.infix=x**4 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-x + exp(x)
+self.y_pred=(1000,)
+self.infix=x*log(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + sinh(x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + 3/2
+self.y_pred=(1000,)
+self.infix=8*x + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*sqrt(2)*x
+self.y_pred=(1000,)
+self.infix=1612*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + 2*log(x)
+self.y_pred=(1000,)
+self.infix=x + 1
+self.y_pred=(1000,)
+self.infix=3*acos(x)
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=65*x**2
+self.y_pred=(1000,)
+self.infix=x - 3
+self.y_pred=(1000,)
+self.infix=x*(x + 4)*sin(x)
+self.y_pred=(1000,)
+self.infix=x*(x - exp(x))
+self.y_pred=(1000,)
+self.infix=2*x**3
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=tan(x)**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + tan(1))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(x**2 + 1)
+self.y_pred=(1000,)
+self.infix=3*x**3
+self.y_pred=(1000,)
+self.infix=5*tan(x)
+self.y_pred=(1000,)
+self.infix=x/(2*x + 1)
+self.y_pred=(1000,)
+self.infix=x**2 + x + 1
+self.y_pred=(1000,)
+self.infix=sin(x + 1)
+self.y_pred=(1000,)
+self.infix=3*x + 8
+self.y_pred=(1000,)
+self.infix=26*x**2
+self.y_pred=(1000,)
+self.infix=x**3 + 2*x
+self.y_pred=(1000,)
+self.infix=x**2/(2*log(2))
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=254*x**2
+self.y_pred=(1000,)
+self.infix=x**2/(x + 2)
+self.y_pred=(1000,)
+self.infix=log(4*x**2)
+self.y_pred=(1000,)
+self.infix=x*tanh(5)
+self.y_pred=(1000,)
+self.infix=cos(2*x + 5)
+self.y_pred=(1000,)
+self.infix=2*x**3/3
+self.y_pred=(1000,)
+self.infix=x*log(x)
+self.y_pred=(1000,)
+self.infix=1/(3*x)
+self.y_pred=(1000,)
+self.infix=log(x + 1)
+self.y_pred=(1000,)
+self.infix=12*x + cos(x)
+self.y_pred=(1000,)
+self.infix=3*sinh(x)
+self.y_pred=(1000,)
+self.infix=2*x - sin(x)
+self.y_pred=(1000,)
+self.infix=4*tanh(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/cos(1)
+self.y_pred=(1000,)
+self.infix=3/2
+self.y_pred=(1,)
+self.infix=3*cosh(x)
+self.y_pred=(1000,)
+self.infix=2*x*sinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x/3
+self.y_pred=(1000,)
+self.infix=-x**2 + 125*x - log(cos(x))
+self.y_pred=(1000,)
+self.infix=x/(x + 5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + 4*x
+self.y_pred=(1000,)
+self.infix=3*log(x)
+self.y_pred=(1000,)
+self.infix=x**2 + x + 4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x*acos(x)
+self.y_pred=(1000,)
+self.infix=x - exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(5)
+self.y_pred=(1000,)
+self.infix=2*x**2 + x + 1
+self.y_pred=(1000,)
+self.infix=-sin(x)
+self.y_pred=(1000,)
+self.infix=(x + 2)**2
+self.y_pred=(1000,)
+self.infix=2*x*sin(x) + 2*x
+self.y_pred=(1000,)
+self.infix=x*(x + 7)
+self.y_pred=(1000,)
+self.infix=x + tan(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=cos(2*x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=1 + exp(-x)
+self.y_pred=(1000,)
+self.infix=x**3/27
+self.y_pred=(1000,)
+self.infix=x**4/4 - x**2/4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + exp(2*x)
+self.y_pred=(1000,)
+self.infix=(-x - 1)*exp(-x)
+self.y_pred=(1000,)
+self.infix=x*sin(x + 2)
+self.y_pred=(1000,)
+self.infix=2*x*(x + exp(x))
+self.y_pred=(1000,)
+self.infix=x - exp(x)
+self.y_pred=(1000,)
+self.infix=x**2*sinh(1)
+self.y_pred=(1000,)
+self.infix=x**2 + x - tan(x)
+self.y_pred=(1000,)
+<lambdifygenerated-567>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*log(cos(2*x))
+<lambdifygenerated-568>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 2)
+<lambdifygenerated-574>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(3*x)
+<lambdifygenerated-581>:2: RuntimeWarning: overflow encountered in cosh
+  return -cosh(3*x)
+<lambdifygenerated-582>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 4*arctanh(x)
+<lambdifygenerated-582>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 4*arctanh(x)
+<lambdifygenerated-585>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-585>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*sinh(x)
+<lambdifygenerated-588>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)/x
+<lambdifygenerated-598>:2: RuntimeWarning: overflow encountered in exp
+  return -1/2*exp(2*x + 5)
+<lambdifygenerated-602>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-602>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+<lambdifygenerated-609>:2: RuntimeWarning: overflow encountered in exp
+  return exp(4*x)
+<lambdifygenerated-615>:2: RuntimeWarning: overflow encountered in exp
+  return 3*exp(4*x)
+<lambdifygenerated-620>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 5*arctanh(x)
+<lambdifygenerated-620>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 5*arctanh(x)
+<lambdifygenerated-632>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-634>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+<lambdifygenerated-641>:2: RuntimeWarning: invalid value encountered in arccos
+  return 3*arccos(x)
+<lambdifygenerated-646>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x - exp(x))
+<lambdifygenerated-646>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x - exp(x))
+<lambdifygenerated-672>:2: RuntimeWarning: overflow encountered in sinh
+  return 3*sinh(x)
+<lambdifygenerated-672>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*sinh(x)
+<lambdifygenerated-677>:2: RuntimeWarning: overflow encountered in cosh
+  return 3*cosh(x)
+<lambdifygenerated-677>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*cosh(x)
+<lambdifygenerated-678>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x)
+<lambdifygenerated-678>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*sinh(x)
+<lambdifygenerated-680>:2: RuntimeWarning: invalid value encountered in log
+  return -x**2 + 125*x - log(cos(x))
+<lambdifygenerated-685>:2: RuntimeWarning: invalid value encountered in arccos
+  return 5*x*arccos(x)
+<lambdifygenerated-686>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-699>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(2*x)
+<lambdifygenerated-702>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-702>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-703>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-711>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-714>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 3*arctanh(x)
+<lambdifygenerated-714>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*arctanh(x)
+<lambdifygenerated-717>:2: RuntimeWarning: overflow encountered in sinh
+  return -x*sinh(x) - cosh(x)
+<lambdifygenerated-717>:2: RuntimeWarning: overflow encountered in multiply
+  return -x*sinh(x) - cosh(x)
+<lambdifygenerated-717>:2: RuntimeWarning: overflow encountered in cosh
+  return -x*sinh(x) - cosh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-728>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x**2*exp(x)
+<lambdifygenerated-728>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x**2*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-739>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-742>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x)
+<lambdifygenerated-745>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + 6)*exp(x)
+<lambdifygenerated-745>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + 6)*exp(x)
+<lambdifygenerated-759>:2: RuntimeWarning: invalid value encountered in arccos
+  return 5*x*arccos(4)
+<lambdifygenerated-760>:2: RuntimeWarning: invalid value encountered in arccos
+  return (x + arccos(x))**2
+<lambdifygenerated-763>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 4)
+<lambdifygenerated-766>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/3)*x**3*arccos(2)
+self.infix=64*x**2
+self.y_pred=(1000,)
+self.infix=-x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=1236*x**3
+self.y_pred=(1000,)
+self.infix=30*x**4
+self.y_pred=(1000,)
+self.infix=x**2/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=-log(cos(x))
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(x)/3
+self.y_pred=(1000,)
+self.infix=10*x**3/3 + 5*x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*atanh(x)
+self.y_pred=(1000,)
+self.infix=cos(x + 1)
+self.y_pred=(1000,)
+self.infix=x**2*log(3*x**3)
+self.y_pred=(1000,)
+self.infix=-x*sinh(x) - cosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-23*x**4 + 2*x
+self.y_pred=(1000,)
+self.infix=x*(x + tan(5))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=62*x**6
+self.y_pred=(1000,)
+self.infix=166*x**3
+self.y_pred=(1000,)
+self.infix=(4*x**2 - x + 1)*exp(2)/20
+self.y_pred=(1000,)
+self.infix=x*(x + 4)
+self.y_pred=(1000,)
+self.infix=x*(1 - x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(6*x**2)
+self.y_pred=(1000,)
+self.infix=5*x*atan(x)
+self.y_pred=(1000,)
+self.infix=5*x**2*exp(x)
+self.y_pred=(1000,)
+self.infix=3*x*sin(x) + 3*cos(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x + cos(x))
+self.y_pred=(1000,)
+self.infix=(x**2 + x)/x**2
+self.y_pred=(1000,)
+self.infix=x*(2*x + 3)
+self.y_pred=(1000,)
+self.infix=(2*x**2 + x)**3
+self.y_pred=(1000,)
+self.infix=2*x*log(x**2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(4)
+self.y_pred=(1000,)
+self.infix=x**3/3
+self.y_pred=(1000,)
+self.infix=x*log(2*x) - x
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=-x + exp(x)
+self.y_pred=(1000,)
+self.infix=cos(sqrt(x))
+self.y_pred=(1000,)
+self.infix=x*log(x) + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + acos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(x + 1)/x
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x*sin(x) - cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + 6)*exp(x)
+self.y_pred=(1000,)
+self.infix=(2*x + 2)**2
+self.y_pred=(1000,)
+self.infix=x**2*sin(2*x)
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=2*cos(x)
+self.y_pred=(1000,)
+self.infix=3*x**3*(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*log(x)
+self.y_pred=(1000,)
+self.infix=1/(3*x)
+self.y_pred=(1000,)
+self.infix=3*log(x)/2
+self.y_pred=(1000,)
+self.infix=-x*log(2*x) + x
+self.y_pred=(1000,)
+self.infix=x**2/16
+self.y_pred=(1000,)
+self.infix=log(x + 1)/2
+self.y_pred=(1000,)
+self.infix=tanh(x) - 1
+self.y_pred=(1000,)
+self.infix=cos(x - 3)
+self.y_pred=(1000,)
+self.infix=5*x*acos(4)
+self.y_pred=(1000,)
+self.infix=(x + acos(x))**2
+self.y_pred=(1000,)
+self.infix=2*x*cos(x) + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=-3*x*log(x) + 3*log(x)
+self.y_pred=(1000,)
+self.infix=atanh(x + 4)
+self.y_pred=(1000,)
+self.infix=tan(x/2)
+self.y_pred=(1000,)
+self.infix=2*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=x**3*acos(2)/3
+self.y_pred=(1000,)
+self.infix=2*x**3 + x
+self.y_pred=(1000,)
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.2484992891550064
+top: 0.9864709377288818
+Error in expression:  3 * math.exp(0.1 * x[0])
+<lambdifygenerated-773>:2: RuntimeWarning: invalid value encountered in log
+  return -1/4*log(cos(4*x))
+<lambdifygenerated-774>:2: RuntimeWarning: overflow encountered in exp
+  return exp(28*x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-778>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/3)*x**2*arccos(4)
+<lambdifygenerated-779>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x)
+<lambdifygenerated-780>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 - log(cos(x))
+<lambdifygenerated-784>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)**2
+<lambdifygenerated-787>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x**2)
+<lambdifygenerated-797>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(x) - sqrt(1 - x**2)
+<lambdifygenerated-797>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arcsin(x) - sqrt(1 - x**2)
+<lambdifygenerated-831>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*cosh(x)
+<lambdifygenerated-831>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*cosh(x)
+<lambdifygenerated-833>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -log(x + 1) - log(x + arcsin(x))
+<lambdifygenerated-841>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-843>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2)
+<lambdifygenerated-844>:2: RuntimeWarning: overflow encountered in sinh
+  return 3*sinh(x)
+<lambdifygenerated-844>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*sinh(x)
+<lambdifygenerated-849>:2: RuntimeWarning: overflow encountered in exp
+  return x + 5*exp(x)
+<lambdifygenerated-849>:2: RuntimeWarning: overflow encountered in multiply
+  return x + 5*exp(x)
+<lambdifygenerated-852>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x**2)
+<lambdifygenerated-852>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x**2)
+<lambdifygenerated-855>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(2*x) + (1/2)*log(cos(x) - 1)
+<lambdifygenerated-861>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*cosh(x)
+<lambdifygenerated-861>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*cosh(x)
+<lambdifygenerated-864>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-864>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*cosh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:478: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)
+<lambdifygenerated-870>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-874>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x)
+<lambdifygenerated-874>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*sinh(x)
+<lambdifygenerated-876>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 2)
+<lambdifygenerated-878>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return -x + 2*arctanh(x)
+<lambdifygenerated-878>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -x + 2*arctanh(x)
+<lambdifygenerated-880>:2: RuntimeWarning: invalid value encountered in arccos
+  return -x + arccos(x)
+<lambdifygenerated-887>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x - exp(x - 1)
+<lambdifygenerated-889>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-889>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*sinh(x)
+<lambdifygenerated-891>:2: RuntimeWarning: invalid value encountered in arccos
+  return -x - arccos(x)
+<lambdifygenerated-905>:2: RuntimeWarning: invalid value encountered in arccos
+  return -x*arccos(x) + x
+<lambdifygenerated-916>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x**2*exp(x)
+<lambdifygenerated-916>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x**2*exp(x)
+<lambdifygenerated-920>:2: RuntimeWarning: invalid value encountered in log
+  return log(cos(4*x))
+<lambdifygenerated-956>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -x*arcsin(x) + x
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-964>:2: RuntimeWarning: invalid value encountered in arcsin
+  return pi*arcsin(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-969>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (x - 1)*exp(x)
+<lambdifygenerated-969>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 + (x - 1)*exp(x)
+<lambdifygenerated-974>:2: RuntimeWarning: overflow encountered in sinh
+  return x*(x + sinh(x))
+<lambdifygenerated-974>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + sinh(x))
+self.infix=x*(2*x**2 + x)
+self.y_pred=(1000,)
+self.infix=(x + 1)**2
+self.y_pred=(1000,)
+self.infix=x*(3*x + 5)
+self.y_pred=(1000,)
+self.infix=-2*x**(3/2)/3 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4 + 3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-log(cos(4*x))/4
+self.y_pred=(1000,)
+self.infix=exp(28*x)
+self.y_pred=(1000,)
+self.infix=x*(x + 8)
+self.y_pred=(1000,)
+self.infix=310*x**4
+self.y_pred=(1000,)
+self.infix=0
+self.y_pred=(1,)
+self.infix=x**2*acos(4)/3
+self.y_pred=(1000,)
+self.infix=x*acos(x)
+self.y_pred=(1000,)
+self.infix=x**2 - log(cos(x))
+self.y_pred=(1000,)
+self.infix=x**2*(x + 4)
+self.y_pred=(1000,)
+self.infix=sin(4*x)/4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=2*x - 2*cos(x)
+self.y_pred=(1000,)
+self.infix=asin(x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*log(4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4/4 + x**3/3
+self.y_pred=(1000,)
+self.infix=sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=2*log(x)
+self.y_pred=(1000,)
+self.infix=(1 - x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2 - x**2
+self.y_pred=(1000,)
+self.infix=x**2*tan(1)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2 + x + 5
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3 + x*cos(x)
+self.y_pred=(1000,)
+self.infix=10*x**2
+self.y_pred=(1000,)
+self.infix=x*asin(x) - sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=-2*x
+self.y_pred=(1000,)
+self.infix=-x + x*log(3)
+self.y_pred=(1000,)
+self.infix=x + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=-exp(-x)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(-x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**6 + x
+self.y_pred=(1000,)
+self.infix=x**2/(x**4 + x)
+self.y_pred=(1000,)
+self.infix=x/tan(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*log(x)
+self.y_pred=(1000,)
+self.infix=log(x + log(x))
+self.y_pred=(1000,)
+self.infix=sqrt(x) + log(x)
+self.y_pred=(1000,)
+self.infix=(2*x + 3)**2
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=9*x**3
+self.y_pred=(1000,)
+self.infix=2*x**5
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=x**3/3 + 3*x**2
+self.y_pred=(1000,)
+self.infix=cos(6*x**2)/4
+self.y_pred=(1000,)
+self.infix=3*x*log(x)
+self.y_pred=(1000,)
+self.infix=x**4/4 + x**2
+self.y_pred=(1000,)
+self.infix=x**3*log(x) + x**2
+self.y_pred=(1000,)
+self.infix=x*tan(4)
+self.y_pred=(1000,)
+self.infix=x*(2 - x) + x
+self.y_pred=(1000,)
+self.infix=2 - x
+self.y_pred=(1000,)
+self.infix=4*sin(x)
+self.y_pred=(1000,)
+self.infix=-2*cos(x)
+self.y_pred=(1000,)
+self.infix=x**7/37
+self.y_pred=(1000,)
+self.infix=x*(x + 1)**2
+self.y_pred=(1000,)
+self.infix=5*x**5 + x**2/2
+self.y_pred=(1000,)
+self.infix=3*x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*sqrt(x) + 2*x
+self.y_pred=(1000,)
+self.infix=4*cosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=-log(x + 1) - log(x + asin(x))
+self.y_pred=(1000,)
+self.infix=x + 4*log(x)
+self.y_pred=(1000,)
+self.infix=sin(x)
+self.y_pred=(1000,)
+self.infix=x*(x**4 + x)
+self.y_pred=(1000,)
+self.infix=2*x**3/3
+self.y_pred=(1000,)
+self.infix=x*sinh(1)
+self.y_pred=(1000,)
+self.infix=4*x*(x + cos(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2 + 3*x + 1
+self.y_pred=(1000,)
+self.infix=3*x + exp(x)
+self.y_pred=(1000,)
+self.infix=x**2/4 + 4*x
+self.y_pred=(1000,)
+self.infix=acos(2)
+self.y_pred=(1,)
+self.infix=3*sinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(2 - x)
+self.y_pred=(1000,)
+self.infix=log(x**2)
+self.y_pred=(1000,)
+self.infix=x*cos(1) + x
+self.y_pred=(1000,)
+self.infix=(3*x + 4)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + 5*exp(x)
+self.y_pred=(1000,)
+self.infix=x**2 + cos(x)
+self.y_pred=(1000,)
+self.infix=x + log(x**3)
+self.y_pred=(1000,)
+self.infix=atanh(x**2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x*log(x)
+self.y_pred=(1000,)
+self.infix=x + asinh(x)
+self.y_pred=(1000,)
+self.infix=x*log(2*x) + log(cos(x) - 1)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(4*x**2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2 + x
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=5*x*log(3)
+self.y_pred=(1000,)
+self.infix=log(x + 1)
+self.y_pred=(1000,)
+self.infix=2*x*cosh(x)
+self.y_pred=(1000,)
+self.infix=10*x**2
+self.y_pred=(1000,)
+self.infix=44/x
+self.y_pred=(1000,)
+self.infix=2*cosh(x)
+self.y_pred=(1000,)
+self.infix=-exp(x/2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3
+self.y_pred=(1000,)
+self.infix=x**2/4 + 4*log(x)
+self.y_pred=(1000,)
+self.infix=x**3/3 + log(x)
+self.y_pred=(1000,)
+self.infix=1/(8*x**2)
+self.y_pred=(1000,)
+self.infix=x - exp(x)
+self.y_pred=(1000,)
+self.infix=2*x**4 + x
+self.y_pred=(1000,)
+self.infix=3*x**2/2 + log(x)
+self.y_pred=(1000,)
+self.infix=x*log(1/x) - x
+self.y_pred=(1000,)
+self.infix=2*x*sinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x*acosh(x)
+self.y_pred=(1000,)
+self.infix=exp(2*x + 2)
+self.y_pred=(1000,)
+self.infix=x*(x - 4)
+self.y_pred=(1000,)
+self.infix=-x + 2*atanh(x)
+self.y_pred=(1000,)
+self.infix=sin(x) + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x + acos(x)
+self.y_pred=(1000,)
+self.infix=x/(5*(x + 4))
+self.y_pred=(1000,)
+self.infix=x + log(x) + sin(x)
+self.y_pred=(1000,)
+self.infix=x + cos(x + 2)
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=x**2 + 5*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + tan(5)
+self.y_pred=(1000,)
+self.infix=2*x - exp(x - 1)
+self.y_pred=(1000,)
+self.infix=x + 1/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=2*sinh(x)
+self.y_pred=(1000,)
+self.infix=x*(x + 5)
+self.y_pred=(1000,)
+self.infix=-x - acos(x)
+self.y_pred=(1000,)
+self.infix=2*log(x)
+self.y_pred=(1000,)
+self.infix=cos(x)**5
+self.y_pred=(1000,)
+self.infix=2*sin(2*x)
+self.y_pred=(1000,)
+self.infix=2/(3*x)
+self.y_pred=(1000,)
+self.infix=x**3/3 - x**2
+self.y_pred=(1000,)
+self.infix=5*x**6/6
+self.y_pred=(1000,)
+self.infix=2*x**(3/2)/3 - 10*x**2
+self.y_pred=(1000,)
+self.infix=2*x*(x + cos(x))
+self.y_pred=(1000,)
+self.infix=x*exp(-3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=tan(x)**2/12
+self.y_pred=(1000,)
+self.infix=E*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(x + 3)**2
+self.y_pred=(1000,)
+self.infix=2*x*(x + 3)
+self.y_pred=(1000,)
+self.infix=-x*acos(x) + x
+self.y_pred=(1000,)
+self.infix=x*tan(x) + 2*x
+self.y_pred=(1000,)
+self.infix=x*(x + 5)
+self.y_pred=(1000,)
+self.infix=x**2/2 + 3*x + sin(x)
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 4)
+self.y_pred=(1000,)
+self.infix=log(x)/2
+self.y_pred=(1000,)
+self.infix=4*x**3/3 + x**2
+self.y_pred=(1000,)
+self.infix=x - log(tanh(x) + 1)
+self.y_pred=(1000,)
+self.infix=x**3/8
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=x**2 + tanh(x)
+self.y_pred=(1000,)
+self.infix=4*x**2*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*acosh(x)
+self.y_pred=(1000,)
+self.infix=log(x + 3)
+self.y_pred=(1000,)
+self.infix=log(x + 1)
+self.y_pred=(1000,)
+self.infix=log(cos(4*x))
+self.y_pred=(1000,)
+self.infix=2*x + 7
+self.y_pred=(1000,)
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(x) - x
+self.y_pred=(1000,)
+self.infix=x + tan(2*x)
+self.y_pred=(1000,)
+self.infix=2*x*(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x*(x + acosh(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + log(x)
+self.y_pred=(1000,)
+self.infix=x**2 + 1
+self.y_pred=(1000,)
+self.infix=sin(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x**4 + x)
+self.y_pred=(1000,)
+self.infix=x**2 + x + cos(x)
+self.y_pred=(1000,)
+self.infix=x**2*cos(4)
+self.y_pred=(1000,)
+self.infix=x + tan(x) + 1
+self.y_pred=(1000,)
+self.infix=2*x*(x + 2)
+self.y_pred=(1000,)
+self.infix=3*x + sin(log(x))
+self.y_pred=(1000,)
+self.infix=x + tan(1)
+self.y_pred=(1000,)
+self.infix=x*(x + sin(x))
+self.y_pred=(1000,)
+self.infix=acosh(3)/4
+self.y_pred=(1,)
+self.infix=2*x*(x + 3)
+self.y_pred=(1000,)
+self.infix=3*x + 1
+self.y_pred=(1000,)
+self.infix=4*x*sin(x)
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=(2*x + 2)**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*cos(x + 8)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(2*x + 1)**2
+self.y_pred=(1000,)
+self.infix=2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=cos(x + 4)
+self.y_pred=(1000,)
+self.infix=x*sinh(4)
+self.y_pred=(1000,)
+self.infix=3/x**4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=acosh(2*x + 3)
+self.y_pred=(1000,)
+self.infix=x**2*cos(1)
+self.y_pred=(1000,)
+self.infix=x**2/sinh(2)
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=x**2/2 + x
+self.y_pred=(1000,)
+self.infix=-x*asin(x) + x
+self.y_pred=(1000,)
+self.infix=x*tan(5)
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=x*sin(2)
+self.y_pred=(1000,)
+self.infix=2*x**4 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2*(x + 2)
+self.y_pred=(1000,)
+self.infix=2*x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x**3/3
+self.y_pred=(1000,)
+self.infix=pi*asin(x)
+self.y_pred=(1000,)
+self.infix=7*x**2/2
+self.y_pred=(1000,)
+self.infix=2*x*(x + log(x)) + x
+self.y_pred=(1000,)
+self.infix=x*(x**2 + x)**4
+self.y_pred=(1000,)
+self.infix=x**(53/14)
+self.y_pred=(1000,)
+self.infix=x**2/2 + (x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=2*x + acosh(x)
+self.y_pred=(1000,)
+self.infix=tan(12*x)
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=2*x**(3/2)/3 + x**4/4 + x**2/2
+self.y_pred=(1000,)
+self.infix=x*(x + sinh(x))
+self.y_pred=(1000,)
+self.infix=2*x + 1
+self.y_pred=(1000,)
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.25908493995666504
+top: 0.9864680767059326
+Error in expression:  math.log2(x[0] + 1)
+<lambdifygenerated-983>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(3*x)
+<lambdifygenerated-987>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(4*x)
+<lambdifygenerated-990>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*log(tan(2*x)**2 - 1)
+<lambdifygenerated-993>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)
+<lambdifygenerated-996>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*sin(x) + cosh(x)
+<lambdifygenerated-1001>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x))
+<lambdifygenerated-1001>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x))
+<lambdifygenerated-1004>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x - cosh(x)
+<lambdifygenerated-1007>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x - exp(x)
+<lambdifygenerated-1008>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 2)*exp(x)
+<lambdifygenerated-1008>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 2)*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1028>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x)) + x
+<lambdifygenerated-1028>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x)) + x
+<lambdifygenerated-1029>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/3)*sinh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1037>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)/x
+<lambdifygenerated-1043>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(-x)
+<lambdifygenerated-1061>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)**2
+<lambdifygenerated-1073>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(2)
+<lambdifygenerated-1075>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(3*x))
+<lambdifygenerated-1117>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*exp(4*x)
+<lambdifygenerated-1124>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*(x + arcsin(x))**2
+<lambdifygenerated-1127>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 3)
+<lambdifygenerated-1146>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(2*x)
+<lambdifygenerated-1149>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x**2*cosh(x)
+<lambdifygenerated-1149>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x**2*cosh(x)
+<lambdifygenerated-1170>:2: RuntimeWarning: invalid value encountered in arccos
+  return 3*x*arccos(x)
+<lambdifygenerated-1173>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(8*x)
+<lambdifygenerated-1177>:2: RuntimeWarning: overflow encountered in sinh
+  return sin(x) + sinh(x)
+self.infix=3*x**3
+self.y_pred=(1000,)
+self.infix=2*x*sin(x)
+self.y_pred=(1000,)
+self.infix=x*(2*x + 1)
+self.y_pred=(1000,)
+self.infix=2*x*log(2)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x - 4)
+self.y_pred=(1000,)
+self.infix=x*log(4)
+self.y_pred=(1000,)
+self.infix=2*exp(3*x)
+self.y_pred=(1000,)
+self.infix=3*x*cos(1)
+self.y_pred=(1000,)
+self.infix=(2*x + 2)**(x**3)
+self.y_pred=(1000,)
+self.infix=cos(2*x + 1)
+self.y_pred=(1000,)
+self.infix=sinh(4*x)
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=2*tan(5)
+self.y_pred=(1,)
+self.infix=log(tan(2*x)**2 - 1)/2
+self.y_pred=(1000,)
+self.infix=sin(7*x)
+self.y_pred=(1000,)
+self.infix=x + cos(x) + 1
+self.y_pred=(1000,)
+self.infix=acos(x)
+self.y_pred=(1000,)
+self.infix=x**2 + 40
+self.y_pred=(1000,)
+self.infix=x**2 + log(x)
+self.y_pred=(1000,)
+self.infix=2*x*sin(x) + cosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2/2
+self.y_pred=(1000,)
+self.infix=sqrt(2)*sqrt(x) + 4*x
+self.y_pred=(1000,)
+self.infix=-x*cos(x) + x
+self.y_pred=(1000,)
+self.infix=2*x + exp(6)
+self.y_pred=(1000,)
+self.infix=x**2*(x + exp(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x**2 + x
+self.y_pred=(1000,)
+self.infix=(2*x + 5)**2
+self.y_pred=(1000,)
+self.infix=2*x - cosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**3 + x**2
+self.y_pred=(1000,)
+self.infix=x**2 + x*log(x) + x
+self.y_pred=(1000,)
+self.infix=2*x - exp(x)
+self.y_pred=(1000,)
+self.infix=(x - 2)*exp(x)
+self.y_pred=(1000,)
+self.infix=2*x + 3*sin(x)
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=5*log(x)
+self.y_pred=(1000,)
+self.infix=10*x**4
+self.y_pred=(1000,)
+self.infix=x**5 + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=4*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=8*x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(2) + 4*x
+self.y_pred=(1000,)
+self.infix=x*(x + 3) + 2*x
+self.y_pred=(1000,)
+self.infix=2*x + 5
+self.y_pred=(1000,)
+self.infix=x**2/(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + x*tan(1)
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 2*x)
+self.y_pred=(1000,)
+self.infix=2*x + log(x**2)
+self.y_pred=(1000,)
+self.infix=tan(x + 5)
+self.y_pred=(1000,)
+self.infix=x**2*sinh(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=atan(2*x)/2
+self.y_pred=(1000,)
+self.infix=-x - acosh(x)
+self.y_pred=(1000,)
+self.infix=x*(x + exp(x)) + x
+self.y_pred=(1000,)
+self.infix=sinh(x)/3
+self.y_pred=(1000,)
+self.infix=x + log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(acosh(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + 24*log(x)
+self.y_pred=(1000,)
+self.infix=3*x**4 + x
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=x*acosh(x) + 2*x
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=x + cosh(x)/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*acosh(x) + x
+self.y_pred=(1000,)
+self.infix=23/sin(x)
+self.y_pred=(1000,)
+self.infix=5*cos(x)
+self.y_pred=(1000,)
+self.infix=x + 4
+self.y_pred=(1000,)
+self.infix=x*tan(2)
+self.y_pred=(1000,)
+self.infix=sqrt(-x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + x/(x + tan(x))
+self.y_pred=(1000,)
+self.infix=x + log(x)
+self.y_pred=(1000,)
+self.infix=x + exp(4)
+self.y_pred=(1000,)
+self.infix=0
+self.y_pred=(1,)
+self.infix=4*log(x)/5
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x + 8*log(x)
+self.y_pred=(1000,)
+self.infix=5*x**2/2 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=log(x)**2/x
+self.y_pred=(1000,)
+self.infix=x/tan(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(x/2)
+self.y_pred=(1000,)
+self.infix=x*tan(1)
+self.y_pred=(1000,)
+self.infix=2*x + log(x)
+self.y_pred=(1000,)
+self.infix=cos(x + 5)
+self.y_pred=(1000,)
+self.infix=x + x*tan(1)
+self.y_pred=(1000,)
+self.infix=asinh(x + 1)
+self.y_pred=(1000,)
+self.infix=8*x**3/3
+self.y_pred=(1000,)
+self.infix=asin(x)**2
+self.y_pred=(1000,)
+self.infix=x*sin(x) + x
+self.y_pred=(1000,)
+self.infix=2*x*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=4*x**2 + x
+self.y_pred=(1000,)
+self.infix=x**5/5 + 5*x**2/2
+self.y_pred=(1000,)
+self.infix=x*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=x*(x + 5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(x) - x + sin(x)
+self.y_pred=(1000,)
+self.infix=2*x + tan(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(x) + sin(x)
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=3*x*(x**4 + x)
+self.y_pred=(1000,)
+self.infix=x*asin(2)
+self.y_pred=(1000,)
+self.infix=x*cos(4)
+self.y_pred=(1000,)
+self.infix=-log(cos(3*x))
+self.y_pred=(1000,)
+self.infix=x + cos(x) + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + 10
+self.y_pred=(1000,)
+self.infix=tan(x/2)
+self.y_pred=(1000,)
+self.infix=8*x**3 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=9*x**3
+self.y_pred=(1000,)
+self.infix=2*x*tan(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*(x + 3)
+self.y_pred=(1000,)
+self.infix=x*(x + 1)
+self.y_pred=(1000,)
+self.infix=x*log(3*x) - x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 - 2*x
+self.y_pred=(1000,)
+self.infix=x*(x + 1)
+self.y_pred=(1000,)
+self.infix=tan(2*x)
+self.y_pred=(1000,)
+self.infix=sqrt(x) + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=9/x
+self.y_pred=(1000,)
+self.infix=5*x**2/4
+self.y_pred=(1000,)
+self.infix=sin(x)**4
+self.y_pred=(1000,)
+self.infix=cos(x + 2)
+self.y_pred=(1000,)
+self.infix=2*x + sin(x)
+self.y_pred=(1000,)
+self.infix=(x + cos(x))/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x
+self.y_pred=(1000,)
+self.infix=2*log(5)
+self.y_pred=(1,)
+self.infix=None
+self.infix=(2*x + 1)**2
+self.y_pred=(1000,)
+self.infix=-x*log(x) - 3*x
+self.y_pred=(1000,)
+self.infix=4*x**2/3
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=x + 3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(3)
+self.y_pred=(1000,)
+self.infix=x**2 + 6*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=3*x*cos(x) + x
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=log(5*x**2)
+self.y_pred=(1000,)
+self.infix=2*x*(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + log(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x*log(4)
+self.y_pred=(1000,)
+self.infix=2*x*sin(x) + 2*x*cos(x) + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=5*x + 2
+self.y_pred=(1000,)
+self.infix=x**2*cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + 5*log(x)
+self.y_pred=(1000,)
+self.infix=x**2/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=(x**2 + x)**2
+self.y_pred=(1000,)
+self.infix=exp(4*x)/4
+self.y_pred=(1000,)
+self.infix=x**2 + 10*x
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=x**3 + 4*x
+self.y_pred=(1000,)
+self.infix=2*x**(5/2)/5 + x**4/4
+self.y_pred=(1000,)
+self.infix=4*x + 1
+self.y_pred=(1000,)
+self.infix=(x + 4)**2
+self.y_pred=(1000,)
+self.infix=x*(x + asin(x))**2
+self.y_pred=(1000,)
+self.infix=asinh(x + 1)
+self.y_pred=(1000,)
+self.infix=2*log(x)/x
+self.y_pred=(1000,)
+self.infix=sinh(x + 3)
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4 - x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=6*x
+self.y_pred=(1000,)
+self.infix=125*x**2
+self.y_pred=(1000,)
+self.infix=tan(5*x)
+self.y_pred=(1000,)
+self.infix=3*x + 4
+self.y_pred=(1000,)
+self.infix=4*x*tan(1)
+self.y_pred=(1000,)
+self.infix=x*cos(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x + 6
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=114*x**3
+self.y_pred=(1000,)
+self.infix=x + 4/x
+self.y_pred=(1000,)
+self.infix=3*x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x**2*log(x)**2
+self.y_pred=(1000,)
+self.infix=2*x + 4
+self.y_pred=(1000,)
+self.infix=-2*x**2 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x - 5*log(x)
+self.y_pred=(1000,)
+self.infix=x*(x*tan(2) + x)
+self.y_pred=(1000,)
+self.infix=-exp(2*x)
+self.y_pred=(1000,)
+self.infix=x*(x + atan(x)) + x
+self.y_pred=(1000,)
+self.infix=x/cos(1)
+self.y_pred=(1000,)
+self.infix=2*x**2*cosh(x)
+self.y_pred=(1000,)
+self.infix=x*cos(x - 4)
+self.y_pred=(1000,)
+self.infix=(x + 2)**4
+self.y_pred=(1000,)
+self.infix=x**7/7 + x**2/2
+self.y_pred=(1000,)
+self.infix=(x - 1)*exp(-x)
+self.y_pred=(1000,)
+self.infix=12*x*tan(1)
+self.y_pred=(1000,)
+self.infix=cos(3*x/2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + 1)
+self.y_pred=(1000,)
+self.infix=x**2*exp(3) + x
+self.y_pred=(1000,)
+self.infix=x**2/2 + 12*log(x)
+self.y_pred=(1000,)
+self.infix=x**2*(x + 5)
+self.y_pred=(1000,)
+self.infix=-1/x
+self.y_pred=(1000,)
+self.infix=log(3*x**2 + x)
+self.y_pred=(1000,)
+self.infix=x + log(x)*cos(1)
+self.y_pred=(1000,)
+self.infix=x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=cos(1)/x
+self.y_pred=(1000,)
+self.infix=x**3*cos(2)
+self.y_pred=(1000,)
+self.infix=x**2/2 + 2*log(x)
+self.y_pred=(1000,)
+self.infix=-cos(4*x)/4
+self.y_pred=(1000,)
+self.infix=sqrt(2*x + 2)
+self.y_pred=(1000,)
+self.infix=2*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=3*x*acos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(acosh(x))/5
+self.y_pred=(1000,)
+self.infix=x**2 + 5*x
+self.y_pred=(1000,)
+self.infix=asin(8*x)
+self.y_pred=(1000,)
+self.infix=x**3 + 2*x
+self.y_pred=(1000,)
+self.infix=sqrt(x) + tan(x)
+self.y_pred=(1000,)
+self.infix=x*cos(x)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x) + sinh(x)
+self.y_pred=(1000,)
+self.infix=2*x - 5
+self.y_pred=(1000,)
+self.infix=x**2/2 + 12*log(x)
+self.y_pred=(1000,)
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.2834870517253876
+top: 0.5752286911010742
+<lambdifygenerated-1183>:2: RuntimeWarning: overflow encountered in exp
+  return exp(4*x)
+<lambdifygenerated-1186>:2: RuntimeWarning: divide by zero encountered in divide
+  return x/log(x**3)
+<lambdifygenerated-1191>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-1202>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 5)
+<lambdifygenerated-1202>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 5)
+<lambdifygenerated-1203>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 3
+<lambdifygenerated-1209>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x)
+<lambdifygenerated-1219>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*x*cosh(x) + 4*sin(x)
+<lambdifygenerated-1219>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*cosh(x) + 4*sin(x)
+<lambdifygenerated-1226>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x) + 2)
+<lambdifygenerated-1226>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + exp(x) + 2)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1260>:2: RuntimeWarning: overflow encountered in cosh
+  return 3*x*cosh(x)
+<lambdifygenerated-1260>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x*cosh(x)
+<lambdifygenerated-1282>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-1282>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*sinh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1293>:2: RuntimeWarning: invalid value encountered in log
+  return log(-x)
+<lambdifygenerated-1296>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-1296>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-1306>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)/x
+<lambdifygenerated-1325>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+<lambdifygenerated-1329>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + 2*exp(x)
+<lambdifygenerated-1330>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + 4*arcsin(x)
+<lambdifygenerated-1349>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x)
+<lambdifygenerated-1356>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/5)*sinh(x)
+<lambdifygenerated-1357>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x**3)
+<lambdifygenerated-1358>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-1358>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x)
+<lambdifygenerated-1359>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x*arccos(2)
+<lambdifygenerated-1364>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 4)*exp(x)
+<lambdifygenerated-1364>:2: RuntimeWarning: overflow encountered in multiply
+  return (x + 4)*exp(x)
+<lambdifygenerated-1367>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x**2))
+<lambdifygenerated-1374>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x**3)
+self.infix=x**3 + 3*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=sin(log(x))
+self.y_pred=(1000,)
+self.infix=-log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=exp(4*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/tan(2)
+self.y_pred=(1000,)
+self.infix=x*(sqrt(x) + x) + x
+self.y_pred=(1000,)
+self.infix=x/log(x**3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sqrt(x) + tan(x)
+self.y_pred=(1000,)
+self.infix=x + tanh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x*(x + 4) + x)
+self.y_pred=(1000,)
+self.infix=5*x**6
+self.y_pred=(1000,)
+self.infix=exp(2*x)/2
+self.y_pred=(1000,)
+self.infix=4*x**4
+self.y_pred=(1000,)
+self.infix=x**(9/2) + x
+self.y_pred=(1000,)
+self.infix=pi*x**4/4
+self.y_pred=(1000,)
+self.infix=x*(x + 5)
+self.y_pred=(1000,)
+self.infix=x + asinh(x**2)
+self.y_pred=(1000,)
+self.infix=x*(x + 9)
+self.y_pred=(1000,)
+self.infix=x*(x + 3)
+self.y_pred=(1000,)
+self.infix=x*exp(2*sqrt(x))
+self.y_pred=(1000,)
+self.infix=log(6*x**2)
+self.y_pred=(1000,)
+self.infix=sin(3*x)
+self.y_pred=(1000,)
+self.infix=x*exp(x + 5)
+self.y_pred=(1000,)
+self.infix=x + exp(x) + 3
+self.y_pred=(1000,)
+self.infix=asinh(2*x)
+self.y_pred=(1000,)
+self.infix=1/(3*x)
+self.y_pred=(1000,)
+self.infix=16*x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=cos(x - 5)
+self.y_pred=(1000,)
+self.infix=x*tan(4)
+self.y_pred=(1000,)
+self.infix=sinh(2*x)
+self.y_pred=(1000,)
+self.infix=5*x + 2
+self.y_pred=(1000,)
+self.infix=1/x
+self.y_pred=(1000,)
+self.infix=x**2/2 - x*log(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + cos(x)) + x
+self.y_pred=(1000,)
+self.infix=x*(x + 3)
+self.y_pred=(1000,)
+self.infix=log(2*x**(3/2))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=x**2/(x + 4)
+self.y_pred=(1000,)
+self.infix=x + cos(5)
+self.y_pred=(1000,)
+self.infix=4*x*cosh(x) + 4*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=4*sin(x)*cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=8/x
+self.y_pred=(1000,)
+self.infix=x + sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=x**2/2 + 4/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + exp(x) + 2)
+self.y_pred=(1000,)
+self.infix=x*sinh(1)
+self.y_pred=(1000,)
+self.infix=x**2*exp(-2)
+self.y_pred=(1000,)
+self.infix=x**2*(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x - 2)
+self.y_pred=(1000,)
+self.infix=x + cos(x) + 2
+self.y_pred=(1000,)
+self.infix=x**4 + 2*x
+self.y_pred=(1000,)
+self.infix=x*exp(-x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 7)
+self.y_pred=(1000,)
+self.infix=x**2*cos(5)/2
+self.y_pred=(1000,)
+self.infix=x*log(2) + x
+self.y_pred=(1000,)
+self.infix=x**2/16
+self.y_pred=(1000,)
+self.infix=4*x**(9/2)/9
+self.y_pred=(1000,)
+self.infix=sin(x)*cos(x)/2
+self.y_pred=(1000,)
+self.infix=x*(x + cos(x))
+self.y_pred=(1000,)
+self.infix=x**2*acosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x - sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4/(3*x)
+self.y_pred=(1000,)
+self.infix=x*sin(2) + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*(x + 4)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x*tan(1)
+self.y_pred=(1000,)
+self.infix=x*(x - atan(2*x))
+self.y_pred=(1000,)
+self.infix=log(2*x + 1)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-1/x
+self.y_pred=(1000,)
+self.infix=sin(x + 1)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(2)
+self.y_pred=(1000,)
+self.infix=4*sin(x)
+self.y_pred=(1000,)
+self.infix=5*x*log(x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x*log(x) + 2*x
+self.y_pred=(1000,)
+self.infix=(x**2 + x)**6
+self.y_pred=(1000,)
+self.infix=2*x - sin(x)
+self.y_pred=(1000,)
+self.infix=4*x**2
+self.y_pred=(1000,)
+self.infix=6*x**(5/2)/5
+self.y_pred=(1000,)
+self.infix=x + tan(2)
+self.y_pred=(1000,)
+self.infix=3*x*cosh(x)
+self.y_pred=(1000,)
+self.infix=2*x**2 + 4*x + 20*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + x*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=sin(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x/3)
+self.y_pred=(1000,)
+self.infix=9*x
+self.y_pred=(1000,)
+self.infix=3*x**2
+self.y_pred=(1000,)
+self.infix=x**3/3
+self.y_pred=(1000,)
+self.infix=6*x + 4
+self.y_pred=(1000,)
+self.infix=x*sin(2*x)
+self.y_pred=(1000,)
+self.infix=3*x + 8
+self.y_pred=(1000,)
+self.infix=5*x**2
+self.y_pred=(1000,)
+self.infix=1 - x
+self.y_pred=(1000,)
+self.infix=sqrt(x) + 2*x**2
+self.y_pred=(1000,)
+self.infix=x + exp(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2 + x*sin(x)
+self.y_pred=(1000,)
+self.infix=x - log(x)
+self.y_pred=(1000,)
+self.infix=4*x**2 - 4*x
+self.y_pred=(1000,)
+self.infix=x*tan(4)
+self.y_pred=(1000,)
+self.infix=9*x - 9*log(x + 9)
+self.y_pred=(1000,)
+self.infix=tan(x)
+self.y_pred=(1000,)
+self.infix=2 - x**2
+self.y_pred=(1000,)
+self.infix=2*sinh(x)
+self.y_pred=(1000,)
+self.infix=x*cos(5) + x
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=x*(x + (x + 3)**4)
+self.y_pred=(1000,)
+self.infix=x*cosh(1)
+self.y_pred=(1000,)
+self.infix=x*(x + 5)**2
+self.y_pred=(1000,)
+self.infix=2*x*cos(x)
+self.y_pred=(1000,)
+self.infix=x*sinh(4)
+self.y_pred=(1000,)
+self.infix=-4*x**2 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x**2 + 10*x
+self.y_pred=(1000,)
+self.infix=2*x**4 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(-x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-5*cos(x)
+self.y_pred=(1000,)
+self.infix=4*log(x)
+self.y_pred=(1000,)
+self.infix=2*x*(x + exp(x))
+self.y_pred=(1000,)
+self.infix=cos(2*x)
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=x*cos(5) + x
+self.y_pred=(1000,)
+self.infix=x*cosh(2)
+self.y_pred=(1000,)
+self.infix=4*x*tan(1)
+self.y_pred=(1000,)
+self.infix=x + asinh(sqrt(x))
+self.y_pred=(1000,)
+self.infix=3*x + cos(x)
+self.y_pred=(1000,)
+self.infix=2*x*tan(2)
+self.y_pred=(1000,)
+self.infix=x*(x + 1) + x
+self.y_pred=(1000,)
+self.infix=acos(x)/x
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2/4
+self.y_pred=(1000,)
+self.infix=acosh(x + 3)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3 - cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=3*x + 3/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + sin(x) + 1
+self.y_pred=(1000,)
+self.infix=x**3 + 20
+self.y_pred=(1000,)
+self.infix=x*(x + 3)
+self.y_pred=(1000,)
+self.infix=5*x**3 + x
+self.y_pred=(1000,)
+self.infix=4*x + 2
+self.y_pred=(1000,)
+self.infix=log(4*x**2)
+self.y_pred=(1000,)
+self.infix=x**4/4 + x**3/3
+self.y_pred=(1000,)
+self.infix=sin(x) + tan(x)
+self.y_pred=(1000,)
+self.infix=x*(x + x*exp(2))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 32)
+self.y_pred=(1000,)
+self.infix=x*cos(3*x) + x
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=x + 9
+self.y_pred=(1000,)
+self.infix=4*x + exp(x)
+self.y_pred=(1000,)
+self.infix=x*(x + 1) + x
+self.y_pred=(1000,)
+self.infix=x**2 + x*log(x)
+self.y_pred=(1000,)
+self.infix=x/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=2*x + 2*exp(x)
+self.y_pred=(1000,)
+self.infix=x + 4*asin(x)
+self.y_pred=(1000,)
+self.infix=x*exp(-1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=3*x**2/2 + x*log(x)
+self.y_pred=(1000,)
+self.infix=x*(x**3 + x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + 19
+self.y_pred=(1000,)
+self.infix=sin(x - 1)
+self.y_pred=(1000,)
+self.infix=x/(x + 2)
+self.y_pred=(1000,)
+self.infix=x*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/log(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4/4 + x**2/2
+self.y_pred=(1000,)
+self.infix=28*x**2
+self.y_pred=(1000,)
+self.infix=67*x**2
+self.y_pred=(1000,)
+self.infix=2*x + 4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x + cos(x)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/5 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*(x + log(x))
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=2*x*sin(x)**2
+self.y_pred=(1000,)
+self.infix=x**3 + 80
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sinh(x)/5
+self.y_pred=(1000,)
+self.infix=cosh(x**3)
+self.y_pred=(1000,)
+self.infix=x*exp(2*x)
+self.y_pred=(1000,)
+self.infix=x*acos(2)/2
+self.y_pred=(1000,)
+self.infix=sqrt(x**3)
+self.y_pred=(1000,)
+self.infix=x*(x + 3) + x
+self.y_pred=(1000,)
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=(x + 4)*exp(x)
+self.y_pred=(1000,)
+self.infix=cos(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*cos(2)/2
+self.y_pred=(1000,)
+self.infix=x*(x + exp(x**2))
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(x) + x
+self.y_pred=(1000,)
+self.infix=(x + 3)/x
+self.y_pred=(1000,)
+self.infix=x + tan(2*x**2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=1/(4*x**3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=2*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(x**3)
+self.y_pred=(1000,)
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.2617895007133484
+top: 0.9385665059089661
+<lambdifygenerated-1379>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x) + cos(x)
+<lambdifygenerated-1380>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 5)
+<lambdifygenerated-1382>:2: RuntimeWarning: invalid value encountered in log
+  return log(-1/2*x**2)
+<lambdifygenerated-1383>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2*arcsin(4)
+<lambdifygenerated-1386>:2: RuntimeWarning: invalid value encountered in arccos
+  return x/arccos(3)
+<lambdifygenerated-1391>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + x + exp(x)
+<lambdifygenerated-1400>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-1403>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**2
+<lambdifygenerated-1403>:2: RuntimeWarning: overflow encountered in square
+  return sinh(x)**2
+<lambdifygenerated-1407>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x))
+<lambdifygenerated-1407>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x))
+<lambdifygenerated-1411>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 4)
+<lambdifygenerated-1416>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 3)
+<lambdifygenerated-1421>:2: RuntimeWarning: divide by zero encountered in divide
+  return log(x)/x**10
+<lambdifygenerated-1439>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*x*cosh(x)
+<lambdifygenerated-1439>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*cosh(x)
+<lambdifygenerated-1441>:2: RuntimeWarning: overflow encountered in cosh
+  return 3*cosh(x)
+<lambdifygenerated-1441>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*cosh(x)
+<lambdifygenerated-1460>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*arccos(x)
+<lambdifygenerated-1464>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-1467>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x*arccos(x) + x)
+<lambdifygenerated-1469>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x**2*exp(x)
+<lambdifygenerated-1469>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x**2*exp(x)
+<lambdifygenerated-1470>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + x*exp(x)
+<lambdifygenerated-1470>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2 + x*exp(x)
+<lambdifygenerated-1480>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*cosh(x) + 2*sin(x)
+<lambdifygenerated-1480>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*cosh(x) + 2*sin(x)
+<lambdifygenerated-1487>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 3)*exp(x)
+<lambdifygenerated-1487>:2: RuntimeWarning: overflow encountered in multiply
+  return x + (x + 3)*exp(x)
+<lambdifygenerated-1507>:2: RuntimeWarning: overflow encountered in sinh
+  return -x*sinh(x) - cosh(x)
+<lambdifygenerated-1507>:2: RuntimeWarning: overflow encountered in multiply
+  return -x*sinh(x) - cosh(x)
+<lambdifygenerated-1507>:2: RuntimeWarning: overflow encountered in cosh
+  return -x*sinh(x) - cosh(x)
+<lambdifygenerated-1517>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x) + 2*x
+<lambdifygenerated-1517>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x) + 2*x
+<lambdifygenerated-1519>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x**2)
+<lambdifygenerated-1519>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x**2)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1535>:2: RuntimeWarning: overflow encountered in exp
+  return -1/4*exp(4*x)
+<lambdifygenerated-1537>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-1539>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**2
+<lambdifygenerated-1539>:2: RuntimeWarning: overflow encountered in square
+  return sinh(x)**2
+<lambdifygenerated-1541>:2: RuntimeWarning: invalid value encountered in log
+  return cos(log(tan(x)))
+<lambdifygenerated-1543>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 8)*exp(x)
+<lambdifygenerated-1543>:2: RuntimeWarning: overflow encountered in multiply
+  return (x - 8)*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1548>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(4)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1559>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x - 1)*exp(x)
+<lambdifygenerated-1559>:2: RuntimeWarning: overflow encountered in multiply
+  return x + (x - 1)*exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1564>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return (1/2)*x*arctanh(x) + (1/2)*x + (1/2)*arctanh(x)
+<lambdifygenerated-1564>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*x*arctanh(x) + (1/2)*x + (1/2)*arctanh(x)
+<lambdifygenerated-1570>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 2)
+<lambdifygenerated-1572>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+self.infix=None
+self.infix=x + cos(x + 4)
+self.y_pred=(1000,)
+self.infix=x*(x + 1)
+self.y_pred=(1000,)
+self.infix=x*(x + 5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2/5
+self.y_pred=(1000,)
+self.infix=x - exp(x) + cos(x)
+self.y_pred=(1000,)
+self.infix=exp(x + 5)
+self.y_pred=(1000,)
+self.infix=x*(2*x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(-x**2/2)
+self.y_pred=(1000,)
+self.infix=x**2*asin(4)
+self.y_pred=(1000,)
+self.infix=-1/(4*x**2)
+self.y_pred=(1000,)
+self.infix=3*x/8
+self.y_pred=(1000,)
+self.infix=x/acos(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + x*tan(5)
+self.y_pred=(1000,)
+self.infix=8*x**3
+self.y_pred=(1000,)
+self.infix=x + tan(5)
+self.y_pred=(1000,)
+self.infix=2*sin(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2 + x + exp(x)
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=4*x + 6*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*sin(x)
+self.y_pred=(1000,)
+self.infix=E*x**2
+self.y_pred=(1000,)
+self.infix=3*log(x)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=1/327
+self.y_pred=(1,)
+self.infix=sinh(1)/2
+self.y_pred=(1,)
+self.infix=sin(x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=exp(x)
+self.y_pred=(1000,)
+self.infix=x*(x**4 + x + 4)
+self.y_pred=(1000,)
+self.infix=x**5/5 + 9*x**4/4 + 27*x**2/2
+self.y_pred=(1000,)
+self.infix=sinh(x)**2
+self.y_pred=(1000,)
+self.infix=x*cos(5)
+self.y_pred=(1000,)
+self.infix=sin(x)**4
+self.y_pred=(1000,)
+self.infix=4*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*(x + exp(x))
+self.y_pred=(1000,)
+self.infix=x**2*(x + 2)
+self.y_pred=(1000,)
+self.infix=1 - cos(x)
+self.y_pred=(1000,)
+self.infix=2*x**3 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sinh(x + 4)
+self.y_pred=(1000,)
+self.infix=2*x
+self.y_pred=(1000,)
+self.infix=x*(x + 1) + x
+self.y_pred=(1000,)
+self.infix=(x + 8)**2
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2*log(x)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=sinh(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + cos(3))
+self.y_pred=(1000,)
+self.infix=x**3 + 4*x
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=acosh(x + 5)
+self.y_pred=(1000,)
+self.infix=log(x)/x**10
+self.y_pred=(1000,)
+self.infix=sin(x)/3
+self.y_pred=(1000,)
+self.infix=x**2*(tan(5) + 1)
+self.y_pred=(1000,)
+self.infix=-sin(x)
+self.y_pred=(1000,)
+self.infix=x + tan(2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=8*x**3
+self.y_pred=(1000,)
+self.infix=x + sqrt(2)
+self.y_pred=(1000,)
+self.infix=x/5
+self.y_pred=(1000,)
+self.infix=tan(tanh(2*x))
+self.y_pred=(1000,)
+self.infix=sqrt(x + 6)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x*log(4)
+self.y_pred=(1000,)
+self.infix=2*x*asinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x - 1)
+self.y_pred=(1000,)
+self.infix=x*(x + 4)
+self.y_pred=(1000,)
+self.infix=x*tan(5)
+self.y_pred=(1000,)
+self.infix=3*x**2
+self.y_pred=(1000,)
+self.infix=2*x*sin(x)
+self.y_pred=(1000,)
+self.infix=log(x**3)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x*cosh(x)
+self.y_pred=(1000,)
+self.infix=x*(x + 1)
+self.y_pred=(1000,)
+self.infix=3*cosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=9*x**4 + 2*x
+self.y_pred=(1000,)
+self.infix=sin(log(x))/2
+self.y_pred=(1000,)
+self.infix=tan(x + 1)
+self.y_pred=(1000,)
+self.infix=2*x**2
+self.y_pred=(1000,)
+self.infix=cos(x + 3)
+self.y_pred=(1000,)
+self.infix=x*log(x) + 4*x
+self.y_pred=(1000,)
+self.infix=4*acosh(x)/x
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=x*asinh(4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x**2 + x
+self.y_pred=(1000,)
+self.infix=x*(x + 4)
+self.y_pred=(1000,)
+self.infix=sin(2*x + 3)/2
+self.y_pred=(1000,)
+self.infix=3/x
+self.y_pred=(1000,)
+self.infix=1/96
+self.y_pred=(1,)
+self.infix=x**2*cosh(2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*log(x) - x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3*(x + 2)
+self.y_pred=(1000,)
+self.infix=2*acos(x)
+self.y_pred=(1000,)
+self.infix=x*sin(2*x)
+self.y_pred=(1000,)
+self.infix=2*x + 2
+self.y_pred=(1000,)
+self.infix=x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + acos(x))
+self.y_pred=(1000,)
+self.infix=3
+self.y_pred=(1,)
+self.infix=None
+self.infix=2*x**2*asinh(x)
+self.y_pred=(1000,)
+self.infix=x*(x*acos(x) + x)
+self.y_pred=(1000,)
+self.infix=sqrt(2)*(x - 1)
+self.y_pred=(1000,)
+self.infix=3*x**2*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + x*exp(x)
+self.y_pred=(1000,)
+self.infix=2*log(x)
+self.y_pred=(1000,)
+self.infix=3*x + cos(x)
+self.y_pred=(1000,)
+self.infix=sin(4*x)
+self.y_pred=(1000,)
+self.infix=tan(1)/x
+self.y_pred=(1000,)
+self.infix=tan(x + 3)
+self.y_pred=(1000,)
+self.infix=2*x*Abs(x)
+self.y_pred=(1000,)
+self.infix=2*x**2*sin(x)
+self.y_pred=(1000,)
+self.infix=2*log(x)**2
+self.y_pred=(1000,)
+self.infix=tan(x)/5
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*cosh(x) + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=6*x**3 + x
+self.y_pred=(1000,)
+self.infix=x**4/8
+self.y_pred=(1000,)
+self.infix=x*(x + 5)
+self.y_pred=(1000,)
+self.infix=x**3 + x + 5
+self.y_pred=(1000,)
+self.infix=x*(x + asinh(x))
+self.y_pred=(1000,)
+self.infix=log(2*x**3)
+self.y_pred=(1000,)
+self.infix=x + (x + 3)*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=2*x + sin(x)
+self.y_pred=(1000,)
+self.infix=x + log(x**4)
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=x*sin(1)
+self.y_pred=(1000,)
+self.infix=x + x*log(4)
+self.y_pred=(1000,)
+self.infix=3 - x
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x*cos(x) - sin(x)
+self.y_pred=(1000,)
+self.infix=x/(2*x + 1)
+self.y_pred=(1000,)
+self.infix=cos(log(x))
+self.y_pred=(1000,)
+self.infix=x**2*sin(log(x))
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=10*x**4
+self.y_pred=(1000,)
+self.infix=3*x + 7
+self.y_pred=(1000,)
+self.infix=x*log(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2/4 + x
+self.y_pred=(1000,)
+self.infix=x*exp(-2) + x
+self.y_pred=(1000,)
+self.infix=x + 26
+self.y_pred=(1000,)
+self.infix=2*log(x)
+self.y_pred=(1000,)
+self.infix=2*sqrt(3)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=-x*sinh(x) - cosh(x)
+self.y_pred=(1000,)
+self.infix=sin(x**2)/2
+self.y_pred=(1000,)
+self.infix=x + 4
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + cos(2))
+self.y_pred=(1000,)
+self.infix=2*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=x**3*cos(4)/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=6*log(3*x) - 6*log(x + 3)
+self.y_pred=(1000,)
+self.infix=2*x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=asinh(x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*exp(x) + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*cos(x + 2)
+self.y_pred=(1000,)
+self.infix=atanh(x**2)
+self.y_pred=(1000,)
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=x + 5
+self.y_pred=(1000,)
+self.infix=34*x
+self.y_pred=(1000,)
+self.infix=4*x**2 + x
+self.y_pred=(1000,)
+self.infix=cos(x + 5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=15*x**7
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + tan(x)
+self.y_pred=(1000,)
+self.infix=5*x**3/2
+self.y_pred=(1000,)
+self.infix=x*(x + 4)**2
+self.y_pred=(1000,)
+self.infix=10*x**5
+self.y_pred=(1000,)
+self.infix=cos(x + 4)
+self.y_pred=(1000,)
+self.infix=log(x)*tanh(5)
+self.y_pred=(1000,)
+self.infix=x/(x + cos(x))
+self.y_pred=(1000,)
+self.infix=2*x + exp(3)
+self.y_pred=(1000,)
+self.infix=-exp(4*x)/4
+self.y_pred=(1000,)
+self.infix=x*cos(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x - exp(x)
+self.y_pred=(1000,)
+self.infix=8*x
+self.y_pred=(1000,)
+self.infix=sinh(x)**2
+self.y_pred=(1000,)
+self.infix=sin(x + 6)
+self.y_pred=(1000,)
+self.infix=cos(log(tan(x)))
+self.y_pred=(1000,)
+self.infix=2*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=(x - 8)*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + 4
+self.y_pred=(1000,)
+self.infix=7*x**3
+self.y_pred=(1000,)
+self.infix=2*x*tan(5)
+self.y_pred=(1000,)
+self.infix=x**5 + 2
+self.y_pred=(1000,)
+self.infix=x*acos(4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=4*x + 5
+self.y_pred=(1000,)
+self.infix=x/(x + 5)
+self.y_pred=(1000,)
+self.infix=log(x)**3
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=2*x*cos(1)
+self.y_pred=(1000,)
+self.infix=2*x**4 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(3*x)/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sqrt(x + 2)
+self.y_pred=(1000,)
+self.infix=sqrt(2)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=8*x**4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + (x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=x**6
+self.y_pred=(1000,)
+self.infix=log(x + 4)
+self.y_pred=(1000,)
+self.infix=x**3 + x*tan(1)
+self.y_pred=(1000,)
+self.infix=-1/10
+self.y_pred=(1,)
+self.infix=x*atanh(x)/2 + x/2 + atanh(x)/2
+self.y_pred=(1000,)
+self.infix=-tan(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=tan(x + 3)
+self.y_pred=(1000,)
+self.infix=x*(2 - x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + 1)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*sin(x)
+self.y_pred=(1000,)
+self.infix=exp(x + 2)
+self.y_pred=(1000,)
+self.infix=x**2/cosh(2)
+self.y_pred=(1000,)
+self.infix=x*(x + acos(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + 2) + 2*x
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=1/sqrt(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+mean: 0.257430762052536
+top: 0.9883836507797241
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+self.infix=x + 15
+self.y_pred=(1000,)
+self.infix=-x*log(x) + x
+self.y_pred=(1000,)
+self.infix=x*tan(5)
+self.y_pred=(1000,)
+self.infix=x**2 - 5*x
+self.y_pred=(1000,)
+self.infix=x*exp(8*x**2)
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=2*x + 2
+self.y_pred=(1000,)
+self.infix=asinh(2*x)/4
+self.y_pred=(1000,)
+self.infix=x*exp(-x)
+self.y_pred=(1000,)
+self.infix=x*acosh(x)
+self.y_pred=(1000,)
+self.infix=x*(1 - x) - x
+self.y_pred=(1000,)
+self.infix=sinh(x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x - 4*log(x)
+self.y_pred=(1000,)
+self.infix=tan(x)
+self.y_pred=(1000,)
+self.infix=x + cosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=6*log(x)
+self.y_pred=(1000,)
+self.infix=x**2
+self.y_pred=(1000,)
+self.infix=2*x*(x + log(x))
+self.y_pred=(1000,)
+self.infix=-acosh(4*x)/4
+self.y_pred=(1000,)
+self.infix=-x + cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=tan(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=zoo
+self.y_pred=(1,)
+self.infix=5*x*(x + 2)
+self.y_pred=(1000,)
+self.infix=x**2 + x*tan(2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 3)
+self.y_pred=(1000,)
+self.infix=2*x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x*log(x)**2
+self.y_pred=(1000,)
+self.infix=cos(2*x + 3)
+self.y_pred=(1000,)
+self.infix=2*x + 2*cos(x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(2)
+self.y_pred=(1000,)
+self.infix=x + cos(4)
+self.y_pred=(1000,)
+self.infix=5*x + 12
+self.y_pred=(1000,)
+self.infix=-x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=log(5*x)
+self.y_pred=(1000,)
+self.infix=8*x**5
+self.y_pred=(1000,)
+self.infix=x*sin(x + 6)
+self.y_pred=(1000,)
+self.infix=x*(x**2 + x) + x
+self.y_pred=(1000,)
+self.infix=3*E*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x + 4)
+self.y_pred=(1000,)
+self.infix=log(4*x)
+self.y_pred=(1000,)
+self.infix=x*(2*x + 2)
+self.y_pred=(1000,)
+self.infix=2*x*(x + 4)
+self.y_pred=(1000,)
+self.infix=-3/(2*x)
+self.y_pred=(1000,)
+self.infix=4*x**3/3 + 3*x
+self.y_pred=(1000,)
+self.infix=x**2 + x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 - x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + log(x) + 3
+self.y_pred=(1000,)
+self.infix=asinh(x + 5)
+self.y_pred=(1000,)
+self.infix=4*acos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x**2 + x + 5)
+self.y_pred=(1000,)
+self.infix=x**2*cosh(x) + x
+self.y_pred=(1000,)
+self.infix=x**2 + 3
+self.y_pred=(1000,)
+self.infix=x**3/log(x)
+self.y_pred=(1000,)
+self.infix=-5*cos(2*x)/2
+self.y_pred=(1000,)
+self.infix=x*sqrt(1/x)
+self.y_pred=(1000,)
+self.infix=x*(cos(x) - 1)
+self.y_pred=(1000,)
+self.infix=-sin(2*x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-2*x + 4*log(x)
+self.y_pred=(1000,)
+self.infix=x + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=2*x + 2
+self.y_pred=(1000,)
+self.infix=4*cosh(x)
+self.y_pred=(1000,)
+self.infix=3*x**3 + x**2 + 6*x
+self.y_pred=(1000,)
+self.infix=x/2 + exp(x)*sin(x)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=log(x)/4
+self.y_pred=(1000,)
+self.infix=4 - x
+self.y_pred=(1000,)
+self.infix=sin(2*x)/4
+self.y_pred=(1000,)
+self.infix=cosh(x + 3)
+self.y_pred=(1000,)
+self.infix=x*log(x) - x + log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=7*x + 5
+self.y_pred=(1000,)
+self.infix=x**2 + cos(log(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-exp(x) + tan(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-4*x*cos(x) - 4*sin(x)
+self.y_pred=(1000,)
+self.infix=x*(x + cos(4))
+self.y_pred=(1000,)
+self.infix=cosh(x)/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x + 2
+self.y_pred=(1000,)
+self.infix=x*(x**4 + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + x*log(2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**(3/2)
+self.y_pred=(1000,)
+self.infix=exp(2*x)/2
+self.y_pred=(1000,)
+self.infix=x + exp(x + 1)
+self.y_pred=(1000,)
+self.infix=x**2/4 + 2*log(x)
+self.y_pred=(1000,)
+self.infix=2*x*(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/4 + x*asinh(x) - sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=x/sin(1)
+self.y_pred=(1000,)
+self.infix=x**2*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=x*log(2) + 3*x
+self.y_pred=(1000,)
+self.infix=x/(x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + cos(log(x))
+self.y_pred=(1000,)
+self.infix=x**4/4 - x**2/8
+self.y_pred=(1000,)
+self.infix=log(4*x**2)
+self.y_pred=(1000,)
+self.infix=x**2/2 - x + exp(x)
+self.y_pred=(1000,)
+self.infix=x**6 + x
+self.y_pred=(1000,)
+self.infix=x + log(x) - log(tanh(x) + 1)
+self.y_pred=(1000,)
+self.infix=(1 - x)**2
+self.y_pred=(1000,)
+self.infix=x**2 - 4
+self.y_pred=(1000,)
+self.infix=sinh(4*x)
+self.y_pred=(1000,)
+self.infix=(x + 2)/x
+self.y_pred=(1000,)
+self.infix=x**2/9
+self.y_pred=(1000,)
+self.infix=x**2 + x
+self.y_pred=(1000,)
+self.infix=x**3 + 4*x
+self.y_pred=(1000,)
+self.infix=sin(x) + asin(x)
+self.y_pred=(1000,)
+self.infix=2*x**2*sin(x)
+self.y_pred=(1000,)
+self.infix=x + x*exp(2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=exp(x) + asinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x*(x**2 + x)**2
+self.y_pred=(1000,)
+self.infix=x**4 + 1
+self.y_pred=(1000,)
+self.infix=asin(x**2)
+self.y_pred=(1000,)
+self.infix=1/(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*sin(4)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(x) + x
+self.y_pred=(1000,)
+<lambdifygenerated-1580>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(8*x**2)
+<lambdifygenerated-1587>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**2
+<lambdifygenerated-1587>:2: RuntimeWarning: overflow encountered in square
+  return sinh(x)**2
+<lambdifygenerated-1590>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-1623>:2: RuntimeWarning: invalid value encountered in arccos
+  return 4*arccos(x)
+<lambdifygenerated-1625>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2*cosh(x) + x
+<lambdifygenerated-1625>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*cosh(x) + x
+<lambdifygenerated-1627>:2: RuntimeWarning: divide by zero encountered in divide
+  return x**3/log(x)
+<lambdifygenerated-1634>:2: RuntimeWarning: invalid value encountered in sqrt
+  return 2*x + sqrt(1 - x**2)
+<lambdifygenerated-1637>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*cosh(x)
+<lambdifygenerated-1637>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*cosh(x)
+<lambdifygenerated-1639>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x + (1/2)*exp(x)*sin(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+<lambdifygenerated-1643>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 3)
+<lambdifygenerated-1647>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + tan(x)
+<lambdifygenerated-1651>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)/x
+<lambdifygenerated-1656>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-1657>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x + 1)
+<lambdifygenerated-1660>:2: RuntimeWarning: invalid value encountered in sqrt
+  return (1/4)*x**2 + x*arcsinh(x) - sqrt(1 - x**2)
+<lambdifygenerated-1668>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - x + exp(x)
+<lambdifygenerated-1673>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(4*x)
+<lambdifygenerated-1678>:2: RuntimeWarning: invalid value encountered in arcsin
+  return sin(x) + arcsin(x)
+<lambdifygenerated-1681>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsinh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-1684>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x**2)
+<lambdifygenerated-1699>:2: RuntimeWarning: overflow encountered in exp
+  return 4*exp(3*x)
+<lambdifygenerated-1707>:2: RuntimeWarning: invalid value encountered in log
+  return log(tan(x))
+<lambdifygenerated-1708>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)
+<lambdifygenerated-1713>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x + 2)
+<lambdifygenerated-1722>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1732>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x))
+<lambdifygenerated-1732>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x))
+<lambdifygenerated-1733>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/2)*x**2 + cosh(x)
+<lambdifygenerated-1735>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + sinh(x)
+<lambdifygenerated-1735>:2: RuntimeWarning: overflow encountered in sinh
+  return exp(x) + sinh(x)
+<lambdifygenerated-1736>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 3)*exp(x)
+<lambdifygenerated-1736>:2: RuntimeWarning: overflow encountered in multiply
+  return (x + 3)*exp(x)
+<lambdifygenerated-1750>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + exp(4*x)
+<lambdifygenerated-1756>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*log(sin(2*x))
+<lambdifygenerated-1757>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*log(cos(2*x))
+<lambdifygenerated-1759>:2: RuntimeWarning: overflow encountered in sinh
+  return -x*sinh(x) - x*cosh(x)
+<lambdifygenerated-1759>:2: RuntimeWarning: overflow encountered in multiply
+  return -x*sinh(x) - x*cosh(x)
+<lambdifygenerated-1759>:2: RuntimeWarning: overflow encountered in cosh
+  return -x*sinh(x) - x*cosh(x)
+<lambdifygenerated-1761>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x**2)
+<lambdifygenerated-1762>:2: RuntimeWarning: divide by zero encountered in divide
+  return 1/(x*log(x))
+<lambdifygenerated-1763>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + sinh(x)
+<lambdifygenerated-1763>:2: RuntimeWarning: overflow encountered in sinh
+  return exp(x) + sinh(x)
+<lambdifygenerated-1764>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 + x - log(cos(x))
+self.infix=cos(x/2)
+self.y_pred=(1000,)
+self.infix=log(x)/2
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2/4
+self.y_pred=(1000,)
+self.infix=2*x*(x + 4)
+self.y_pred=(1000,)
+self.infix=1/x
+self.y_pred=(1000,)
+self.infix=sin(3*x)
+self.y_pred=(1000,)
+self.infix=x**6/2
+self.y_pred=(1000,)
+self.infix=-cos(2*x)
+self.y_pred=(1000,)
+self.infix=x + exp(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(2) + 4*x
+self.y_pred=(1000,)
+self.infix=4*exp(3*x)
+self.y_pred=(1000,)
+self.infix=x*(x + cos(3))
+self.y_pred=(1000,)
+self.infix=2*sqrt(x)*acosh(x) + 2*sqrt(x) + x**2
+self.y_pred=(1000,)
+self.infix=x**3 + 2
+self.y_pred=(1000,)
+self.infix=-sin(2*x)
+self.y_pred=(1000,)
+self.infix=8/x
+self.y_pred=(1000,)
+self.infix=asinh(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2
+self.y_pred=(1000,)
+self.infix=log(tan(x))
+self.y_pred=(1000,)
+self.infix=sinh(x)
+self.y_pred=(1000,)
+self.infix=23*x*atan(x)
+self.y_pred=(1000,)
+self.infix=cos(x)/x
+self.y_pred=(1000,)
+self.infix=100*x**3
+self.y_pred=(1000,)
+self.infix=x**3/3 - 1/2
+self.y_pred=(1000,)
+self.infix=exp(3*x + 2)
+self.y_pred=(1000,)
+self.infix=x*log(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + log(x)) + x
+self.y_pred=(1000,)
+self.infix=cos(1)/x
+self.y_pred=(1000,)
+self.infix=16*x**5/5 + x**2/2
+self.y_pred=(1000,)
+self.infix=6*x
+self.y_pred=(1000,)
+self.infix=2*x + log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 - x + 1
+self.y_pred=(1000,)
+self.infix=sin(2*x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=tanh(2*x + 2)
+self.y_pred=(1000,)
+self.infix=10*x**3
+self.y_pred=(1000,)
+self.infix=x**3 + 4*x
+self.y_pred=(1000,)
+self.infix=-x**2 + x - 1
+self.y_pred=(1000,)
+self.infix=x*(x + 4)
+self.y_pred=(1000,)
+self.infix=x*(x + 4)
+self.y_pred=(1000,)
+self.infix=x**2/2
+self.y_pred=(1000,)
+self.infix=-x**2/2 - x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=4*x*(x + cos(x))
+self.y_pred=(1000,)
+self.infix=x**2*(x + exp(x))
+self.y_pred=(1000,)
+self.infix=x**2/2 + cosh(x)
+self.y_pred=(1000,)
+self.infix=x*log(x/2) - x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=exp(x) + sinh(x)
+self.y_pred=(1000,)
+self.infix=(x + 3)*exp(x)
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=x - 5/x
+self.y_pred=(1000,)
+self.infix=1/(13*x)
+self.y_pred=(1000,)
+self.infix=asinh(x + 5)
+self.y_pred=(1000,)
+self.infix=-x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=4*x**5/5 + x**3/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**5/10 + x**2/2
+self.y_pred=(1000,)
+self.infix=4*x**(7/2)/7
+self.y_pred=(1000,)
+self.infix=1/(2*x)
+self.y_pred=(1000,)
+self.infix=tanh(x) - 3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*log(4)
+self.y_pred=(1000,)
+self.infix=x + 1/(4*x**4)
+self.y_pred=(1000,)
+self.infix=4*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + exp(4*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=7*x*cos(x) + 6*sin(x)
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=log(asinh(x/2))
+self.y_pred=(1000,)
+self.infix=sin(x)
+self.y_pred=(1000,)
+self.infix=log(sin(2*x))/2
+self.y_pred=(1000,)
+self.infix=-log(cos(2*x))/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(x)/3
+self.y_pred=(1000,)
+self.infix=-x*sinh(x) - x*cosh(x)
+self.y_pred=(1000,)
+self.infix=5*x**4/4 + 2*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=1/(x*log(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=exp(x) + sinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + x - log(cos(x))
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=x + tan(4)
+self.y_pred=(1000,)
+self.infix=x + tan(log(x))
+self.y_pred=(1000,)
+self.infix=-x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + x - acosh(x)
+self.y_pred=(1000,)
+self.infix=cos(4*x + 2)/4
+self.y_pred=(1000,)
+self.infix=(x + 2)**2
+self.y_pred=(1000,)
+self.infix=x**2*sin(3)
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=-cos(x)
+self.y_pred=(1000,)
+self.infix=5*x*cos(2)
+self.y_pred=(1000,)
+self.infix=2*cos(2*x)
+self.y_pred=(1000,)
+self.infix=tan(log(x))/2
+self.y_pred=(1000,)
+self.infix=sin(3*x + 2)
+self.y_pred=(1000,)
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.12950089573860168
+top: 0.9446040391921997
+self.infix=2*x + tan(x)
+self.y_pred=(1000,)
+self.infix=2*sin(3*x + 3)/3
+self.y_pred=(1000,)
+self.infix=4/(3*x**4)
+self.y_pred=(1000,)
+self.infix=4*x - 1
+self.y_pred=(1000,)
+self.infix=x**3/3 - x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*(x**2 - x)
+self.y_pred=(1000,)
+self.infix=x - 2/x
+self.y_pred=(1000,)
+self.infix=2*x*log(x) + 2*x
+self.y_pred=(1000,)
+self.infix=x + exp(x) - atan(x)
+self.y_pred=(1000,)
+self.infix=-x**2 + sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x + cos(x) + 2
+self.y_pred=(1000,)
+self.infix=atanh(x + 3)
+self.y_pred=(1000,)
+self.infix=sqrt(2)*x**(5/2)/5
+self.y_pred=(1000,)
+self.infix=(2*x - 1)**log(x)
+self.y_pred=(1000,)
+self.infix=x**2/2
+self.y_pred=(1000,)
+self.infix=tanh(x + 2)
+self.y_pred=(1000,)
+self.infix=-2*exp(2*x)
+self.y_pred=(1000,)
+self.infix=x**2/2
+self.y_pred=(1000,)
+self.infix=x + x*atan(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sqrt(2)*x**2/4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**3 + x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x*tanh(x)
+self.y_pred=(1000,)
+self.infix=sin(x) - cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3 - x**2
+self.y_pred=(1000,)
+self.infix=x**2 + x
+self.y_pred=(1000,)
+self.infix=-x + tan(x)
+self.y_pred=(1000,)
+self.infix=5*x*atan(x)
+self.y_pred=(1000,)
+self.infix=2*x**(5/2)/5 + x**3/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x - 2*exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x*tan(1)
+self.y_pred=(1000,)
+self.infix=2*sin(x + 4)
+self.y_pred=(1000,)
+self.infix=-3*exp(2*x)/4
+self.y_pred=(1000,)
+self.infix=3*x**2
+self.y_pred=(1000,)
+self.infix=atanh(2*x + 1)
+self.y_pred=(1000,)
+self.infix=x**3/3 + 7*x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x**(13/6)
+self.y_pred=(1000,)
+self.infix=1/(x**3 + x + 4)
+self.y_pred=(1000,)
+self.infix=log(x) + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + exp(x)
+self.y_pred=(1000,)
+self.infix=2*x*sin(1)
+self.y_pred=(1000,)
+self.infix=2*x**3/3 - x - log(tanh(x))
+self.y_pred=(1000,)
+self.infix=x**2*tan(2)/2
+self.y_pred=(1000,)
+self.infix=3*(x + 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=x*(x**3 + x + 1)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2
+self.y_pred=(1000,)
+self.infix=-x**2/4 + x*asin(x) + x
+self.y_pred=(1000,)
+self.infix=20/x
+self.y_pred=(1000,)
+self.infix=x**2/2 - x*sin(x) - cos(x)
+self.y_pred=(1000,)
+self.infix=cos(x + 2)
+self.y_pred=(1000,)
+self.infix=x + 10*acosh(x)
+self.y_pred=(1000,)
+self.infix=x**2 + tanh(2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + 7/x
+self.y_pred=(1000,)
+self.infix=x*log(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x - log(cos(x))
+self.y_pred=(1000,)
+self.infix=x**2/2 + x/2
+self.y_pred=(1000,)
+self.infix=2*x + 15
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/10
+self.y_pred=(1000,)
+self.infix=x - exp(x)
+self.y_pred=(1000,)
+self.infix=sin(x + 4)
+self.y_pred=(1000,)
+self.infix=1/(6*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=-x**4 + x
+self.y_pred=(1000,)
+self.infix=x + x*log(5)
+self.y_pred=(1000,)
+self.infix=sqrt(tan(x))
+self.y_pred=(1000,)
+self.infix=tanh(x) + 1
+self.y_pred=(1000,)
+self.infix=x**2 + x/4
+self.y_pred=(1000,)
+self.infix=log(x*tan(3))
+self.y_pred=(1000,)
+self.infix=-2*x*log(x**2) - 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/3
+self.y_pred=(1000,)
+self.infix=4*acos(x)
+self.y_pred=(1000,)
+self.infix=exp(x) + tanh(x)
+self.y_pred=(1000,)
+self.infix=x*acosh(4)
+self.y_pred=(1000,)
+self.infix=x + cos(2*x)
+self.y_pred=(1000,)
+self.infix=sin(2*x)
+self.y_pred=(1000,)
+self.infix=acosh(4)/sqrt(x)
+self.y_pred=(1000,)
+self.infix=2*sqrt(3)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=x**2/2 + x
+self.y_pred=(1000,)
+self.infix=tanh(x + 1)
+self.y_pred=(1000,)
+self.infix=1/sin(2*x)
+self.y_pred=(1000,)
+self.infix=x + cos(x)
+self.y_pred=(1000,)
+self.infix=x**4/4 - cos(x)
+self.y_pred=(1000,)
+self.infix=x*(sqrt(x) + x)
+self.y_pred=(1000,)
+self.infix=x + 2*log(x)
+self.y_pred=(1000,)
+self.infix=-1/(4*x**9)
+self.y_pred=(1000,)
+self.infix=x*cosh(2)
+self.y_pred=(1000,)
+self.infix=atan(x)
+self.y_pred=(1000,)
+self.infix=2*x + exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + 4/cos(x)
+self.y_pred=(1000,)
+self.infix=sinh(2*x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*tanh(x)
+self.y_pred=(1000,)
+self.infix=sin(x + 5)
+self.y_pred=(1000,)
+self.infix=3*x - 6
+self.y_pred=(1000,)
+self.infix=10*x**2
+self.y_pred=(1000,)
+self.infix=2*x + 5
+self.y_pred=(1000,)
+self.infix=2*x - 1
+self.y_pred=(1000,)
+self.infix=12*x
+self.y_pred=(1000,)
+self.infix=log(x + 5)
+self.y_pred=(1000,)
+self.infix=-x**2/2 + x*log(x) - x
+self.y_pred=(1000,)
+self.infix=28*x**3
+self.y_pred=(1000,)
+self.infix=x - sin(x)
+self.y_pred=(1000,)
+self.infix=3*x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=sin(4*x)/4
+self.y_pred=(1000,)
+self.infix=x - cos(2*x)
+self.y_pred=(1000,)
+self.infix=tan(x + 5)
+self.y_pred=(1000,)
+self.infix=x*exp(3*x)
+self.y_pred=(1000,)
+self.infix=x - asinh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=1/(34*x**2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5/x
+self.y_pred=(1000,)
+self.infix=(x + 1)**2
+self.y_pred=(1000,)
+self.infix=4*x*cos(1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=log(5*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*log(x)**2
+self.y_pred=(1000,)
+self.infix=1/(x + 4)
+self.y_pred=(1000,)
+self.infix=x*tan(x) + 2*x
+self.y_pred=(1000,)
+self.infix=x**2 + sqrt(2)*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-4*x**(7/2)/7
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x + sin(x)
+self.y_pred=(1000,)
+self.infix=-5/x
+self.y_pred=(1000,)
+self.infix=x*(x + cos(3))
+self.y_pred=(1000,)
+self.infix=x + cos(x + 1)
+self.y_pred=(1000,)
+self.infix=x + 1/(x + 2)
+self.y_pred=(1000,)
+self.infix=x**2 + log(x)
+self.y_pred=(1000,)
+self.infix=9*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x - log(x - 2)/2
+self.y_pred=(1000,)
+self.infix=x**6 + x**2
+self.y_pred=(1000,)
+self.infix=cosh(x + 2)
+self.y_pred=(1000,)
+self.infix=2*x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=tan(5*x)
+self.y_pred=(1000,)
+self.infix=sin(x)**5
+self.y_pred=(1000,)
+self.infix=2*x + exp(x)
+self.y_pred=(1000,)
+self.infix=-1/(2*x**4)
+self.y_pred=(1000,)
+self.infix=x**2 - tanh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4 + x**2 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*(x + 3)
+self.y_pred=(1000,)
+self.infix=10*x**(1/15)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(x + asinh(x))**2
+self.y_pred=(1000,)
+self.infix=sin(2*x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + 1/(4*x**2)
+self.y_pred=(1000,)
+self.infix=sin(x)**2
+self.y_pred=(1000,)
+self.infix=-asin(x)
+self.y_pred=(1000,)
+self.infix=x**4/4 + x**3/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=x + sinh(x)
+self.y_pred=(1000,)
+self.infix=x*exp(x + 1)
+self.y_pred=(1000,)
+self.infix=6*x**2
+self.y_pred=(1000,)
+self.infix=log(x)
+self.y_pred=(1000,)
+self.infix=cosh(2*x)
+self.y_pred=(1000,)
+self.infix=x*log(2*x) - x
+self.y_pred=(1000,)
+self.infix=2*x**2 - 2*x
+self.y_pred=(1000,)
+self.infix=3*x*cos(x)
+self.y_pred=(1000,)
+self.infix=x + tan(x) + 2
+self.y_pred=(1000,)
+self.infix=3*log(x)
+self.y_pred=(1000,)
+self.infix=x + tan(1)
+self.y_pred=(1000,)
+self.infix=25*x**2/2
+self.y_pred=(1000,)
+self.infix=sqrt(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4/10
+self.y_pred=(1000,)
+self.infix=2*x**3*(x + 2)
+self.y_pred=(1000,)
+self.infix=3*x**2 - x
+self.y_pred=(1000,)
+self.infix=2*x + cos(4*x)
+self.y_pred=(1000,)
+self.infix=x + cosh(x)**2
+self.y_pred=(1000,)
+self.infix=2 - x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*tan(2*x)
+self.y_pred=(1000,)
+self.infix=x**2 + 4*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3*exp(2)
+self.y_pred=(1000,)
+self.infix=7*x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + x*log(x)
+self.y_pred=(1000,)
+self.infix=x + asinh(x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=2*x + sin(x)
+self.y_pred=(1000,)
+self.infix=x**2 - x*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 - x
+self.y_pred=(1000,)
+self.infix=4*x*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=cos(2*x)
+self.y_pred=(1000,)
+self.infix=3*x*cos(x)
+self.y_pred=(1000,)
+self.infix=2*x*log(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=asinh(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x**2/2
+self.y_pred=(1000,)
+self.infix=3*x**3 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x + log(x)**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4
+self.y_pred=(1000,)
+self.infix=x**2/2 + 5*log(x)
+self.y_pred=(1000,)
+self.infix=3*x**3 + x
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x + 2*acosh(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 4) + x
+self.y_pred=(1000,)
+self.infix=log(x)**2/x
+self.y_pred=(1000,)
+self.infix=2*x + sin(x)
+self.y_pred=(1000,)
+self.infix=x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x + (x**2 + x)**2
+self.y_pred=(1000,)
+self.infix=exp(3*x)/3
+self.y_pred=(1000,)
+self.infix=x**6/6
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x - exp(x)
+self.y_pred=(1000,)
+self.infix=9*x**(3/2)/35
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=5*x*(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x*(x + 1)
+self.y_pred=(1000,)
+self.infix=x*tan(5)
+self.y_pred=(1000,)
+self.infix=x*sin(x) + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(2*x)/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x + sin(log(x))
+self.y_pred=(1000,)
+<lambdifygenerated-1787>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - arctan(x)
+<lambdifygenerated-1790>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 3)
+<lambdifygenerated-1795>:2: RuntimeWarning: overflow encountered in exp
+  return -2*exp(2*x)
+<lambdifygenerated-1807>:2: RuntimeWarning: overflow encountered in exp
+  return x - 2*exp(x)
+<lambdifygenerated-1810>:2: RuntimeWarning: overflow encountered in exp
+  return -3/4*exp(2*x)
+<lambdifygenerated-1812>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(2*x + 1)
+<lambdifygenerated-1818>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1822>:2: RuntimeWarning: overflow encountered in exp
+  return 3*(x + 1)*exp(x)
+<lambdifygenerated-1822>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*(x + 1)*exp(x)
+<lambdifygenerated-1825>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -1/4*x**2 + x*arcsin(x) + x
+<lambdifygenerated-1833>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - log(cos(x))
+<lambdifygenerated-1838>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-1844>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(tan(x))
+<lambdifygenerated-1847>:2: RuntimeWarning: invalid value encountered in log
+  return log(x*tan(3))
+<lambdifygenerated-1850>:2: RuntimeWarning: invalid value encountered in arccos
+  return 4*arccos(x)
+<lambdifygenerated-1851>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + tanh(x)
+<lambdifygenerated-1864>:2: RuntimeWarning: divide by zero encountered in divide
+  return -(1/4)/x**9
+<lambdifygenerated-1867>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1869>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x + 1)
+<lambdifygenerated-1885>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x)
+<lambdifygenerated-1885>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(3*x)
+<lambdifygenerated-1904>:2: RuntimeWarning: divide by zero encountered in log
+  return 2*x - 1/2*log(x - 2)
+<lambdifygenerated-1904>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - 1/2*log(x - 2)
+<lambdifygenerated-1906>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 2)
+<lambdifygenerated-1910>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1920>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -arcsin(x)
+<lambdifygenerated-1923>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+<lambdifygenerated-1924>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 1)
+<lambdifygenerated-1924>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 1)
+<lambdifygenerated-1927>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-1940>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)**2
+<lambdifygenerated-1940>:2: RuntimeWarning: overflow encountered in square
+  return x + cosh(x)**2
+<lambdifygenerated-1968>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*exp(3*x)
+<lambdifygenerated-1970>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x - exp(x)
+mean: 0.1562008261680603
+top: 0.9931910634040833
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+self.infix=4*x + 3
+self.y_pred=(1000,)
+self.infix=exp(-1)*cos(x)
+self.y_pred=(1000,)
+self.infix=x**2/2 - exp(2*x)/2
+<lambdifygenerated-1980>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 1/2*exp(2*x)
+<lambdifygenerated-1983>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/10)*cosh(x)**3
+<lambdifygenerated-1983>:2: RuntimeWarning: overflow encountered in power
+  return (1/10)*cosh(x)**3
+<lambdifygenerated-1993>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (1/3)*x**3*arcsin(4)
+<lambdifygenerated-1999>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(5*x)
+<lambdifygenerated-2001>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-2003>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-2004>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*exp(arccos(x))
+<lambdifygenerated-2012>:2: RuntimeWarning: overflow encountered in exp
+  return (1/5)*exp(3*x)
+<lambdifygenerated-2027>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (x - 1)*exp(x)
+<lambdifygenerated-2027>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 + (x - 1)*exp(x)
+<lambdifygenerated-2030>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(arcsin(x))
+<lambdifygenerated-2035>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + x
+<lambdifygenerated-2035>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x) + x
+<lambdifygenerated-2044>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(cos(x))
+<lambdifygenerated-2055>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x)
+<lambdifygenerated-2059>:2: RuntimeWarning: invalid value encountered in log
+  return log(cos(2*x))/sqrt(x)
+<lambdifygenerated-2064>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 2*exp(x)
+<lambdifygenerated-2068>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + sin(x)
+<lambdifygenerated-2071>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -1/2*x**2 - arcsin(x)
+<lambdifygenerated-2072>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x)
+<lambdifygenerated-2072>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x)
+<lambdifygenerated-2085>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return arctanh(x)/x
+<lambdifygenerated-2085>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x)/x
+<lambdifygenerated-2106>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -2*sqrt(1 - x**2) + 3*log(x)
+<lambdifygenerated-2112>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x/arcsin(x)
+<lambdifygenerated-2117>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 9
+<lambdifygenerated-2124>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - log(cos(x))
+<lambdifygenerated-2126>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x - arcsin(x)
+<lambdifygenerated-2132>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 1)
+<lambdifygenerated-2135>:2: RuntimeWarning: divide by zero encountered in divide
+  return x**2/log(x)
+<lambdifygenerated-2138>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-2151>:2: RuntimeWarning: invalid value encountered in arccos
+  return 4*x*arccos(x)
+self.y_pred=(1000,)
+self.infix=x**2*log(x)/2
+self.y_pred=(1000,)
+self.infix=tanh(2*x)/2
+self.y_pred=(1000,)
+self.infix=cosh(x)**3/10
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-tanh(x)
+self.y_pred=(1000,)
+self.infix=x**6/6
+self.y_pred=(1000,)
+self.infix=x + 1/(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=x*(x + 7*sin(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3 + x
+self.y_pred=(1000,)
+self.infix=x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x*exp(2)
+self.y_pred=(1000,)
+self.infix=x*log(2*x**2) - x
+self.y_pred=(1000,)
+self.infix=x*cos(4)
+self.y_pred=(1000,)
+self.infix=x**3*asin(4)/3
+self.y_pred=(1000,)
+self.infix=log(x)**2
+self.y_pred=(1000,)
+self.infix=4*x**3/3
+self.y_pred=(1000,)
+self.infix=-1/sqrt(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/(x + 2)
+self.y_pred=(1000,)
+self.infix=x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=acos(5*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + sin(5)
+self.y_pred=(1000,)
+self.infix=2*exp(x)
+self.y_pred=(1000,)
+self.infix=-x - 2
+self.y_pred=(1000,)
+self.infix=3*x + exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*exp(acos(x))
+self.y_pred=(1000,)
+self.infix=3*x**2/2 - cos(x)
+self.y_pred=(1000,)
+self.infix=(x + acosh(x))**2
+self.y_pred=(1000,)
+self.infix=x + cos(x)**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(x)/4
+self.y_pred=(1000,)
+self.infix=4*x**7/7
+self.y_pred=(1000,)
+self.infix=x/4
+self.y_pred=(1000,)
+self.infix=-1/(9*x**3)
+self.y_pred=(1000,)
+self.infix=exp(3*x)/5
+self.y_pred=(1000,)
+self.infix=x**2 + x + sin(x)
+self.y_pred=(1000,)
+self.infix=sin(x + 3)
+self.y_pred=(1000,)
+self.infix=x + 3
+self.y_pred=(1000,)
+self.infix=x**5/5 + 3*x
+self.y_pred=(1000,)
+self.infix=106*x
+self.y_pred=(1000,)
+self.infix=2*sqrt(2)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=x*(sqrt(x + 1) - 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=asinh(x) + 4
+self.y_pred=(1000,)
+self.infix=sin(2*x)
+self.y_pred=(1000,)
+self.infix=acosh(x + 3)
+self.y_pred=(1000,)
+self.infix=x/5
+self.y_pred=(1000,)
+self.infix=cos(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x) + cos(x)
+self.y_pred=(1000,)
+self.infix=x + cos(2*x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + (x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=cos(x/5)
+self.y_pred=(1000,)
+self.infix=x + (x + 5)**2
+self.y_pred=(1000,)
+self.infix=exp(asin(x))
+self.y_pred=(1000,)
+self.infix=tan(x + 2)
+self.y_pred=(1000,)
+self.infix=log(x)/4
+self.y_pred=(1000,)
+self.infix=3*x*log(2)
+self.y_pred=(1000,)
+self.infix=2*x**3*sin(4)
+self.y_pred=(1000,)
+self.infix=x*exp(x) + x
+self.y_pred=(1000,)
+self.infix=4*tan(x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + sin(x)*cos(x)**3/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=cos(3*x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=8/x
+self.y_pred=(1000,)
+self.infix=x + sin(x) + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + tan(x)
+self.y_pred=(1000,)
+self.infix=x*exp(5)
+self.y_pred=(1000,)
+self.infix=x**2 + cos(3)/2
+self.y_pred=(1000,)
+self.infix=-2*log(cos(x))
+self.y_pred=(1000,)
+self.infix=20*x**2
+self.y_pred=(1000,)
+self.infix=2*x + 5*log(x)/4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*log(x)
+self.y_pred=(1000,)
+self.infix=1/(x**2 + x)
+self.y_pred=(1000,)
+self.infix=x**4/4
+self.y_pred=(1000,)
+self.infix=2*x**7/7
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-4*x**2 + x
+self.y_pred=(1000,)
+self.infix=4*x + 3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x + 2)
+self.y_pred=(1000,)
+self.infix=8*x**3
+self.y_pred=(1000,)
+self.infix=sinh(2*x)
+self.y_pred=(1000,)
+self.infix=3 - x**2
+self.y_pred=(1000,)
+self.infix=-x + exp(-x)
+self.y_pred=(1000,)
+self.infix=-4*x**3/3 + x*log(x)
+self.y_pred=(1000,)
+self.infix=log(cos(2*x))/sqrt(x)
+self.y_pred=(1000,)
+self.infix=x*tan(1)
+self.y_pred=(1000,)
+self.infix=x**(2/3) + 2/3
+self.y_pred=(1000,)
+self.infix=4*x**5/5
+self.y_pred=(1000,)
+self.infix=x**2 + 5*x
+self.y_pred=(1000,)
+self.infix=x**2/2 - 2*exp(x)
+self.y_pred=(1000,)
+self.infix=6*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x*tan(1)
+self.y_pred=(1000,)
+self.infix=tan(x/2)
+self.y_pred=(1000,)
+self.infix=-exp(x) + sin(x)
+self.y_pred=(1000,)
+self.infix=cos(x)
+self.y_pred=(1000,)
+self.infix=-4*asinh(x)
+self.y_pred=(1000,)
+self.infix=-x**2/2 - asin(x)
+self.y_pred=(1000,)
+self.infix=2*x*exp(x)
+self.y_pred=(1000,)
+self.infix=5*sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + cos(5)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x*sin(2*x)
+self.y_pred=(1000,)
+self.infix=x**5/5 + x**2/2
+self.y_pred=(1000,)
+self.infix=-tan(x + 3)
+self.y_pred=(1000,)
+self.infix=-2*x + cos(log(x))
+self.y_pred=(1000,)
+self.infix=10*x**3 + x
+self.y_pred=(1000,)
+self.infix=sqrt(2*x + 4)
+self.y_pred=(1000,)
+self.infix=acosh(3*x + 2)
+self.y_pred=(1000,)
+self.infix=x**2/4 + log(x + 10)/2
+self.y_pred=(1000,)
+self.infix=2*x**2/3
+self.y_pred=(1000,)
+self.infix=x/cos(2)
+self.y_pred=(1000,)
+self.infix=atanh(x)/x
+self.y_pred=(1000,)
+self.infix=2*x**3*(2*x - 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=7*x**2/4
+self.y_pred=(1000,)
+self.infix=7*x**4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=10*x
+self.y_pred=(1000,)
+self.infix=8*x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x*tan(1)
+self.y_pred=(1000,)
+self.infix=-2/(3*x**2)
+self.y_pred=(1000,)
+self.infix=x + 1
+self.y_pred=(1000,)
+self.infix=x*(x + 2/x)
+self.y_pred=(1000,)
+self.infix=3*x**2 + x
+self.y_pred=(1000,)
+self.infix=sqrt(x)
+self.y_pred=(1000,)
+self.infix=x + 1/(x + 2)
+self.y_pred=(1000,)
+self.infix=x**2/2 - cos(x)
+self.y_pred=(1000,)
+self.infix=tan(2*x)
+self.y_pred=(1000,)
+self.infix=x + sin(asinh(x))
+self.y_pred=(1000,)
+self.infix=x**2*cos(3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=1/(2*x**2)
+self.y_pred=(1000,)
+self.infix=x**4 + x**3/3
+self.y_pred=(1000,)
+self.infix=-x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=sin(x + 2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-2*sqrt(1 - x**2) + 3*log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x - 3)
+self.y_pred=(1000,)
+self.infix=x + log(x)**2
+self.y_pred=(1000,)
+self.infix=2*x - log(x)
+self.y_pred=(1000,)
+self.infix=x**3 + 3
+self.y_pred=(1000,)
+self.infix=2*x*(x**3 + x)
+self.y_pred=(1000,)
+self.infix=x/asin(x)
+self.y_pred=(1000,)
+self.infix=x**2/2 - cos(x)
+self.y_pred=(1000,)
+self.infix=sin(x - 3)
+self.y_pred=(1000,)
+self.infix=3*sin(x)
+self.y_pred=(1000,)
+self.infix=x + atan(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x + exp(x) + 9
+self.y_pred=(1000,)
+self.infix=log(x**3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4/4 + x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=0
+self.y_pred=(1,)
+self.infix=tan(1)/x
+self.y_pred=(1000,)
+self.infix=x*sin(x) - cos(x)
+self.y_pred=(1000,)
+self.infix=x*(x + cos(3))
+self.y_pred=(1000,)
+self.infix=x**2/2 - log(cos(x))
+self.y_pred=(1000,)
+self.infix=2*x + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x - asin(x)
+self.y_pred=(1000,)
+self.infix=cos(x) + tan(x)
+self.y_pred=(1000,)
+self.infix=205*x**2
+self.y_pred=(1000,)
+self.infix=(tan(x) - 1)**2
+self.y_pred=(1000,)
+self.infix=x*log(2) + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x*cos(x) + sin(x)
+self.y_pred=(1000,)
+self.infix=atanh(x + 1)
+self.y_pred=(1000,)
+self.infix=4*x*(x**2 + x)
+self.y_pred=(1000,)
+self.infix=x*(2*x + 4)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/log(x)
+self.y_pred=(1000,)
+self.infix=x/(6*cos(2))
+self.y_pred=(1000,)
+self.infix=x*sin(x) + 2*x
+self.y_pred=(1000,)
+self.infix=exp(2*x)/2
+self.y_pred=(1000,)
+self.infix=x**2/(x + 1)
+self.y_pred=(1000,)
+self.infix=-2*x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=1/x
+self.y_pred=(1000,)
+self.infix=3*log(x)
+self.y_pred=(1000,)
+self.infix=x + cos(log(x))
+self.y_pred=(1000,)
+self.infix=log(asinh(x + 1))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x/2 + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=x**2 + cos(x)
+self.y_pred=(1000,)
+self.infix=log(x**2 + 1)
+self.y_pred=(1000,)
+self.infix=x - log(tanh(x) + 1) + 2
+self.y_pred=(1000,)
+self.infix=(x - 2)/x
+self.y_pred=(1000,)
+self.infix=4*x*acosh(x)
+self.y_pred=(1000,)
+self.infix=4*x*acos(x)
+self.y_pred=(1000,)
+self.infix=-exp(-x)
+self.y_pred=(1000,)
+self.infix=x*(x + cos(3))
+self.y_pred=(1000,)
+self.infix=log(cos(2*x))/2
+self.y_pred=(1000,)
+self.infix=2*acosh(x)
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=x**2 + 1
+self.y_pred=(1000,)
+self.infix=3*x*acos(x)
+self.y_pred=(1000,)
+self.infix=x**3*(x + 3)
+self.y_pred=(1000,)
+self.infix=x**2*(x + 4) + x
+self.y_pred=(1000,)
+self.infix=tan(x**2)/2
+self.y_pred=(1000,)
+self.infix=sin(x + 6)
+self.y_pred=(1000,)
+self.infix=sinh(2*x)
+self.y_pred=(1000,)
+self.infix=cos(3*x)
+self.y_pred=(1000,)
+self.infix=x*cos(x) + 2
+self.y_pred=(1000,)
+self.infix=(x + 1)/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(x)/5
+self.y_pred=(1000,)
+self.infix=cos(x + 3)
+self.y_pred=(1000,)
+self.infix=x*log(x) - x + log(x)
+self.y_pred=(1000,)
+self.infix=x**2/3426
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=None
+self.infix=tan(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=sinh(x + 2)
+self.y_pred=(1000,)
+self.infix=sin(5*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**5/16
+self.y_pred=(1000,)
+self.infix=x + 4/x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x + 3
+self.y_pred=(1000,)
+self.infix=2*x**3/3 - x**2
+self.y_pred=(1000,)
+<lambdifygenerated-2154>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*log(cos(2*x))
+<lambdifygenerated-2158>:2: RuntimeWarning: invalid value encountered in arccos
+  return 3*x*arccos(x)
+<lambdifygenerated-2163>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x)
+<lambdifygenerated-2173>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 2)
+mean: 0.0
+top: 0.0
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+self.infix=None
+self.infix=x + sin(sqrt(x))
+self.y_pred=(1000,)
+self.infix=x**2*cos(x) + x
+self.y_pred=(1000,)
+self.infix=-x + exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=asin(x) + tan(3)
+self.y_pred=(1000,)
+self.infix=x + (x + 2)**2
+self.y_pred=(1000,)
+self.infix=x**2 + x + 2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=(x + 2)**3
+self.y_pred=(1000,)
+self.infix=cos(2*x - 1)
+self.y_pred=(1000,)
+self.infix=x*(3*x + 1)
+self.y_pred=(1000,)
+self.infix=x*atanh(x)
+self.y_pred=(1000,)
+self.infix=2*x + 4*log(x)
+self.y_pred=(1000,)
+self.infix=log(tan(x + 2)**2 + 1)/2
+self.y_pred=(1000,)
+self.infix=2*sqrt(2)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=sqrt(2)*sqrt(1/x)
+self.y_pred=(1000,)
+self.infix=2*x + sin(x)
+self.y_pred=(1000,)
+self.infix=sqrt(x) + 2*x
+self.y_pred=(1000,)
+self.infix=3*x - atanh(x)
+self.y_pred=(1000,)
+self.infix=asinh(x + 3)
+self.y_pred=(1000,)
+self.infix=x**2*(2 - x)/2
+self.y_pred=(1000,)
+self.infix=x + cos(x + 4)
+self.y_pred=(1000,)
+self.infix=sin(cosh(x))
+self.y_pred=(1000,)
+self.infix=x*(4*x**2 + x + 1)
+self.y_pred=(1000,)
+self.infix=-x**2/2 + x + cos(x)
+self.y_pred=(1000,)
+self.infix=1/(2*x)
+self.y_pred=(1000,)
+self.infix=log(x - 1)
+self.y_pred=(1000,)
+self.infix=x/sqrt(x**2 + 1)
+self.y_pred=(1000,)
+self.infix=-x**2*(x - 1)
+self.y_pred=(1000,)
+self.infix=-x**2*cos(x) + x
+self.y_pred=(1000,)
+self.infix=2*x*(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=cos(2*x)
+self.y_pred=(1000,)
+self.infix=2*x**2 + x
+self.y_pred=(1000,)
+self.infix=-x**4 + x**3/3
+self.y_pred=(1000,)
+self.infix=323*x**2
+self.y_pred=(1000,)
+self.infix=2*tan(x)/x
+self.y_pred=(1000,)
+self.infix=3*x**2/4
+self.y_pred=(1000,)
+self.infix=x + tan(x) + 5
+self.y_pred=(1000,)
+self.infix=2*x**2*atan(x)
+self.y_pred=(1000,)
+self.infix=x + 2*sin(x)
+self.y_pred=(1000,)
+self.infix=2/cos(x)
+self.y_pred=(1000,)
+self.infix=-x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=5/(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=log(2*sqrt(x))
+self.y_pred=(1000,)
+self.infix=17*x**8
+self.y_pred=(1000,)
+self.infix=8*exp(x)
+self.y_pred=(1000,)
+self.infix=2*x/(x + 1)
+self.y_pred=(1000,)
+self.infix=x*atanh(5)
+self.y_pred=(1000,)
+self.infix=acos(2*x)
+self.y_pred=(1000,)
+self.infix=-x**3/3 + x**2/2
+self.y_pred=(1000,)
+self.infix=acos(x + 2)
+self.y_pred=(1000,)
+self.infix=-sin(1)
+self.y_pred=(1,)
+self.infix=None
+self.infix=x + sin(x**2)
+self.y_pred=(1000,)
+self.infix=9*x + 2
+self.y_pred=(1000,)
+self.infix=x*(sqrt(x) + 1)
+self.y_pred=(1000,)
+self.infix=1/x
+self.y_pred=(1000,)
+self.infix=0
+self.y_pred=(1,)
+self.infix=4*x/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2 + x + 1
+self.y_pred=(1000,)
+self.infix=x**7/20
+self.y_pred=(1000,)
+self.infix=tan(3*x)
+self.y_pred=(1000,)
+self.infix=2*x**2
+self.y_pred=(1000,)
+self.infix=x*acos(x) - sqrt(1 - x**2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*sin(x)
+self.y_pred=(1000,)
+self.infix=2*x - 4
+self.y_pred=(1000,)
+self.infix=3/sin(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + cos(x)) + x
+self.y_pred=(1000,)
+self.infix=-x + acos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-exp(x + 5)
+self.y_pred=(1000,)
+self.infix=sin(5)
+self.y_pred=(1,)
+self.infix=None
+self.infix=2*x + tan(x/3)
+self.y_pred=(1000,)
+self.infix=log(log(x))
+self.y_pred=(1000,)
+self.infix=-2*x**2 + 2*x
+self.y_pred=(1000,)
+self.infix=2*x - log(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*sin(2)
+self.y_pred=(1000,)
+self.infix=-2*sinh(x) + 2*cosh(x)
+self.y_pred=(1000,)
+self.infix=1/tan(x)
+self.y_pred=(1000,)
+self.infix=1 - log(x + 1)
+self.y_pred=(1000,)
+self.infix=5*log(x)
+self.y_pred=(1000,)
+self.infix=-x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=asinh(x)**2
+self.y_pred=(1000,)
+self.infix=-x + sin(2*x)
+self.y_pred=(1000,)
+self.infix=exp(5*x)
+self.y_pred=(1000,)
+self.infix=x**2/2 + sin(1)/2
+self.y_pred=(1000,)
+self.infix=2*x + 5/x
+self.y_pred=(1000,)
+self.infix=x**2/2 + 2*x
+self.y_pred=(1000,)
+self.infix=x*(x + 4) + x
+self.y_pred=(1000,)
+self.infix=x + cos(4)
+self.y_pred=(1000,)
+self.infix=1 + 1/x
+self.y_pred=(1000,)
+self.infix=x**2*tanh(1)
+self.y_pred=(1000,)
+self.infix=x*acosh(x)/2
+self.y_pred=(1000,)
+self.infix=4*x + 4
+self.y_pred=(1000,)
+self.infix=x**3 + 5
+self.y_pred=(1000,)
+self.infix=-x + tan(log(x))
+self.y_pred=(1000,)
+self.infix=None
+self.infix=5*x*log(x) - x
+self.y_pred=(1000,)
+self.infix=4*x
+self.y_pred=(1000,)
+self.infix=-x*log(2*x) - x
+self.y_pred=(1000,)
+self.infix=x**6/2 + x**2/2
+self.y_pred=(1000,)
+self.infix=sinh(5*x)
+self.y_pred=(1000,)
+self.infix=x*(x + 4) - 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=2*x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x**3/3 - 4*x
+self.y_pred=(1000,)
+self.infix=2*(x + 1)/x
+self.y_pred=(1000,)
+self.infix=-5*x**2
+self.y_pred=(1000,)
+self.infix=3*x + 2
+self.y_pred=(1000,)
+self.infix=2*x**3/3 + 3*x**2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=sin(2/x)
+self.y_pred=(1000,)
+self.infix=exp(-x)
+self.y_pred=(1000,)
+self.infix=-x + log(4*x**3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=exp(x) - log(cos(x))
+self.y_pred=(1000,)
+self.infix=4/cos(x)
+self.y_pred=(1000,)
+self.infix=-cos(2*x)
+self.y_pred=(1000,)
+self.infix=2*x**2 - 2*cos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=1615*x**5
+self.y_pred=(1000,)
+self.infix=-4*x**3/3 + x*log(x) - x
+self.y_pred=(1000,)
+self.infix=3*x + 1
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=16*acos(x)
+self.y_pred=(1000,)
+self.infix=x*cos(x**2)
+self.y_pred=(1000,)
+self.infix=-1 + 1/x
+self.y_pred=(1000,)
+self.infix=log(x)/9
+self.y_pred=(1000,)
+self.infix=log(2*x)
+self.y_pred=(1000,)
+self.infix=(1 - x)/x
+self.y_pred=(1000,)
+self.infix=log(5*x**2/2)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**4/(x + 2)
+self.y_pred=(1000,)
+self.infix=2*cosh(2*x)
+self.y_pred=(1000,)
+self.infix=x*log(3*x)
+self.y_pred=(1000,)
+self.infix=x**2 + 5*x
+self.y_pred=(1000,)
+self.infix=x + acos(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=6*cosh(x)
+self.y_pred=(1000,)
+self.infix=-exp(1 - x)
+self.y_pred=(1000,)
+self.infix=x*(x + 26)
+self.y_pred=(1000,)
+self.infix=x**16/113
+self.y_pred=(1000,)
+self.infix=exp(2*x)/4
+self.y_pred=(1000,)
+self.infix=4/x
+self.y_pred=(1000,)
+self.infix=log(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-1
+self.y_pred=(1,)
+self.infix=None
+self.infix=cos(3*x + 2)
+self.y_pred=(1000,)
+self.infix=x**2/2 - cos(x)
+self.y_pred=(1000,)
+self.infix=4*x*atan(x)
+self.y_pred=(1000,)
+self.infix=x**3/3
+self.y_pred=(1000,)
+self.infix=x + tan(2*x)
+self.y_pred=(1000,)
+self.infix=-x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=acosh(x + 3)
+self.y_pred=(1000,)
+self.infix=x/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=x**2 + 4
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*cosh(x)
+self.y_pred=(1000,)
+self.infix=(x + 1)/x
+self.y_pred=(1000,)
+self.infix=2*x - tan(x)
+self.y_pred=(1000,)
+self.infix=x**2/(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(2*x + 4)
+self.y_pred=(1000,)
+self.infix=x*(x + 2)
+self.y_pred=(1000,)
+self.infix=3*x + exp(x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=acosh(sqrt(x))
+self.y_pred=(1000,)
+self.infix=10*x
+self.y_pred=(1000,)
+self.infix=x
+self.y_pred=(1000,)
+self.infix=x**2 + 4*log(x)
+self.y_pred=(1000,)
+self.infix=x*(x + 1)
+self.y_pred=(1000,)
+self.infix=x*(x - 1)*exp(x)
+self.y_pred=(1000,)
+self.infix=x**3/6 + x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*exp(x/2)
+self.y_pred=(1000,)
+self.infix=3/x
+self.y_pred=(1000,)
+self.infix=-x + cosh(x)
+self.y_pred=(1000,)
+self.infix=x + log(x)**2
+self.y_pred=(1000,)
+self.infix=cos(log(x))
+self.y_pred=(1000,)
+self.infix=log(atanh(x**2))
+self.y_pred=(1000,)
+self.infix=7*x**3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**3 + x + 3
+self.y_pred=(1000,)
+self.infix=6*E*x/5
+self.y_pred=(1000,)
+self.infix=x**2/2 + x*log(7)
+self.y_pred=(1000,)
+self.infix=x**2/2 + 3*log(x)
+self.y_pred=(1000,)
+self.infix=-x**2/8 + log(x)
+self.y_pred=(1000,)
+self.infix=sinh(3*x + 2)
+self.y_pred=(1000,)
+self.infix=x*(1 + tan(1))
+self.y_pred=(1000,)
+self.infix=2*(x + 1)/x
+self.y_pred=(1000,)
+self.infix=sinh(x + 2)
+self.y_pred=(1000,)
+self.infix=x**2/2 + x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=4*x*cos(4)
+self.y_pred=(1000,)
+self.infix=x*(x + 1)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x*(x + 1) - x
+self.y_pred=(1000,)
+self.infix=-4*log(x)
+self.y_pred=(1000,)
+self.infix=x**(3/2)
+self.y_pred=(1000,)
+self.infix=2*x**7/7 + x**4/4
+self.y_pred=(1000,)
+self.infix=-x**2 - x
+self.y_pred=(1000,)
+self.infix=atanh(2*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**4 + 3*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2*cosh(2)
+self.y_pred=(1000,)
+self.infix=x*cos(x)
+self.y_pred=(1000,)
+self.infix=2*x*log(x) + 2*x
+self.y_pred=(1000,)
+self.infix=None
+self.infix=None
+self.infix=-x - exp(x)
+self.y_pred=(1000,)
+self.infix=tanh(4*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=3*x + sin(log(x))
+self.y_pred=(1000,)
+self.infix=sinh(2*x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-1/(3*x**3)
+self.y_pred=(1000,)
+self.infix=-x + exp(3*x)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x + exp(2*x)
+self.y_pred=(1000,)
+self.infix=2*x**2*acos(x)
+self.y_pred=(1000,)
+self.infix=x*(x + 3)
+self.y_pred=(1000,)
+self.infix=None
+self.infix=sin(2*x)
+self.y_pred=(1000,)
+self.infix=-cos(x + 4)
+self.y_pred=(1000,)
+self.infix=8*x**2
+self.y_pred=(1000,)
+self.infix=atanh(x + 4)
+self.y_pred=(1000,)
+self.infix=x*log(2*x) - x - 2*log(x + 2)
+self.y_pred=(1000,)
+self.infix=2*x*log(3)
+self.y_pred=(1000,)
+self.infix=x*(x + 2)*sin(x)
+self.y_pred=(1000,)
+self.infix=-x + log(2*x)
+self.y_pred=(1000,)
+self.infix=-4*sqrt(2)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=2*x*log(x) + x
+self.y_pred=(1000,)
+self.infix=(x + 2)**2
+self.y_pred=(1000,)
+self.infix=x - cos(x + 1)
+self.y_pred=(1000,)
+<lambdifygenerated-2181>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-2182>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x) + tan(3)
+<lambdifygenerated-2188>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return x*arctanh(x)
+<lambdifygenerated-2188>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x)
+<lambdifygenerated-2195>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 3*x - arctanh(x)
+<lambdifygenerated-2195>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*x - arctanh(x)
+<lambdifygenerated-2199>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(cosh(x))
+<lambdifygenerated-2199>:2: RuntimeWarning: invalid value encountered in sin
+  return sin(cosh(x))
+<lambdifygenerated-2203>:2: RuntimeWarning: divide by zero encountered in log
+  return log(x - 1)
+<lambdifygenerated-2222>:2: RuntimeWarning: overflow encountered in exp
+  return 8*exp(x)
+<lambdifygenerated-2222>:2: RuntimeWarning: overflow encountered in multiply
+  return 8*exp(x)
+<lambdifygenerated-2224>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(5)
+<lambdifygenerated-2225>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-2227>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 2)
+<lambdifygenerated-2239>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-2239>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-2244>:2: RuntimeWarning: invalid value encountered in arccos
+  return -x + arccos(x)
+<lambdifygenerated-2245>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x + 5)
+<lambdifygenerated-2248>:2: RuntimeWarning: divide by zero encountered in log
+  return log(log(x))
+<lambdifygenerated-2252>:2: RuntimeWarning: overflow encountered in sinh
+  return -2*sinh(x) + 2*cosh(x)
+<lambdifygenerated-2252>:2: RuntimeWarning: overflow encountered in multiply
+  return -2*sinh(x) + 2*cosh(x)
+<lambdifygenerated-2252>:2: RuntimeWarning: overflow encountered in cosh
+  return -2*sinh(x) + 2*cosh(x)
+<lambdifygenerated-2252>:2: RuntimeWarning: invalid value encountered in add
+  return -2*sinh(x) + 2*cosh(x)
+<lambdifygenerated-2259>:2: RuntimeWarning: overflow encountered in exp
+  return exp(5*x)
+<lambdifygenerated-2275>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(5*x)
+<lambdifygenerated-2286>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) - log(cos(x))
+<lambdifygenerated-2286>:2: RuntimeWarning: invalid value encountered in log
+  return exp(x) - log(cos(x))
+<lambdifygenerated-2293>:2: RuntimeWarning: invalid value encountered in arccos
+  return 16*arccos(x)
+<lambdifygenerated-2301>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(2*x)
+<lambdifygenerated-2304>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x)
+<lambdifygenerated-2305>:2: RuntimeWarning: overflow encountered in cosh
+  return 6*cosh(x)
+<lambdifygenerated-2305>:2: RuntimeWarning: overflow encountered in multiply
+  return 6*cosh(x)
+<lambdifygenerated-2309>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*exp(2*x)
+<lambdifygenerated-2322>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2*cosh(x)
+<lambdifygenerated-2322>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*cosh(x)
+<lambdifygenerated-2328>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-2334>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-2334>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-2338>:2: RuntimeWarning: overflow encountered in cosh
+  return -x + cosh(x)
+<lambdifygenerated-2341>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return log(arctanh(x**2))
+<lambdifygenerated-2341>:2: RuntimeWarning: invalid value encountered in arctanh
+  return log(arctanh(x**2))
+<lambdifygenerated-2348>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(3*x + 2)
+<lambdifygenerated-2351>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 2)
+<lambdifygenerated-2360>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(2*x)
+<lambdifygenerated-2365>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-2368>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x + 3)
+<lambdifygenerated-2370>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(3*x)
+<lambdifygenerated-2371>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(2*x)
+<lambdifygenerated-2372>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x**2*arccos(x)
+<lambdifygenerated-2377>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 4)
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0
+top: 0.0
+Traceback (most recent call last):
+  File "avaliation.py", line 124, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 390, in forward
+    attn_outputs = self.attn(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 331, in forward
+    attn_output, attn_weights = self._attn(query, key, value, attention_mask, head_mask)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 201, in _attn
+    mask_value = torch.full([], mask_value, dtype=attn_weights.dtype).to(attn_weights.device)
+KeyboardInterrupt

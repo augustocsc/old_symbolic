@@ -1,0 +1,128 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+Working with expression:  2 * x[0] + 3
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-15>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + x*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-32>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 5)
+<lambdifygenerated-38>:2: RuntimeWarning: invalid value encountered in log
+  return x*arctan(x) - log(cos(x)) + sin(x)
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-45>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-54>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x) + arcsin(x)
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-69>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(2)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-76>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) - x
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*sin(x) + cosh(x)
+<lambdifygenerated-78>:2: RuntimeWarning: invalid value encountered in arccos
+  return x/arccos(2)
+<lambdifygenerated-79>:2: RuntimeWarning: invalid value encountered in arctanh
+  return log(x)*arctanh(x**2)
+<lambdifygenerated-82>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*log(x) - x*arctanh(x) + x + log(x)
+<lambdifygenerated-83>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2 + x - arcsin(x)
+<lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + x*arctanh(5)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-93>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 4)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-96>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in exp
+  return -4*x*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*exp(x)
+<lambdifygenerated-101>:2: RuntimeWarning: overflow encountered in sinh
+  return x + 2*sinh(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-130>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x + 1)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*sinh(x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*arctanh(4)
+<lambdifygenerated-158>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-162>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) - x
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(x + 2) - 2*log(cos(x))
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+[tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(0.), tensor(1.3357e-16), tensor(2.3072e-15), tensor(4.6143e-15), tensor(6.9215e-15), tensor(1.3843e-14), tensor(3.6915e-14), tensor(2.6184e-12), tensor(1.0474e-11), tensor(1.0474e-11), tensor(3.7413e-09), tensor(7.4376e-09), tensor(7.4828e-09), tensor(7.4828e-09), tensor(7.4942e-09), tensor(1.6836e-08), tensor(2.2347e-08), tensor(1.9398e-07), tensor(7.0002e-07), tensor(8.0880e-07), tensor(1.1969e-06), tensor(1.2218e-06), tensor(1.2229e-06), tensor(1.6272e-06), tensor(1.6926e-06), tensor(2.3773e-06), tensor(3.3876e-06), tensor(3.3877e-06), tensor(4.8786e-06), tensor(4.8787e-06), tensor(4.9047e-06), tensor(5.8081e-06), tensor(2.1984e-05), tensor(2.2254e-05), tensor(8.2068e-05), tensor(0.0002), tensor(0.0002), tensor(0.0002), tensor(0.0002), tensor(0.0003), tensor(0.0003), tensor(0.0003), tensor(0.0003), tensor(0.0005), tensor(0.0005), tensor(0.0005), tensor(0.0007), tensor(0.0007), tensor(0.0007), tensor(0.0007), tensor(0.0007), tensor(0.0009), tensor(0.0013), tensor(0.0013), tensor(0.0014), tensor(0.0014), tensor(0.0014), tensor(0.0014), tensor(0.0014), tensor(0.0014), tensor(0.0014), tensor(0.0020), tensor(0.0023), tensor(0.0024), tensor(0.0027), tensor(0.0027), tensor(0.0027), tensor(0.0027), tensor(0.0027), tensor(0.0035), tensor(0.0069), tensor(0.0259), tensor(0.0324), tensor(0.0507), tensor(0.0859), tensor(0.1707), tensor(0.1927), tensor(0.2045), tensor(0.2549), tensor(0.2552), tensor(0.2557), tensor(0.3137), tensor(0.3183), tensor(0.3359), tensor(0.3391), tensor(0.3391), tensor(0.3391), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3393), tensor(0.3394), tensor(0.3394), tensor(0.3395), tensor(0.3395), tensor(0.3395), tensor(0.3400), tensor(0.3402), tensor(0.3416), tensor(0.3444), tensor(0.3455), tensor(0.3455), tensor(0.4109), tensor(0.5061), tensor(0.5061), tensor(0.5061), tensor(0.5061), tensor(0.5061), tensor(0.5065), tensor(0.5069), tensor(0.5171), tensor(0.5223), tensor(0.5748), tensor(0.6053), tensor(0.7063), tensor(0.9889), tensor(0.9945), tensor(0.9947), tensor(0.9948), tensor(0.9948), tensor(0.9965)]
+mean: 0.10527157038450241
+top: 0.33945873379707336
+Traceback (most recent call last):
+  File "avaliation.py", line 125, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 427, in forward
+    feed_forward_hidden_states = self.mlp(hidden_states)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 355, in forward
+    hidden_states = self.act(hidden_states)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/activations.py", line 56, in forward
+    return 0.5 * input * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (input + 0.044715 * torch.pow(input, 3.0))))
+KeyboardInterrupt

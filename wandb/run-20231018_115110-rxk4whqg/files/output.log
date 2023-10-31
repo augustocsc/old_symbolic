@@ -1,0 +1,75 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+self.infix=x**5/5 + x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=4*x**(3/2)/3 + 3*x**2/2
+self.y_pred=(1000,)
+self.infix=None
+self.infix=x**2/2 + 4*log(x)
+self.y_pred=(1000,)
+self.infix=x*exp(2*x) + x
+self.y_pred=(1000,)
+self.infix=x**(5/3)
+self.y_pred=(1000,)
+self.infix=x**2*(x + exp(x) + 1)
+self.y_pred=(1000,)
+self.infix=2*x**2 + 2*x*log(x) + 2*x
+self.y_pred=(1000,)
+self.infix=x*sin(x) + x
+self.y_pred=(1000,)
+self.infix=x + (x + 4)*exp(x)
+self.y_pred=(1000,)
+self.infix=x*log(2*x) + x - log(cos(2*x))/4
+self.y_pred=(1000,)
+self.infix=4*x**3/3
+self.y_pred=(1000,)
+self.infix=x*(x**2 + 2)
+self.y_pred=(1000,)
+self.infix=4*x + 5
+self.y_pred=(1000,)
+self.infix=x**3/3 + 3*x**2/2
+self.y_pred=(1000,)
+self.infix=2*sqrt(2)*x**(3/2)/3
+self.y_pred=(1000,)
+self.infix=None
+self.infix=-x**2 + 3*x
+self.y_pred=(1000,)
+self.infix=x*log(x**3)
+self.y_pred=(1000,)
+self.infix=x*log(x**2 + x) - 2*x + 2*log(x - 2)
+self.y_pred=(1000,)
+self.infix=x*log(3*x**2) - x
+self.y_pred=(1000,)
+self.infix=9
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) + x
+<lambdifygenerated-4>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(2*x) + x
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x) + 1)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-9>:2: RuntimeWarning: overflow encountered in multiply
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-10>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(2*x) + x - 1/4*log(cos(2*x))
+<lambdifygenerated-18>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+<lambdifygenerated-18>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(x**2 + x) - 2*x + 2*log(x - 2)
+Traceback (most recent call last):
+  File "avaliation.py", line 130, in <module>
+    exprs, rewards = reward_pipeline(response_tensors, data)
+  File "avaliation.py", line 36, in reward_pipeline
+    exprs = [Expression(prefix.strip().split(" "), data) for prefix in prefixes]
+  File "avaliation.py", line 36, in <listcomp>
+    exprs = [Expression(prefix.strip().split(" "), data) for prefix in prefixes]
+  File "/home/augusto/symbolic/Expression.py", line 26, in __init__
+    self.y_pred = self.eval_expr(data.x).reshape(-1)
+AttributeError: 'int' object has no attribute 'reshape'

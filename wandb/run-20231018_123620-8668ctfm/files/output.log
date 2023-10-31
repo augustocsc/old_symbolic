@@ -1,0 +1,2313 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+Working with expression:  2 * x[0] + 3
+x**5/5 + x**2/2 0.0000
+2*x**2 + x 0.0007
+None 0.0000
+None 0.0000
+x/(x + 6) 0.3395
+cos(1)/x 0.3393
+-2*x + cos(x)/x 0.2045
+None 0.0000
+6*x**5 0.0000
+None 0.0000
+2*x**4 0.0000
+4*x**3/3 0.0000
+None 0.0000
+-x**3/3 - x**2/2 + x 0.0000
+x/(x + 3) 0.3395
+None 0.0000
+x**2*sinh(1)/2 0.0023
+x*sin(4) + 2*x 0.5748
+5*sqrt(2)*x**(3/2)/9 0.0507
+-x**6/16 + x**2*log(x**2)/2 0.0000
+x**2 + x*cosh(x) 0.0000
+2*x*(x + 3) 0.0007
+(3 - x)/x 0.3391
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + 2 0.5069
+None 0.0000
+x**2*sin(5)/5 0.0069
+None 0.0000
+x**2/2 + sin(x)*cos(x)/5 0.0027
+sin(x**2)/2 0.3393
+None 0.0000
+None 0.0000
+-1/x 0.3393
+sin(2*x + 4) 0.3393
+0 0.0000
+None 0.0000
+2*(2*x + 1)/x 0.3400
+sqrt(x) + 4 0.3444
+(2*x**2 + x)/x 0.9965
+x + exp(x) - atanh(x) 0.0000
+-x**2 0.0014
+None 0.0000
+None 0.0000
+x*(2*x + 4) + x 0.0007
+x - 1/x**2 0.5061
+None 0.0000
+exp(2*x + 5) 0.0000
+None 0.0000
+x + 2/x 0.5061
+-2*x**(7/2)/7 0.0000
+-4*x**2 + 2*x 0.0003
+None 0.0000
+5*x*(x - 4) 0.0003
+x*(x + 4) + 2*x 0.0013
+x*atan(x) - log(cos(x)) + sin(x) 0.0000
+None 0.0000
+x - cos(x) 0.5061
+x*log(tanh(x) - 1) - x - log(tanh(x) + 1) 0.0000
+log(2*x**2) 0.3416
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 5*log(x) 0.0027
+0 0.0000
+x**2 + 28*x 0.0013
+x + asin(x) 0.0000
+x + sin(x) + 1 0.5065
+x*(x + 1/x) 0.0014
+x**4 + x + 1 0.0000
+None 0.0000
+x**4/4 - x**3/3 + x**2/2 0.0000
+None 0.0000
+4*x**3/3 - x**2 0.0000
+3*sin(x/4) 0.3393
+-2*x + log(x)**2*tan(x) 0.1927
+None 0.0000
+sin(x) 0.3393
+exp(x) + asin(x) 0.0000
+x**2 + 4*x 0.0014
+x**6/3 + 5*x**3 + x**2/2 0.0000
+x/(x**3 + x) 0.3393
+2*x + tan(5) 0.9889
+sqrt(x) + x + 3 0.5171
+x**4/12 + x**3/3 0.0000
+1/(x**2 + x) 0.3393
+None 0.0000
+None 0.0000
+None 0.0000
+x + log(x)**2 0.5223
+49*x**3/36 0.0000
+None 0.0000
+x**2 + 5*x 0.0014
+-6*x**2 + 2*x 0.0002
+None 0.0000
+sqrt(3)*x**(5/2)/3 0.0001
+sqrt(2*x + 3) 0.3455
+x**2*exp(x) + x 0.0000
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-15>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + x*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-32>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 5)
+<lambdifygenerated-38>:2: RuntimeWarning: invalid value encountered in log
+  return x*arctan(x) - log(cos(x)) + sin(x)
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-45>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-54>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x) + arcsin(x)
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-69>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(2)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-76>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) - x
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*sin(x) + cosh(x)
+<lambdifygenerated-78>:2: RuntimeWarning: invalid value encountered in arccos
+  return x/arccos(2)
+<lambdifygenerated-79>:2: RuntimeWarning: invalid value encountered in arctanh
+  return log(x)*arctanh(x**2)
+<lambdifygenerated-82>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*log(x) - x*arctanh(x) + x + log(x)
+<lambdifygenerated-83>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2 + x - arcsin(x)
+<lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + x*arctanh(5)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-93>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 4)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-96>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in exp
+  return -4*x*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*exp(x)
+<lambdifygenerated-101>:2: RuntimeWarning: overflow encountered in sinh
+  return x + 2*sinh(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-130>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x + 1)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*sinh(x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*arctanh(4)
+<lambdifygenerated-158>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-162>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) - x
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(x + 2) - 2*log(cos(x))
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+x**2*acos(2)/2 0.0000
+None 0.0000
+7*x/2 - 8*atan(3*x/2) 0.4109
+None 0.0000
+4*x**(7/2)/7 + x**6/2 0.0000
+6*sin(x) 0.3394
+None 0.0000
+x**2*(x**3 + x)**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/(3*log(2)) 0.0000
+None 0.0000
+2*x - cos(x) 0.9947
+None 0.0000
+x*exp(x) - x 0.0000
+4*sin(x) + cosh(x) 0.0000
+x/acos(2) 0.0000
+None 0.0000
+log(x)*atanh(x**2) 0.0000
+x*sin(x + 2) 0.3137
+1/(x + 3) 0.3393
+x**2*log(x) - x*atanh(x) + x + log(x) 0.0000
+x**2 + x - asin(x) 0.0000
+5*x**3 + x 0.0000
+x + x*atanh(5) 0.0000
+x**2*tan(3)/12 0.0859
+sqrt(2*x + 3) 0.3455
+None 0.0000
+x*(x + acos(x)) 0.0000
+None 0.0000
+None 0.0000
+3*x**2 - x 0.0005
+(x**2 + x)**4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 8*log(x) 0.0027
+2*x**(5/2)/5 + x**4/2 0.0000
+x*(cosh(x) + 4) 0.0000
+None 0.0000
+x*(x**5 + x) 0.0000
+None 0.0000
+3/(5*x) 0.3393
+exp(x + 3) 0.0000
+4*x**2 + x 0.0003
+None 0.0000
+x**6 - x**2/4 0.0000
+None 0.0000
+-4*x*exp(x) 0.0000
+124/x**3 0.3393
+x + 2*sinh(x) 0.0000
+5 - x 0.2557
+None 0.0000
+2*x**2 - sin(x) 0.0007
+None 0.0000
+x*(x + 3) 0.0014
+None 0.0000
+x**2/2 0.0027
+x**4/4 + 4*x**3/3 0.0000
+None 0.0000
+None 0.0000
+3*x**2/2 0.0009
+x**2/(4*cos(4)) 0.0035
+2*sin(x) 0.3393
+None 0.0000
+2*x - sin(x) 0.9945
+None 0.0000
+x**6/6 + x**3/3 0.0000
+None 0.0000
+None 0.0000
+x**2*log(4)/2 0.0020
+x**3/3 - x**2 0.0000
+None 0.0000
+61*x**2 0.0000
+x**8 + 3*x**2/2 0.0000
+4*x + 4*log(x) 0.3359
+-x - log(sqrt(x) + 1) 0.2549
+4 - x**2 0.0014
+x**2/2 + x*tan(1) 0.0027
+None 0.0000
+x**4/9 0.0000
+None 0.0000
+8*x**2 + x 0.0002
+-x - exp(x) 0.0000
+x**4/4 + 2*x 0.0000
+tan(3*x + 3) 0.3391
+x**2/2 - 3*x*exp(x) - exp(x) 0.0000
+None 0.0000
+x 0.5061
+1/(2*x**2 + x) 0.3393
+x**5/5 + 2*x 0.0000
+None 0.0000
+None 0.0000
+5*x*log(x) 0.0324
+None 0.0000
+cosh(2*x + 1) 0.0000
+x**2*sinh(x) 0.0000
+None 0.0000
+2*x + sin(x) 0.9948
+2*x 0.9948
+5*x**2/2 + 6*x 0.0005
+1/(2*x) 0.3393
+None 0.0000
+-cos(x + 2) 0.3393
+x**2*log(x) + x 0.0002
+x**4/4 + x**2/2 + 3*x 0.0000
+-x**3*sin(x) + x 0.0000
+None 0.0000
+None 0.0000
+cos(x)/x 0.3393
+x**2/2 + (3*x + 2)**(3/2)/3 0.0024
+acos(3*x) 0.0000
+2/(3*x) 0.3393
+cos(4*x + 1) 0.3393
+None 0.0000
+2*(x + 2)**3 0.0000
+4*x**5/5 + x**2/2 0.0000
+x**3/log(x**2) 0.0000
+sqrt(3)/(2*x + 5) 0.3393
+x*atan(x) + log(x + 1) - atan(x) 0.7063
+None 0.0000
+None 0.0000
+tan(x + 3) 0.3391
+-x/5 0.3183
+2*x*atanh(4) 0.0000
+-x + sin(x)*cos(x) 0.2552
+x**2*(log(x) + 1) 0.0002
+None 0.0000
+5*x**2/2 0.0005
+x/(x + 3) 0.3395
+x**3*sin(1)/3 0.0000
+None 0.0000
+None 0.0000
+exp(2*x + 1) 0.0000
+None 0.0000
+None 0.0000
+4*x**2 + 3*x 0.0003
+None 0.0000
+2*x**2 + 5 0.0007
+tanh(2*x + 1)/2 0.3394
+None 0.0000
+x*atanh(x) - x 0.0000
+x*(x + 5) 0.0014
+x**3/3 + x**2/2 0.0000
+x**3 + x**2 0.0000
+4*x/3 0.6053
+-2*log(x + 2) - 2*log(cos(x)) 0.0000
+3 - 3*x 0.1707
+None 0.0000
+None 0.0000
+x + sin(x) 0.5061
+2*x*log(2*x**3) 0.0259
+5*x/(x + 1) 0.3402
+sin(3*x + 1) 0.3393
+mean: 0.10527157038450241
+top: 0.33945873379707336
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+x/(x + 2) 0.3395
+-sin(2*x + 4) 0.3393
+None 0.0000
+2*x - log(cos(x)) 0.0000
+None 0.0000
+-x - log(cos(x)) 0.0000
+x*log(2*x) + 2*x 0.1244
+x**2 - log(cos(x)) 0.0000
+sqrt(x) + 34 0.3498
+x**3/3 - cos(x) 0.0000
+None 0.0000
+-2*x - log(x) 0.2041
+None 0.0000
+6*x**4 0.0000
+None 0.0000
+2 - x**2 0.0014
+2*x + log(x) 0.9947
+3*x**2 0.0005
+x + 2 0.5069
+x**2/2 0.0027
+x**2 + 2*x - cos(x) 0.0014
+-x + x/(x + 1) 0.2553
+acosh(x + 4) 0.3405
+3*x*acos(3) 0.0000
+x**2/2 - x*cos(x) + sin(x) 0.0027
+4*log(x + 1) 0.3438
+x*acos(2) 0.0000
+x/(x**2 + x) 0.3393
+x**2*(x + 4) 0.0000
+x*(x + 2) + 2*x 0.0014
+tan(x + 5) 0.3393
+8*x**3 0.0000
+x/(x**2 + x) 0.3393
+x**2*sin(4)/2 0.0036
+x*(x**3 + x**2) 0.0000
+15*sin(x) 0.3395
+3*x**2/2 + (x - 1)*exp(x) 0.0000
+x**3/6 0.0000
+3/(2*x) 0.3393
+x**2/(2*tan(4)) 0.0032
+x**2/2 + 4*x 0.0027
+x*cos(x + 4) 0.3387
+x**4/4 + x 0.0000
+x/cos(3) 0.2545
+x**6/6 0.0000
+None 0.0000
+-sin(x) + cos(x) 0.3393
+sin(x + 3) 0.3393
+None 0.0000
+None 0.0000
+2*x**3*atan(x) 0.0000
+None 0.0000
+None 0.0000
+sin(x)**3 0.3393
+x**2*(x + atan(x)) 0.0000
+None 0.0000
+2*x*(x + 5) 0.0007
+x*(x**3 + x) 0.0000
+x**2/(x**2 + x) 0.3395
+8/x 0.3393
+(x + 55)*exp(x) 0.0000
+-x**2 + x*acos(x) + sqrt(1 - x**2) 0.0000
+1/(2*x**2 + x) 0.3393
+None 0.0000
+None 0.0000
+None 0.0000
+3*x - log(cos(x)) 0.0000
+2*log(x**3/5) 0.3454
+None 0.0000
+-x*cos(x) + x 0.4682
+x**2 + x + 5 0.0014
+x**2 - exp(x) 0.0000
+(x + 1)/x 0.3395
+x + tan(2) 0.5052
+x**2*(2*x**2 + x) 0.0000
+x**3*sinh(x) 0.0000
+1/(x*(x + 1)) 0.3393
+-x**2/2 + 2*x 0.0027
+x**3/3 - 4*x 0.0000
+x**3/3 0.0000
+None 0.0000
+x**2/2 - log(cos(2*x))/2 0.0000
+(x + 3)**4 0.0000
+4/(sin(x) + 1) 0.0134
+x*(x**3 + x)**2 0.0000
+2*x**2*sinh(x) 0.0000
+2*x + x*exp(2) 0.1223
+None 0.0000
+x**4/4 + x*atan(4*x) - sqrt(1 - x**2) 0.0000
+x**2*sin(4)/4 0.0070
+cos(x)*sinh(x) 0.0000
+None 0.0000
+2*x*cos(5) 0.4173
+None 0.0000
+None 0.0000
+None 0.0000
+x*log(3*x) - 6*x 0.6734
+-5*x**3 + 2*x 0.0000
+None 0.0000
+x**2 + x + 1 0.0014
+3*sin(x/3) 0.3393
+-cos(2*x) 0.3393
+x*(x + 4) + x 0.0014
+x**2/(4*(x + 1)) 0.3697
+2*sin(x) 0.3393
+x + sin(x)**2 0.5063
+None 0.0000
+sin(5*x)/5 0.3393
+2*x**(5/2)/5 + x**2/2 0.0001
+2*x + sin(x) 0.9948
+2*x*sin(x) - 2*cos(x) 0.3145
+x**2 + 25*x 0.0013
+-x**4 + x**3 0.0000
+2*x**4*(x + 4) 0.0000
+2*x*(x + 1) 0.0007
+x**2*asinh(x) 0.0002
+sqrt(2*x + 2) 0.3455
+2/(x + 1) 0.3393
+x*(x + cos(1)) 0.0014
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*(x + exp(x)) 0.0000
+2*x + acos(x) 0.0000
+4*x**(3/2)/3 + x**2/2 0.0025
+2*x**4 + x 0.0000
+-exp(x) - log(x) 0.0000
+x**2/2 + (x - 1)*exp(x) 0.0000
+3*log(x)**2/2 0.3502
+x*asinh(x) 0.1640
+None 0.0000
+None 0.0000
+log(x**2/2) 0.3414
+3/(2*(x + 1)) 0.3393
+3*log(x)/2 0.3410
+None 0.0000
+x**2*exp(3)/2 0.0001
+2*x*log(x) + x 0.0784
+x**2/2 + 6*log(x) 0.0027
+x**2*acos(x) 0.0000
+atanh(3)/x 0.0000
+x**2 + x + 4 0.0014
+x*(x + tan(2)) 0.0014
+x**2*sinh(x) 0.0000
+None 0.0000
+-sin(x + 2) 0.3393
+x*(2*x + 5) 0.0007
+-x**2*cos(x) + 2*x*sin(x) 0.0019
+2*x**2*(x + 2) 0.0000
+x**2/(x + 1) 0.5057
+None 0.0000
+x**3/6 0.0000
+x**2 + 25*x 0.0013
+None 0.0000
+x**5 + 2 0.0000
+None 0.0000
+-2*x - 2*cos(x) 0.2045
+x + log(x) + 1 0.5089
+x*cos(x) + 1 0.3184
+3*log(x/2) 0.3423
+x**2*(-x**3 + x) 0.0000
+x**2 - 2*x 0.0014
+x*(x**2 + x + 16)**4 0.0000
+None 0.0000
+4*x*exp(2*x) 0.0000
+-x*exp(x) + x 0.0000
+2*x*exp(2*x) 0.0000
+1/(4*x) 0.3393
+x**4/4 0.0000
+x**2*tan(4)/2 0.0023
+log(3*x**2) 0.3417
+x*sin(x + 2) 0.3137
+x - log(tanh(x) + 1) 0.5058
+x*(2*x + 4) 0.0007
+None 0.0000
+2*x**3/9 0.0000
+4*x + 1 0.3402
+5*atanh(x) 0.0000
+sqrt(2)*x**(5/2)/5 0.0002
+2*x + log(x) 0.9947
+-sin(x) 0.3393
+(2*x + 1)**2 0.0003
+x*sin(x) + 2*x 0.5980
+None 0.0000
+x*(x + cos(x)) 0.0014
+5*x*exp(-2) 0.4367
+x*atanh(2) 0.0000
+x*(-2*x**2 + x) 0.0000
+x + asinh(x) 0.5088
+2*x - sin(x) 0.9945
+x*(x + cos(x)) 0.0014
+x**2/2 + 2*x + exp(x) 0.0000
+x - sinh(x) 0.0000
+5*x/(x + 3) 0.3402
+1 0.0000
+(x + 3)**3 0.0000
+(x + 1)/x 0.3395
+x*(2*x + 5) 0.0007
+x*(x**2 + 1) 0.0000
+None 0.0000
+None 0.0000
+-x**2 + 4*x 0.0014
+sin(x) - cos(x) 0.3393
+x**2 + x - log(x + 1) 0.0014
+x + 9 0.5096
+x**5/5 + 2*x**4 + 15*x**2/2 0.0000
+x*(x + 5) 0.0014
+2*x**(3/2)/3 + x**2/2 0.0026
+2*sqrt(2)*x**(3/2)/3 0.0419
+x*exp(-x**4) 0.3393
+x**2/2 + 2*x 0.0027
+x*(4 - x) 0.0014
+-x*atanh(x) + x 0.0000
+x**2 + 4*x 0.0014
+6*x**4 0.0000
+x**3*sinh(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x/110 0.3403
+None 0.0000
+x*sin(x + 5) 0.3360
+None 0.0000
+x + sinh(2*x) 0.0000
+None 0.0000
+None 0.0000
+(sqrt(x) + x)**3 0.0000
+x + sin(x) + 4 0.5077
+None 0.0000
+(x + 5)/x 0.3395
+x**2*(2*x + 2) 0.0000
+-3*x**2 0.0005
+x**2*cos(1)/2 0.0050
+x**3/6 0.0000
+0 0.0000
+None 0.0000
+x*atanh(2*x) 0.0000
+x**2/2 + x*log(x**2) - 4*x 0.0027
+3*(x + 4)/x 0.3398
+None 0.0000
+x*exp(x) + 2*x 0.0000
+32*sinh(x) 0.0000
+(x + 5)**3 0.0000
+x**3/16 0.0000
+x*log(x**2 + x) 0.0848
+x + asinh(x) 0.5088
+x*(cosh(x) + 3) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x*cos(x) 0.2838
+4*sinh(x) 0.0000
+2*x**2*sinh(x) 0.0000
+x**3*tan(1)/3 0.0000
+2*x*exp(x) 0.0000
+-x**2 - 4*log(x) 0.0014
+<lambdifygenerated-175>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - log(cos(x))
+<lambdifygenerated-176>:2: RuntimeWarning: invalid value encountered in log
+  return -x - log(cos(x))
+<lambdifygenerated-178>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 - log(cos(x))
+<lambdifygenerated-191>:2: RuntimeWarning: invalid value encountered in arccos
+  return 3*x*arccos(3)
+<lambdifygenerated-194>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(2)
+<lambdifygenerated-204>:2: RuntimeWarning: overflow encountered in exp
+  return (3/2)*x**2 + (x - 1)*exp(x)
+<lambdifygenerated-222>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 55)*exp(x)
+<lambdifygenerated-223>:2: RuntimeWarning: invalid value encountered in arccos
+  return -x**2 + x*arccos(x) + sqrt(1 - x**2)
+<lambdifygenerated-223>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -x**2 + x*arccos(x) + sqrt(1 - x**2)
+<lambdifygenerated-225>:2: RuntimeWarning: invalid value encountered in log
+  return 3*x - log(cos(x))
+<lambdifygenerated-229>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - exp(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-233>:2: RuntimeWarning: overflow encountered in sinh
+  return x**3*sinh(x)
+<lambdifygenerated-233>:2: RuntimeWarning: overflow encountered in multiply
+  return x**3*sinh(x)
+<lambdifygenerated-238>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - 1/2*log(cos(2*x))
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-242>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x**2*sinh(x)
+<lambdifygenerated-242>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x**2*sinh(x)
+<lambdifygenerated-244>:2: RuntimeWarning: invalid value encountered in sqrt
+  return (1/4)*x**4 + x*arctan(4*x) - sqrt(1 - x**2)
+<lambdifygenerated-246>:2: RuntimeWarning: overflow encountered in sinh
+  return cos(x)*sinh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: invalid value encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-269>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x))
+<lambdifygenerated-269>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x))
+<lambdifygenerated-270>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x + arccos(x)
+<lambdifygenerated-273>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) - log(x)
+<lambdifygenerated-274>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (x - 1)*exp(x)
+<lambdifygenerated-283>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2*arccos(x)
+<lambdifygenerated-284>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(3)/x
+<lambdifygenerated-287>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)
+<lambdifygenerated-287>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*sinh(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-303>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(2*x)
+<lambdifygenerated-304>:2: RuntimeWarning: overflow encountered in exp
+  return -x*exp(x) + x
+<lambdifygenerated-305>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(2*x)
+<lambdifygenerated-315>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 5*arctanh(x)
+<lambdifygenerated-323>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(2)
+<lambdifygenerated-328>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + 2*x + exp(x)
+<lambdifygenerated-329>:2: RuntimeWarning: overflow encountered in sinh
+  return x - sinh(x)
+<lambdifygenerated-347>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -x*arctanh(x) + x
+<lambdifygenerated-350>:2: RuntimeWarning: overflow encountered in sinh
+  return x**3*sinh(x)
+<lambdifygenerated-350>:2: RuntimeWarning: overflow encountered in multiply
+  return x**3*sinh(x)
+<lambdifygenerated-353>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(2*x)
+<lambdifygenerated-362>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(2*x)
+<lambdifygenerated-365>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + 2*x
+<lambdifygenerated-366>:2: RuntimeWarning: overflow encountered in sinh
+  return 32*sinh(x)
+<lambdifygenerated-371>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 3)
+<lambdifygenerated-373>:2: RuntimeWarning: overflow encountered in sinh
+  return 4*sinh(x)
+<lambdifygenerated-374>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x**2*sinh(x)
+<lambdifygenerated-374>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x**2*sinh(x)
+<lambdifygenerated-376>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x)
+<lambdifygenerated-376>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x)
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.11660562455654144
+top: 0.34975504875183105
+None 0.0000
+None 0.0000
+None 0.0000
+3*x 0.5084
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*cos(x + 4) 0.3387
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x**2 + 4*x 0.0014
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x - cos(x) 0.9947
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+6*x**3 0.0000
+None 0.0000
+None 0.0000
+2*log(x) 0.3415
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+3*x**2/2 0.0009
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + 1 0.5065
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 2*x - cos(x) 0.0027
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-4*sin(x) 0.3392
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(x + 3) 0.0014
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+mean: 0.011856942437589169
+top: 0.5084112882614136
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-394>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 5)
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*(2*x + 3) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4*x**3 + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+tan(x)**22 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 + 2*x - cos(x) 0.0014
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x + 2 0.9982
+None 0.0000
+None 0.0000
+None 0.0000
+acos(x + 5) 0.0000
+None 0.0000
+None 0.0000
+8*x**3/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*(2*x**2 + x)**3 0.0000
+None 0.0000
+x*log(3/x) 0.1212
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**(7/27)/7 + x**5/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(2)*x**(3/2)/3 0.0872
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1/6 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + 9 0.5096
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+mean: 0.00670948252081871
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+None 0.0000
+sqrt(2)*x 0.6355
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*log(3)/2 0.0025
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + x*log(2*x) - 2*x 0.0027
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + cosh(x + 3) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 + x*(x + 1) 0.0007
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sinh(2*x)/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+8*x**5/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*exp(2*x)/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x + 4 0.9982
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*log(x**2) 0.3438
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*atanh(x/2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*(x + 1) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+<lambdifygenerated-407>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x + 3)
+<lambdifygenerated-409>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*sinh(2*x)
+<lambdifygenerated-412>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2*exp(2*x)
+<lambdifygenerated-415>:2: RuntimeWarning: divide by zero encountered in arctanh
+  return 2*arctanh((1/2)*x)
+<lambdifygenerated-415>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*arctanh((1/2)*x)
+mean: 0.0077474694699049
+top: 0.6355006098747253
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**5/5 + x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**(5/2)/5 0.0002
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+3*x**2 + 33*x 0.0004
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+9*x**2/2 0.0003
+x**2/2 0.0027
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + x*log(x**2) - 2*x 0.0026
+None 0.0000
+None 0.0000
+None 0.0000
+5*x + 5/2 0.2555
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sin(x) + 1 0.3395
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*tanh(2)/2 0.0028
+None 0.0000
+-x**4 + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/22 0.0307
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+8*x**4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*(x**2 + x)**3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+mean: 0.002479863353073597
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + x*exp(acos(2)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/(2*cos(1)) 0.0015
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1/6 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(2)*x**(2/3)/2 0.3485
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 0.0027
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*sqrt(2)*sqrt(x**(3/2)) 0.4147
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**3/3 + x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 + 10 0.0014
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+3*x*sqrt(x**2 + x) 0.0005
+None 0.0000
+x**2*(x**2 + x) 0.0000
+None 0.0000
+x**2/2 + x*log(2*x**2) - x 0.0026
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1/10 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(2)*(1 - x**2)**(sqrt(2)*atan(sqrt(2)*x/2)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 0.0027
+<lambdifygenerated-431>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2 + x*exp(arccos(2))
+<lambdifygenerated-443>:2: RuntimeWarning: invalid value encountered in power
+  return sqrt(2)*(1 - x**2)**(sqrt(2)*arctan((1/2)*sqrt(2)*x))
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0030256996396929026
+top: 0.0
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*cos(x) + x**2/2 - sin(x) 0.0016
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + log(x) 0.0027
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(2)*x**(3/2)/8 0.2676
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 - cos(x)/2 0.0027
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 2*x + sin(4*x)/4 0.0027
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+mean: 0.0010836244327947497
+top: 0.0016471344279125333
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Traceback (most recent call last):
+  File "avaliation.py", line 125, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2766, in sample
+    next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
+KeyboardInterrupt

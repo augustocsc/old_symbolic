@@ -1,0 +1,12 @@
+dso_0, Nguyen-1, x**3 + x**2 + x,nguyen_1.csv,-1,1,"(1,20)",0,42
+dso_1, Nguyen-2, x**4 + x**3 + x**2 + x,nguyen_2.csv,-1,1,"(1,20)",0,42
+dso_2, Nguyen-3, x**5 + x**4 + x**3 + x**2 + x,nguyen_3.csv,-1,1,"(1,20)",0,42
+dso_3, Nguyen-4, x**6 + x**5 + x**4 + x**3 + x**2 + x,nguyen_4.csv,-1,1,"(1,20)",0,42
+dso_4, Nguyen-5, np.sin(x) * np.cos(x) - 1,nguyen_5.csv,-1,1,"(1,20)",0,42
+dso_5, Nguyen-6, np.sin(x) + np.sin(x + x**2),nguyen_6.csv,-1,1,"(1,20)",0,42
+dso_6, Nguyen-7, np.log(x + 1) + np.log(x**2 + 1),nguyen_7.csv,0,2,20,0,42
+dso_7, Nguyen-8, np.sqrt(x),nguyen_8.csv,0,4,20,0,42
+dso_8, Nguyen-2', 4*x**4 + 3*x**3 + 2*x**2 + x,nguyen_2_prime.csv,-1,1,"(1,20)",0,42
+dso_9, Nguyen-5', np.sin(x**2) * np.cos(x) - 2,nguyen_5_prime.csv,-1,1,"(1,20)",0,42
+dso_10, Nguyen-8', x ** (1./3),nguyen_8_prime.csv,0,4,20,0,42
+dso_11, Nguyen-8', (x**2)**(1./3),nguyen_8_prime_prime.csv,0,4,20,0,42

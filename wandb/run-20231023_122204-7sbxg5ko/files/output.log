@@ -1,0 +1,8 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Working with expression:  2 * x[0] + 3
+Error in expression:  2 * x[0] + 3
+Traceback (most recent call last):
+  File "avaliation.py", line 97, in <module>
+    data = Data.load_experiment(experiment=line)
+TypeError: load_experiment() missing 1 required positional argument: 'self'

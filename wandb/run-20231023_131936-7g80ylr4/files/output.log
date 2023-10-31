@@ -1,0 +1,13 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Working with expression:  2 * x[0] + 3
+Traceback (most recent call last):
+  File "avaliation.py", line 75, in <module>
+    y = eval(map_expression(line['expression']))
+  File "<string>", line 1, in <module>
+NameError: name 'x' is not defined
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "avaliation.py", line 77, in <module>
+    raise ValueError("Error in expression: ", line['expression'])
+ValueError: ('Error in expression: ', '2 * x[0] + 3')

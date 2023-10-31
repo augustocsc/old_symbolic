@@ -1,0 +1,22 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Index(['i_0', 'Cubic Polynomial', 'x**3 - 4 * x**2 + 2 * x - 5'], dtype='object')
+Traceback (most recent call last):
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'expression'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "avaliation.py", line 79, in <module>
+    print("Working with expression: ", line['expression'])
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/core/series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/core/series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'expression'

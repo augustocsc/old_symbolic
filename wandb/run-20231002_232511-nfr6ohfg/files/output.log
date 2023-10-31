@@ -1,0 +1,24 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Traceback (most recent call last):
+  File "avaliation.py", line 82, in <module>
+    y.append(eval(expression))
+  File "<string>", line 1, in <module>
+NameError: name 'sqrt' is not defined
+[5304.5]
+[206]
+[10609]
+[21218]
+[728484.6666666666]
+[10815]
+[374851.3333333333]
+[2185454]
+[56275440.5]
+[42436]
+[1456969.3333333333]
+[21321]
+[733789.1666666666]
+[31827]
+[1092727]
+[1103336]
+[28501962.583333332]

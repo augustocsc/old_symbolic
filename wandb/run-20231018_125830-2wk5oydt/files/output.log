@@ -1,0 +1,377 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+Working with expression:  2 * x[0] + 3
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-15>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + x*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-32>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 5)
+<lambdifygenerated-38>:2: RuntimeWarning: invalid value encountered in log
+  return x*arctan(x) - log(cos(x)) + sin(x)
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-45>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-54>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x) + arcsin(x)
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-69>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(2)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-76>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) - x
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*sin(x) + cosh(x)
+<lambdifygenerated-78>:2: RuntimeWarning: invalid value encountered in arccos
+  return x/arccos(2)
+<lambdifygenerated-79>:2: RuntimeWarning: invalid value encountered in arctanh
+  return log(x)*arctanh(x**2)
+<lambdifygenerated-82>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*log(x) - x*arctanh(x) + x + log(x)
+<lambdifygenerated-83>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2 + x - arcsin(x)
+<lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + x*arctanh(5)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-93>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 4)
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/sklearn/metrics/_regression.py:481: RuntimeWarning: invalid value encountered in sqrt
+  output_errors = np.sqrt(output_errors)
+<lambdifygenerated-96>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in exp
+  return -4*x*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*exp(x)
+<lambdifygenerated-101>:2: RuntimeWarning: overflow encountered in sinh
+  return x + 2*sinh(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-130>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x + 1)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*sinh(x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*arctanh(4)
+<lambdifygenerated-158>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-162>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) - x
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(x + 2) - 2*log(cos(x))
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+<class 'torch.Tensor'>
+mean: 0.10527157038450241
+top: 0.33945873379707336
+Traceback (most recent call last):
+  File "avaliation.py", line 125, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 390, in forward
+    attn_outputs = self.attn(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+KeyboardInterrupt

@@ -1,0 +1,28 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+avaliation.py:112: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+Index(['type', 'name', 'expression'], dtype='object')
+<lambdifygenerated-2>:2: RuntimeWarning: divide by zero encountered in reciprocal
+  return log(x)**(-1.0)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x*exp(x) + x)
+<lambdifygenerated-3>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x*exp(x) + x)
+<lambdifygenerated-6>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-8>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x)
+<lambdifygenerated-10>:2: RuntimeWarning: overflow encountered in multiply
+  return x*cosh(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-12>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Traceback (most recent call last):
+  File "avaliation.py", line 137, in <module>
+    rewards, exprs = zip(*sorted(zip(rewards, exprs), reverse=True))
+TypeError: '<' not supported between instances of 'Expression' and 'Expression'

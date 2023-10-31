@@ -1,0 +1,5921 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Index(['type', 'name', 'expression'], dtype='object')
+Working with expression:  x**3 - 4 * x**2 + 2 * x - 5
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+x**5/5 + x**2/2 0.0000
+2*x**2 + x 0.0000
+None 0.0000
+None 0.0000
+x/(x + 6) 0.0000
+cos(1)/x 0.0000
+-2*x + cos(x)/x 0.0000
+None 0.0000
+6*x**5 0.0000
+None 0.0000
+2*x**4 0.0000
+4*x**3/3 0.0000
+None 0.0000
+-x**3/3 - x**2/2 + x 0.0000
+x/(x + 3) 0.0000
+None 0.0000
+x**2*sinh(1)/2 0.0000
+x*sin(4) + 2*x 0.0000
+5*sqrt(2)*x**(3/2)/9 0.0000
+-x**6/16 + x**2*log(x**2)/2 0.0000
+x**2 + x*cosh(x) 0.0000
+2*x*(x + 3) 0.0000
+(3 - x)/x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + 2 0.0000
+None 0.0000
+x**2*sin(5)/5 0.0000
+None 0.0000
+x**2/2 + sin(x)*cos(x)/5 0.0000
+sin(x**2)/2 0.0000
+None 0.0000
+None 0.0000
+-1/x 0.0000
+sin(2*x + 4) 0.0000
+0 0.0000
+None 0.0000
+2*(2*x + 1)/x 0.0000
+sqrt(x) + 4 0.0000
+(2*x**2 + x)/x 0.0000
+x + exp(x) - atanh(x) 0.0000
+-x**2 0.0000
+None 0.0000
+None 0.0000
+x*(2*x + 4) + x 0.0000
+x - 1/x**2 0.0000
+None 0.0000
+exp(2*x + 5) 0.0000
+None 0.0000
+x + 2/x 0.0000
+-2*x**(7/2)/7 0.0000
+-4*x**2 + 2*x 0.0000
+None 0.0000
+5*x*(x - 4) 0.0000
+x*(x + 4) + 2*x 0.0000
+x*atan(x) - log(cos(x)) + sin(x) 0.0000
+None 0.0000
+x - cos(x) 0.0000
+x*log(tanh(x) - 1) - x - log(tanh(x) + 1) 0.0000
+log(2*x**2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 5*log(x) 0.0000
+0 0.0000
+x**2 + 28*x 0.0000
+x + asin(x) 0.0000
+x + sin(x) + 1 0.0000
+x*(x + 1/x) 0.0000
+x**4 + x + 1 0.0000
+None 0.0000
+x**4/4 - x**3/3 + x**2/2 0.0000
+None 0.0000
+4*x**3/3 - x**2 0.0000
+3*sin(x/4) 0.0000
+-2*x + log(x)**2*tan(x) 0.0000
+None 0.0000
+sin(x) 0.0000
+exp(x) + asin(x) 0.0000
+x**2 + 4*x 0.0000
+x**6/3 + 5*x**3 + x**2/2 0.0000
+x/(x**3 + x) 0.0000
+2*x + tan(5) 0.0000
+sqrt(x) + x + 3 0.0000
+x**4/12 + x**3/3 0.0000
+1/(x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + log(x)**2 0.0000
+49*x**3/36 0.0000
+None 0.0000
+x**2 + 5*x 0.0000
+-6*x**2 + 2*x 0.0000
+None 0.0000
+sqrt(3)*x**(5/2)/3 0.0000
+sqrt(2*x + 3) 0.0000
+x**2*exp(x) + x 0.0000
+x**2*acos(2)/2 0.0000
+None 0.0000
+7*x/2 - 8*atan(3*x/2) 0.0000
+None 0.0000
+4*x**(7/2)/7 + x**6/2 0.0000
+6*sin(x) 0.0000
+None 0.0000
+x**2*(x**3 + x)**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/(3*log(2)) 0.0000
+None 0.0000
+2*x - cos(x) 0.0000
+None 0.0000
+x*exp(x) - x 0.0000
+4*sin(x) + cosh(x) 0.0000
+x/acos(2) 0.0000
+None 0.0000
+log(x)*atanh(x**2) 0.0000
+x*sin(x + 2) 0.0000
+1/(x + 3) 0.0000
+x**2*log(x) - x*atanh(x) + x + log(x) 0.0000
+x**2 + x - asin(x) 0.0000
+5*x**3 + x 0.0000
+x + x*atanh(5) 0.0000
+x**2*tan(3)/12 0.0000
+sqrt(2*x + 3) 0.0000
+None 0.0000
+x*(x + acos(x)) 0.0000
+None 0.0000
+None 0.0000
+3*x**2 - x 0.0000
+(x**2 + x)**4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 8*log(x) 0.0000
+2*x**(5/2)/5 + x**4/2 0.0000
+x*(cosh(x) + 4) 0.0000
+None 0.0000
+x*(x**5 + x) 0.0000
+None 0.0000
+3/(5*x) 0.0000
+exp(x + 3) 0.0000
+4*x**2 + x 0.0000
+None 0.0000
+x**6 - x**2/4 0.0000
+None 0.0000
+-4*x*exp(x) 0.0000
+124/x**3 0.0000
+x + 2*sinh(x) 0.0000
+5 - x 0.0000
+None 0.0000
+2*x**2 - sin(x) 0.0000
+None 0.0000
+x*(x + 3) 0.0000
+None 0.0000
+x**2/2 0.0000
+x**4/4 + 4*x**3/3 0.0000
+None 0.0000
+None 0.0000
+3*x**2/2 0.0000
+x**2/(4*cos(4)) 0.0000
+2*sin(x) 0.0000
+None 0.0000
+2*x - sin(x) 0.0000
+None 0.0000
+x**6/6 + x**3/3 0.0000
+None 0.0000
+None 0.0000
+x**2*log(4)/2 0.0000
+x**3/3 - x**2 0.0000
+None 0.0000
+61*x**2 0.0000
+x**8 + 3*x**2/2 0.0000
+4*x + 4*log(x) 0.0000
+-x - log(sqrt(x) + 1) 0.0000
+4 - x**2 0.0000
+x**2/2 + x*tan(1) 0.0000
+None 0.0000
+x**4/9 0.0000
+None 0.0000
+8*x**2 + x 0.0000
+-x - exp(x) 0.0000
+x**4/4 + 2*x 0.0000
+tan(3*x + 3) 0.0000
+x**2/2 - 3*x*exp(x) - exp(x) 0.0000
+None 0.0000
+x 0.0000
+1/(2*x**2 + x) 0.0000
+x**5/5 + 2*x 0.0000
+None 0.0000
+None 0.0000
+5*x*log(x) 0.0000
+None 0.0000
+cosh(2*x + 1) 0.0000
+x**2*sinh(x) 0.0000
+None 0.0000
+2*x + sin(x) 0.0000
+2*x 0.0000
+5*x**2/2 + 6*x 0.0000
+1/(2*x) 0.0000
+None 0.0000
+-cos(x + 2) 0.0000
+x**2*log(x) + x 0.0000
+x**4/4 + x**2/2 + 3*x 0.0000
+-x**3*sin(x) + x 0.0000
+None 0.0000
+None 0.0000
+cos(x)/x 0.0000
+x**2/2 + (3*x + 2)**(3/2)/3 0.0000
+acos(3*x) 0.0000
+2/(3*x) 0.0000
+cos(4*x + 1) 0.0000
+None 0.0000
+2*(x + 2)**3 0.0000
+4*x**5/5 + x**2/2 0.0000
+x**3/log(x**2) 0.0000
+sqrt(3)/(2*x + 5) 0.0000
+x*atan(x) + log(x + 1) - atan(x) 0.0000
+None 0.0000
+None 0.0000
+tan(x + 3) 0.0000
+-x/5 0.0000
+2*x*atanh(4) 0.0000
+-x + sin(x)*cos(x) 0.0000
+x**2*(log(x) + 1) 0.0000
+None 0.0000
+5*x**2/2 0.0000
+x/(x + 3) 0.0000
+x**3*sin(1)/3 0.0000
+None 0.0000
+None 0.0000
+exp(2*x + 1) 0.0000
+None 0.0000
+None 0.0000
+4*x**2 + 3*x 0.0000
+None 0.0000
+2*x**2 + 5 0.0000
+tanh(2*x + 1)/2 0.0000
+None 0.0000
+x*atanh(x) - x 0.0000
+x*(x + 5) 0.0000
+x**3/3 + x**2/2 0.0000
+x**3 + x**2 0.0000
+4*x/3 0.0000
+-2*log(x + 2) - 2*log(cos(x)) 0.0000
+3 - 3*x 0.0000
+None 0.0000
+None 0.0000
+x + sin(x) 0.0000
+2*x*log(2*x**3) 0.0000
+5*x/(x + 1) 0.0000
+sin(3*x + 1) 0.0000
+<lambdifygenerated-15>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + x*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-32>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 5)
+<lambdifygenerated-38>:2: RuntimeWarning: invalid value encountered in log
+  return x*arctan(x) - log(cos(x)) + sin(x)
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-45>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x) + arcsin(x)
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-69>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(2)
+<lambdifygenerated-76>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) - x
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*sin(x) + cosh(x)
+<lambdifygenerated-78>:2: RuntimeWarning: invalid value encountered in arccos
+  return x/arccos(2)
+<lambdifygenerated-79>:2: RuntimeWarning: invalid value encountered in arctanh
+  return log(x)*arctanh(x**2)
+<lambdifygenerated-82>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*log(x) - x*arctanh(x) + x + log(x)
+<lambdifygenerated-83>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2 + x - arcsin(x)
+<lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + x*arctanh(5)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-93>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 4)
+<lambdifygenerated-96>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in exp
+  return -4*x*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*exp(x)
+<lambdifygenerated-101>:2: RuntimeWarning: overflow encountered in sinh
+  return x + 2*sinh(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-130>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x + 1)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*sinh(x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*arctanh(4)
+<lambdifygenerated-158>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-162>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) - x
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(x + 2) - 2*log(cos(x))
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+43/(6*x) 0.0000
+x*log(2*x) - 3*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-2*log(cos(x)) 0.0000
+x**2*sin(2*x)/2 + 2*x 0.0000
+None 0.0000
+-x**2/2 + exp(x) 0.0000
+-x**2/2 - cos(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+6*x**4 0.0000
+None 0.0000
+exp(x) + asin(x) 0.0000
+-x + log(tanh(x) + 1) 0.0000
+None 0.0000
+exp(x) + cosh(x) 0.0000
+5*x**2/2 0.0000
+-x*log(2*x) - cos(x) 0.0000
+8*x**4 + x**3/3 0.0000
+acosh(x - 4) 0.0000
+126*x**3 0.0000
+x**2/2 - x*cos(x) + sin(x) 0.0000
+4*x*exp(x) 0.0000
+-2*x**3/3 + x**2/4 0.0000
+10*x**3/3 0.0000
+x**4/2 + x**3/3 - x**2 0.0000
+-11*x + atanh(x) 0.0000
+tan(x + 1) 0.0000
+8*x**3 0.0000
+x/(x + cos(x)) 0.0000
+2*x**(3/2)/3 + 22*x**3/3 0.0000
+x*(x**3 + x**2) 0.0000
+15*x**(3/2) 0.0000
+(x - 1)*exp(x) - log(x**2 + 1)/2 0.0000
+x**2/2 - sin(2*x)/2 0.0000
+7*x**3/220 0.0000
+x**3/3 - 23*x**2/2 0.0000
+None 0.0000
+(x - 4)*exp(x) 0.0000
+-x**4/4 + x 0.0000
+x/cos(3) 0.0000
+-x**6/6 0.0000
+None 0.0000
+None 0.0000
+sin(x - 2) 0.0000
+None 0.0000
+None 0.0000
+-2*x**3/9 + (-x + exp(x) - 1)*exp(x) 0.0000
+x/(x*cos(x) + x) 0.0000
+None 0.0000
+x**2 + 8*x 0.0000
+x**2*(x + atan(x)) 0.0000
+None 0.0000
+None 0.0000
+x*(1 - 3*x)**3 + x 0.0000
+x/2 0.0000
+-cos(x - 4) 0.0000
+(x - 5)*exp(x) 0.0000
+sqrt(x - 1) - 2*log(x + 2) 0.0000
+1/(2*x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-log(cos(x)) + sin(x) 0.0000
+80*x**3/3 0.0000
+5*x**3/3 - 5*x**2/2 0.0000
+x**4/4 + x 0.0000
+None 0.0000
+x**2 - exp(x) 0.0000
+(x + 1)/x**3 0.0000
+x + tan(x + 3) 0.0000
+x**2*(x - tan(x)) 0.0000
+11*x**3/3 + 3*x**2/2 0.0000
+x**2/sin(x) 0.0000
+x**3/3 + x**2/2 + 6*x 0.0000
+-4*x + log(2*x) 0.0000
+163*x**5/5 0.0000
+None 0.0000
+-x**2/2 - x*cos(acosh(x))/2 0.0000
+(x - 1)**2 0.0000
+None 0.0000
+(x - 1)*exp(x)/16 0.0000
+x**2/2 - x + cos(x) 0.0000
+x**5/5 + 223*x**2/2 0.0000
+None 0.0000
+-sqrt(x**2 - 1) + 2*log(x) 0.0000
+None 0.0000
+cos(x)/(x + 5) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**(3/2)/3 - 3*x 0.0000
+x**2/2 0.0000
+-2*x**3/3 + x**2*log(3*x)/2 0.0000
+-5*x + 5*log(x + 5) 0.0000
+1647*x**6/2 0.0000
+None 0.0000
+x + sin(x)**2 0.0000
+None 0.0000
+-sin(2*x)/2 0.0000
+x**2/2 + x*cos(x) - 2*sin(x) 0.0000
+2*x + sin(2*x) 0.0000
+x*sin(x) - 2*cos(x) 0.0000
+2*x**5/5 + x**2/2 0.0000
+None 0.0000
+None 0.0000
+2 - 8*x 0.0000
+x**2*asinh(x) 0.0000
+sqrt(3*x + 2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-2*x**(3/2)/3 0.0000
+None 0.0000
+x**2*(x + exp(x)) 0.0000
+None 0.0000
+x**2/2 - 1/(3*x**3) 0.0000
+x + 2/x**(8/3) 0.0000
+x**3/3 - exp(x) 0.0000
+x**8/2 + 1/3 0.0000
+x**2/2 - 2*x*cos(x) + sin(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+log(x**2/2) 0.0000
+None 0.0000
+4*x**3/3 - x**2/2 0.0000
+None 0.0000
+166*x**3/9 0.0000
+2*x*log(x**2) + x 0.0000
+-2*x**3/3 + x/2 0.0000
+cosh(1)/(4*x**3) 0.0000
+x**3 + 5*x**2 0.0000
+3*x + 2*exp(x) 0.0000
+x*(x + tan(2)) 0.0000
+None 0.0000
+None 0.0000
+-5*x*log(x) + 2*x 0.0000
+x*(5 - x) 0.0000
+x**3/3 - x**2*cos(x) 0.0000
+2*x - 2 0.0000
+x**6*log(x)**2 0.0000
+None 0.0000
+None 0.0000
+x**2 + 3/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-2*x*sin(x) - 2*cos(x) 0.0000
+1 - x**4 0.0000
+2*x + cos(2*x) 0.0000
+3*log(x/2) 0.0000
+x**2*(2*x + exp(x)) 0.0000
+x**2 + 5*x + sin(x) 0.0000
+x - log(tanh(x) + 1) 0.0000
+None 0.0000
+x**4/2 + x**2/2 0.0000
+<lambdifygenerated-175>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(cos(x))
+<lambdifygenerated-177>:2: RuntimeWarning: overflow encountered in exp
+  return -1/2*x**2 + exp(x)
+<lambdifygenerated-180>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsin(x)
+<lambdifygenerated-180>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x) + arcsin(x)
+<lambdifygenerated-182>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + cosh(x)
+<lambdifygenerated-182>:2: RuntimeWarning: overflow encountered in cosh
+  return exp(x) + cosh(x)
+<lambdifygenerated-186>:2: RuntimeWarning: invalid value encountered in arccosh
+  return arccosh(x - 4)
+<lambdifygenerated-189>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-189>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-193>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -11*x + arctanh(x)
+<lambdifygenerated-200>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 1)*exp(x) - 1/2*log(x**2 + 1)
+<lambdifygenerated-204>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 4)*exp(x)
+<lambdifygenerated-209>:2: RuntimeWarning: overflow encountered in exp
+  return -2/9*x**3 + (-x + exp(x) - 1)*exp(x)
+<lambdifygenerated-209>:2: RuntimeWarning: overflow encountered in multiply
+  return -2/9*x**3 + (-x + exp(x) - 1)*exp(x)
+<lambdifygenerated-216>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 5)*exp(x)
+<lambdifygenerated-219>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sin(x)
+<lambdifygenerated-223>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - exp(x)
+<lambdifygenerated-234>:2: RuntimeWarning: overflow encountered in exp
+  return (1/16)*(x - 1)*exp(x)
+<lambdifygenerated-254>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x))
+<lambdifygenerated-254>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x))
+<lambdifygenerated-257>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 - exp(x)
+<lambdifygenerated-267>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + 2*exp(x)
+<lambdifygenerated-279>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(2*x + exp(x))
+<lambdifygenerated-279>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(2*x + exp(x))
+<lambdifygenerated-284>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(2*x)
+<lambdifygenerated-286>:2: RuntimeWarning: overflow encountered in cosh
+  return -x + cosh(x)
+<lambdifygenerated-289>:2: RuntimeWarning: invalid value encountered in log
+  return x - 3*log(x - 3)
+<lambdifygenerated-293>:2: RuntimeWarning: overflow encountered in sinh
+  return -1/2*log(sinh(x) - 1)
+<lambdifygenerated-304>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 + x - log(x - 5)
+<lambdifygenerated-306>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(2*x) - 2*sqrt(2*x**2 + 1)
+<lambdifygenerated-314>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(sqrt(2)*x**2)
+<lambdifygenerated-319>:2: RuntimeWarning: overflow encountered in cosh
+  return sin(x) + cosh(x)
+<lambdifygenerated-326>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x)
+<lambdifygenerated-331>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/2)*x**2 + x*cosh(x) - 4*sinh(x)
+<lambdifygenerated-331>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 + x*cosh(x) - 4*sinh(x)
+<lambdifygenerated-331>:2: RuntimeWarning: invalid value encountered in subtract
+  return (1/2)*x**2 + x*cosh(x) - 4*sinh(x)
+<lambdifygenerated-332>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x*exp(x)
+<lambdifygenerated-332>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x*exp(x)
+<lambdifygenerated-338>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) - 3)
+<lambdifygenerated-339>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1/2 - x**2)
+14*x**3/3 + x 0.0000
+2*x*exp(2*x) 0.0000
+232*x**7 0.0000
+-x + cosh(x) 0.0000
+4*x**3/3 + 5*x**2/2 0.0000
+log(3*x**2) 0.0000
+x - 3*log(x - 3) 0.0000
+3*x - log(tanh(x + 2) + 1) 0.0000
+x*(sqrt(x) + 2*x) 0.0000
+None 0.0000
+43/(2*x**2) 0.0000
+-log(sinh(x) - 1)/2 0.0000
+2*atan(x) 0.0000
+None 0.0000
+2*x + log(2*x**2) 0.0000
+-sin(x) 0.0000
+-x**3/3 + x**2/2 + x*log(x) 0.0000
+0 0.0000
+None 0.0000
+x*(x + tanh(2)) 0.0000
+-2*x**2/5 - 35*x/2 0.0000
+None 0.0000
+None 0.0000
+x**2 0.0000
+None 0.0000
+x*(sin(x) + tan(x)) 0.0000
+None 0.0000
+None 0.0000
+5*x*(2*x**2 + x)**3 0.0000
+None 0.0000
+x**2 + x - log(x - 5) 0.0000
+1875*x**3 0.0000
+x*acos(2*x) - 2*sqrt(2*x**2 + 1) 0.0000
+x - cos(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 + x - cos(x) 0.0000
+x + 9 0.0000
+x**5/5 - x**3/3 0.0000
+x**3/3 - x**2/2 0.0000
+2*x**(3/2)/3 + x**2/2 0.0000
+x/4 0.0000
+x*exp(sqrt(2)*x**2) 0.0000
+None 0.0000
+x*(sqrt(x) - x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+-x**4 0.0000
+x*atan(x) + log(tan(x)**2 + 1)/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+7*x**2/5 0.0000
+None 0.0000
+sin(x) + cosh(x) 0.0000
+39*x**4 0.0000
+-x**2 + x 0.0000
+None 0.0000
+x**2/2 + x*log(2) 0.0000
+(sqrt(x) + x)**3 0.0000
+x + sin(x) + 4 0.0000
+None 0.0000
+(x + 5)/x 0.0000
+None 0.0000
+sqrt(1 - x) 0.0000
+10*x**3/3 0.0000
+x**3/6 0.0000
+0 0.0000
+None 0.0000
+1055*x**2/2 0.0000
+x**2/2 + x*cosh(x) - 4*sinh(x) 0.0000
+3*x*exp(x) 0.0000
+None 0.0000
+x*log(x/2) - 2*x 0.0000
+x**3/3 - 3*x**2/2 0.0000
+None 0.0000
+10*x**3/3 0.0000
+x*log(x**2 + x) 0.0000
+x + asinh(2*x) 0.0000
+x*(cosh(x) - 3) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(1/2 - x**2) 0.0000
+x**3/3 + x**2*log(x)/2 - x**2/2 0.0000
+2*x**3/9 - x**2/4 0.0000
+None 0.0000
+-5*x + 5*log(x) 0.0000
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+(2*x + 4)**3 0.0000
+x**2*cos(3)/2 + x 0.0000
+x + cos(x - 4) 0.0000
+-1/(2*x**2) 0.0000
+None 0.0000
+None 0.0000
+x + 6*log(x) 0.0000
+x*log(x**2) + x/2 0.0000
+x + asinh(x + 1) 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + log(x) 0.0000
+-x*(x + 1) 0.0000
+x 0.0000
+None 0.0000
+-x**3/3 + x**2/2 + 3*x 0.0000
+2*x**3 0.0000
+9*x*sin(x) + 9*cos(x) 0.0000
+x - exp(x) 0.0000
+4*x**2 - 2*x 0.0000
+x + 5*log(x) 0.0000
+-3*x**2/2 + x + log(tan(x/2)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 - 2*x 0.0000
+None 0.0000
+log(tanh(x) + 1) - cos(x) 0.0000
+None 0.0000
+x**2*(x - 1/2) 0.0000
+None 0.0000
+x + tan(x) + 2 0.0000
+None 0.0000
+None 0.0000
+x**4*acos(x) 0.0000
+sinh(x)**3 0.0000
+x*sin(x**(5/2)) 0.0000
+exp(2*x) 0.0000
+-4*x**3/3 0.0000
+None 0.0000
+-sin(x)*cosh(x) 0.0000
+5*x**3/3 + x**2 0.0000
+x**2/2 + sinh(x) 0.0000
+-2*x + acos(x) 0.0000
+-3/(2*x**2) 0.0000
+x**3/3 - x**2/2 0.0000
+x**2 - x + 2 0.0000
+(x + 2)**5 0.0000
+None 0.0000
+x - log(tanh(x) + 1) + sin(x) 0.0000
+None 0.0000
+x*tanh(2)/5 0.0000
+-2*x - sqrt(x**2 - 1) 0.0000
+None 0.0000
+3*x**3 + x + log(x) 0.0000
+x + tan(5) 0.0000
+None 0.0000
+sqrt(3)*x*Abs(x) 0.0000
+x**3*log(x) 0.0000
+2*x + 6 0.0000
+x/(x**2 + 2*x) 0.0000
+3 - x 0.0000
+2*x**2 + 2*x + 2*log(x) 0.0000
+-2*x**(5/2)/5 + x**3/9 0.0000
+x**3/3 + sqrt(1 - x**2) 0.0000
+None 0.0000
+-3*exp(x) 0.0000
+-x**3/3 + x**2*log(x)/2 0.0000
+(x + 5)/x 0.0000
+x**2 0.0000
+None 0.0000
+5*x*atanh(x) 0.0000
+None 0.0000
+2*x + tan(2*x) 0.0000
+tan(2*x + 3) 0.0000
+x/(x + 3) 0.0000
+sqrt(2)*x**2 0.0000
+x**6/2 + x**2/2 0.0000
+-3*cosh(x) 0.0000
+x**2*log(5) 0.0000
+None 0.0000
+None 0.0000
+2*x**3/3 + 3*x + exp(x) 0.0000
+x/(sqrt(x) + x) 0.0000
+None 0.0000
+-3/(2*x**2) 0.0000
+None 0.0000
+2*x*sin(x) + 2*cos(x) 0.0000
+6*x**3 + x**2 0.0000
+4*x*(x + 4) 0.0000
+x**2/(2*x + 1) 0.0000
+-x + cos(x) 0.0000
+x**2 0.0000
+None 0.0000
+None 0.0000
+x*(x + 1) + 2*x 0.0000
+2*x**2 - 4*x 0.0000
+None 0.0000
+2*x**3 + x 0.0000
+None 0.0000
+None 0.0000
+-1/(18*x**2) 0.0000
+2*x - sqrt(1 - 2*x**2) 0.0000
+4*x**3/3 - x**2/2 0.0000
+x**4 + 2*x**2 0.0000
+4*x*(x - 1) 0.0000
+x**5 + x**2 0.0000
+1/(2*x) 0.0000
+acos(x) - 3 0.0000
+None 0.0000
+2*x**3 + 2*x 0.0000
+x**2*(1/2 - 1/x) 0.0000
+cos(acosh(x)) 0.0000
+-x/2 0.0000
+x**3/3 + 3*x**2 0.0000
+-1/(4*x**2) 0.0000
+x*(x + 5)**2 0.0000
+log(2*x + 4) 0.0000
+None 0.0000
+2*x**3 + x**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**8/8 - x**3/3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-x**4/2 + x + log(cos(x) + 1) 0.0000
+-1/(3*x**2) 0.0000
+x + tan(x) - 2 0.0000
+x**2/2 - cos(x) 0.0000
+x + exp(x - 1) 0.0000
+2/x 0.0000
+4*log(x)/x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x + (x + 1)**2 0.0000
+x**3/3 + x*atan(x) - atan(x) 0.0000
+x*tan(2) 0.0000
+None 0.0000
+5*x + 5*log(x) 0.0000
+None 0.0000
+None 0.0000
+-2*x + cos(x - 1) 0.0000
+sqrt(3*x + 5) 0.0000
+8*x**3*log(x)/9 - x**3/9 0.0000
+2*x**3/3 - x**2 0.0000
+sqrt(x) + 1 0.0000
+None 0.0000
+Abs(x) 0.0000
+None 0.0000
+x**2/2 - 2*x + log(x) 0.0000
+-1/(6*x**4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*log(x) - x + sin(x) 0.0000
+2*x**2 + 4*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x - 1/x 0.0000
+None 0.0000
+x**4/110 0.0000
+x - 3 0.0000
+x**2 + 4 0.0000
+-sqrt(3)*x**(3/2)/9 0.0000
+x**3/3 + (x - 3)*exp(x) 0.0000
+2*x + 4 0.0000
+-x**3 + x**2 0.0000
+x*cos(x)*acos(x)**2 0.0000
+x**2/2 0.0000
+2*x**(3/2)/3 0.0000
+x**2/2 + sin(5) 0.0000
+None 0.0000
+exp(x + 1) 0.0000
+None 0.0000
+5*exp(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**3 + 5 0.0000
+None 0.0000
+9*x**3 0.0000
+x/2 0.0000
+x + 4 0.0000
+None 0.0000
+x**2/2 + exp(x) - cos(x) 0.0000
+-sqrt(x**2 - 1) + atan(x) 0.0000
+x*tan(2*x) 0.0000
+exp(asinh(x)) 0.0000
+None 0.0000
+2*x**2 - 3*sin(x) 0.0000
+exp(x + 1) 0.0000
+x*sin(2) + 3*x 0.0000
+6 - x**2 0.0000
+4*x**3/3 + x**2 0.0000
+x*(x - cos(x)) 0.0000
+x + exp(2*x) 0.0000
+-x**2 + x 0.0000
+sqrt(x) + 5 0.0000
+(2*x + 3)**2 0.0000
+x**3 - 1/x 0.0000
+x**3/3 - x**2/2 + x*log(x) 0.0000
+(x + 2)**2 0.0000
+log(x) + atan(x) 0.0000
+2*x**3/3 + x**2/2 + sin(x) 0.0000
+x*exp(2*x) + 1/2 0.0000
+x**2/2 + exp(x) + log(x) 0.0000
+None 0.0000
+2*x**2 + 4*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+(x + 3)*(-x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+8*x**5 0.0000
+x + 3*log(x) 0.0000
+4*tanh(x) 0.0000
+x**3/3 + 2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2*sin(1) + x/2 0.0000
+25*x**6 + 7*x**2/2 0.0000
+None 0.0000
+None 0.0000
+-5*x + exp(x) 0.0000
+4*x**4 + x**2/2 + 4*x 0.0000
+x**2 + sinh(x) 0.0000
+x**2 + 4*x + 5 0.0000
+2*x + log(2) 0.0000
+x**2 + x + 3 0.0000
+x + 3/x 0.0000
+None 0.0000
+None 0.0000
+x + (x + 1)/x 0.0000
+None 0.0000
+9*x**2 + 4*x 0.0000
+x*atan(x) 0.0000
+None 0.0000
+x + 3/x 0.0000
+None 0.0000
+x**3/(2*log(x)) 0.0000
+None 0.0000
+<lambdifygenerated-356>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-359>:2: RuntimeWarning: invalid value encountered in log
+  return -3/2*x**2 + x + log(tan((1/2)*x))
+<lambdifygenerated-364>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**4*arccos(x)
+<lambdifygenerated-365>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**3
+<lambdifygenerated-365>:2: RuntimeWarning: overflow encountered in power
+  return sinh(x)**3
+<lambdifygenerated-367>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+<lambdifygenerated-369>:2: RuntimeWarning: overflow encountered in cosh
+  return -sin(x)*cosh(x)
+<lambdifygenerated-371>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 + sinh(x)
+<lambdifygenerated-372>:2: RuntimeWarning: invalid value encountered in arccos
+  return -2*x + arccos(x)
+<lambdifygenerated-389>:2: RuntimeWarning: invalid value encountered in sqrt
+  return (1/3)*x**3 + sqrt(1 - x**2)
+<lambdifygenerated-390>:2: RuntimeWarning: overflow encountered in exp
+  return -3*exp(x)
+<lambdifygenerated-394>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 5*x*arctanh(x)
+<lambdifygenerated-400>:2: RuntimeWarning: overflow encountered in cosh
+  return -3*cosh(x)
+<lambdifygenerated-402>:2: RuntimeWarning: overflow encountered in exp
+  return (2/3)*x**3 + 3*x + exp(x)
+<lambdifygenerated-415>:2: RuntimeWarning: invalid value encountered in sqrt
+  return 2*x - sqrt(1 - 2*x**2)
+<lambdifygenerated-421>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x) - 3
+<lambdifygenerated-436>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x - 1)
+<lambdifygenerated-458>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 + (x - 3)*exp(x)
+<lambdifygenerated-461>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*cos(x)*arccos(x)**2
+<lambdifygenerated-465>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 1)
+<lambdifygenerated-466>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x)
+<lambdifygenerated-471>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x) - cos(x)
+<lambdifygenerated-476>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 1)
+<lambdifygenerated-481>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(2*x)
+<lambdifygenerated-490>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) + 1/2
+<lambdifygenerated-491>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x) + log(x)
+<lambdifygenerated-500>:2: RuntimeWarning: overflow encountered in exp
+  return -5*x + exp(x)
+<lambdifygenerated-502>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2 + sinh(x)
+mean: 0.0
+top: 0.0
+None 0.0000
+2*x + sin(2*x) 0.0000
+-x**2 + 2*x + exp(x) 0.0000
+32*x**3 + 32*x**2 0.0000
+x**8 + cosh(x) 0.0000
+x*atanh(x**2) 0.0000
+None 0.0000
+x**2/4 - log(4*x - 1)/4 0.0000
+2*x + sin(asinh(x)) 0.0000
+9*x**3 0.0000
+None 0.0000
+4*x**4 + x 0.0000
+x**2/2 + x*log(x) + 6*x 0.0000
+x*acos(x) - x + sqrt(x**2 - 1) 0.0000
+None 0.0000
+5*x**3 0.0000
+sin(x) + cos(x) 0.0000
+x + 4/x 0.0000
+2*x**2 + x 0.0000
+2*x 0.0000
+x**2/2 + 5*exp(x) 0.0000
+None 0.0000
+None 0.0000
+(-88*x**2 - 848*x - 44)*exp(-4*x) 0.0000
+None 0.0000
+None 0.0000
+x/(x**2 + x + 1) 0.0000
+-x**2/2 + x*log(x) + x 0.0000
+2*x + 7 0.0000
+x*(2*x + 5) 0.0000
+x**3 - x + 5 0.0000
+x**3 + 20 0.0000
+-35/(4*x**4) 0.0000
+None 0.0000
+2*x**3 + 4 0.0000
+4*x**2*exp(x) 0.0000
+tan(4*x) 0.0000
+-x + exp(x) 0.0000
+x**4/4 + 3*x**2 0.0000
+log(2*x + log(x)) 0.0000
+None 0.0000
+x - sinh(x) 0.0000
+-2*cos(x) 0.0000
+x**2 - 1 0.0000
+2*x**4 + x 0.0000
+x*(x**2 + 3) 0.0000
+x + sinh(x**2) 0.0000
+None 0.0000
+None 0.0000
+6*x**2 0.0000
+4/x 0.0000
+4*x**2 + 4*x 0.0000
+None 0.0000
+None 0.0000
+cosh(2*x) 0.0000
+2*x**3/3 + log(x) 0.0000
+2*x*(x + sin(x)) 0.0000
+3*x**2/2 + 5*x 0.0000
+x**2 + x + 5 0.0000
+x*exp(2*x) - x 0.0000
+None 0.0000
+5*x/(x**2 + x) 0.0000
+None 0.0000
+2*x*(x + 4) 0.0000
+None 0.0000
+4*x**6 + x 0.0000
+None 0.0000
+x + log(x) 0.0000
+2*x + x*exp(2) 0.0000
+3*x 0.0000
+sqrt(1 - x**2) - exp(x) 0.0000
+sqrt(x + 4) 0.0000
+tan(x)**2 0.0000
+x - 3 0.0000
+None 0.0000
+x - cos(x) 0.0000
+2*x*atan(x) 0.0000
+4*x**2 - cos(x) 0.0000
+x*(1 - x) 0.0000
+x + tan(5) 0.0000
+-x*exp(x) + x 0.0000
+None 0.0000
+16/x**2 0.0000
+4*x**2 + 2*x 0.0000
+-3*x**2/4 - x*sqrt(1 - x**2)/2 0.0000
+3*exp(3*x) 0.0000
+None 0.0000
+-x**4 + 2*x 0.0000
+x**3/3 + 4*x**2*sin(x) + x*cos(x) + 3*sin(x) 0.0000
+x + 5/x**2 0.0000
+None 0.0000
+2*x**4 0.0000
+x/(2*x + 3) 0.0000
+x**2*Abs(x) 0.0000
+None 0.0000
+-x**2 - 3*x 0.0000
+6*x**3 0.0000
+x - log(tanh(x + 4) + 1) 0.0000
+3*x**3 + 2*x 0.0000
+cos(x)**5 0.0000
+None 0.0000
+x*log(x) + 5 0.0000
+None 0.0000
+x + log(x + 1) 0.0000
+x**2 + 1 0.0000
+None 0.0000
+x*sin(1) + x 0.0000
+x**3/25 0.0000
+x + 10 0.0000
+2*x + 8 0.0000
+None 0.0000
+None 0.0000
+2*x**2 + x + 1 0.0000
+acos(x + 5) 0.0000
+x*(1 - x**2) + x 0.0000
+x**3 + 6 0.0000
+8*x**3/5 0.0000
+x**2*asin(x**2)/2 - sqrt(1 - x**2)/2 0.0000
+None 0.0000
+exp(x) + tan(5) 0.0000
+None 0.0000
+x - atanh(x) 0.0000
+5*x**4/2 + x**3/3 0.0000
+exp(2 - x) 0.0000
+x**2 + 6*x 0.0000
+None 0.0000
+None 0.0000
+-1/x 0.0000
+x**2 - x + tan(x) 0.0000
+-21*x 0.0000
+-2*acos(3*x)**(3/2)/3 0.0000
+4*x**3 - cos(x) 0.0000
+2*x**2 + 4 0.0000
+None 0.0000
+3*exp(x/2) 0.0000
+None 0.0000
+2*x**2 + x 0.0000
+None 0.0000
+None 0.0000
+x**2/(x + 3) 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + sin(x) 0.0000
+x*log(x) + 4*x 0.0000
+-4*x**3*log(x)/9 - 4*x**2*cos(x)/9 + atan(x) 0.0000
+None 0.0000
+8/(3*x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(3)/x 0.0000
+2*x - log(cos(x)) 0.0000
+3*atanh(x) 0.0000
+x*atanh(5) 0.0000
+2*x + tanh(4) 0.0000
+None 0.0000
+x**2 + 4*x 0.0000
+None 0.0000
+-x**5/5 0.0000
+x**2 + 9*x 0.0000
+None 0.0000
+2*x + (x + 1)/x 0.0000
+x + cos(asinh(x)) 0.0000
+5*x*log(x) + x 0.0000
+5*x**2 0.0000
+None 0.0000
+None 0.0000
+9*x**6 0.0000
+sqrt(3)*sqrt(x) + x 0.0000
+sin(2*x) 0.0000
+2*x**3 + x 0.0000
+None 0.0000
+-x**2/2 0.0000
+4*x**2*atanh(x) 0.0000
+2*x**3 + 2 0.0000
+2*x*log(x) + 2*x 0.0000
+tan(1)/x 0.0000
+x + exp(4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x + 3 0.0000
+x*(x + 2) + x 0.0000
+x**3 + 1 0.0000
+2*sqrt(2)*x**2 0.0000
+None 0.0000
+exp(x - 2) 0.0000
+None 0.0000
+x**2/2 + x + atan(x) 0.0000
+None 0.0000
+None 0.0000
+x**2 + 4*x + 2 0.0000
+-x*cos(x) + x 0.0000
+-x**4/4 + 4*x**3/3 0.0000
+x*cos(5*x)/5 + sin(5*x)/5 0.0000
+x**4 + x + 3 0.0000
+4*x*exp(2*x) + x 0.0000
+None 0.0000
+x**2/2 - log(cos(x)) 0.0000
+x + tan(2*x) 0.0000
+None 0.0000
+x*(x + 3) + 3*x 0.0000
+x**2 - log(cos(x)) 0.0000
+x**3*(2*x + 2) 0.0000
+None 0.0000
+exp(x) + tanh(x) 0.0000
+x**2 + 2*x + 3 0.0000
+1/6 0.0000
+5*x**3 + x**2 0.0000
+None 0.0000
+x**2/2 + x*log(x) - 2*x 0.0000
+-x**2 + 2*x 0.0000
+x**2 + sin(x) 0.0000
+x*(2*x**3 + x) 0.0000
+None 0.0000
+None 0.0000
+82*x**3 0.0000
+x - log(tanh(x) + 1) 0.0000
+(x + 56)*exp(x) 0.0000
+sqrt(3)*x**2 0.0000
+None 0.0000
+None 0.0000
+x + sinh(3) 0.0000
+4*x**3/9 0.0000
+x/(2*x + 1) 0.0000
+x**3/3 - 20*x 0.0000
+x*log(x) + 4*x 0.0000
+None 0.0000
+x**3 + 3 0.0000
+x - sin(x)/x 0.0000
+4*x**2 0.0000
+x**2*atan(x) 0.0000
+4*atan(x)/x 0.0000
+None 0.0000
+-x**2/2 + 3*exp(3*x) 0.0000
+5*x*sin(x) 0.0000
+None 0.0000
+sin(4*x) 0.0000
+x**2/2 + 2*log(x) 0.0000
+3*x**5/5 + 224*x**4 0.0000
+2*tan(2*x) 0.0000
+x + 9 0.0000
+2*x*(2*x + 2) 0.0000
+x - exp(x) + 2 0.0000
+x**2*tan(1) 0.0000
+x + sinh(x) 0.0000
+-6*x**4 0.0000
+x/(x + cos(x)) 0.0000
+x**2 + x + 2 0.0000
+None 0.0000
+None 0.0000
+(sqrt(x) - x**2)**2 0.0000
+9*x**2 - 3*x 0.0000
+<lambdifygenerated-513>:2: RuntimeWarning: overflow encountered in exp
+  return -x**2 + 2*x + exp(x)
+<lambdifygenerated-515>:2: RuntimeWarning: overflow encountered in cosh
+  return x**8 + cosh(x)
+<lambdifygenerated-516>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x**2)
+<lambdifygenerated-522>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - x + sqrt(x**2 - 1)
+<lambdifygenerated-528>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + 5*exp(x)
+<lambdifygenerated-538>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x**2*exp(x)
+<lambdifygenerated-538>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x**2*exp(x)
+<lambdifygenerated-540>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-543>:2: RuntimeWarning: overflow encountered in sinh
+  return x - sinh(x)
+<lambdifygenerated-548>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x**2)
+<lambdifygenerated-552>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-557>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) - x
+<lambdifygenerated-564>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x**2) - exp(x)
+<lambdifygenerated-564>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(1 - x**2) - exp(x)
+<lambdifygenerated-573>:2: RuntimeWarning: overflow encountered in exp
+  return -x*exp(x) + x
+<lambdifygenerated-576>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -3/4*x**2 - 1/2*x*sqrt(1 - x**2)
+<lambdifygenerated-577>:2: RuntimeWarning: overflow encountered in exp
+  return 3*exp(3*x)
+<lambdifygenerated-597>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 5)
+<lambdifygenerated-601>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (1/2)*x**2*arcsin(x**2) - 1/2*sqrt(1 - x**2)
+<lambdifygenerated-601>:2: RuntimeWarning: invalid value encountered in sqrt
+  return (1/2)*x**2*arcsin(x**2) - 1/2*sqrt(1 - x**2)
+<lambdifygenerated-602>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + tan(5)
+<lambdifygenerated-603>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x - arctanh(x)
+<lambdifygenerated-610>:2: RuntimeWarning: invalid value encountered in arccos
+  return -2/3*arccos(3*x)**(3/2)
+<lambdifygenerated-621>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - log(cos(x))
+<lambdifygenerated-622>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*arctanh(x)
+<lambdifygenerated-623>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(5)
+<lambdifygenerated-637>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 4*x**2*arctanh(x)
+<lambdifygenerated-646>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x - 2)
+<lambdifygenerated-653>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(2*x) + x
+<lambdifygenerated-654>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - log(cos(x))
+<lambdifygenerated-657>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 - log(cos(x))
+<lambdifygenerated-659>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + tanh(x)
+<lambdifygenerated-669>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 56)*exp(x)
+<lambdifygenerated-681>:2: RuntimeWarning: overflow encountered in exp
+  return -1/2*x**2 + 3*exp(3*x)
+<lambdifygenerated-689>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x) + 2
+<lambdifygenerated-691>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+x*(x + 4)*exp(x) 0.0000
+sqrt(2)*x 0.0000
+x**2/2 + 2*x + sin(x) 0.0000
+(1 - x)*exp(-x) 0.0000
+5*sqrt(x) 0.0000
+None 0.0000
+None 0.0000
+-x**3*cos(x) + 4*x*sin(x) + 2*cos(x) 0.0000
+x**3 + 3*x 0.0000
+x*tanh(5) 0.0000
+None 0.0000
+x + 3 0.0000
+2*x**3 + 4*x 0.0000
+-1 0.0000
+None 0.0000
+2*log(x) - atanh(x)/2 0.0000
+exp(2 - x) 0.0000
+None 0.0000
+exp(-tanh(x)) 0.0000
+2*x**2*log(x) + x 0.0000
+-x**3 + x**2 0.0000
+x + 2 0.0000
+x**2*(1 + 1/x) 0.0000
+x*(x + cos(x)) 0.0000
+x**2 + x - 2 0.0000
+None 0.0000
+E*x**3 0.0000
+None 0.0000
+x*(x**2 + 2) + x 0.0000
+x**2*(x**2 + x)**3 0.0000
+E*x**2 0.0000
+None 0.0000
+None 0.0000
+x*(x + cos(x)) + x 0.0000
+3*tan(2*x) 0.0000
+1/(x**2 + 1/2) 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 4*x 0.0000
+-sqrt(x) + x 0.0000
+-x + exp(x + 1) 0.0000
+x**3/3 + (2*x - 1)*exp(-2*x) 0.0000
+None 0.0000
+5*x**2 - x 0.0000
+None 0.0000
+sqrt(1 - x) 0.0000
+None 0.0000
+x**2 + x + 3 0.0000
+3*sin(x) 0.0000
+x*(x**4 + x) 0.0000
+None 0.0000
+-2*cos(2*x) 0.0000
+None 0.0000
+log(2*x + 2) 0.0000
+None 0.0000
+x*(5 - x) 0.0000
+x**2 + 2*x 0.0000
+x*(x + cos(x)) + x 0.0000
+3*x**2 + x 0.0000
+2*x**3 0.0000
+None 0.0000
+16/x 0.0000
+None 0.0000
+x**2/(2*x + 4) 0.0000
+x**2/(x + 4) 0.0000
+2*x*(x + exp(x)) 0.0000
+4*tan(2*x) 0.0000
+x**3 + 3*x**2 0.0000
+exp(x) + cos(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x + log(x) 0.0000
+4 0.0000
+2*x - 3 0.0000
+x**2 + x*(x + 1) 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + tanh(x) 0.0000
+x*cos(1) 0.0000
+None 0.0000
+2*x*Abs(x) 0.0000
+x*(x**2 + x)*log(x) 0.0000
+x + x/(x + 1) 0.0000
+x*(-2*x + exp(2*x)) 0.0000
+2*x + tan(4) 0.0000
+4*x**3 + 4*x 0.0000
+5*x**3/3 - x**2 0.0000
+None 0.0000
+4*x + log(x) 0.0000
+2*x + log(x) 0.0000
+x**3/3 + 5*x**2 0.0000
+None 0.0000
+4*x + 4 0.0000
+tan(4)/x**4 0.0000
+9*x**2 0.0000
+sqrt(x + 3) 0.0000
+None 0.0000
+-exp(x) + tan(x) 0.0000
+cosh(x)/2 0.0000
+-tan(2*x) 0.0000
+x**2/2 + log(cos(x)) 0.0000
+None 0.0000
+-x + sin(asinh(x)) 0.0000
+x**2*sinh(x)**4 0.0000
+x*(x - 3) 0.0000
+3*x*(x**3 + x) 0.0000
+None 0.0000
+(x + 1)*exp(sqrt(x)) 0.0000
+x*(x + sin(x)) + x 0.0000
+None 0.0000
+(x**2/2 + 3)**(x**3) 0.0000
+tan(3*x + 1) 0.0000
+1/(x**2 + x + 5) 0.0000
+x**2/2 + exp(x) - cos(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x + cos(x) 0.0000
+sqrt(2*x + 1) 0.0000
+6*x**2 + 3*x 0.0000
+None 0.0000
+None 0.0000
+x**3/3 - 3*x**2 0.0000
+x - sin(1) 0.0000
+x**3/3 + sin(x) 0.0000
+None 0.0000
+x**2/(x + 1) 0.0000
+x**3/3 + x*asin(x) - 3*x - asin(x) 0.0000
+2*x**3/3 + x**2 0.0000
+(2*x + 5)**5 0.0000
+2*x**2 + 2*x + exp(x) 0.0000
+-4*x*cos(x) + sin(x)/2 0.0000
+5*x**3/3 + x**2/2 0.0000
+x/5 0.0000
+x*sin(x + 4) 0.0000
+x**2 + x + 6 0.0000
+x*(1 + tan(4)) 0.0000
+5*log(x) 0.0000
+x**2 + x*sin(log(x)) 0.0000
+cos(x + 3) 0.0000
+-x**2 + 4*x*log(x) + 4*x 0.0000
+2*x*(x + log(x)) 0.0000
+tanh(x + 5) 0.0000
+1 0.0000
+x**2 + x*cos(x) 0.0000
+5*tanh(x/3) 0.0000
+5*x**2 + tanh(x) 0.0000
+(x + 5)/x**3 0.0000
+-x**2 - 2*x 0.0000
+sqrt(2)*sqrt(x) + x 0.0000
+None 0.0000
+None 0.0000
+(x**2 + x)/x**2 0.0000
+x**4/4 + 2*x**2 0.0000
+3*x + log(x) + sin(x) 0.0000
+None 0.0000
+2*x**(3/2) 0.0000
+sin(x + 3) 0.0000
+2*x**3/3 + x**2 0.0000
+log(x)**2 0.0000
+None 0.0000
+x**3/3 - x + log(x)/x 0.0000
+2*x + log(x) 0.0000
+x**3*sin(5)/3 0.0000
+x + acos(x) + 1 0.0000
+2*x**3*log(x)**2 0.0000
+(3*x**2 + 3*x + 4)*exp(x) 0.0000
+x*(2*x**2 + 2*x) 0.0000
+x**2/sin(3) 0.0000
+x + log(x) + 4 0.0000
+acos(5*x) 0.0000
+-5*sin(x) 0.0000
+x**2 + x*log(x) - 5*x 0.0000
+None 0.0000
+x*(x**2 + 2*x + 2) 0.0000
+cosh(2*x) 0.0000
+2*x - 4 0.0000
+-tan(x) + acos(x) 0.0000
+None 0.0000
+x**2*exp(2*x) 0.0000
+x*(x + 6) + x 0.0000
+None 0.0000
+x + cos(x)**4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x - atanh(x) 0.0000
+x + atanh(2*x) 0.0000
+0 0.0000
+(2*x - 1)/x**2 0.0000
+None 0.0000
+None 0.0000
+x*sin(x + 5) 0.0000
+-x**6/6 + 26*x 0.0000
+Abs(x)/4 0.0000
+None 0.0000
+4*exp(x)/x 0.0000
+sqrt(x) + x 0.0000
+None 0.0000
+x**2*(-x**2 + x)**2 0.0000
+-x*cos(x) + sin(x) 0.0000
+x**3/3 + (x**2 - x - 1)*exp(x) 0.0000
+-2*x*(x**2 - 1) 0.0000
+2*x*atan(3*x) 0.0000
+x**3 + x + 1 0.0000
+2 - x**2 0.0000
+4*x**3/3 + 5*x**2/2 0.0000
+x + 1 0.0000
+5*x**3 + 3*x**2/2 0.0000
+tan(2*x + 5) 0.0000
+3*x**3 0.0000
+x + 2/x 0.0000
+x*(x + sin(x)) + 2*x 0.0000
+None 0.0000
+None 0.0000
+x**3/2 + exp(2*x) 0.0000
+3*x**7/35 0.0000
+None 0.0000
+2*x + sinh(2*x) 0.0000
+None 0.0000
+x*(tan(x) + asinh(x)) 0.0000
+1/(2*x**2 + x) 0.0000
+None 0.0000
+cos(x - 5) 0.0000
+x**2 0.0000
+-4*x**9/9 0.0000
+x - cos(x) 0.0000
+x*(x + 3) 0.0000
+None 0.0000
+None 0.0000
+x**4/110 + x**2/2 0.0000
+None 0.0000
+x**2 + 3*x 0.0000
+x**2*(2*x + 5) 0.0000
+4*x**3 + x**2 0.0000
+-3*x**24 + 3*x 0.0000
+None 0.0000
+x**3/(-x**2 + x) 0.0000
+(asin(sqrt(x)) + 2)*exp(sqrt(x)) 0.0000
+None 0.0000
+-x**4/4 + x**2/2 0.0000
+x**7/7 + x**4 0.0000
+x**2*log(3) 0.0000
+sin(x) + asin(x) 0.0000
+x**2*log(x) + x 0.0000
+None 0.0000
+x**5 + 3 0.0000
+None 0.0000
+None 0.0000
+x**2 + x + 5 0.0000
+x*(2*x + 45) 0.0000
+None 0.0000
+-x**3 + x**2 0.0000
+<lambdifygenerated-697>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + 4)*exp(x)
+<lambdifygenerated-697>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x + 4)*exp(x)
+<lambdifygenerated-708>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*log(x) - 1/2*arctanh(x)
+<lambdifygenerated-726>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x + 1)
+<lambdifygenerated-729>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x)
+<lambdifygenerated-743>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-743>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-746>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + cos(x)
+<lambdifygenerated-756>:2: RuntimeWarning: overflow encountered in exp
+  return x*(-2*x + exp(2*x))
+<lambdifygenerated-767>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + tan(x)
+<lambdifygenerated-768>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/2)*cosh(x)
+<lambdifygenerated-770>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 + log(cos(x))
+<lambdifygenerated-772>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)**4
+<lambdifygenerated-772>:2: RuntimeWarning: overflow encountered in power
+  return x**2*sinh(x)**4
+<lambdifygenerated-777>:2: RuntimeWarning: overflow encountered in power
+  return ((1/2)*x**2 + 3)**(x**3)
+<lambdifygenerated-780>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x) - cos(x)
+<lambdifygenerated-788>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (1/3)*x**3 + x*arcsin(x) - 3*x - arcsin(x)
+<lambdifygenerated-791>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x**2 + 2*x + exp(x)
+<lambdifygenerated-821>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x) + 1
+<lambdifygenerated-823>:2: RuntimeWarning: overflow encountered in exp
+  return (3*x**2 + 3*x + 4)*exp(x)
+<lambdifygenerated-823>:2: RuntimeWarning: overflow encountered in multiply
+  return (3*x**2 + 3*x + 4)*exp(x)
+<lambdifygenerated-827>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(5*x)
+<lambdifygenerated-831>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-833>:2: RuntimeWarning: invalid value encountered in arccos
+  return -tan(x) + arccos(x)
+<lambdifygenerated-834>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(2*x)
+<lambdifygenerated-837>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x - arctanh(x)
+<lambdifygenerated-838>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(2*x)
+<lambdifygenerated-844>:2: RuntimeWarning: overflow encountered in exp
+  return 4*exp(x)/x
+<lambdifygenerated-848>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 + (x**2 - x - 1)*exp(x)
+<lambdifygenerated-848>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/3)*x**3 + (x**2 - x - 1)*exp(x)
+<lambdifygenerated-860>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**3 + exp(2*x)
+<lambdifygenerated-862>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(2*x)
+<lambdifygenerated-876>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (arcsin(sqrt(x)) + 2)*exp(sqrt(x))
+<lambdifygenerated-880>:2: RuntimeWarning: invalid value encountered in arcsin
+  return sin(x) + arcsin(x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+2*x + 1 0.0000
+None 0.0000
+None 0.0000
+-1/(2*x) 0.0000
+x**2/2 + 4/5 0.0000
+2*x**2 - atanh(x**2) 0.0000
+x**5/5 + 5*x**2/2 0.0000
+None 0.0000
+x**3/3 + x**2 0.0000
+x + exp(atan(x)) 0.0000
+x + x*exp(3) 0.0000
+x**2 + 3*x + cos(x) 0.0000
+log(2*x)**2 0.0000
+acos(x + 5) 0.0000
+x**3 + x**2 0.0000
+cos(x) + tan(x) 0.0000
+x**3/3 + 3*x**2 0.0000
+x + sin(4) 0.0000
+x**2/2 + x*log(3) 0.0000
+x + exp(5) 0.0000
+5*tanh(x) 0.0000
+x**2/2 0.0000
+(x**3 + x)**2 0.0000
+None 0.0000
+x*(2*x + log(x)) 0.0000
+5*x**4/4 + x**2/2 0.0000
+None 0.0000
+x*atanh(3) 0.0000
+55*x**2 + 25*x 0.0000
+None 0.0000
+x**2 + 2*x + 5 0.0000
+None 0.0000
+-x*log(x) + x 0.0000
+x*atan(x) + x + log(tan(x)**2 + 1)/2 0.0000
+x**4 + x**2 + x 0.0000
+x*(2*x**2 + x) 0.0000
+3*sin(acosh(x)) 0.0000
+None 0.0000
+x*sin(2) 0.0000
+x**2*sinh(4) 0.0000
+x*exp(-1) 0.0000
+x**3 + 3*x 0.0000
+-x**5/5 + 7*x**2/2 0.0000
+sqrt(3)/(2*x + 2) 0.0000
+-2*x**(3/2)/3 + x*log(x) 0.0000
+x**3 + x**2 + x 0.0000
+None 0.0000
+x*cos(5) 0.0000
+x**3 + 2*x**2 0.0000
+None 0.0000
+None 0.0000
+x**3/3 - 4*x 0.0000
+None 0.0000
+x**2*(x + 5) + x 0.0000
+x**(-2) 0.0000
+x**(5/2)/5 0.0000
+None 0.0000
+x*sin(2*x) 0.0000
+exp(4*x) 0.0000
+log(sqrt(x) + x) 0.0000
+sinh(x) + 5 0.0000
+x**2/2 + tan(x) 0.0000
+None 0.0000
+4*x**2 + x 0.0000
+None 0.0000
+2*x**3/3 + 6*x 0.0000
+x/2 0.0000
+None 0.0000
+5*x**2/(x + 1) 0.0000
+4*x**4 + x 0.0000
+20*x**2 0.0000
+x**3/3 + x**2/2 0.0000
+27*x**2 0.0000
+-4*x + 4*cos(x) 0.0000
+2*x**(5/2)/5 + x 0.0000
+x**2*(x + 6)*exp(x) 0.0000
+None 0.0000
+7*sqrt(x) + x**2/2 0.0000
+x + exp(x + 2) 0.0000
+x*(x + atanh(x)) 0.0000
+sqrt(x + 3) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + 2*x**2 - cos(x) 0.0000
+None 0.0000
+x**2/2 + log(x + 1) 0.0000
+x**2*Abs(x) 0.0000
+x**2*(x + 5)**3 0.0000
+3*atanh(x) 0.0000
+3*x + 9 0.0000
+x*(-x**2 - 1) 0.0000
+(x + 5)/(4*x) 0.0000
+x**2*(x + 2) 0.0000
+2*x**3 + x 0.0000
+None 0.0000
+(x**2 + 2*x)**3 0.0000
+None 0.0000
+1/(-8*x**2 + x) 0.0000
+x**5/5 0.0000
+None 0.0000
+x**2 + x*acos(x) - sqrt(1 - x**2) 0.0000
+-x**3/3 + x**2/2 0.0000
+x**2 + log(x) 0.0000
+-19/x 0.0000
+x**2/2 + sin(x)*cos(x)/2 0.0000
+4*x**2 0.0000
+5*x**2 - x 0.0000
+None 0.0000
+-5*x**2 + 25*x 0.0000
+None 0.0000
+None 0.0000
+16*x**3 0.0000
+4*x 0.0000
+x**3/25 0.0000
+4*x**2 0.0000
+x**5/5 + 2*x**2 0.0000
+None 0.0000
+2*sinh(tanh(x)) 0.0000
+None 0.0000
+5*x + 5/4 0.0000
+x + 12 0.0000
+sinh(x) + cosh(x) 0.0000
+None 0.0000
+x*(x**4 + x) 0.0000
+x + (x + 4)**3 0.0000
+x*(2*x + 1) 0.0000
+None 0.0000
+x/(x + tan(x)) 0.0000
+2*x*tan(sqrt(x)) 0.0000
+None 0.0000
+25*x**6 0.0000
+5*x**3/3 + x**2/2 0.0000
+(2*x - 1)**4 0.0000
+x**2 + 2*x + 4 0.0000
+tanh(x) + 1 0.0000
+None 0.0000
+None 0.0000
+x**2/4 + x 0.0000
+2*sinh(x) 0.0000
+5*log(x) 0.0000
+None 0.0000
+x**2/2 + log(3*x + 1)/3 0.0000
+x*(sqrt(x) + 3) 0.0000
+sqrt(2)*sqrt(x) + x 0.0000
+3*atanh(x) 0.0000
+x**2/2 + exp(x)*asinh(x) 0.0000
+None 0.0000
+x*(x + 5) + 2*x 0.0000
+2*x**4 + x**3 0.0000
+None 0.0000
+4*exp(x**3) 0.0000
+None 0.0000
+None 0.0000
+-2*log(cos(x)) 0.0000
+3*x**2*Abs(x) 0.0000
+x**2/(x + 5) 0.0000
+-1/(3*x**3) 0.0000
+2*x**4 + x**3 0.0000
+(x + 3)/x 0.0000
+2*x - log(cos(x)) 0.0000
+-log(cos(x)) 0.0000
+pi*x**3/3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+5*x**8 0.0000
+x**3 + 2*x**2 0.0000
+x**2/4 0.0000
+x*(x + sin(x) - 2) 0.0000
+x**3 + x + 2 0.0000
+None 0.0000
+x*(x + 4) + x 0.0000
+None 0.0000
+x**3*acos(2)/3 0.0000
+x/(x + cos(x)) 0.0000
+2*tanh(x) 0.0000
+2*asinh(x) 0.0000
+None 0.0000
+x**2/(2*(2*x - 2)) 0.0000
+2*x*sinh(x) - cosh(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 9*x 0.0000
+log(2)/x 0.0000
+2*x + tan(4) 0.0000
+None 0.0000
+None 0.0000
+x**2/asinh(x) 0.0000
+None 0.0000
+2*x**3 + x**2 + x 0.0000
+None 0.0000
+x**5/5 - x**3/3 0.0000
+None 0.0000
+x**2 + x*atanh(x) 0.0000
+None 0.0000
+x**3 + x**2 + x 0.0000
+(x**3 + x)**2 0.0000
+None 0.0000
+8*x**4 0.0000
+-8*x**5/5 + log(x) 0.0000
+24*sqrt(x) + 3*x**2/2 0.0000
+x*exp(2*x)/5 0.0000
+x*(x + sin(x) + 2) 0.0000
+None 0.0000
+exp(x)*cos(x) + 1 0.0000
+-2*x**2 0.0000
+None 0.0000
+5*x**3 + x 0.0000
+31*x*atanh(x) 0.0000
+x**2*cos(4)/2 0.0000
+4*x**2 - x 0.0000
+None 0.0000
+None 0.0000
+-x**4/4 + x**3 - cos(x) 0.0000
+acos(2) 0.0000
+None 0.0000
+None 0.0000
+x*(2*x + 2) + x 0.0000
+None 0.0000
+x**3/3 - 18*x 0.0000
+None 0.0000
+x**2/2 + x + tan(x)**3 0.0000
+None 0.0000
+x + 6/x**3 0.0000
+(3*x + 3)/x 0.0000
+None 0.0000
+20*x**19 0.0000
+x/(x + 2) 0.0000
+None 0.0000
+x**2/2 + 5*log(x) 0.0000
+2*x**2 + x - log(cos(x)) 0.0000
+7*x**4/4 + x**2/2 0.0000
+None 0.0000
+2*pi 0.0000
+x**3/3 + 2*x**2 + 20*x 0.0000
+x**2/(x**2 + x) 0.0000
+2*x*asinh(x) 0.0000
+x**3 + 2*x**2 0.0000
+-x**3/3 + x**2/2 + exp(x) 0.0000
+log(4*x + 1)/4 0.0000
+None 0.0000
+5*x + 2 0.0000
+35*x + 1 0.0000
+exp(x) + 5 0.0000
+None 0.0000
+None 0.0000
+4*x**3/3 + 4*x 0.0000
+None 0.0000
+7*x**3 0.0000
+None 0.0000
+None 0.0000
+tanh(x + 2) 0.0000
+None 0.0000
+4*x**2*log(x) 0.0000
+<lambdifygenerated-889>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x**2 - arctanh(x**2)
+<lambdifygenerated-896>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 5)
+<lambdifygenerated-908>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(3)
+<lambdifygenerated-931>:2: RuntimeWarning: overflow encountered in exp
+  return exp(4*x)
+<lambdifygenerated-933>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x) + 5
+<lambdifygenerated-945>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + 6)*exp(x)
+<lambdifygenerated-945>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + 6)*exp(x)
+<lambdifygenerated-947>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x + 2)
+<lambdifygenerated-948>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*(x + arctanh(x))
+<lambdifygenerated-954>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*arctanh(x)
+<lambdifygenerated-963>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2 + x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-963>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x**2 + x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-979>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x) + cosh(x)
+<lambdifygenerated-979>:2: RuntimeWarning: overflow encountered in cosh
+  return sinh(x) + cosh(x)
+<lambdifygenerated-991>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-996>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*arctanh(x)
+<lambdifygenerated-997>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x)*arcsinh(x)
+<lambdifygenerated-1000>:2: RuntimeWarning: overflow encountered in exp
+  return 4*exp(x**3)
+<lambdifygenerated-1001>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(cos(x))
+<lambdifygenerated-1007>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - log(cos(x))
+<lambdifygenerated-1008>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-1016>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/3)*x**3*arccos(2)
+<lambdifygenerated-1021>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-1021>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-1021>:2: RuntimeWarning: invalid value encountered in subtract
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-1028>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2 + x*arctanh(x)
+<lambdifygenerated-1034>:2: RuntimeWarning: overflow encountered in exp
+  return (1/5)*x*exp(2*x)
+<lambdifygenerated-1036>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)*cos(x) + 1
+<lambdifygenerated-1039>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 31*x*arctanh(x)
+<lambdifygenerated-1043>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2)
+<lambdifygenerated-1052>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x**2 + x - log(cos(x))
+<lambdifygenerated-1059>:2: RuntimeWarning: overflow encountered in exp
+  return -1/3*x**3 + (1/2)*x**2 + exp(x)
+<lambdifygenerated-1063>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 5
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+None 0.0000
+None 0.0000
+x + 15 0.0000
+None 0.0000
+None 0.0000
+64*x**2 0.0000
+None 0.0000
+x**2 - log(cos(x)) + sin(x) 0.0000
+x + (x + 1)**5 0.0000
+3*x**2 + 3*x 0.0000
+x*(2*x + 1) 0.0000
+2*log(x) 0.0000
+2*x**3 + x 0.0000
+None 0.0000
+5*x**3/3 + 3*x**2/2 0.0000
+x**2/(2*cos(1)) 0.0000
+x*log(4*x**2) + 4*x 0.0000
+None 0.0000
+2*x**2 + 5*x*log(x) + 4*x 0.0000
+x**2*(x + sin(x)) 0.0000
+None 0.0000
+None 0.0000
+x*(x + 4) + x 0.0000
+1/(2 - x) 0.0000
+None 0.0000
+-x**7/7 + x 0.0000
+None 0.0000
+36*x**5/5 0.0000
+exp(2*x)/2 0.0000
+None 0.0000
+-x + sin(x) 0.0000
+2*x*atan(x) 0.0000
+None 0.0000
+2*x + atanh(x) 0.0000
+0 0.0000
+x**4 + 3*x 0.0000
+None 0.0000
+x + tanh(sqrt(x)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*atanh(x) + x 0.0000
+x*sin(x + 2) - cos(x + 2) 0.0000
+None 0.0000
+x**2/2 - sin(x) 0.0000
+None 0.0000
+(x + 1)/x 0.0000
+x**2*asinh(4)/2 0.0000
+x*(3*x + 10) 0.0000
+2*x**(7/2)/7 0.0000
+x*(x + sin(x) + 1) 0.0000
+5*x + 1 0.0000
+None 0.0000
+4*sin(x) 0.0000
+3/x 0.0000
+x**2*(x + 2) 0.0000
+x**3*sin(1)/3 0.0000
+asin(x) + 3 0.0000
+2*x*acos(x) 0.0000
+x**2*(x + 7)**3 0.0000
+x**4 + 3 0.0000
+-x**2/4 0.0000
+None 0.0000
+x**2*(2*x**2 + x) + x 0.0000
+None 0.0000
+2*x*exp(-x) 0.0000
+None 0.0000
+-x**2 + 2*x 0.0000
+x/(2*x + 3) 0.0000
+None 0.0000
+None 0.0000
+x**2 - 1/x 0.0000
+x**2*(2*x + 3) 0.0000
+None 0.0000
+x**2/2 0.0000
+sin(5*x)/25 0.0000
+atanh(2)/(2*x**2) 0.0000
+5*x**2 0.0000
+2*cosh(x) 0.0000
+x*asinh(x)**2 0.0000
+x*acos(x) - x 0.0000
+x*log(2*x) - x 0.0000
+None 0.0000
+log(2)/x 0.0000
+4*x*exp(x) 0.0000
+tan(x + 4) 0.0000
+(x + 1)/x 0.0000
+x + 5*exp(x) 0.0000
+x**2 + 10*pi 0.0000
+x 0.0000
+x + (x + 3)**4 0.0000
+None 0.0000
+x*(4*x + sin(x)) 0.0000
+(2*x)**(x*sin(x) + x) 0.0000
+None 0.0000
+x**3/3 + 3*x**2/2 0.0000
+2*x*sinh(x) 0.0000
+None 0.0000
+None 0.0000
+x/2 + log(1 + sqrt(2))/4 0.0000
+3*x**2*log(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x/(x**3 + x) 0.0000
+x*sinh(x**2) 0.0000
+None 0.0000
+None 0.0000
+x*sin(x)**5/5 + 4*cos(x)**3/3 0.0000
+x*(x**2 + x + 3) 0.0000
+4*x*log(x)**2 0.0000
+-log(cos(x)) + sin(x) 0.0000
+x*(1 - x**2) 0.0000
+x**2*(2*x + 1) 0.0000
+(x**2 + 1/2)/x 0.0000
+None 0.0000
+1/(4*(x + 5)) 0.0000
+x**5/5 + 2*x**3/3 0.0000
+2*x + log(3) 0.0000
+None 0.0000
+x*(x + 4) 0.0000
+-x**4/10 + x**3/3 0.0000
+x**2 + 3*x 0.0000
+x*(x - 3)*exp(x) 0.0000
+None 0.0000
+None 0.0000
+12*x**4 + 28*x 0.0000
+x/(x + 4) 0.0000
+x/(x**2 + x) 0.0000
+x**3/3 + x 0.0000
+3*log(x)/x**2 0.0000
+None 0.0000
+x**2*(x**2 + x) 0.0000
+pi*x**2/2 0.0000
+x**3/3 + sin(x) 0.0000
+x**4/4 + 2*x**3 0.0000
+1/(73*x**3) 0.0000
+None 0.0000
+None 0.0000
+acos(x + 3) 0.0000
+3*x**3 + x**2/2 + x 0.0000
+(644*x**2 + 64*x - 6)*exp(6*x) 0.0000
+5*x**3/(3*sin(4)) 0.0000
+None 0.0000
+2*x + 3 0.0000
+x**2*exp(5) 0.0000
+25*x**4/4 + x**3/3 0.0000
+x*(4*x**2 + 4) 0.0000
+None 0.0000
+x*(2*x**2 + 2*x) 0.0000
+None 0.0000
+(x**3 + x)**(3*x**6) 0.0000
+4 - x**2 0.0000
+None 0.0000
+exp(x) 0.0000
+x**2/2 + x + tan(x) 0.0000
+3*sqrt(x)/4 0.0000
+None 0.0000
+None 0.0000
+2*x*tan(x) 0.0000
+x**5/25 + 25*x**4/4 0.0000
+3*x**2/2 0.0000
+None 0.0000
+-log(cos(x)) + sin(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**7/7 + x**3/3 0.0000
+x/(x**2 - x) 0.0000
+5*x*atan(x) 0.0000
+None 0.0000
+1/(3*x**3) 0.0000
+None 0.0000
+-x*asin(x) + sqrt(1 - x**2) 0.0000
+None 0.0000
+3*x*sin(1) 0.0000
+x*(5 + x**(-2)) 0.0000
+x*exp(5) 0.0000
+log(16*x**6 + x) 0.0000
+None 0.0000
+x**4/4 + x**3/3 0.0000
+-x*(x + 3)**2 0.0000
+None 0.0000
+5/x 0.0000
+(x + 4)**5 0.0000
+None 0.0000
+None 0.0000
+x*(x**2 + x + 1) 0.0000
+4*x**3 0.0000
+x**(5/2)/5 + x**2/2 0.0000
+x*atan(x) 0.0000
+1/(x**3 + x) 0.0000
+None 0.0000
+sqrt(2)*x**3 0.0000
+1/(10*x**4) 0.0000
+None 0.0000
+8*x 0.0000
+6*x + sin(x) 0.0000
+None 0.0000
+3/2 - x**2/2 0.0000
+None 0.0000
+3*x**2/2 + 6*x 0.0000
+1/(4*x**2) 0.0000
+2*x*(x - 3) 0.0000
+x + tan(2*x**2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+3*x**5/5 0.0000
+x*asin(x) - x 0.0000
+sqrt(x + 4) 0.0000
+x**2/6 + x/3 0.0000
+2*x/(x + 5) 0.0000
+x*exp(3) 0.0000
+-cos(x - 1) 0.0000
+x*(x + 1)**2 0.0000
+x**2*(x + 1)**2 0.0000
+None 0.0000
+x*(x + asinh(x)) 0.0000
+3 - cos(x) 0.0000
+x/(x**2 + 2) 0.0000
+-x + exp(-x) 0.0000
+x*(2*x + 2) 0.0000
+None 0.0000
+(2*x + 1)/x 0.0000
+None 0.0000
+3*x + 5 0.0000
+x**6 + 4*x 0.0000
+5*x**8/2 + x**6/6 0.0000
+-x*acos(x) 0.0000
+x**2*cosh(1)/2 0.0000
+log(x**4 + x) 0.0000
+None 0.0000
+None 0.0000
+log(cos(3*x))/3 0.0000
+None 0.0000
+None 0.0000
+exp(4*x) 0.0000
+(x**2 - x)**3 0.0000
+-x + 4*log(x) 0.0000
+None 0.0000
+16*x**2 0.0000
+x + asin(x) 0.0000
+None 0.0000
+x**2*tan(5) 0.0000
+x*(log(x) + 2) 0.0000
+2*x*exp(x) 0.0000
+None 0.0000
+None 0.0000
+2*x + exp(x) + 1 0.0000
+2*x**(7/2)/7 + x**3/3 0.0000
+log(x*exp(2*x)) 0.0000
+-x**2/2 + x*log(x) - 4*x 0.0000
+x**3/27 0.0000
+<lambdifygenerated-1070>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 - log(cos(x)) + sin(x)
+<lambdifygenerated-1082>:2: RuntimeWarning: divide by zero encountered in power
+  return (2 - x)**(-1.0)
+<lambdifygenerated-1085>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-1088>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x + arctanh(x)
+<lambdifygenerated-1092>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) + x
+<lambdifygenerated-1105>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x) + 3
+<lambdifygenerated-1106>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x*arccos(x)
+<lambdifygenerated-1118>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*arctanh(2)/x**2
+<lambdifygenerated-1120>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*cosh(x)
+<lambdifygenerated-1122>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - x
+<lambdifygenerated-1125>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-1125>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-1128>:2: RuntimeWarning: overflow encountered in exp
+  return x + 5*exp(x)
+<lambdifygenerated-1133>:2: RuntimeWarning: overflow encountered in power
+  return (2*x)**(x*sin(x) + x)
+<lambdifygenerated-1135>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x)
+<lambdifygenerated-1139>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x**2)
+<lambdifygenerated-1143>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sin(x)
+<lambdifygenerated-1153>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x - 3)*exp(x)
+<lambdifygenerated-1153>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x - 3)*exp(x)
+<lambdifygenerated-1164>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 3)
+<lambdifygenerated-1166>:2: RuntimeWarning: overflow encountered in exp
+  return (644*x**2 + 64*x - 6)*exp(6*x)
+<lambdifygenerated-1175>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-1181>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sin(x)
+<lambdifygenerated-1186>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -x*arcsin(x) + sqrt(1 - x**2)
+<lambdifygenerated-1186>:2: RuntimeWarning: invalid value encountered in sqrt
+  return -x*arcsin(x) + sqrt(1 - x**2)
+<lambdifygenerated-1190>:2: RuntimeWarning: invalid value encountered in log
+  return log(16*x**6 + x)
+<lambdifygenerated-1210>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(x) - x
+<lambdifygenerated-1227>:2: RuntimeWarning: invalid value encountered in arccos
+  return -x*arccos(x)
+<lambdifygenerated-1230>:2: RuntimeWarning: invalid value encountered in log
+  return (1/3)*log(cos(3*x))
+<lambdifygenerated-1231>:2: RuntimeWarning: overflow encountered in exp
+  return exp(4*x)
+<lambdifygenerated-1235>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+<lambdifygenerated-1238>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x)
+<lambdifygenerated-1238>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x)
+<lambdifygenerated-1239>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x) + 1
+<lambdifygenerated-1241>:2: RuntimeWarning: overflow encountered in exp
+  return log(x*exp(2*x))
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+x**6/6 + x**3/3 0.0000
+None 0.0000
+x**2*(2 - x) 0.0000
+None 0.0000
+x*cos(1) + x 0.0000
+2*x*sinh(x) - sinh(x) 0.0000
+None 0.0000
+2*sin(x)/x 0.0000
+None 0.0000
+x**2/2 + 2*x*log(x) 0.0000
+exp(acosh(x)) 0.0000
+2*x + 5 0.0000
+x**2/2 + log(x) 0.0000
+2*x**3/3 - x**2 0.0000
+None 0.0000
+3*x**4 - x 0.0000
+None 0.0000
+cosh(5*x + 5)/5 0.0000
+30*x 0.0000
+exp(3*x) 0.0000
+3*exp(x)/x 0.0000
+-pi*x**2/4 0.0000
+None 0.0000
+None 0.0000
+-9*x*acos(x) - 3*sqrt(3*x - 3) 0.0000
+sqrt(x + 4) 0.0000
+3*x**2 + x*log(x) 0.0000
+x*(x**3 + x) 0.0000
+None 0.0000
+5/x 0.0000
+3*x*log(5) 0.0000
+None 0.0000
+x*(1 - x) 0.0000
+sin(x)*cos(sin(x)) 0.0000
+3/2 - x**2/2 0.0000
+None 0.0000
+2*x**2/115 0.0000
+-x**2/2 0.0000
+x**4/4 + x**2/2 0.0000
+2*x - cos(x) 0.0000
+None 0.0000
+4*x**6 + 8*x 0.0000
+4*x**(5/2)/5 0.0000
+-sin(x) + tan(x) 0.0000
+4*log(x)/x 0.0000
+x*asinh(2*x) + x 0.0000
+pi*x**3/5 0.0000
+3*asinh(x) 0.0000
+x*(x - 1) 0.0000
+sin(1)/x**3 0.0000
+3*x**2/2 0.0000
+None 0.0000
+-exp(x**2) 0.0000
+1/(2*x**6) 0.0000
+2*x*(x**2 + x) 0.0000
+-x + sinh(x) 0.0000
+None 0.0000
+x*(x - log(x)) 0.0000
+9*x**2/8 0.0000
+None 0.0000
+None 0.0000
+sinh(2*x + 1) 0.0000
+None 0.0000
+exp(2*x + 1) 0.0000
+x*(2*x + 5) 0.0000
+None 0.0000
+None 0.0000
+0 0.0000
+-sin(x) 0.0000
+3/cos(x) 0.0000
+2*x**2/3 0.0000
+None 0.0000
+None 0.0000
+x**2 0.0000
+4*x**2 + 4*x 0.0000
+2*x + log(x)/x 0.0000
+sqrt(2)*sqrt(x) 0.0000
+x**2*sin(2) 0.0000
+exp(5*x)/5 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(x**2 + x + 1) 0.0000
+log(tan(2*x + 1)**2 + 1)/2 0.0000
+None 0.0000
+2*x + sin(x) 0.0000
+2*x**(3/2)/3 - cosh(2*x) 0.0000
+None 0.0000
+acos(2*x)**2 0.0000
+2*x**2 - x 0.0000
+None 0.0000
+4*x**3/3 + x**2 0.0000
+x**3/3 + x**2*log(x)/2 0.0000
+10*log(x + 1) 0.0000
+x*sin(1) 0.0000
+-1/(2*x) 0.0000
+x**2*(x + 1) 0.0000
+None 0.0000
+sin(x)/5 0.0000
+atan(x + 6) 0.0000
+x*(x - 4) 0.0000
+8*x**2 0.0000
+3*log(x) 0.0000
+None 0.0000
+4 - x 0.0000
+None 0.0000
+x**4/3 0.0000
+sin(3*x) 0.0000
+None 0.0000
+7*x**5/5 0.0000
+None 0.0000
+156*x**2 0.0000
+2*x**3 + 5*x**2/2 0.0000
+2*x**(3/2)/3 - cos(x) 0.0000
+None 0.0000
+x**2/2 + acosh(2*x) 0.0000
+-tan(x - 5)/5 0.0000
+x**2 - x 0.0000
+x**6/6 + x**2/2 + x/6 0.0000
+3*x**2/2 + 6*x 0.0000
+None 0.0000
+None 0.0000
+60*x**3 + 4*x**2 + 40*x 0.0000
+7*sqrt(x) 0.0000
+log(tan(x)**2 + 1)/2 0.0000
+x**2/2 - log(cos(2*x))/2 0.0000
+3 - 2*x 0.0000
+62*x**5 0.0000
+x**4 + x + sin(x) 0.0000
+x + 2*tanh(x) 0.0000
+34*x 0.0000
+822*x**(5/3)/5 0.0000
+-6*x**3 + 6*x 0.0000
+2*x**5/5 + x**4/4 0.0000
+None 0.0000
+4*log(x**2) 0.0000
+None 0.0000
+74*x**3 0.0000
+x/(x + 2) 0.0000
+x**3 + x + 5 0.0000
+2*x*sinh(x) - 2*cosh(x) 0.0000
+E*exp(2*x) 0.0000
+2*x**2 0.0000
+log(x**(-2)) 0.0000
+-x**2 + 3*x 0.0000
+x**2*(x + 3) 0.0000
+x*log(3) + 2*x 0.0000
+None 0.0000
+64*x**4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+5*x**2 - x 0.0000
+None 0.0000
+None 0.0000
+acosh(x + 5) 0.0000
+3 0.0000
+2*x**3/3 + atanh(x**2)/2 0.0000
+None 0.0000
+x*(2*x + 3) 0.0000
+x - 2*x*exp(-x) 0.0000
+x**5 + 2 0.0000
+log(4*x**2 + 1)/6 0.0000
+4/(3*x**2) 0.0000
+1/(1 - x) 0.0000
+x**5/15 + x**2/2 0.0000
+x**3/3 + log(x) 0.0000
+0 0.0000
+-x + exp(x) 0.0000
+5*x + exp(x) 0.0000
+-x**2/2 + log(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+3*x + 2 0.0000
+None 0.0000
+None 0.0000
+8/x 0.0000
+x - 2*log(tanh(x + 5) - 1) 0.0000
+-x**2 + x + 1 0.0000
+x**2 + 9*x 0.0000
+None 0.0000
+-x**2 - 3*x 0.0000
+None 0.0000
+x**4/2 + 3*x**3 0.0000
+x**2/(2*cos(5)) 0.0000
+None 0.0000
+exp(x) - cos(x) 0.0000
+cosh(2*x)/2 0.0000
+None 0.0000
+x*(x**2 + x) 0.0000
+None 0.0000
+3*sin(x)/x 0.0000
+None 0.0000
+None 0.0000
+3*x*log(4) 0.0000
+None 0.0000
+sqrt(3)*x**(3/2)/3 0.0000
+x**3/16 + x**2/2 0.0000
+4 - 4*x 0.0000
+x**3*tan(5) 0.0000
+0 0.0000
+x*tan(1) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4*x + log(x) 0.0000
+x*(x + cosh(2)) 0.0000
+x**4/2 + x**3/3 0.0000
+x**4/10 0.0000
+1/(2*x + 2) 0.0000
+x/2 + sin(x) 0.0000
+1/(2*x + 6) 0.0000
+None 0.0000
+None 0.0000
+exp(x) + asinh(x) 0.0000
+x**4/13 0.0000
+None 0.0000
+2*x**(5/2)/5 + x**5/5 0.0000
+2*x**2 + x 0.0000
+x*exp(2*x) 0.0000
+None 0.0000
+x**2 - x 0.0000
+x**3*log(2) + 2*x 0.0000
+4*x**3 0.0000
+tan(2*x + 5) 0.0000
+x**2 + 5*log(x) 0.0000
+x**2/4 0.0000
+2*x**2 - 60*x 0.0000
+22*sqrt(2)*sqrt(x) 0.0000
+x/2 + log(x + 1)/2 0.0000
+pi/(2*x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+21*x**2/19 0.0000
+x*log(3*x) - x 0.0000
+-x + sin(x) 0.0000
+x**2/2 + x**2*acos(2)/2 0.0000
+x*log(x**5) 0.0000
+tan(x) - asin(x) 0.0000
+None 0.0000
+None 0.0000
+4*x**2*log(x) 0.0000
+x**3/3 + 4*x 0.0000
+sqrt(2*x + 1) 0.0000
+46*x**3/9 0.0000
+None 0.0000
+None 0.0000
+2*x + exp(2*x) 0.0000
+5*x**3/3 + 2*x**2 0.0000
+-atan(x - 3) 0.0000
+100*x**2 0.0000
+x**3/3 + 4*x 0.0000
+<lambdifygenerated-1247>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x) - sinh(x)
+<lambdifygenerated-1247>:2: RuntimeWarning: invalid value encountered in subtract
+  return 2*x*sinh(x) - sinh(x)
+<lambdifygenerated-1255>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/5)*cosh(5*x + 5)
+<lambdifygenerated-1257>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x)
+<lambdifygenerated-1258>:2: RuntimeWarning: overflow encountered in exp
+  return 3*exp(x)/x
+<lambdifygenerated-1260>:2: RuntimeWarning: invalid value encountered in arccos
+  return -9*x*arccos(x) - 3*sqrt(3*x - 3)
+<lambdifygenerated-1283>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x**2)
+<lambdifygenerated-1286>:2: RuntimeWarning: overflow encountered in sinh
+  return -x + sinh(x)
+<lambdifygenerated-1289>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(2*x + 1)
+<lambdifygenerated-1290>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-1301>:2: RuntimeWarning: overflow encountered in exp
+  return (1/5)*exp(5*x)
+<lambdifygenerated-1305>:2: RuntimeWarning: overflow encountered in cosh
+  return (2/3)*x**(3/2) - cosh(2*x)
+<lambdifygenerated-1306>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)**2
+<lambdifygenerated-1334>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - 1/2*log(cos(2*x))
+<lambdifygenerated-1347>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x) - 2*cosh(x)
+<lambdifygenerated-1347>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*sinh(x) - 2*cosh(x)
+<lambdifygenerated-1347>:2: RuntimeWarning: invalid value encountered in subtract
+  return 2*x*sinh(x) - 2*cosh(x)
+<lambdifygenerated-1348>:2: RuntimeWarning: overflow encountered in exp
+  return e*exp(2*x)
+<lambdifygenerated-1358>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (2/3)*x**3 + (1/2)*arctanh(x**2)
+<lambdifygenerated-1368>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-1369>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x + exp(x)
+<lambdifygenerated-1373>:2: RuntimeWarning: divide by zero encountered in log
+  return x - 2*log(tanh(x + 5) - 1)
+<lambdifygenerated-1373>:2: RuntimeWarning: invalid value encountered in log
+  return x - 2*log(tanh(x + 5) - 1)
+<lambdifygenerated-1379>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) - cos(x)
+<lambdifygenerated-1380>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/2)*cosh(2*x)
+<lambdifygenerated-1397>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsinh(x)
+<lambdifygenerated-1401>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-1415>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2 + (1/2)*x**2*arccos(2)
+<lambdifygenerated-1417>:2: RuntimeWarning: invalid value encountered in arcsin
+  return tan(x) - arcsin(x)
+<lambdifygenerated-1422>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(2*x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+-x**2 + 2*x 0.0000
+None 0.0000
+None 0.0000
+x**5 + x + 2 0.0000
+-x - 1/(2*x**2) 0.0000
+x*exp(x + 1) 0.0000
+(x**2 + 1)/x 0.0000
+x*(x**5 + x + 5) 0.0000
+x**2/2 + x 0.0000
+None 0.0000
+tan(3)/x 0.0000
+2*x**3/3 + cos(x) 0.0000
+x**2 + 2/x 0.0000
+4*x + cos(x) 0.0000
+None 0.0000
+None 0.0000
+2 - x**2 0.0000
+None 0.0000
+None 0.0000
+(x**5 + x)**3 0.0000
+x + 1/(x**2 + x) 0.0000
+-log(cos(2*x)) 0.0000
+None 0.0000
+log(2*x**3) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 - x 0.0000
+x**2*(x + log(x)) 0.0000
+None 0.0000
+None 0.0000
+x**2/2 + 5*log(x) 0.0000
+x**4/4 0.0000
+None 0.0000
+None 0.0000
+exp(2*x + 4) 0.0000
+-cos(x) - acos(x) 0.0000
+2*x**3/3 - x**2/2 0.0000
+None 0.0000
+(x + 1)**4 0.0000
+None 0.0000
+-x**2 + x 0.0000
+x**2 + 5*exp(x) 0.0000
+log(cos(x)) - cos(x) 0.0000
+x**3*exp(-1) 0.0000
+None 0.0000
+3*x*(x + sin(x)) 0.0000
+2*sqrt(2)*x 0.0000
+None 0.0000
+x*log(3*x) - 4*x 0.0000
+(2*x**2 + x)**2 0.0000
+1 0.0000
+asinh(x)**2 + 1 0.0000
+None 0.0000
+exp(3*x + 1)/3 0.0000
+-2*cos(x) 0.0000
+x + log(x) + 1 0.0000
+x + 4*log(x) 0.0000
+15*sin(x) 0.0000
+2*x*exp(1/x) 0.0000
+None 0.0000
+0 0.0000
+atan(2*x + 1) + 2 0.0000
+None 0.0000
+6*log(x) 0.0000
+None 0.0000
+None 0.0000
+6*x**5/5 + x**3/3 0.0000
+None 0.0000
+pi/(4*x**2) 0.0000
+x**2*log(x) + x 0.0000
+x*(x + exp(x)) + x 0.0000
+None 0.0000
+log(sqrt(x) + x**2/4) 0.0000
+None 0.0000
+1/20 0.0000
+x*(x + 26) 0.0000
+sin(2*x + 1)/2 0.0000
+(3*x**2 + x)**3 0.0000
+None 0.0000
+None 0.0000
+x**2 + x + sin(x) 0.0000
+acosh(x**(-3))/2 0.0000
+x**6/2 0.0000
+2*x**2 + x + exp(x) 0.0000
+-cos(2*x) 0.0000
+None 0.0000
+None 0.0000
+x**4/4 + x**3/3 0.0000
+x*acos(2*x) - 9*sqrt(4*x**2 + 1)/2 0.0000
+x**5/5 0.0000
+x**2*sqrt(x + 4) 0.0000
+10*x**3/9 + x**2/2 0.0000
+sinh(x + 2) 0.0000
+4*x**7/7 + x**3/3 + x**2/2 0.0000
+x**2 + x*exp(3) 0.0000
+-cos(x + 4) 0.0000
+x**3/3 - x**2 0.0000
+x**3/2 0.0000
+2*x**(3/2)/3 - x**5/5 0.0000
+5*x*exp(x) 0.0000
+x**3/3 + 2*x 0.0000
+-3*sin(x) + 3*cos(x) 0.0000
+3*sin(x) 0.0000
+x*atan(x) + x 0.0000
+(x + 2)/x 0.0000
+None 0.0000
+None 0.0000
+x**2*(x - log(x)) 0.0000
+4*x**2/5 0.0000
+14*log(x + 1) 0.0000
+4*x**2 0.0000
+None 0.0000
+None 0.0000
+(x + 8)/x 0.0000
+x + x*sinh(5) 0.0000
+x + cosh(x + 1) 0.0000
+x*log(2*x) - log(2*x + 1)/2 0.0000
+None 0.0000
+None 0.0000
+4*x**2 - 4*x 0.0000
+None 0.0000
+x**2/(x**2 + 5) 0.0000
+2*x**4/9 + x**3/9 0.0000
+x**2 + x + asin(x) 0.0000
+x**2/2 - cos(x) + 1/2 0.0000
+None 0.0000
+x**3/(2*x + 2) 0.0000
+3*x**4/4 + x**2/2 0.0000
+x*atanh(4) 0.0000
+2*x - 2/x 0.0000
+None 0.0000
+-x**5/5 + x*log(x) - x 0.0000
+x**6/6 0.0000
+x**2*(x + 3) + x 0.0000
+x**2/2 - exp(2*x) 0.0000
+3*x + exp(x) 0.0000
+None 0.0000
+5*x**2 0.0000
+5*cosh(x**2) 0.0000
+None 0.0000
+2*x + 4 0.0000
+x*sin(x) - 3*cos(x) 0.0000
+x**(5/2) 0.0000
+x**4/4 + x**2 0.0000
+exp(5*x + 5) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+tan(x)**4 0.0000
+x*exp(2*x) - x 0.0000
+(x + 1)*cos(x) 0.0000
+(x**2 + x)**4 0.0000
+pi*x*log(3)**2 0.0000
+x + cos(x)/x 0.0000
+None 0.0000
+None 0.0000
+6*log(x) 0.0000
+None 0.0000
+None 0.0000
+-sin(cosh(x)) 0.0000
+3/(4*x**2) 0.0000
+-8*x**2 + x 0.0000
+x**3/3 - x**2 0.0000
+-x**2 + x 0.0000
+(x + 1)**4 0.0000
+None 0.0000
+2*x*cosh(x) 0.0000
+1/3 - 2*x**2 0.0000
+x**3 0.0000
+2*sqrt(x**3) 0.0000
+-4/x**5 0.0000
+x + exp(x)/x**3 0.0000
+x**3 + x**2 + 2 0.0000
+asinh(x)**3 0.0000
+None 0.0000
+x*(2*x + 2) 0.0000
+None 0.0000
+2*x**6/3 0.0000
+2 - x**4 0.0000
+None 0.0000
+x - sinh(1/x) 0.0000
+2*x + sin(1) 0.0000
+x**3*(x + 3) 0.0000
+None 0.0000
+None 0.0000
+acosh(x + 1) 0.0000
+x**2/2 + sinh(4)/2 0.0000
+None 0.0000
+None 0.0000
+x + asinh(x + 4) 0.0000
+None 0.0000
+x**2/2 + x 0.0000
+None 0.0000
+x**3/3 - cos(x) 0.0000
+-5*atanh(x**2)/2 0.0000
+-2*x**2 + x 0.0000
+5*x**2/2 + 6*x 0.0000
+None 0.0000
+x*(5*x**3 + x) 0.0000
+None 0.0000
+None 0.0000
+35*sqrt(2)*Abs(x) 0.0000
+x**5/5 + cos(x) 0.0000
+None 0.0000
+None 0.0000
+-2*x**3 + x*log(x)/2 0.0000
+None 0.0000
+None 0.0000
+2*cos(2*x) 0.0000
+None 0.0000
+-x**2 + 2*x*log(x) 0.0000
+x**4 - 2*log(x) 0.0000
+x + tan(2) 0.0000
+None 0.0000
+exp(5*x**5)/5 0.0000
+None 0.0000
+2*x**2 - 2*log(cos(x)) + 1/x 0.0000
+x*(x + 1) + x 0.0000
+x**3*sin(5) + x**2 0.0000
+log(x + 3) + 5 0.0000
+0 0.0000
+x**5/5 + x**2/2 0.0000
+2/cos(2)**3 0.0000
+log(cos(4*x))/4 0.0000
+7*x**3/2 + x**2/2 0.0000
+x**2*exp(x) + x 0.0000
+None 0.0000
+3*x**4/2 + 4*x**3/3 + x**2/2 0.0000
+log(4) 0.0000
+25*x**(3/2)/8 0.0000
+-x**3 0.0000
+8*x 0.0000
+None 0.0000
+3*x**2 - x 0.0000
+None 0.0000
+-x + x*tan(3) 0.0000
+None 0.0000
+-x**2 + 2*x 0.0000
+2*x*(x + 5) 0.0000
+-x**2/2 0.0000
+-2/x**4 0.0000
+x + tanh(x) + 1 0.0000
+2*sqrt(1/x) 0.0000
+pi*x**2/4 0.0000
+2*x + sin(x) 0.0000
+x**2/2 + x + acosh(sqrt(x)) 0.0000
+None 0.0000
+4*x**5/5 + x**3/3 0.0000
+None 0.0000
+x**3/4 0.0000
+None 0.0000
+x**5/5 + x**4/4 0.0000
+None 0.0000
+4*sqrt(x) 0.0000
+x**2*exp(x) 0.0000
+<lambdifygenerated-1430>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 1)
+<lambdifygenerated-1430>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 1)
+<lambdifygenerated-1441>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(2*x))
+<lambdifygenerated-1447>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 4)
+<lambdifygenerated-1448>:2: RuntimeWarning: invalid value encountered in arccos
+  return -cos(x) - arccos(x)
+<lambdifygenerated-1452>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + 5*exp(x)
+<lambdifygenerated-1453>:2: RuntimeWarning: invalid value encountered in log
+  return log(cos(x)) - cos(x)
+<lambdifygenerated-1461>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*exp(3*x + 1)
+<lambdifygenerated-1473>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x)) + x
+<lambdifygenerated-1480>:2: RuntimeWarning: invalid value encountered in arccosh
+  return (1/2)*arccosh(x**(-3.0))
+<lambdifygenerated-1482>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x**2 + x + exp(x)
+<lambdifygenerated-1485>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(2*x) - 9/2*sqrt(4*x**2 + 1)
+<lambdifygenerated-1489>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 2)
+<lambdifygenerated-1496>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x)
+<lambdifygenerated-1496>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*exp(x)
+<lambdifygenerated-1508>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x + 1)
+<lambdifygenerated-1513>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2 + x + arcsin(x)
+<lambdifygenerated-1517>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(4)
+<lambdifygenerated-1522>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - exp(2*x)
+<lambdifygenerated-1523>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-1525>:2: RuntimeWarning: overflow encountered in cosh
+  return 5*cosh(x**2)
+<lambdifygenerated-1530>:2: RuntimeWarning: overflow encountered in exp
+  return exp(5*x + 5)
+<lambdifygenerated-1532>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) - x
+<lambdifygenerated-1538>:2: RuntimeWarning: overflow encountered in cosh
+  return -sin(cosh(x))
+<lambdifygenerated-1538>:2: RuntimeWarning: invalid value encountered in sin
+  return -sin(cosh(x))
+<lambdifygenerated-1544>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*cosh(x)
+<lambdifygenerated-1549>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)/x**3
+<lambdifygenerated-1563>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -5/2*arctanh(x**2)
+<lambdifygenerated-1574>:2: RuntimeWarning: overflow encountered in exp
+  return (1/5)*exp(5*x**5)
+<lambdifygenerated-1575>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x**2 - 2*log(cos(x)) + x**(-1.0)
+<lambdifygenerated-1582>:2: RuntimeWarning: invalid value encountered in log
+  return (1/4)*log(cos(4*x))
+<lambdifygenerated-1584>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-1584>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-1605>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x)
+<lambdifygenerated-1605>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+2*x*(2*x + 1) 0.0000
+None 0.0000
+x**10/10 - x**2/2 0.0000
+5*x**2 + 5*x 0.0000
+None 0.0000
+sin(2*x)/2 0.0000
+log(tan(2*x + 1)**2 + 1)/2 0.0000
+None 0.0000
+x**2*(x - 5) 0.0000
+x/2 0.0000
+None 0.0000
+x + cos(x) + 2 0.0000
+x**2/2 + (-x - 1)*exp(x) 0.0000
+acos(4*x)/4 0.0000
+x + sin(1) 0.0000
+None 0.0000
+2*x**2*exp(x) 0.0000
+tan(x - 1) 0.0000
+None 0.0000
+-x**4/4 + tan(x) 0.0000
+None 0.0000
+x**3/3 + x**2 0.0000
+x + 1/(x**2 + x) 0.0000
+2*x - 2 0.0000
+2*x + exp(x/2) 0.0000
+x + exp(-x**2) 0.0000
+2*x**3/3 + 3*x**2 0.0000
+4*sinh(x)/x 0.0000
+x**2*sin(4) 0.0000
+cos(4*x) 0.0000
+pi*x**2/2 0.0000
+4*x*atan(x) 0.0000
+None 0.0000
+acos(x)/2 0.0000
+x**2/2 + 8*x 0.0000
+2*x + sinh(x) 0.0000
+x*log(x)/3 + x 0.0000
+None 0.0000
+None 0.0000
+2*x**4 + x + acos(x) 0.0000
+None 0.0000
+2*x*sin(x) - cos(x) 0.0000
+x + 1 0.0000
+12*x**2*log(2) 0.0000
+2*x*exp(x) 0.0000
+-3/x**2 0.0000
+2*x**2*asin(x) 0.0000
+-1/(3*x**8) 0.0000
+x - 1 0.0000
+None 0.0000
+tan(x)**4 0.0000
+x*(x**2 + x) 0.0000
+7*x**3 - x**2/2 0.0000
+5*tan(x)**3 0.0000
+x**3/3 - cos(x) 0.0000
+None 0.0000
+x*acos(4) 0.0000
+21*x**5/5 0.0000
+None 0.0000
+x**2/2 + pi*x/2 0.0000
+None 0.0000
+4*x*tan(3) 0.0000
+E*asinh(x) 0.0000
+-x**2 + 2*x 0.0000
+None 0.0000
+None 0.0000
+log(4*x**2 + x) 0.0000
+x**3 + 5 0.0000
+x*sin(1/x) 0.0000
+-x**2/2 + x 0.0000
+x**3*sin(3*x)/3 0.0000
+acos(x)/x**2 0.0000
+log(2*x + 1)/2 0.0000
+sin(2*x)/12 0.0000
+10*x**3/3 + x**2/2 0.0000
+4*x*cos(2*x) 0.0000
+x**2*log(x) + x 0.0000
+x + log(x) + tan(x) 0.0000
+None 0.0000
+x**5/5 + x**2/2 0.0000
+x/(x + 6) 0.0000
+x*(x + sqrt(3)*x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+626*x**2 0.0000
+x**4/28 0.0000
+2*x**2*(x**4 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+log(5*x + 1)/5 0.0000
+None 0.0000
+x**3 + x + 5 0.0000
+x*sin(4*x)/2 0.0000
+7*x**2/2 0.0000
+None 0.0000
+x**2 + 1 0.0000
+None 0.0000
+x + sin(x) + 5 0.0000
+x**(3/2)*log(3) 0.0000
+None 0.0000
+x**2 + x*log(x) + x 0.0000
+6*x**2 0.0000
+x**2*cos(x) + x 0.0000
+2*exp(3/2)/3 0.0000
+2*cos(2*x) 0.0000
+x**2/(x + 4)**3 0.0000
+acosh(2*x + 2) 0.0000
+None 0.0000
+x*(x + exp(x)) 0.0000
+6*x**3 0.0000
+-tan(2*x + 1) 0.0000
+sin(2*x)/2 0.0000
+-sinh(2*x + 4)/2 0.0000
+-sqrt(x**2 + 9*x + 1)/3 + exp(x) 0.0000
+x**2 - 1 0.0000
+exp(2*x + 4) 0.0000
+x*exp(2*x + 4) 0.0000
+None 0.0000
+x**3 + cos(x) + 1 0.0000
+x + 1/(x**2 + x) 0.0000
+2 - x**4 0.0000
+x + (x + 5)*exp(x) 0.0000
+2*x*cos(3) 0.0000
+1164*x**3 0.0000
+None 0.0000
+x**3*cos(4)/3 0.0000
+None 0.0000
+cos(x)/x**3 0.0000
+None 0.0000
+exp(x) + x**(-2) 0.0000
+x*sinh(x) - 4*cosh(x) 0.0000
+2*x - 1 0.0000
+x**5/5 + 3*x**4/4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/sin(x) 0.0000
+1/x 0.0000
+3*x*sin(3)/4 0.0000
+x*acosh(x) 0.0000
+2*x*(x + 1) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+1 0.0000
+x*log(x)/2 0.0000
+None 0.0000
+2*x**3/3 + x**2/2 0.0000
+x**2 + x*log(x**3) - x 0.0000
+x*log(3) + 2*x 0.0000
+None 0.0000
+None 0.0000
+x**2/(x + 1) 0.0000
+x/(2*(x + 2)) 0.0000
+-x**2 + log(cos(4*x))/4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+-log(cos(x)) 0.0000
+None 0.0000
+66*x**3 0.0000
+sqrt(x + 5) 0.0000
+None 0.0000
+x*(x**4 + 1/4) 0.0000
+-x - log(tanh(x) + 1) 0.0000
+None 0.0000
+None 0.0000
+log(x) + 3 0.0000
+x**2/2 + 5*log(x) 0.0000
+None 0.0000
+x**5/5 - 2*x 0.0000
+2*x/(x**2 + x) 0.0000
+None 0.0000
+2*x*(x + 5) 0.0000
+x**3/3 - 4*cos(x) 0.0000
+2*x**3/3 + x**2/2 0.0000
+2*x**2/3 0.0000
+None 0.0000
+None 0.0000
+x**2/(x + 2) 0.0000
+None 0.0000
+x + cosh(x) 0.0000
+(7/3)**(x**4/4)*x**2 0.0000
+x/(x + 1) 0.0000
+16*x**7/7 0.0000
+None 0.0000
+None 0.0000
+x*acos(2) 0.0000
+None 0.0000
+None 0.0000
+4*x**2 + 4*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/6 0.0000
+x + 2*sin(x) + cos(x) 0.0000
+x**2 - x*log(x) 0.0000
+None 0.0000
+4*x*(x + 3) 0.0000
+None 0.0000
+cos(x) - 1/x 0.0000
+x**3/3 + 9*x**2/2 0.0000
+5*x**4/2 0.0000
+None 0.0000
+exp(4*x + 4)/2 0.0000
+x*cosh(x**2) 0.0000
+x**2*(2*x**2 + x) 0.0000
+None 0.0000
+x*(2*x + 4) 0.0000
+None 0.0000
+None 0.0000
+5*x**2/2 - cos(5*x)/5 0.0000
+None 0.0000
+x/(x + 4) 0.0000
+None 0.0000
+-log(cos(x)) 0.0000
+sin(x + 6) 0.0000
+x*atanh(log(x)) - x 0.0000
+2*x*(x + exp(x)) 0.0000
+(x + 1)**5 0.0000
+pi*x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+cos(1)/x 0.0000
+x*exp(1/x) 0.0000
+x*(x - exp(x)) 0.0000
+6*exp(3*x) 0.0000
+5*x*exp(x**6) 0.0000
+3*x + sin(x) 0.0000
+2*x + log(2*x) 0.0000
+x*(x**2 + x)**3 + 4*x 0.0000
+None 0.0000
+4*x**(5/2)/5 + 2*x**2 0.0000
+x**2*(x + tan(x)) 0.0000
+None 0.0000
+log(cos(8*x**3))/10 0.0000
+x*exp(4*x) 0.0000
+-5*x**2/2 - pi*log(cos(x))/2 0.0000
+x - cos(x) 0.0000
+2*x*log(2*x) - 2*x 0.0000
+x**3*sinh(3)/3 0.0000
+x**2/2 + log(x**2 + 1)/2 0.0000
+None 0.0000
+exp(x - 1) 0.0000
+None 0.0000
+1/(3*x) 0.0000
+4*x + cos(x) 0.0000
+None 0.0000
+x**2/4 0.0000
+<lambdifygenerated-1614>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (-x - 1)*exp(x)
+<lambdifygenerated-1615>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/4)*arccos(4*x)
+<lambdifygenerated-1617>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x**2*exp(x)
+<lambdifygenerated-1617>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x**2*exp(x)
+<lambdifygenerated-1626>:2: RuntimeWarning: overflow encountered in sinh
+  return 4*sinh(x)/x
+<lambdifygenerated-1631>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*arccos(x)
+<lambdifygenerated-1633>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+<lambdifygenerated-1635>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x**4 + x + arccos(x)
+<lambdifygenerated-1639>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x)
+<lambdifygenerated-1639>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x)
+<lambdifygenerated-1641>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 2*x**2*arcsin(x)
+<lambdifygenerated-1649>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(4)
+<lambdifygenerated-1660>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)/x**2
+<lambdifygenerated-1687>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x))
+<lambdifygenerated-1691>:2: RuntimeWarning: overflow encountered in sinh
+  return -1/2*sinh(2*x + 4)
+<lambdifygenerated-1692>:2: RuntimeWarning: overflow encountered in exp
+  return -1/3*sqrt(x**2 + 9*x + 1) + exp(x)
+<lambdifygenerated-1694>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 4)
+<lambdifygenerated-1695>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x + 4)
+<lambdifygenerated-1699>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 5)*exp(x)
+<lambdifygenerated-1704>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + x**(-2.0)
+<lambdifygenerated-1705>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x) - 4*cosh(x)
+<lambdifygenerated-1705>:2: RuntimeWarning: overflow encountered in cosh
+  return x*sinh(x) - 4*cosh(x)
+<lambdifygenerated-1705>:2: RuntimeWarning: invalid value encountered in subtract
+  return x*sinh(x) - 4*cosh(x)
+<lambdifygenerated-1720>:2: RuntimeWarning: invalid value encountered in log
+  return -x**2 + (1/4)*log(cos(4*x))
+<lambdifygenerated-1721>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-1735>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-1736>:2: RuntimeWarning: overflow encountered in power
+  return (7/3)**((1/4)*x**4)*x**2
+<lambdifygenerated-1739>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(2)
+<lambdifygenerated-1748>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(4*x + 4)
+<lambdifygenerated-1749>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(x**2)
+<lambdifygenerated-1754>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-1756>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(log(x)) - x
+<lambdifygenerated-1757>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-1757>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-1762>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x - exp(x))
+<lambdifygenerated-1763>:2: RuntimeWarning: overflow encountered in exp
+  return 6*exp(3*x)
+<lambdifygenerated-1764>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x**6)
+<lambdifygenerated-1770>:2: RuntimeWarning: invalid value encountered in log
+  return (1/10)*log(cos(8*x**3))
+<lambdifygenerated-1771>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(4*x)
+<lambdifygenerated-1772>:2: RuntimeWarning: invalid value encountered in log
+  return -5/2*x**2 - 1/2*pi*log(cos(x))
+<lambdifygenerated-1777>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x - 1)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+-1/(10*x) 0.0000
+None 0.0000
+None 0.0000
+-exp(-x) 0.0000
+2*log(2*x) 0.0000
+x**2/2 + (8*x**3 - 66*x - 6)*exp(x) 0.0000
+None 0.0000
+5*x**3/13 0.0000
+None 0.0000
+log(1 + 1/tan(2*x + 1))/12 0.0000
+(2*x + 1/2)**2 0.0000
+-tanh(x) 0.0000
+2*x**2*log(4) 0.0000
+6*x**(3/4) 0.0000
+None 0.0000
+5*(x + 2)**3/x**2 0.0000
+x**3*log(x**3) 0.0000
+None 0.0000
+10*exp(x) 0.0000
+log(x)*sinh(x) 0.0000
+4*x + 2 0.0000
+2*log(tanh(x) + 1) 0.0000
+x**3/3 + 5*x**2/2 0.0000
+x**4 + 1 0.0000
+x + 4*exp(x) 0.0000
+x**2 + 5*sin(x) 0.0000
+x**3/3 + x**2/2 0.0000
+2*x**(9/2)/9 0.0000
+sinh(x + 5) 0.0000
+None 0.0000
+8*x**3/3 + x**2/2 0.0000
+None 0.0000
+None 0.0000
+(x + 3)**2 0.0000
+x**2/2 - x*cos(x) + sin(x) 0.0000
+None 0.0000
+5*sqrt(x) + 5*x*acos(x) 0.0000
+sin(x) - cos(x) 0.0000
+(3*x + 1)**2 0.0000
+x**4/2 + 5*x**2/2 0.0000
+-x**4/4 + sin(x) 0.0000
+3 - x**2 0.0000
+cosh(x)/4 0.0000
+None 0.0000
+x**2 - exp(x) 0.0000
+-4*x**3/3 + 3*x**2 0.0000
+cos(2*x + 5) 0.0000
+sqrt(1 - x**2) 0.0000
+None 0.0000
+4*x*cos(x) 0.0000
+-2*log(cos(x)) 0.0000
+cos(3*x) 0.0000
+x**4/4 + 5*x**3/3 0.0000
+x*exp(2*x) 0.0000
+sqrt(2*x + 1) 0.0000
+None 0.0000
+None 0.0000
+x**3/(3*sin(5)) 0.0000
+4*x**2/cos(x) 0.0000
+5*x**7/7 + x**4/4 0.0000
+5*x*(x + 2) 0.0000
+None 0.0000
+x*(-x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+2*x*(x + 5) 0.0000
+x**3 + x + 24 0.0000
+None 0.0000
+-5*x**2/2 + 3*log(x) 0.0000
+624*x**5 0.0000
+2*x + 1 0.0000
+None 0.0000
+None 0.0000
+2*sinh(x)*cosh(x) - 2*sinh(x) 0.0000
+None 0.0000
+None 0.0000
+(x + 5)**(3/2)/3 0.0000
+2*sinh(x) 0.0000
+4*x**3/3 + x**2/2 0.0000
+x*(x - 1)*exp(x) 0.0000
+22/x**2 0.0000
+-x**2 + x + 2*log(x) 0.0000
+x**7/6 0.0000
+x**5/5 + 72*x**2 0.0000
+2*x + log(x**2) 0.0000
+x**3/3 + 4*x + log(x + 4) 0.0000
+23*x**(2/3) 0.0000
+x**9/20 0.0000
+sqrt(x)*asin(sqrt(x)) 0.0000
+2 - 2*log(tanh(x + 1) + 1) 0.0000
+None 0.0000
+x**4/24 0.0000
+x**7/67 0.0000
+6*x**3 0.0000
+None 0.0000
+None 0.0000
+x*(3*x + 2) 0.0000
+2*x**(3/2)/3 + 5*x 0.0000
+-2*x + 2*log(x) 0.0000
+x + acos(x) + 10 0.0000
+x*log(2*x) - x 0.0000
+x**3/3 + 8*x 0.0000
+x**2*sinh(5)/2 0.0000
+None 0.0000
+x*(x + acos(x)) 0.0000
+None 0.0000
+5*log(x) 0.0000
+None 0.0000
+4/sin(x) 0.0000
+None 0.0000
+sin(2*x)**2 0.0000
+None 0.0000
+310*x**6 0.0000
+None 0.0000
+-x + cosh(sqrt(x)) 0.0000
+2/(3*sin(x)) 0.0000
+x*acosh(x) - acosh(x) 0.0000
+x**2/2 + x*log(x**6) 0.0000
+2*log(x + 3) 0.0000
+x - exp(x) 0.0000
+None 0.0000
+x**2 + 2*log(x) 0.0000
+x*(1 - x) 0.0000
+None 0.0000
+126*x**9 0.0000
+2*x + 2/x 0.0000
+None 0.0000
+1/(2*x**2 + x) 0.0000
+x**6/2 + 3*x**2 0.0000
+x*exp(3*x**2) 0.0000
+x**2 - tan(x) 0.0000
+2*sin(2*x) 0.0000
+None 0.0000
+4/(x + 1) 0.0000
+5*x**2*log(x) 0.0000
+atanh(2*x + 1) 0.0000
+tan(x + 3) 0.0000
+2*x*exp(x) + x 0.0000
+4*x**3 + x 0.0000
+623*x**2 0.0000
+x*sinh(x)/4 0.0000
+None 0.0000
+x**2*(2*x + 4) 0.0000
+-46*(5*x**2 + 1)**5/5 0.0000
+4*log(x) 0.0000
+sin(2*x + 4) 0.0000
+None 0.0000
+6*x**(3/2) 0.0000
+-5/(2*x) 0.0000
+(4*x + 4)**(1/4)/124 0.0000
+2*exp(x) 0.0000
+5/(2*x) 0.0000
+16*x**3 + 2*x**2 0.0000
+x**2/2 + tanh(x) 0.0000
+x**2/2 + 5*x - 3*log(cos(x)) 0.0000
+None 0.0000
+log(4*x**2) 0.0000
+2*log(x + 1) 0.0000
+None 0.0000
+(x + log(x))/x 0.0000
+2*x*exp(3*x) 0.0000
+x**2*sin(3) 0.0000
+x*(x + 16) 0.0000
+None 0.0000
+101*x**9/9 0.0000
+x + log(x) 0.0000
+x**2 + x*exp(x) 0.0000
+pi*x**3/3 0.0000
+exp(4*x + 5)/8 0.0000
+x**2*exp(2) 0.0000
+x**2/(x + 5) 0.0000
+8*x**(5/2) 0.0000
+2*x**(3/2) 0.0000
+None 0.0000
+atan(x) 0.0000
+None 0.0000
+x*(x + sin(x))**2 0.0000
+None 0.0000
+(2*x + 4)**3 0.0000
+None 0.0000
+4*x**3/3 + 8*x**2 0.0000
+x*log(x) + 2*x 0.0000
+x**6/6 + x**2/2 0.0000
+sqrt(x) + x**2 + x 0.0000
+None 0.0000
+x**2 - x + 1 0.0000
+None 0.0000
+sqrt(x) + 1 0.0000
+0 0.0000
+3*x**3 + x**2/2 + 4*x 0.0000
+-x**2 + 5*x 0.0000
+None 0.0000
+8*x**3 0.0000
+acos(x + 2) 0.0000
+None 0.0000
+2*x*(x + sin(x)) 0.0000
+8/5 0.0000
+x**(8/5) 0.0000
+2*x**2 + 2*x + exp(x) 0.0000
+x**2/2 - x*log(4*x) 0.0000
+8*x**(7/2) 0.0000
+x*(x**2 + 4) 0.0000
+log(x)**3/3 0.0000
+None 0.0000
+2/(x + 1) 0.0000
+x*(x**3 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+5*x/(x + 4) 0.0000
+4*log(x) 0.0000
+None 0.0000
+x**7/7 0.0000
+-19/x 0.0000
+x**10/110 + x**2/2 0.0000
+x**3/3 + x**2/2 0.0000
+x**2/log(3) 0.0000
+None 0.0000
+38*x**2 0.0000
+None 0.0000
+2*x**4/3 0.0000
+x**2/(2*tan(4)) 0.0000
+-log(cos(x))**3/3 0.0000
+sqrt(x) - 3 0.0000
+None 0.0000
+x*(x + sin(x)) 0.0000
+3*x + 4 0.0000
+None 0.0000
+x**3/3 - x**2 0.0000
+3*log(x) 0.0000
+3*x**3/16 0.0000
+log(x + 5) 0.0000
+x**3/3 + sin(2*x)/2 0.0000
+x**2/2 - sin(x)**3/3 - sin(x) 0.0000
+x**2*(x + cos(x)/x) 0.0000
+2*x**3/3 + x**2 0.0000
+None 0.0000
+2*x**(3/2)/3 - 9*x**2 0.0000
+x*(x + 5) 0.0000
+(x + 1)*exp(x) 0.0000
+x**3/3 + 6*x**2 0.0000
+x/(sqrt(x) + x) 0.0000
+x**4/4 0.0000
+x + log(x) - log(tanh(x) + 1) 0.0000
+x**3/3 - 2*x**2 + x*log(x) 0.0000
+x**4 + 1/4 0.0000
+-x + atanh(x) 0.0000
+x*log(x) - x 0.0000
+None 0.0000
+cosh(x + 4) 0.0000
+None 0.0000
+2*x*sinh(x) 0.0000
+None 0.0000
+x*exp(12*x) 0.0000
+x + cos(x) + 1 0.0000
+<lambdifygenerated-1784>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (8*x**3 - 66*x - 6)*exp(x)
+<lambdifygenerated-1784>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 + (8*x**3 - 66*x - 6)*exp(x)
+<lambdifygenerated-1786>:2: RuntimeWarning: invalid value encountered in log
+  return (1/12)*log(1 + tan(2*x + 1)**(-1.0))
+<lambdifygenerated-1793>:2: RuntimeWarning: overflow encountered in exp
+  return 10*exp(x)
+<lambdifygenerated-1794>:2: RuntimeWarning: overflow encountered in sinh
+  return log(x)*sinh(x)
+<lambdifygenerated-1799>:2: RuntimeWarning: overflow encountered in exp
+  return x + 4*exp(x)
+<lambdifygenerated-1803>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 5)
+<lambdifygenerated-1807>:2: RuntimeWarning: invalid value encountered in arccos
+  return 5*sqrt(x) + 5*x*arccos(x)
+<lambdifygenerated-1813>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/4)*cosh(x)
+<lambdifygenerated-1814>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - exp(x)
+<lambdifygenerated-1817>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x**2)
+<lambdifygenerated-1819>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(cos(x))
+<lambdifygenerated-1822>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-1834>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)*cosh(x) - 2*sinh(x)
+<lambdifygenerated-1834>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*sinh(x)*cosh(x) - 2*sinh(x)
+<lambdifygenerated-1834>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*sinh(x)*cosh(x) - 2*sinh(x)
+<lambdifygenerated-1834>:2: RuntimeWarning: invalid value encountered in subtract
+  return 2*sinh(x)*cosh(x) - 2*sinh(x)
+<lambdifygenerated-1836>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-1838>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-1838>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-1847>:2: RuntimeWarning: invalid value encountered in arcsin
+  return sqrt(x)*arcsin(sqrt(x))
+<lambdifygenerated-1855>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x) + 10
+<lambdifygenerated-1859>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-1869>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-1876>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(3*x**2)
+<lambdifygenerated-1881>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(2*x + 1)
+<lambdifygenerated-1883>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x) + x
+<lambdifygenerated-1883>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x) + x
+<lambdifygenerated-1886>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/4)*x*sinh(x)
+<lambdifygenerated-1894>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x)
+<lambdifygenerated-1898>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 + 5*x - 3*log(cos(x))
+<lambdifygenerated-1902>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(3*x)
+<lambdifygenerated-1907>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + x*exp(x)
+<lambdifygenerated-1909>:2: RuntimeWarning: overflow encountered in exp
+  return (1/8)*exp(4*x + 5)
+<lambdifygenerated-1927>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 2)
+<lambdifygenerated-1931>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x**2 + 2*x + exp(x)
+<lambdifygenerated-1948>:2: RuntimeWarning: invalid value encountered in log
+  return -1/3*log(cos(x))**3
+<lambdifygenerated-1962>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 1)*exp(x)
+<lambdifygenerated-1969>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -x + arctanh(x)
+<lambdifygenerated-1971>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 4)
+<lambdifygenerated-1972>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x)
+<lambdifygenerated-1973>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(12*x)
+<lambdifygenerated-1973>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(12*x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+sqrt(x + 5) 0.0000
+-exp(x) + 8*log(x) 0.0000
+x**3/3 + x**2 + 3*cos(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 - x*log(x) 0.0000
+2*log(x + 1) 0.0000
+x**2/2 - log(tanh(x) + 1) - cos(x) 0.0000
+x + (x - 3)/x 0.0000
+None 0.0000
+2*x + exp(x) 0.0000
+x*exp(x**2) - x 0.0000
+x**2*asinh(5) 0.0000
+x**3/3 + x**2/2 0.0000
+None 0.0000
+2*x + (x + 2)/x 0.0000
+None 0.0000
+-x + 1/(2*x) 0.0000
+log(x*tan(5)) 0.0000
+None 0.0000
+2*x + 2 0.0000
+25*sin(x) 0.0000
+None 0.0000
+None 0.0000
+log(x**3) 0.0000
+None 0.0000
+x**3 + x*cos(5) 0.0000
+None 0.0000
+x/acosh(2) 0.0000
+None 0.0000
+log(3)/x 0.0000
+-x + sinh(2*x) 0.0000
+4*x**5/5 + x**2/2 0.0000
+atanh(2)/(2*x) 0.0000
+None 0.0000
+exp(x - 3) 0.0000
+sin(x + 2) 0.0000
+None 0.0000
+x*(x + 2) + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*acos(x)/2 0.0000
+5*x**3/3 + x**2 0.0000
+cosh(x) + 1 0.0000
+-x + 4*log(x + 4) 0.0000
+2*x*(x + log(x)) 0.0000
+2*x*sin(x)/3 0.0000
+-sinh(x) 0.0000
+None 0.0000
+cos(x) + atan(x) 0.0000
+x**5 + x + log(x) 0.0000
+x**2*exp(x) + x 0.0000
+None 0.0000
+(x + 1)**2 0.0000
+log(tanh(x) + 1) - cos(x) 0.0000
+None 0.0000
+-32*x + 3*log(x) 0.0000
+3*(x + 1)/x 0.0000
+4*x**5/5 + x**4/4 0.0000
+None 0.0000
+x**2*log(x) 0.0000
+log(x)**3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**2*sin(x) - 2*sin(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+log(x + 2) 0.0000
+-(3*x - 4)**3/3 0.0000
+1/(x + 30) 0.0000
+-x**3 - x**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+acos(x + 1) 0.0000
+None 0.0000
+sqrt(2)*x**(3/2) 0.0000
+x**3/9 + x 0.0000
+x**2 + x*log(x) - x 0.0000
+None 0.0000
+(1 - x)/x 0.0000
+x**2/2 + 2*x 0.0000
+cosh(4*x) 0.0000
+-2*x*cos(x) - 2*sin(x) 0.0000
+x + asinh(sqrt(x)) 0.0000
+None 0.0000
+8*x**5/5 0.0000
+2*x + log(tanh(x + 1) + 1)/6 0.0000
+None 0.0000
+None 0.0000
+-exp(4*x)/4 0.0000
+x**2*log(2) 0.0000
+None 0.0000
+None 0.0000
+2*x*exp(2*x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+(x + 1)/x 0.0000
+tan(1)/x 0.0000
+cos(x) - 4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/2 - x*cos(x) + sin(x) 0.0000
+5*x*acos(x) 0.0000
+x**2 + log(x)/x 0.0000
+None 0.0000
+2*x + cosh(x) 0.0000
+-x + cos(asinh(x)) 0.0000
+None 0.0000
+2*x + 1 0.0000
+2*(x + 1)/x 0.0000
+None 0.0000
+2*x + atanh(x - 4) 0.0000
+2*atanh(2*x) 0.0000
+tan(x) + 1 0.0000
+None 0.0000
+None 0.0000
+2*x**3 + sin(x) 0.0000
+x*(x + 1) 0.0000
+2*x**2/cos(x) 0.0000
+x**2 - exp(x) 0.0000
+x*exp(x/2) 0.0000
+3*x**3 + 2*x 0.0000
+-x*cos(log(x))/2 - x - log(tanh(x) + 1)/4 0.0000
+5*x**2/2 + 2*x - 2*cos(x) 0.0000
+None 0.0000
+2*x*(x + exp(x)) 0.0000
+None 0.0000
+x**2/2 + 2*x + 3*log(x) 0.0000
+x + sin(x) + 3 0.0000
+x**3*(x + 3) 0.0000
+None 0.0000
+2*x**2 + sin(x) 0.0000
+x*(2*x + 3) 0.0000
+None 0.0000
+x**3/3 + 2*x**2 0.0000
+2*x - exp(x) 0.0000
+None 0.0000
+27*sqrt(x) 0.0000
+x**2/2 + 2*log(x + 3) 0.0000
+None 0.0000
+None 0.0000
+2*exp(x) + tan(x) 0.0000
+acos(2*x + 1) 0.0000
+None 0.0000
+None 0.0000
+3*x*log(2*x) + 2*x 0.0000
+2*x**7/7 + x**4/4 0.0000
+None 0.0000
+None 0.0000
+x + acos(x) + 1 0.0000
+sin(x) + 3 0.0000
+x**2*(2*x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+2*x**2 + x + 1 0.0000
+None 0.0000
+4*log(x**5/5) 0.0000
+x*cos(2*x) + x 0.0000
+2*x**5/5 + x**2/2 0.0000
+x**(-4) 0.0000
+3*x**2 0.0000
+3*sqrt(x) + tan(x) 0.0000
+None 0.0000
+6*x**5/5 + 3*x**4/4 0.0000
+x**3/3 + x*log(x) - log(x + 2) 0.0000
+log(x) + tan(x + 5) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4*x**2 - 4*x 0.0000
+None 0.0000
+None 0.0000
+x**4/4 - x 0.0000
+None 0.0000
+3*x*log(x) 0.0000
+x*cos(x + 3) 0.0000
+None 0.0000
+3*log(x)/x 0.0000
+None 0.0000
+tanh(x + 5) 0.0000
+2*x**7/7 0.0000
+x*log(5) + 2*x 0.0000
+4*x*(2*x + 2) 0.0000
+x/(x + 5) 0.0000
+None 0.0000
+(x - 1)/x 0.0000
+x*exp(2*x) + x 0.0000
+10*x**2 0.0000
+3*x**2 + 9*x 0.0000
+-x*(x**2 + x) + x 0.0000
+3 + 1/x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 0.0000
+pi*x**2/4 0.0000
+x**3/3 + x**2/2 + sin(x) 0.0000
+None 0.0000
+None 0.0000
+2*x*(x - 3) 0.0000
+x*sinh(5) 0.0000
+78*x**2 0.0000
+x**3/3 - cos(4*x)/4 0.0000
+x*(x + exp(2)) 0.0000
+None 0.0000
+-log(cos(x)) 0.0000
+43*x**2/2 0.0000
+2*x + 3 0.0000
+None 0.0000
+x + 2 - 1/x 0.0000
+exp(x)/2 0.0000
+x**2 + x + cos(x) 0.0000
+None 0.0000
+(x - 1)**2 0.0000
+None 0.0000
+x**2 + 2*log(x) 0.0000
+tan(2)/x 0.0000
+x**2 + 1 0.0000
+None 0.0000
+1/3 0.0000
+x + (x + 1/2)/x 0.0000
+12*log(tanh(x) + 1) - cos(x) 0.0000
+x + 4*x*log(5) 0.0000
+None 0.0000
+x**10/106 0.0000
+None 0.0000
+x - cos(x) + 4 0.0000
+2*x**3/3 + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + (x + 2)*exp(x) 0.0000
+None 0.0000
+x**2 + x*log(2) 0.0000
+x*(2*x + 4) 0.0000
+5*x*(x + 4) 0.0000
+x*acos(x) - sqrt(x**2 - 1) 0.0000
+None 0.0000
+exp(26*x**2) 0.0000
+(3*x + 5)**2 0.0000
+<lambdifygenerated-1976>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + 8*log(x)
+<lambdifygenerated-1982>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1983>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x**2) - x
+<lambdifygenerated-1988>:2: RuntimeWarning: invalid value encountered in log
+  return log(x*tan(5))
+<lambdifygenerated-1995>:2: RuntimeWarning: overflow encountered in sinh
+  return -x + sinh(2*x)
+<lambdifygenerated-1997>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*arctanh(2)/x
+<lambdifygenerated-1998>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x - 3)
+<lambdifygenerated-2001>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x*arccos(x)
+<lambdifygenerated-2003>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x) + 1
+<lambdifygenerated-2007>:2: RuntimeWarning: overflow encountered in sinh
+  return -sinh(x)
+<lambdifygenerated-2010>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-2010>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-2023>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 1)
+<lambdifygenerated-2029>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(4*x)
+<lambdifygenerated-2034>:2: RuntimeWarning: overflow encountered in exp
+  return -1/4*exp(4*x)
+<lambdifygenerated-2036>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(2*x)
+<lambdifygenerated-2041>:2: RuntimeWarning: invalid value encountered in arccos
+  return 5*x*arccos(x)
+<lambdifygenerated-2043>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x + cosh(x)
+<lambdifygenerated-2047>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x + arctanh(x - 4)
+<lambdifygenerated-2048>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*arctanh(2*x)
+<lambdifygenerated-2053>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - exp(x)
+<lambdifygenerated-2058>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-2058>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-2065>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x - exp(x)
+<lambdifygenerated-2068>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(x) + tan(x)
+<lambdifygenerated-2069>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x + 1)
+<lambdifygenerated-2072>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x) + 1
+<lambdifygenerated-2096>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x) + x
+<lambdifygenerated-2109>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-2113>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(x)
+<lambdifygenerated-2126>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 2)*exp(x)
+<lambdifygenerated-2130>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(x**2 - 1)
+<lambdifygenerated-2131>:2: RuntimeWarning: overflow encountered in exp
+  return exp(26*x**2)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+None 0.0000
+3*sqrt(x) + x 0.0000
+None 0.0000
+x*asinh(x) 0.0000
+x*(x**3 + x) + x 0.0000
+x*exp(4*x)/4 0.0000
+None 0.0000
+x**2 + 10 0.0000
+x*(x**2 + x) 0.0000
+x*log(sqrt(2)*Abs(x)) - asinh(x) 0.0000
+None 0.0000
+sinh(x) + 16 0.0000
+-4*log(cos(x)) 0.0000
+x**3/6 0.0000
+x**2 + x + cosh(x) 0.0000
+-x**2/2 + 2*x*exp(x**2) 0.0000
+x**4/4 + x**2 0.0000
+x**2*cos(5) 0.0000
+None 0.0000
+None 0.0000
+x*(2*x**2 + x) 0.0000
+x*exp(x) + x + 2 0.0000
+-x**5/5 + x**2/2 0.0000
+3*x*atan(x) 0.0000
+None 0.0000
+2*x + 2 0.0000
+None 0.0000
+None 0.0000
+-x**2 + cos(x) 0.0000
+x*(x**2/2 + x) 0.0000
+x**2 + 5*x 0.0000
+x*(x + 2)**2 0.0000
+None 0.0000
+x*(x + 5) + x 0.0000
+2*x*log(x) 0.0000
+-x**3/3 - x 0.0000
+x + atanh(x + 1) 0.0000
+x*(x + 1) - 12*x 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + x*atan(2*x) - atan(2*x) 0.0000
+x*(x + log(x)) + 2*x 0.0000
+None 0.0000
+-1/x 0.0000
+None 0.0000
+None 0.0000
+cos(5*x)/5 0.0000
+2*sqrt(x) + x 0.0000
+x*(x**2 + 1) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*tan(x + 2) 0.0000
+5*x**(5/2) 0.0000
+5*x**3 + x 0.0000
+None 0.0000
+x**2 - x - 1 0.0000
+2*x + atan(x) 0.0000
+(2 - x)**2 0.0000
+3*x + exp(x) 0.0000
+2*x + 1 0.0000
+5*x**2 + 5*x 0.0000
+x**2/10 0.0000
+3*x*(x + acosh(x)) 0.0000
+x**4 + x + log(x) 0.0000
+None 0.0000
+1121*x/(x**2 + x) 0.0000
+x + asinh(2*x) 0.0000
+-2*x**2 + 2*x 0.0000
+3*x**3 0.0000
+1/(x + 2) 0.0000
+x - cos(2*x) 0.0000
+x**3/3 + x**2/2 0.0000
+8*x**2 0.0000
+-exp(x - 1) 0.0000
+sqrt(2)*x**2 0.0000
+(x + 1)*exp(-x) 0.0000
+2*x*sinh(x) 0.0000
+None 0.0000
+x*exp(sqrt(x)) 0.0000
+x*(x + atan(x)) 0.0000
+2*x + log(x**2) 0.0000
+None 0.0000
+x*(x**2 + x)**3 0.0000
+x + cos(x) + 3 0.0000
+x**2/2 + sinh(x) 0.0000
+x**2 - exp(x) 0.0000
+None 0.0000
+None 0.0000
+sqrt(3)*x**(3/2)/3 0.0000
+(2*x + 5)**2 0.0000
+x**3/9 0.0000
+x*(2*x + 1) 0.0000
+x**2/2 + exp(x) 0.0000
+x*(x - 1)/2 0.0000
+x**2/2 - 4*log(x) 0.0000
+(x + 6)/x 0.0000
+None 0.0000
+None 0.0000
+x + (x - 1)/x 0.0000
+x**2/2 - x + sin(x) 0.0000
+-x**2 + 3*x 0.0000
+log(x)/x**2 0.0000
+exp(2*x + 4) 0.0000
+log(x)**5 0.0000
+x**3/3 + 2*x 0.0000
+None 0.0000
+x**4/4 + x**3 + 1/5 0.0000
+None 0.0000
+None 0.0000
+-x + 3*log(x) 0.0000
+-x*log(x**3) 0.0000
+log(x)/(2*x) 0.0000
+x**2*(x**3 + x) 0.0000
+-4*x**3/3 0.0000
+x**2/2 - 6*log(cos(x)) 0.0000
+x*(log(x) + 4) 0.0000
+None 0.0000
+x*(1 - x**2) 0.0000
+None 0.0000
+2 - x**2 0.0000
+3*sqrt(x) - 3*x 0.0000
+None 0.0000
+None 0.0000
+x**2/2 - 2*x*cos(x) + 2*sin(x) 0.0000
+1/(x - 1) 0.0000
+-x*exp(x) 0.0000
+4*x**(5/2)/5 0.0000
+x + 1/(x + 1) 0.0000
+x + exp(x) + 1 0.0000
+2*x*(x - 5) 0.0000
+asin(x/2) 0.0000
+None 0.0000
+2*x*(x + 4) 0.0000
+x + tan(x - 1) 0.0000
+None 0.0000
+None 0.0000
+2*x - exp(x) 0.0000
+x**2 + x + sin(x) 0.0000
+None 0.0000
+2*atan(x) 0.0000
+log(1/x) 0.0000
+log(2*x**2 + x) 0.0000
+x**4*(x + 5) 0.0000
+None 0.0000
+x*sinh(x) + 2*x 0.0000
+9*x**2 0.0000
+(x + 1/2)**2 0.0000
+(x - 1)*exp(x) 0.0000
+pi*x**2/2 0.0000
+x**2/(x + 1) 0.0000
+None 0.0000
+x**3/3 + x**2/2 - x*log(x) - x 0.0000
+1/(2*x**2 + x) 0.0000
+None 0.0000
+35*x 0.0000
+x + log(x) - 1 0.0000
+None 0.0000
+2*x + 2*log(x) 0.0000
+x + 1/acos(3) 0.0000
+x + atan(x) 0.0000
+None 0.0000
+None 0.0000
+x*(x + 6) 0.0000
+3*sin(x) 0.0000
+None 0.0000
+2*log(x + 1) 0.0000
+-x**2/4 + x 0.0000
+x + log(x)/x 0.0000
+None 0.0000
+log(2)*sinh(x) 0.0000
+(x - 1)*exp(x) 0.0000
+None 0.0000
+5*exp(x*sin(2*x)) 0.0000
+3*log(x)/2 0.0000
+x + acosh(x + 4) 0.0000
+x*(cos(x) + 1) 0.0000
+None 0.0000
+None 0.0000
+-5*x**2 + x*log(x)/2 0.0000
+x - 2/x 0.0000
+(x + 5)/x 0.0000
+3*x*(x + acos(x)) 0.0000
+3*x + 3 0.0000
+x**2/2 + x*log(x) + 5*x 0.0000
+2*x*tan(5) + x 0.0000
+asinh(x) + 2 0.0000
+x**5 + x + cosh(x) 0.0000
+None 0.0000
+x**2 - 1 0.0000
+2*x*(x + 1) 0.0000
+None 0.0000
+None 0.0000
+exp(x)/2 0.0000
+None 0.0000
+None 0.0000
+sqrt(x) + 4*x**3 0.0000
+x*cos(1) + x 0.0000
+sqrt(x**2 + 1) 0.0000
+x**6/6 0.0000
+-2*x**2 + x 0.0000
+x**4/4 0.0000
+x*atan(2*x) 0.0000
+2*x**(7/2)/7 0.0000
+-3*x**2 - exp(-x) 0.0000
+x**2*log(x)**2 0.0000
+exp(x) + 5 0.0000
+None 0.0000
+x - exp(x) 0.0000
+x*exp(x) + x 0.0000
+None 0.0000
+None 0.0000
+-4*x*sinh(x) - 4*cosh(x) 0.0000
+-x*cos(2*x) + x 0.0000
+tan(x + 3) 0.0000
+-cos(x - 5) 0.0000
+x*atanh(x - 2) + log(x) - 2*atanh(x + 2) 0.0000
+2*x*(x + asin(x)) + x 0.0000
+4*x**(5/2)/5 0.0000
+None 0.0000
+x*asin(x) + 2*x 0.0000
+7*x**2 - x 0.0000
+None 0.0000
+None 0.0000
+x*(x + exp(x)) + x 0.0000
+130*x**3 0.0000
+x*log(2*x) - 2*x 0.0000
+-4/x 0.0000
+x**3/36 0.0000
+None 0.0000
+x**2 + x + atanh(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*cos(acosh(x)) 0.0000
+x*exp(5*x) 0.0000
+x - exp(2*x) 0.0000
+x**2*(x + 6) 0.0000
+-2*x + 2*log(x) 0.0000
+x**2/2 + x*sin(4) 0.0000
+x**2*(x + exp(x)) 0.0000
+x**2/3 0.0000
+2*x**2 + x + sin(x) 0.0000
+x**2/sin(x) + x 0.0000
+6*x**2 0.0000
+2*x**2*asin(2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(x**2 + 1) 0.0000
+2*x**11/11 0.0000
+None 0.0000
+x*(x**2 + 25) 0.0000
+exp(x + 2) 0.0000
+5*x**2/2 + 2*x 0.0000
+None 0.0000
+<lambdifygenerated-2136>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*x*exp(4*x)
+<lambdifygenerated-2140>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x) + 16
+<lambdifygenerated-2141>:2: RuntimeWarning: invalid value encountered in log
+  return -4*log(cos(x))
+<lambdifygenerated-2143>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + x + cosh(x)
+<lambdifygenerated-2144>:2: RuntimeWarning: overflow encountered in exp
+  return -1/2*x**2 + 2*x*exp(x**2)
+<lambdifygenerated-2148>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + x + 2
+<lambdifygenerated-2159>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(x + 1)
+<lambdifygenerated-2173>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-2187>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x - 1)
+<lambdifygenerated-2190>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x)
+<lambdifygenerated-2196>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 + sinh(x)
+<lambdifygenerated-2197>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - exp(x)
+<lambdifygenerated-2202>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x)
+<lambdifygenerated-2210>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 4)
+<lambdifygenerated-2219>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - 6*log(cos(x))
+<lambdifygenerated-2226>:2: RuntimeWarning: overflow encountered in exp
+  return -x*exp(x)
+<lambdifygenerated-2229>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 1
+<lambdifygenerated-2231>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin((1/2)*x)
+<lambdifygenerated-2234>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x - exp(x)
+<lambdifygenerated-2240>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x) + 2*x
+<lambdifygenerated-2243>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 1)*exp(x)
+<lambdifygenerated-2251>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(3)**(-1.0)
+<lambdifygenerated-2258>:2: RuntimeWarning: overflow encountered in sinh
+  return log(2)*sinh(x)
+<lambdifygenerated-2259>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 1)*exp(x)
+<lambdifygenerated-2260>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x*sin(2*x))
+<lambdifygenerated-2267>:2: RuntimeWarning: invalid value encountered in arccos
+  return 3*x*(x + arccos(x))
+<lambdifygenerated-2272>:2: RuntimeWarning: overflow encountered in cosh
+  return x**5 + x + cosh(x)
+<lambdifygenerated-2275>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(x)
+<lambdifygenerated-2286>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 5
+<lambdifygenerated-2287>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-2288>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) + x
+<lambdifygenerated-2289>:2: RuntimeWarning: overflow encountered in sinh
+  return -4*x*sinh(x) - 4*cosh(x)
+<lambdifygenerated-2289>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*sinh(x) - 4*cosh(x)
+<lambdifygenerated-2289>:2: RuntimeWarning: overflow encountered in cosh
+  return -4*x*sinh(x) - 4*cosh(x)
+<lambdifygenerated-2293>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x - 2) + log(x) - 2*arctanh(x + 2)
+<lambdifygenerated-2294>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 2*x*(x + arcsin(x)) + x
+<lambdifygenerated-2296>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(x) + 2*x
+<lambdifygenerated-2298>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x)) + x
+<lambdifygenerated-2303>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2 + x + arctanh(x)
+<lambdifygenerated-2305>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(5*x)
+<lambdifygenerated-2306>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(2*x)
+<lambdifygenerated-2310>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x + exp(x))
+<lambdifygenerated-2310>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x + exp(x))
+<lambdifygenerated-2315>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 2*x**2*arcsin(2)
+<lambdifygenerated-2319>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 2)
+mean: 0.0
+top: 0.0
+None 0.0000
+None 0.0000
+x**2/2 - 4*log(2*x + 4) 0.0000
+x**2*atanh(2*x)/2 0.0000
+x + tanh(3*x) 0.0000
+None 0.0000
+None 0.0000
+4*x + exp(x) 0.0000
+3*x**4/4 + x**2/2 0.0000
+x + x*atanh(3) 0.0000
+x*atan(2*x) + 2*x 0.0000
+x**2/2 - cos(x) 0.0000
+sqrt(2)*x**(3/2) 0.0000
+exp(4*x) 0.0000
+sin(x)**2/2 0.0000
+None 0.0000
+None 0.0000
+3*x**2*(x + 1)**2 0.0000
+None 0.0000
+x**3/3 + x**2*log(x)/2 0.0000
+5*x**2*acosh(x) 0.0000
+None 0.0000
+None 0.0000
+pi/(4*x) 0.0000
+3/(2*x**2) 0.0000
+None 0.0000
+3*x*tan(5) 0.0000
+15 - x 0.0000
+x**3/(3*sin(3)) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*cos(log(x))/2 0.0000
+None 0.0000
+log(2)*cosh(x) 0.0000
+x**4/4 + asin(x) 0.0000
+x**4/4 + 5*x 0.0000
+None 0.0000
+sqrt(x) - x**2 + x 0.0000
+2*x**3 0.0000
+x**4/2 0.0000
+2*x + 4 0.0000
+x**7/7 + x**2/2 0.0000
+x*cos(x + 2) 0.0000
+None 0.0000
+None 0.0000
+sqrt(x) + exp(x) 0.0000
+x**2*exp(2*x) 0.0000
+log(x + 2) 0.0000
+-exp(acosh(x))/5 0.0000
+x**4/4 + 2*x**3/3 0.0000
+sqrt(1 - x**2) 0.0000
+None 0.0000
+5*x**2/2 0.0000
+2*x + 4*log(x) 0.0000
+x**(5/2)*log(2) 0.0000
+x + (x + 4)/x 0.0000
+sqrt(x) - x**2 0.0000
+None 0.0000
+x*(x + 3) 0.0000
+4*x*(x + exp(x)) 0.0000
+None 0.0000
+3*x**2/2 0.0000
+x*tan(4*x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+acosh(x + 1) 0.0000
+x**3/2 + 2*x**2 0.0000
+x**2*(2*x + 1) 0.0000
+-sin(x)*cos(x) 0.0000
+x**2*(x + 5) 0.0000
+x*(3*x + 1) 0.0000
+x**2*asinh(2) 0.0000
+None 0.0000
+x**2/(x + 1) 0.0000
+x + sin(5*x) 0.0000
+x*exp(5*x) 0.0000
+2*x**(5/2)/5 0.0000
+x**2 + x + cos(x) 0.0000
+-3*x**4 + 2*x**3 0.0000
+8*x**2 0.0000
+-4/x 0.0000
+x + sin(x) + 4 0.0000
+None 0.0000
+x + cos(x + 3) 0.0000
+None 0.0000
+None 0.0000
+x**2/(x + 5) 0.0000
+x*log(x) + 4*x 0.0000
+None 0.0000
+x - log(tanh(x) + 1) 0.0000
+x**2*asin(x) + x 0.0000
+2*x*acosh(x) 0.0000
+log(x)**2/x**2 0.0000
+-5*x**4/4 0.0000
+None 0.0000
+2*x**2 + 3*x 0.0000
+x*asinh(2*x) - sqrt(x**2 + 1) + 20*asinh(2*x) 0.0000
+tanh(x + 4) 0.0000
+x 0.0000
+None 0.0000
+3*x*atanh(2) 0.0000
+x 0.0000
+asinh(3*x)/3 0.0000
+-x*log(2*x) + x 0.0000
+(x + 1)**2/2 0.0000
+x*log(x) + x - atan(x) 0.0000
+None 0.0000
+x*(x + 1) 0.0000
+x**2 + x + 1 0.0000
+x**3/3 + x**2/2 0.0000
+2*x - 4 0.0000
+x*cos(log(x)) 0.0000
+x**2*(-x**2 + x) 0.0000
+-x**2/2 + x - exp(x) 0.0000
+x + sin(x) + 1 0.0000
+x**2/2 + x*log(x**2) - x 0.0000
+x**2*cos(log(x)) + x 0.0000
+tan(x + 8) 0.0000
+None 0.0000
+None 0.0000
+-4*x*log(2*x) + 4*x 0.0000
+7*x**2/2 0.0000
+-x**4/4 + x**3/3 0.0000
+None 0.0000
+-1/(x + 1) 0.0000
+None 0.0000
+-x**2/2 + x + 2*log(x + 1) 0.0000
+3*x*sinh(1) 0.0000
+3*x*log(x + 3) + 9*log(x + 3) 0.0000
+2*x*(x + 5) 0.0000
+x**2/2 + x*tan(1) 0.0000
+-x**2/2 + x*sinh(x) - cosh(x) 0.0000
+x**10/2 0.0000
+x**2*(x - cos(x)) 0.0000
+cos(x + 2) + 1 0.0000
+None 0.0000
+acos(x) 0.0000
+x**2/2 + sin(2*x + 4)/2 0.0000
+sqrt(3)*x**(3/2)/3 0.0000
+None 0.0000
+cos(5*x)/5 0.0000
+x**5/5 + x**2/2 0.0000
+exp(x) + tanh(x) 0.0000
+x + log(x)**3 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + x**2/2 + 27*x 0.0000
+2*x + sin(4) 0.0000
+x**2/2 + 2*x 0.0000
+x**2/(2*acos(2)) 0.0000
+None 0.0000
+-2*x**2 + 4*x 0.0000
+None 0.0000
+x**3 + x + log(x) 0.0000
+3*x + 2 0.0000
+None 0.0000
+-cos(2*x)/2 0.0000
+log(4*x**3 + x) 0.0000
+3*x*tan(4) 0.0000
+None 0.0000
+x*(x + sinh(x)) + 3*x 0.0000
+x**3 + 3 0.0000
+None 0.0000
+5*x*(x + 2) 0.0000
+exp(x) + 1/x 0.0000
+None 0.0000
+2*acos(x) 0.0000
+None 0.0000
+sqrt(x + 4) 0.0000
+2*x*sin(2*x) 0.0000
+-x**2/2 - exp(-x) 0.0000
+2*x**2*(x + acosh(x)) 0.0000
+x**4*exp(3) 0.0000
+x*(x + 5) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+5*x*exp(-x) 0.0000
+-2*x*cos(2*x) 0.0000
+2*x + 2 0.0000
+(2*x + 2)**3 0.0000
+x/cosh(1) 0.0000
+x*sin(5) + x 0.0000
+x**2/2 + 2*log(x) 0.0000
+x/(2*x + 3) 0.0000
+3*x + 3*cosh(x) 0.0000
+None 0.0000
+None 0.0000
+x + (x + 5)/x 0.0000
+2*x*tan(1) 0.0000
+x**3 + x + 2 0.0000
+None 0.0000
+None 0.0000
+(3*x + 4)**3/3 0.0000
+2*x**2 + 2*x 0.0000
+2*x*acos(2*x) 0.0000
+x + 8*log(x + 4) 0.0000
+2*x**3 + 2*x 0.0000
+None 0.0000
+3*x + 3 0.0000
+x**3*(x + 1) 0.0000
+(2*x - 1)*exp(2*x)/2 0.0000
+None 0.0000
+x*cos(x + 6) + x 0.0000
+sin(x)**2 0.0000
+8*x**3 0.0000
+None 0.0000
+exp(2*x + 1) 0.0000
+x**2 + x*log(3*x) - 3*x 0.0000
+4*x*sinh(1) 0.0000
+2*x**3 0.0000
+x*exp(sqrt(2)) 0.0000
+4*x*cos(x) 0.0000
+4*x**2 0.0000
+None 0.0000
+x**2/(x + 1) 0.0000
+tan(x + 2) 0.0000
+x*asin(2*x) 0.0000
+2*x**2 + 2*x 0.0000
+-x**2 + 2*x 0.0000
+x*(x + 2)**2 0.0000
+x**2/2 + x + x*log(4) 0.0000
+4*x**12 0.0000
+None 0.0000
+log(2*x) 0.0000
+x*(x**2 - x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**2 + 2*x 0.0000
+x**6/6 + x**3/3 0.0000
+x + asin(2*x) 0.0000
+-x**2 + 3*x 0.0000
+atan(cosh(x)) 0.0000
+None 0.0000
+acos(2*x + 4) 0.0000
+None 0.0000
+x + 3*exp(5*x) 0.0000
+x**4*asinh(2)/2 0.0000
+x**2 + x + 5 0.0000
+4*x**2 + 4*x 0.0000
+2*x/log(4) 0.0000
+None 0.0000
+x*(x + log(x)) 0.0000
+None 0.0000
+x**2/2 + x*log(3) 0.0000
+x**2/2 - sinh(2*x)/2 0.0000
+tan(x - 1) 0.0000
+x**2*(2*x + 2) 0.0000
+None 0.0000
+x*(x*cos(x) + x) 0.0000
+None 0.0000
+<lambdifygenerated-2322>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*x**2*arctanh(2*x)
+<lambdifygenerated-2324>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+<lambdifygenerated-2326>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + x*arctanh(3)
+<lambdifygenerated-2330>:2: RuntimeWarning: overflow encountered in exp
+  return exp(4*x)
+<lambdifygenerated-2341>:2: RuntimeWarning: overflow encountered in cosh
+  return log(2)*cosh(x)
+<lambdifygenerated-2342>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (1/4)*x**4 + arcsin(x)
+<lambdifygenerated-2350>:2: RuntimeWarning: overflow encountered in exp
+  return sqrt(x) + exp(x)
+<lambdifygenerated-2351>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(2*x)
+<lambdifygenerated-2355>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x**2)
+<lambdifygenerated-2362>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*(x + exp(x))
+<lambdifygenerated-2362>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*(x + exp(x))
+<lambdifygenerated-2374>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(5*x)
+<lambdifygenerated-2385>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2*arcsin(x) + x
+<lambdifygenerated-2393>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*x*arctanh(2)
+<lambdifygenerated-2405>:2: RuntimeWarning: overflow encountered in exp
+  return -1/2*x**2 + x - exp(x)
+<lambdifygenerated-2419>:2: RuntimeWarning: overflow encountered in sinh
+  return -1/2*x**2 + x*sinh(x) - cosh(x)
+<lambdifygenerated-2419>:2: RuntimeWarning: overflow encountered in cosh
+  return -1/2*x**2 + x*sinh(x) - cosh(x)
+<lambdifygenerated-2419>:2: RuntimeWarning: invalid value encountered in subtract
+  return -1/2*x**2 + x*sinh(x) - cosh(x)
+<lambdifygenerated-2423>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)
+<lambdifygenerated-2428>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + tanh(x)
+<lambdifygenerated-2433>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2/arccos(2)
+<lambdifygenerated-2440>:2: RuntimeWarning: overflow encountered in sinh
+  return x*(x + sinh(x)) + 3*x
+<lambdifygenerated-2443>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + x**(-1.0)
+<lambdifygenerated-2444>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*arccos(x)
+<lambdifygenerated-2459>:2: RuntimeWarning: overflow encountered in cosh
+  return 3*x + 3*cosh(x)
+<lambdifygenerated-2465>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*x*arccos(2*x)
+<lambdifygenerated-2470>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*(2*x - 1)*exp(2*x)
+<lambdifygenerated-2474>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-2483>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(2*x)
+<lambdifygenerated-2493>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(2*x)
+<lambdifygenerated-2495>:2: RuntimeWarning: overflow encountered in cosh
+  return arctan(cosh(x))
+<lambdifygenerated-2496>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x + 4)
+<lambdifygenerated-2497>:2: RuntimeWarning: overflow encountered in exp
+  return x + 3*exp(5*x)
+<lambdifygenerated-2504>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 - 1/2*sinh(2*x)
+mean: 0.0
+top: 0.0
+x**3/3 + x**2/2 + 5*x 0.0000
+x**4/4 0.0000
+5*x**3 0.0000
+None 0.0000
+tan(x) + asinh(x) 0.0000
+x**2 + 5*x 0.0000
+x + (x + 4)*exp(x) 0.0000
+None 0.0000
+x**2/2 0.0000
+None 0.0000
+None 0.0000
+75/x 0.0000
+None 0.0000
+4*x*(x + 4) 0.0000
+x*(x**3 + x + 5) 0.0000
+x + exp(2*x) 0.0000
+x**2/(x**2 + x) 0.0000
+x**10/5 0.0000
+x**7/7 + x**2/2 0.0000
+x**2*tan(2) 0.0000
+cos(x) - 1 0.0000
+x + tanh(x) 0.0000
+4*log(x) 0.0000
+x*atan(x + 1) 0.0000
+None 0.0000
+None 0.0000
+x*(x + 3) 0.0000
+sin(x) + cos(x) + 1 0.0000
+x**2/2 - log(4*x**2 + 1)/4 0.0000
+None 0.0000
+log(x*exp(x) + x) 0.0000
+x**4/4 - x**2/2 0.0000
+x*log(2*x) - log(tanh(x) + 1) 0.0000
+2*x*(x + 1) 0.0000
+2*x + sin(log(x)) 0.0000
+x + sinh(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*(x + 1) + x 0.0000
+None 0.0000
+x**5/(x + 1) 0.0000
+x + exp(x) + 3 0.0000
+(x - 11)*exp(x) 0.0000
+None 0.0000
+x**2/2 - exp(x) 0.0000
+None 0.0000
+None 0.0000
+x + tanh(x) + 2 0.0000
+x + 5*sin(x) 0.0000
+sin(x - 1) 0.0000
+None 0.0000
+None 0.0000
+x**2*cos(2)/2 0.0000
+None 0.0000
+(x + 1)*exp(x) 0.0000
+x**2 + exp(2*x) 0.0000
+x/(2*x + 6) 0.0000
+None 0.0000
+None 0.0000
+x*log(5) 0.0000
+x**3/(3*cosh(4)) 0.0000
+x**2/2 + (x**2 + 4*x + 4)*exp(x) 0.0000
+None 0.0000
+x**2/2 + x 0.0000
+None 0.0000
+x*(x + sin(x) + 2) 0.0000
+x**8/8 + 3*exp(x) 0.0000
+(x + 1)/x 0.0000
+sqrt(x) + 2*x**2 0.0000
+-x**2/2 + x 0.0000
+None 0.0000
+9*x**2 + x*log(x) + x 0.0000
+None 0.0000
+2*x + sinh(2*x) 0.0000
+x**7/10 0.0000
+None 0.0000
+cos(x + 4) 0.0000
+x/(x**2 + 1) 0.0000
+4*x**2 + x + exp(x) 0.0000
+None 0.0000
+x + sinh(x) 0.0000
+None 0.0000
+x*(x + 2) 0.0000
+x/(x + 1) 0.0000
+None 0.0000
+x**2 + x*log(3*x) - x 0.0000
+x + exp(2*x**5) 0.0000
+None 0.0000
+1/(x**2 + x) 0.0000
+None 0.0000
+x*sin(acosh(x)) + x 0.0000
+None 0.0000
+x - 5/x 0.0000
+x**2/2 + 2*x*log(2*x**3) - x 0.0000
+8*x**3 0.0000
+None 0.0000
+x**2*(2*x + 7) 0.0000
+None 0.0000
+x**2/2 + x*sinh(x) + x 0.0000
+x**2*cos(2)/2 0.0000
+None 0.0000
+pi/(4*x) 0.0000
+None 0.0000
+2*x**2 - 2*x 0.0000
+None 0.0000
+None 0.0000
+25*x**2 0.0000
+asin(x) 0.0000
+9*x + 16 0.0000
+None 0.0000
+5 - x 0.0000
+acosh(x + 1) 0.0000
+2*x**2 + 1 0.0000
+x + exp(x + 4) 0.0000
+x**2/2 - cos(x) 0.0000
+x*(x + exp(x) + 2) 0.0000
+None 0.0000
+-2*x**3 + x 0.0000
+(4*x**2 + 4*x + 4)*exp(x) 0.0000
+None 0.0000
+8/(5*x**5) 0.0000
+2*x + 3 0.0000
+x + sin(x) + cos(x) 0.0000
+x + 1/(x + 8) 0.0000
+None 0.0000
+2*x*exp(2) 0.0000
+3*x + 1 0.0000
+2*x**2 + tan(x) 0.0000
+-x + asinh(sqrt(x)) 0.0000
+x**2/2 - pi*x/2 0.0000
+x**8 + x**3/3 + 4*x 0.0000
+None 0.0000
+26 0.0000
+None 0.0000
+x**2*exp(-x) 0.0000
+x*cosh(1) 0.0000
+None 0.0000
+None 0.0000
+x**2*cos(x)**2 + x 0.0000
+x**3/3 + x**2/2 0.0000
+None 0.0000
+log(x**5) 0.0000
+None 0.0000
+4*x*log(2*x**4) - 4*x 0.0000
+x**2*sin(1)/4 0.0000
+-x**2 + 2*x 0.0000
+None 0.0000
+tanh(x) + 1 0.0000
+-2/(3*x**(3/2)) 0.0000
+None 0.0000
+x*(x + 1) 0.0000
+x**2 + 2*x + 6 0.0000
+None 0.0000
+None 0.0000
+x + tan(5) 0.0000
+5*exp(2*x) 0.0000
+None 0.0000
+x**3/3 + x**2/2 0.0000
+None 0.0000
+x**2/(3*x + 2) 0.0000
+sin(2*x) 0.0000
+6*x**2 0.0000
+4*x*exp(asin(x)) 0.0000
+None 0.0000
+None 0.0000
+-x**2 + x*log(3*x) 0.0000
+2*x + 4*log(x) 0.0000
+None 0.0000
+None 0.0000
+x*sinh(x) + x + 2 0.0000
+1 - 10*x 0.0000
+x*(x**5 + x) + x 0.0000
+x*sin(log(x)) 0.0000
+x**2/cos(1) 0.0000
+4*x**(7/2)/7 + x**2/2 0.0000
+7*x**4 0.0000
+x**4/4 + x**3/3 0.0000
+None 0.0000
+x**2*(x + 88) 0.0000
+x**4 + 5*x 0.0000
+None 0.0000
+tanh(x) + 1 0.0000
+x + 1/(x + 3) 0.0000
+x**4 + x + 5 0.0000
+x**2/2 + x 0.0000
+x + sin(x) + 3 0.0000
+exp(2*x + 4) 0.0000
+-x**5/25 + x**2/2 0.0000
+2*x**2 + 5*x 0.0000
+2*log(x) 0.0000
+2*x**2*cos(2) 0.0000
+None 0.0000
+x**2/2 + x*log(x) 0.0000
+None 0.0000
+x*log(x**3) - x 0.0000
+log(2*x + 2)/2 0.0000
+3*atanh(x) 0.0000
+None 0.0000
+3*log(x) 0.0000
+pi*x**3/3 0.0000
+x**2/2 - 10*x*log(x)**2 - 10*x*log(x) - 10*x 0.0000
+x*(x**2 + x) + x 0.0000
+x/(1 - x) 0.0000
+None 0.0000
+x**2/2 + x*log(x + 1) - x + cosh(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**2 + 2 0.0000
+-x + tan(x) 0.0000
+x*exp(-2*x) 0.0000
+2*x**(3/2)/3 + exp(x) 0.0000
+atan(5*x**3) 0.0000
+x**3/3 + 4*x 0.0000
+-x**3 + 2*x 0.0000
+3*x + tan(x) 0.0000
+None 0.0000
+None 0.0000
+x*atan(1/x) 0.0000
+x*(x + cos(x)) 0.0000
+None 0.0000
+x**2 + x + sin(x) 0.0000
+None 0.0000
+x**2/2 + log(x) 0.0000
+x*(x + 12) 0.0000
+x**2/cos(1) 0.0000
+x**2/2 + 9*x 0.0000
+4*exp(2*x) 0.0000
+None 0.0000
+x*(x + 1) 0.0000
+None 0.0000
+x**7/7 + x**4/4 0.0000
+None 0.0000
+x - exp(x) 0.0000
+x*(x**2 + x + 4) 0.0000
+None 0.0000
+4*x**3/3 + 7*x**2/2 0.0000
+x**2/2 + x*log(x) 0.0000
+x*(2*x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+x**2 + 5*x 0.0000
+None 0.0000
+x + exp(x)/x 0.0000
+35*x**2 0.0000
+-x**3/3 + x 0.0000
+None 0.0000
+x*(x**2 + x) + x 0.0000
+x**2/2 + log(x) 0.0000
+sqrt(x) + x + acosh(x) 0.0000
+x*(x + atan(x) + 2) 0.0000
+None 0.0000
+x**3 + x**2 + x 0.0000
+<lambdifygenerated-2513>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 4)*exp(x)
+<lambdifygenerated-2518>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(2*x)
+<lambdifygenerated-2530>:2: RuntimeWarning: overflow encountered in exp
+  return log(x*exp(x) + x)
+<lambdifygenerated-2535>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+<lambdifygenerated-2538>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 3
+<lambdifygenerated-2539>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 11)*exp(x)
+<lambdifygenerated-2540>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - exp(x)
+<lambdifygenerated-2545>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 1)*exp(x)
+<lambdifygenerated-2546>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + exp(2*x)
+<lambdifygenerated-2550>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (x**2 + 4*x + 4)*exp(x)
+<lambdifygenerated-2550>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 + (x**2 + 4*x + 4)*exp(x)
+<lambdifygenerated-2553>:2: RuntimeWarning: overflow encountered in exp
+  return (1/8)*x**8 + 3*exp(x)
+<lambdifygenerated-2558>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(2*x)
+<lambdifygenerated-2562>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x**2 + x + exp(x)
+<lambdifygenerated-2563>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x)
+<lambdifygenerated-2567>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(2*x**5)
+<lambdifygenerated-2574>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 + x*sinh(x) + x
+<lambdifygenerated-2579>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin(x)
+<lambdifygenerated-2584>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x + 4)
+<lambdifygenerated-2586>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x) + 2)
+<lambdifygenerated-2588>:2: RuntimeWarning: overflow encountered in exp
+  return (4*x**2 + 4*x + 4)*exp(x)
+<lambdifygenerated-2588>:2: RuntimeWarning: overflow encountered in multiply
+  return (4*x**2 + 4*x + 4)*exp(x)
+<lambdifygenerated-2613>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(2*x)
+<lambdifygenerated-2618>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 4*x*exp(arcsin(x))
+<lambdifygenerated-2621>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x) + x + 2
+<lambdifygenerated-2636>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 4)
+<lambdifygenerated-2644>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*arctanh(x)
+<lambdifygenerated-2650>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/2)*x**2 + x*log(x + 1) - x + cosh(x)
+<lambdifygenerated-2654>:2: RuntimeWarning: overflow encountered in exp
+  return (2/3)*x**(3/2) + exp(x)
+<lambdifygenerated-2666>:2: RuntimeWarning: overflow encountered in exp
+  return 4*exp(2*x)
+<lambdifygenerated-2669>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-2675>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x)/x
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+None 0.0000
+None 0.0000
+None 0.0000
+-sin(x)*cos(x)/2 0.0000
+None 0.0000
+2*x**(3/2)/3 + 2*x + sqrt(x**2 - 1)/3 0.0000
+8*x**(5/2)/5 + x 0.0000
+x/2 + 2*cos(1) 0.0000
+None 0.0000
+x**3/3 + 2*x 0.0000
+3*x**4/4 + x**3/3 0.0000
+-16*x**3 + x*log(x) 0.0000
+-x**2/8 0.0000
+2*cos(2*x) 0.0000
+2*x + 10 0.0000
+x*cos(x)**2 0.0000
+x**3 + x**2 + x 0.0000
+x + x*exp(-x) 0.0000
+None 0.0000
+x + exp(x) - 2 0.0000
+2*(x - 1)**(3/2)/5 0.0000
+2*x*sin(4) 0.0000
+None 0.0000
+5*x**3/3 + x**2 0.0000
+None 0.0000
+sinh(2*x)/2 0.0000
+x + exp(-x) 0.0000
+196*x**3 0.0000
+2*log(x)**3/3 0.0000
+2*x - exp(sqrt(x)) 0.0000
+x**5 + x**4/4 + x**2 0.0000
+9*x*exp(x) 0.0000
+x**2/2 - x*cos(x) + sin(x) 0.0000
+sin(x + 1) 0.0000
+None 0.0000
+x*(2 - x) 0.0000
+-1/(2*x**2) 0.0000
+None 0.0000
+cos(2*x + 1) 0.0000
+cos(1)/x 0.0000
+x*log(-x) 0.0000
+None 0.0000
+x/5 0.0000
+x**2 + cos(x) 0.0000
+4*x**3 0.0000
+None 0.0000
+x*log(2*x) - x 0.0000
+None 0.0000
+x*(x**2 + 26) 0.0000
+None 0.0000
+x**2 + 2*x + sin(x) 0.0000
+None 0.0000
+None 0.0000
+sin(x) + cos(x) 0.0000
+None 0.0000
+x**3/3 + x**2/2 0.0000
+None 0.0000
+None 0.0000
+sinh(x)/2 0.0000
+x*(-x**2 + x + 2) 0.0000
+cos(x)*cosh(x) 0.0000
+x**2/(x**2 + 4) 0.0000
+x*atan(2) 0.0000
+2*x + cosh(x) 0.0000
+4*x**2 - x 0.0000
+log(x**2 + x) 0.0000
+x + 2*log(x) 0.0000
+-x**2/2 + 35*x 0.0000
+-x**2 + 2*x 0.0000
+None 0.0000
+None 0.0000
+x + acos(x) 0.0000
+None 0.0000
+None 0.0000
+4*x**(3/2) 0.0000
+exp(x)*asin(x) 0.0000
+cosh(2*x + 1) 0.0000
+7*x**4 0.0000
+None 0.0000
+None 0.0000
+1/(sqrt(x) + x) 0.0000
+x*(x**2 + 1/2) 0.0000
+3*sin(4*x)/4 0.0000
+x*exp(2*x) 0.0000
+x**2*cos(1) 0.0000
+None 0.0000
+x + log(x**2) 0.0000
+None 0.0000
+None 0.0000
+exp(2*x**2) 0.0000
+None 0.0000
+32*x**2 0.0000
+sin(sqrt(x))**2 0.0000
+None 0.0000
+None 0.0000
+x**2 + 9*x 0.0000
+(x + 2*acosh(x))**2 0.0000
+None 0.0000
+x + exp(3*x) 0.0000
+None 0.0000
+None 0.0000
+-sin(2*x) 0.0000
+2*sin(x) 0.0000
+None 0.0000
+x - log(tanh(sqrt(x)) + 1) + 2 0.0000
+36*x**3 0.0000
+64*x**5/5 0.0000
+x**3/3 + 3*x**2/2 - x 0.0000
+x**3/3 + 2*x 0.0000
+None 0.0000
+5*x/2 0.0000
+None 0.0000
+x**2 + 3*x 0.0000
+x*(x - 2) 0.0000
+-x**2 + log(x) 0.0000
+25*x**(3/2)/3 0.0000
+None 0.0000
+x**2/(x**2 + x) 0.0000
+x*(-x*exp(x) + x) 0.0000
+2*exp(2*x) 0.0000
+None 0.0000
+None 0.0000
+-cos(x - 1) 0.0000
+None 0.0000
+16*x**2 0.0000
+None 0.0000
+None 0.0000
+x**4/4 + 6*x 0.0000
+x*cos(2) + x 0.0000
+None 0.0000
+x*(x + cos(x)) + x 0.0000
+x**2*(x + cos(x)) 0.0000
+5*x**2 - 5*x 0.0000
+5/(x + 1) 0.0000
+None 0.0000
+log(x)/x 0.0000
+-x + cos(acosh(x)) 0.0000
+x**3/3 0.0000
+14*acos(x) 0.0000
+4*cos(2*x) 0.0000
+None 0.0000
+-cos(x) 0.0000
+None 0.0000
+x**2/2 + sin(2*x - 1) 0.0000
+None 0.0000
+None 0.0000
+-x**2 + exp(x) 0.0000
+None 0.0000
+3*x**112/4 0.0000
+2*sqrt(2)*sqrt(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + sinh(x) 0.0000
+sqrt(x) + x + 2 0.0000
+None 0.0000
+sqrt(x + 8) 0.0000
+x**2/sin(5) 0.0000
+x**2 + x*log(5*x) - log(x + 1) 0.0000
+9*x 0.0000
+x**2/(x**2 + x) 0.0000
+None 0.0000
+-x**2/2 + x 0.0000
+None 0.0000
+x**5 + 3*x**4/4 0.0000
+None 0.0000
+None 0.0000
+x + 5/x**2 0.0000
+None 0.0000
+-6/x 0.0000
+x*log(2*x) - 3*x 0.0000
+x 0.0000
+2*x**5/5 0.0000
+5*x**2/2 0.0000
+(x + cos(x))/x 0.0000
+23*x**2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+6*x + 1 0.0000
+-6*x**2 + x*log(x) 0.0000
+None 0.0000
+x + 1/cos(1) 0.0000
+None 0.0000
+x*exp(2*x) 0.0000
+5 - x**2 0.0000
+None 0.0000
+2*x*(x**2 + x) 0.0000
+x**2 + 1/(2*x) 0.0000
+-x + 2*log(x) 0.0000
+None 0.0000
+x**10/11116 0.0000
+14*x**(5/2) 0.0000
+2*x**(3/2)/3 - 5*x**5 0.0000
+x*(x**2 + exp(x)) 0.0000
+7*x**4/8 0.0000
+2*x*(x**2 + x*exp(x)) 0.0000
+pi*x/4 0.0000
+None 0.0000
+None 0.0000
+5*x**7/7 + x**2/2 0.0000
+2*x**(9/2)/9 0.0000
+x*(x*log(x) + x) + x 0.0000
+None 0.0000
+None 0.0000
+-x**4 - log(x) 0.0000
+None 0.0000
+x*log(x**2) + 3*x 0.0000
+x**2/2 + 2*x*log(x) + 2*x 0.0000
+None 0.0000
+None 0.0000
+x/2 - 2*log(x + 1) 0.0000
+x**2*acos(4)/2 0.0000
+None 0.0000
+None 0.0000
+x**2*cos(4) 0.0000
+None 0.0000
+None 0.0000
+x*acos(x) + 2*x 0.0000
+2*cos(2*x) 0.0000
+x*cos(x + 1) + sin(x - 1) 0.0000
+3*x**4/4 + 4*x**2 0.0000
+-cos(2*x) 0.0000
+x**2/(2*log(2)) 0.0000
+x**2/2 + x*log(2*x) - x 0.0000
+2*x**3 + 4*x**2 0.0000
+-14/x 0.0000
+x**2/2 0.0000
+x**3 + 27*x 0.0000
+None 0.0000
+(x - 1)**(3/2)/6 0.0000
+x**3/3 + x**2/2 0.0000
+4*x*log(4*x) + x 0.0000
+asinh(x)**3 0.0000
+None 0.0000
+None 0.0000
+2*x**2*(x + 2) 0.0000
+None 0.0000
+(4*x**3 + x)/x 0.0000
+-x + 2*log(x + 2) - 2 0.0000
+-x**4/4 + 2*x**3/3 0.0000
+None 0.0000
+None 0.0000
+sqrt(1 - x**2) 0.0000
+-exp(-x/2) 0.0000
+x**2*(2*x + 2) 0.0000
+x + cos(x) 0.0000
+x*sin(1) 0.0000
+-x**2 + x + exp(x) 0.0000
+x*cos(x + 5) 0.0000
+None 0.0000
+acos(x)**5 0.0000
+None 0.0000
+None 0.0000
+3*x + E 0.0000
+1 - tanh(x) 0.0000
+<lambdifygenerated-2696>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - 2
+<lambdifygenerated-2700>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*sinh(2*x)
+<lambdifygenerated-2706>:2: RuntimeWarning: overflow encountered in exp
+  return 9*x*exp(x)
+<lambdifygenerated-2706>:2: RuntimeWarning: overflow encountered in multiply
+  return 9*x*exp(x)
+<lambdifygenerated-2713>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(-x)
+<lambdifygenerated-2722>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*sinh(x)
+<lambdifygenerated-2724>:2: RuntimeWarning: overflow encountered in cosh
+  return cos(x)*cosh(x)
+<lambdifygenerated-2727>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x + cosh(x)
+<lambdifygenerated-2733>:2: RuntimeWarning: invalid value encountered in arccos
+  return x + arccos(x)
+<lambdifygenerated-2735>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)*arcsin(x)
+<lambdifygenerated-2735>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x)*arcsin(x)
+<lambdifygenerated-2736>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x + 1)
+<lambdifygenerated-2741>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-2744>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x**2)
+<lambdifygenerated-2749>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(3*x)
+<lambdifygenerated-2763>:2: RuntimeWarning: overflow encountered in exp
+  return x*(-x*exp(x) + x)
+<lambdifygenerated-2763>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(-x*exp(x) + x)
+<lambdifygenerated-2764>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(2*x)
+<lambdifygenerated-2776>:2: RuntimeWarning: invalid value encountered in arccos
+  return 14*arccos(x)
+<lambdifygenerated-2780>:2: RuntimeWarning: overflow encountered in exp
+  return -x**2 + exp(x)
+<lambdifygenerated-2783>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/3)*x**3 + sinh(x)
+<lambdifygenerated-2803>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(2*x)
+<lambdifygenerated-2811>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x**2 + exp(x))
+<lambdifygenerated-2813>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x**2 + x*exp(x))
+<lambdifygenerated-2813>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x**2 + x*exp(x))
+<lambdifygenerated-2822>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(4)
+<lambdifygenerated-2824>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + 2*x
+<lambdifygenerated-2843>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x**2)
+<lambdifygenerated-2848>:2: RuntimeWarning: overflow encountered in exp
+  return -x**2 + x + exp(x)
+<lambdifygenerated-2850>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)**5
+mean: 0.0
+top: 0.0
+x/(x + 1) 0.0000
+x**2*(x**5 + x) 0.0000
+None 0.0000
+(2*x + 1)/x 0.0000
+x*sinh(5) 0.0000
+None 0.0000
+x**3/3 + 2*x + 4 0.0000
+None 0.0000
+x*(3*x + 5) 0.0000
+-2*x**2 + x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**2 + 9*x 0.0000
+5*x**2 0.0000
+x**2/2 + 7*log(x) 0.0000
+4*x**3 + 2*x 0.0000
+x**2/2 + log(x) - cos(x) 0.0000
+None 0.0000
+x**3/3 + 3*x**2/2 0.0000
+2*x - 4 0.0000
+1/(x - 2) 0.0000
+(2 - x)**2 0.0000
+None 0.0000
+2*x + sqrt(5) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/(5*x + 2) 0.0000
+x/3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + 3*log(x) 0.0000
+x**5/5 + 4*x**3/3 + 16*cos(x) 0.0000
+x**3/(3*cos(2)) 0.0000
+None 0.0000
+x**2 + 5*x 0.0000
+None 0.0000
+x**3/3 + x**2/2 0.0000
+None 0.0000
+8*x**3 0.0000
+None 0.0000
+x/cos(1) 0.0000
+-2*x + x*log(2) 0.0000
+1/(x**4 + x) 0.0000
+2*x**(3/2)/3 0.0000
+None 0.0000
+-x**4/4 + 2*x 0.0000
+x + (-x**2 + x)/x 0.0000
+2*x*cos(x) 0.0000
+2*x - exp(x) 0.0000
+x**2/2 - cos(x) 0.0000
+x**115/5 0.0000
+None 0.0000
+None 0.0000
+x**6/2 + 3*x**2 0.0000
+-x - asin(x) 0.0000
+None 0.0000
+x + 3*log(x) 0.0000
+2*x**2 + x 0.0000
+exp(-x)/2 0.0000
+-x 0.0000
+x*log(x**4) 0.0000
+5*x**3 + x**2 + 5*x 0.0000
+(2 - x)**2 0.0000
+None 0.0000
+46*x**3 0.0000
+3*x**2*(x + 5) 0.0000
+x + sin(x) - cos(x) 0.0000
+x + cos(x) + 1 0.0000
+x**2/2 - 3*cos(x) 0.0000
+x**4/4 + x*log(x) 0.0000
+None 0.0000
+2*x**3/3 + (x - 1)*exp(x) 0.0000
+None 0.0000
+2*atanh(3*x) 0.0000
+x*(x + acos(x) + 1) 0.0000
+None 0.0000
+x**3 + x + log(x) 0.0000
+None 0.0000
+x**3 + 4*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x/cos(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2 + x*exp(4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4*x**5/5 + x**3/3 0.0000
+10/x**2 0.0000
+None 0.0000
+x + sin(x) + 2 0.0000
+x + log(x) + 2 0.0000
+-x**2 + cos(x) 0.0000
+x*sin(2*x + 5) 0.0000
+None 0.0000
+x - exp(3*x) 0.0000
+2*x*(x + cos(x) + 1) 0.0000
+None 0.0000
+2*x + exp(4) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x + 1 0.0000
+3*x*exp(x) 0.0000
+x**2/2 + atan(x) 0.0000
+x**2/2 + 2*x + sin(x) 0.0000
+1 - x**3 0.0000
+1/(2*x + 4) 0.0000
+x**3/3 + x**2 + 4*x 0.0000
+x*(2*x + 12) 0.0000
+2*x**3/3 + 2*x 0.0000
+E*log(x) 0.0000
+6*x**3 0.0000
+5*x**2/2 + 3*x 0.0000
+2*x + sin(1) 0.0000
+x**2 - exp(x) 0.0000
+None 0.0000
+x**2*(2*x + 2) 0.0000
+-x**2 - cos(x) 0.0000
+None 0.0000
+x*exp(x) 0.0000
+x**5/5 + exp(x + 5) 0.0000
+2*x**3/3 + 5*x 0.0000
+x**3/6 0.0000
+3 - x 0.0000
+5*x*(x + 4) 0.0000
+2*x**3 0.0000
+None 0.0000
+4*x + cos(x) 0.0000
+5*x + sin(x) 0.0000
+x**7 + 2*x 0.0000
+x**4/2 + 2*x**2 0.0000
+x**3/(3*cosh(3)) 0.0000
+None 0.0000
+x*(x + exp(x)) 0.0000
+4*x**3 - exp(x) 0.0000
+2*x - log(x + 1) 0.0000
+x**2/2 - 2*sin(x) + 2*cos(x) 0.0000
+x*log(x**2/12) 0.0000
+x**2/2 + 2*x + 8 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*tanh(x) 0.0000
+x**2/2 + x*log(x) - x + cos(x) 0.0000
+x**4/4 + x**3 0.0000
+x**2/log(4) 0.0000
+x**3/3 + 6*x + sin(x) 0.0000
+None 0.0000
+4*x*log(x) + x 0.0000
+15*x**(3/2) 0.0000
+x**5*sinh(5)/5 0.0000
+x**2 + 2*x + 2 0.0000
+52/x 0.0000
+x**2/2 + 2*x + sin(x) 0.0000
+x**2/(x + 1) 0.0000
+None 0.0000
+None 0.0000
+x*(x + exp(5)) + x 0.0000
+8/3 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+zoo 0.0000
+8*log(x)/7 0.0000
+2*x**2*(x**2 + x) 0.0000
+None 0.0000
+2*x**2/(x**2 + x) 0.0000
+None 0.0000
+None 0.0000
+-x**2 + x*sin(x) 0.0000
+None 0.0000
+-x**2 + 2*x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+8*x**7/7 + x**3/3 0.0000
+2*x**2 + x 0.0000
+x - exp(2*x) 0.0000
+None 0.0000
+7*x 0.0000
+2*x**2*(x + sin(x)) 0.0000
+None 0.0000
+x**6/6 + 2*x**3/3 0.0000
+x**3 + atan(x) 0.0000
+4*cosh(x) 0.0000
+3*x*cos(x) + 3*sin(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**3/3 + 2*x 0.0000
+2*x + 2/x 0.0000
+None 0.0000
+None 0.0000
+2*x**2 + 4*x*log(x) + x 0.0000
+-8*x**2 + 4*x 0.0000
+5*x**2 + 2*x 0.0000
+1/tan(x) 0.0000
+None 0.0000
+(x + 1)/x 0.0000
+2*x*cos(2*x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+4*tanh(4*x) 0.0000
+x**3/(3*sin(1)) 0.0000
+None 0.0000
+-x*sin(sqrt(x)) - exp(sqrt(x)) 0.0000
+None 0.0000
+5*x + exp(x) 0.0000
+-x + 5*log(x) 0.0000
+None 0.0000
+5*x*cos(x) - sin(x) 0.0000
+5 - x 0.0000
+x*acos(x**2) 0.0000
+x**9/9 - 20*x*cos(x) + sin(x) 0.0000
+2*x*exp(5) 0.0000
+sqrt(x) + x + 2 0.0000
+5*log(x) 0.0000
+None 0.0000
+None 0.0000
+log(x) - 2/x 0.0000
+None 0.0000
+4*x**3/3 + 4*x 0.0000
+-x**2 - x*log(2*x) 0.0000
+2*x + 3*log(x) 0.0000
+2*x + log(x) 0.0000
+x 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**2/acos(x) 0.0000
+None 0.0000
+-x**2 + 3*x 0.0000
+x**2*acosh(4) 0.0000
+x**5 0.0000
+4*x 0.0000
+None 0.0000
+3*x**4/4 + x**2 0.0000
+x**2/2 + log(4) 0.0000
+<lambdifygenerated-2867>:2: RuntimeWarning: divide by zero encountered in power
+  return (x - 2)**(-1.0)
+<lambdifygenerated-2885>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x - exp(x)
+<lambdifygenerated-2889>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -x - arcsin(x)
+<lambdifygenerated-2903>:2: RuntimeWarning: overflow encountered in exp
+  return (2/3)*x**3 + (x - 1)*exp(x)
+<lambdifygenerated-2904>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*arctanh(3*x)
+<lambdifygenerated-2905>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x) + 1)
+<lambdifygenerated-2916>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(3*x)
+<lambdifygenerated-2920>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x*exp(x)
+<lambdifygenerated-2920>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x*exp(x)
+<lambdifygenerated-2932>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - exp(x)
+<lambdifygenerated-2935>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x)
+<lambdifygenerated-2936>:2: RuntimeWarning: overflow encountered in exp
+  return (1/5)*x**5 + exp(x + 5)
+<lambdifygenerated-2947>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x))
+<lambdifygenerated-2948>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x**3 - exp(x)
+<lambdifygenerated-2974>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(2*x)
+<lambdifygenerated-2979>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*cosh(x)
+<lambdifygenerated-2992>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x + exp(x)
+<lambdifygenerated-2996>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x**2)
+<lambdifygenerated-3007>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2/arccos(x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+None 0.0000
+2/x 0.0000
+(5 - x)/x 0.0000
+x**3 0.0000
+None 0.0000
+x**3 - tanh(x) 0.0000
+None 0.0000
+None 0.0000
+x**3/3 + 1/7 0.0000
+x*(x + 1) + 2*x 0.0000
+4*log(x) 0.0000
+x**2*(sin(x) + 1) 0.0000
+x*(x**3 + 2*x) 0.0000
+1/(2*x**2) 0.0000
+(x + 5)/(2*x) 0.0000
+3*x**4/4 0.0000
+None 0.0000
+4*x**2 0.0000
+None 0.0000
+x*(x**2 + 5) 0.0000
+29*x**4 0.0000
+-x**2 + 2*x 0.0000
+x*log(6*x) - 16*x 0.0000
+None 0.0000
+None 0.0000
+2*x + 1/2 0.0000
+None 0.0000
+x**2/2 - tan(x) 0.0000
+x**2*(x**2 + 1/2) 0.0000
+exp(3*x + 3)/3 0.0000
+2*x 0.0000
+x*(1 - x) 0.0000
+sin(x) + cos(x) 0.0000
+(2*x + 4)/x 0.0000
+None 0.0000
+x + x/(x + 2) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*log(x) 0.0000
+sqrt(3)*x**4/4 0.0000
+None 0.0000
+None 0.0000
+(x + 1)/x 0.0000
+4*x*(x + 5) 0.0000
+None 0.0000
+x*(x**2 + x) 0.0000
+4*x*(x + 4) 0.0000
+None 0.0000
+x**(9/2)/9 0.0000
+2*x**(3/2)/3 + x*sin(x) 0.0000
+x/(2*x + 5) 0.0000
+None 0.0000
+None 0.0000
+25*x**3/3 + 5*x**2/2 0.0000
+None 0.0000
+x**2/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(x + 1) 0.0000
+None 0.0000
+x**2/2 - 4*log(x + 4) 0.0000
+x*acos(x) - sqrt(1 - x**2) 0.0000
+x**2 + atan(2*x)/2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+sqrt(x) + atan(x) 0.0000
+None 0.0000
+3*x*(x + 3) 0.0000
+x*(x**4 + 6) 0.0000
+3*x**2 + 2*x 0.0000
+2*x*(x + 5) 0.0000
+x + 5/x 0.0000
+None 0.0000
+6/x 0.0000
+2*x**(3/2) + cos(x) 0.0000
+log(x**2 + 4) 0.0000
+5*x*(x - 1) 0.0000
+x**3/3 - x 0.0000
+x**2 + x + log(x) 0.0000
+2*x + log(x) 0.0000
+None 0.0000
+6*x**2 0.0000
+x**3/3 - x**2 + 2*x*log(x) 0.0000
+x**3/9 0.0000
+2*log(x)/x 0.0000
+2*x**7/3 0.0000
+2*x**3 + x**2/2 0.0000
+2*exp(2*x) 0.0000
+x*sin(x)**3 0.0000
+3*x**3 + x**2/2 0.0000
+x*(2*x**2 + x) 0.0000
+5*x*cos(x) + x 0.0000
+None 0.0000
+(x + cos(x))**2 0.0000
+-x - 2*atanh(x) 0.0000
+4*x + exp(x) 0.0000
+None 0.0000
+3*sin(3*x) 0.0000
+sqrt(5)*x**(5/2)/5 0.0000
+exp(2*x) + 1 0.0000
+-2*x*cos(x) 0.0000
+5*x**2 0.0000
+2*x + exp(x) 0.0000
+3/x 0.0000
+None 0.0000
+None 0.0000
+x**4/4 + x**3/3 0.0000
+x**3/3 + 4*x**2 + 24*x 0.0000
+None 0.0000
+x*exp(-x) + 1 0.0000
+x**4/4 - x + (-x - 1)*cos(x) 0.0000
+None 0.0000
+x**4 + 2*x 0.0000
+x + 3*log(x) 0.0000
+x**2 - tan(x) 0.0000
+x**7/7 + 2*x 0.0000
+exp(2*x) 0.0000
+None 0.0000
+x + cos(x)**3 0.0000
+(3*x + 2)/x 0.0000
+4*x**(3/2)/3 0.0000
+None 0.0000
+x**5/4 0.0000
+sin(x) + cos(x) 0.0000
+None 0.0000
+2*x**2 + 5*x 0.0000
+2*x**(5/2)/5 + 2*x 0.0000
+x**2/(4*cos(4)) 0.0000
+4*cos(x)**5/5 0.0000
+x**2/(x + 4) 0.0000
+None 0.0000
+x**2/2 + 5*x*log(x) + 5*x 0.0000
+None 0.0000
+(3*x + 5)*exp(3*x)/2 0.0000
+None 0.0000
+2*x**3 0.0000
+None 0.0000
+5*atan(x) 0.0000
+x*sin(x)/5 0.0000
+None 0.0000
+x*acos(x) 0.0000
+None 0.0000
+x**4/2 0.0000
+x + tan(5) 0.0000
+5*x*exp(2*x) 0.0000
+x + log(x) + 1/x 0.0000
+x**2*(3*x + 3) 0.0000
+None 0.0000
+-2*x**(3/2)/9 0.0000
+None 0.0000
+1 - x**2 0.0000
+x**2/(x + 1) 0.0000
+exp(2*x + 5) 0.0000
+x/(x**2 + x) 0.0000
+None 0.0000
+2*x + sin(x)*cos(x)/2 0.0000
+None 0.0000
+x**(3/2)/16 0.0000
+None 0.0000
+x**2/2 + 12*exp(2*x) 0.0000
+None 0.0000
+2*x**(3/2)/9 0.0000
+x**3/(x + 2) 0.0000
+None 0.0000
+4*x**2 + 8*x 0.0000
+cos(x + 5) 0.0000
+x*(4*x**3 + x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x*exp(-1/x) 0.0000
+x*(x + 8) + 2*x 0.0000
+None 0.0000
+None 0.0000
+x**3*(x + 2)**3/3 0.0000
+x/2 + exp(cos(x)) 0.0000
+x**3/9 + x**2/2 + 2*x 0.0000
+None 0.0000
+x**3 + sin(x) 0.0000
+x*(x + 5) - x 0.0000
+x**2/2 - sin(x) 0.0000
+sqrt(3)*x**(7/2)/7 0.0000
+3*log(x) 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+3/x**5 0.0000
+None 0.0000
+log(2*x + 2) 0.0000
+1/(x**2 + 3) 0.0000
+(x**2 + 3)**3 0.0000
+x/(2*x + 4) 0.0000
+7*x**4 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+2*x**(7/2)/7 + x**2/2 0.0000
+None 0.0000
+x**2 + 22*x 0.0000
+8/x 0.0000
+2*x**(5/2)/5 + x**2 0.0000
+x**2/2 - log(x + 1)/2 0.0000
+-(x + 1)/x 0.0000
+None 0.0000
+None 0.0000
+3*x**2 + 3*x + 2 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+None 0.0000
+x**3*sin(1)/3 0.0000
+None 0.0000
+sqrt(5)*sqrt(1/x) 0.0000
+None 0.0000
+2*x**3/3 + (x - 1)*exp(x) 0.0000
+4*x**3/3 + x**2/2 0.0000
+x**4 - exp(x) 0.0000
+x**2/2 - cos(x) 0.0000
+x**2/2 - x 0.0000
+2*x**5/5 0.0000
+x**2*(x - exp(x)) 0.0000
+None 0.0000
+None 0.0000
+x**2 + (2*x + 5)*exp(x)/2 0.0000
+x**2/(2*cosh(2)) 0.0000
+None 0.0000
+None 0.0000
+(2*x + 18)/x 0.0000
+27*x**3 0.0000
+7/tan(3) 0.0000
+x*(x + atan(x)) 0.0000
+None 0.0000
+2*x*exp(2*x) 0.0000
+log(x) 0.0000
+None 0.0000
+x*(x**2 + 2*x) 0.0000
+2*x**4/5 0.0000
+x**2/2 + 3*log(x) 0.0000
+6*x**2 0.0000
+x**4 + 3*x 0.0000
+x**3/8 0.0000
+-sin(x + 5) 0.0000
+x*(x**2 - x) 0.0000
+x/(x + 3) 0.0000
+None 0.0000
+None 0.0000
+x + sin(1) + 1 0.0000
+<lambdifygenerated-3034>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*exp(3*x + 3)
+<lambdifygenerated-3053>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-3053>:2: RuntimeWarning: invalid value encountered in sqrt
+  return x*arccos(x) - sqrt(1 - x**2)
+<lambdifygenerated-3074>:2: RuntimeWarning: overflow encountered in exp
+  return 2*exp(2*x)
+<lambdifygenerated-3080>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -x - 2*arctanh(x)
+<lambdifygenerated-3081>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+<lambdifygenerated-3084>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x) + 1
+<lambdifygenerated-3087>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-3097>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x)
+<lambdifygenerated-3109>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*(3*x + 5)*exp(3*x)
+<lambdifygenerated-3113>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x)
+<lambdifygenerated-3116>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(2*x)
+<lambdifygenerated-3122>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 5)
+<lambdifygenerated-3126>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + 12*exp(2*x)
+<lambdifygenerated-3157>:2: RuntimeWarning: overflow encountered in exp
+  return (2/3)*x**3 + (x - 1)*exp(x)
+<lambdifygenerated-3159>:2: RuntimeWarning: overflow encountered in exp
+  return x**4 - exp(x)
+<lambdifygenerated-3163>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*(x - exp(x))
+<lambdifygenerated-3163>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*(x - exp(x))
+<lambdifygenerated-3164>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + (1/2)*(2*x + 5)*exp(x)
+<lambdifygenerated-3170>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(2*x)
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0
+top: 0.0
+Traceback (most recent call last):
+  File "avaliation.py", line 125, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2730, in sample
+    outputs = self(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1076, in forward
+    transformer_outputs = self.transformer(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 900, in forward
+    outputs = block(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 390, in forward
+    attn_outputs = self.attn(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 331, in forward
+    attn_output, attn_weights = self._attn(query, key, value, attention_mask, head_mask)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 201, in _attn
+    mask_value = torch.full([], mask_value, dtype=attn_weights.dtype).to(attn_weights.device)
+KeyboardInterrupt

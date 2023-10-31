@@ -1,0 +1,13 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+  0%|                                                                                               | 0/50 [00:00<?, ?it/s]avaliation.py:95: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+  0%|                                                                                               | 0/50 [00:12<?, ?it/s]
+Traceback (most recent call last):
+  File "avaliation.py", line 113, in <module>
+    exprs, rewards = reward_pipeline(response_tensors, data)
+  File "avaliation.py", line 38, in reward_pipeline
+    exprs = [Expression(prefix.strip().split(" "), data) for prefix in prefixes]
+  File "avaliation.py", line 38, in <listcomp>
+    exprs = [Expression(prefix.strip().split(" "), data) for prefix in prefixes]
+TypeError: 'module' object is not callable

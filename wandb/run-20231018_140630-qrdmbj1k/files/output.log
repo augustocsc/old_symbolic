@@ -1,0 +1,903 @@
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py:239: UserWarning: No dataset is provided. Make sure to set config.batch_size to the correct value before training.
+  warnings.warn(
+Index(['type', 'name', 'expression'], dtype='object')
+Working with expression:  x**3 - 4 * x**2 + 2 * x - 5
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-15>:2: RuntimeWarning: overflow encountered in cosh
+  return x**2 + x*cosh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-28>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + exp(x) - arctanh(x)
+<lambdifygenerated-32>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 5)
+<lambdifygenerated-38>:2: RuntimeWarning: invalid value encountered in log
+  return x*arctan(x) - log(cos(x)) + sin(x)
+<lambdifygenerated-40>:2: RuntimeWarning: divide by zero encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-40>:2: RuntimeWarning: invalid value encountered in log
+  return x*log(tanh(x) - 1) - x - log(tanh(x) + 1)
+<lambdifygenerated-45>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + arcsin(x)
+<lambdifygenerated-54>:2: RuntimeWarning: invalid value encountered in arcsin
+  return exp(x) + arcsin(x)
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-68>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+<lambdifygenerated-69>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(2)
+<lambdifygenerated-76>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x) - x
+<lambdifygenerated-77>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*sin(x) + cosh(x)
+<lambdifygenerated-78>:2: RuntimeWarning: invalid value encountered in arccos
+  return x/arccos(2)
+<lambdifygenerated-79>:2: RuntimeWarning: invalid value encountered in arctanh
+  return log(x)*arctanh(x**2)
+<lambdifygenerated-82>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x**2*log(x) - x*arctanh(x) + x + log(x)
+<lambdifygenerated-83>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x**2 + x - arcsin(x)
+<lambdifygenerated-85>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + x*arctanh(5)
+<lambdifygenerated-88>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*(x + arccos(x))
+<lambdifygenerated-93>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) + 4)
+<lambdifygenerated-96>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in exp
+  return -4*x*exp(x)
+<lambdifygenerated-99>:2: RuntimeWarning: overflow encountered in multiply
+  return -4*x*exp(x)
+<lambdifygenerated-101>:2: RuntimeWarning: overflow encountered in sinh
+  return x + 2*sinh(x)
+<lambdifygenerated-122>:2: RuntimeWarning: overflow encountered in exp
+  return -x - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-125>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x**2 - 3*x*exp(x) - exp(x)
+<lambdifygenerated-130>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x + 1)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in sinh
+  return x**2*sinh(x)
+<lambdifygenerated-131>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*sinh(x)
+<lambdifygenerated-142>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-152>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*arctanh(4)
+<lambdifygenerated-158>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 1)
+<lambdifygenerated-162>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) - x
+<lambdifygenerated-167>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(x + 2) - 2*log(cos(x))
+You're using a GPT2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-177>:2: RuntimeWarning: invalid value encountered in sqrt
+  return 6/sqrt(sin(x))
+<lambdifygenerated-179>:2: RuntimeWarning: overflow encountered in exp
+  return (11/4)*x**3*exp(2*x)
+<lambdifygenerated-179>:2: RuntimeWarning: overflow encountered in multiply
+  return (11/4)*x**3*exp(2*x)
+<lambdifygenerated-188>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*cos(x)*sinh(x) + (1/2)/sqrt(tan(x))
+<lambdifygenerated-188>:2: RuntimeWarning: invalid value encountered in sqrt
+  return (1/2)*cos(x)*sinh(x) + (1/2)/sqrt(tan(x))
+<lambdifygenerated-189>:2: RuntimeWarning: overflow encountered in exp
+  return (x + exp(x) - 4)*log(x)
+<lambdifygenerated-194>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*arctanh(x)
+<lambdifygenerated-198>:2: RuntimeWarning: overflow encountered in exp
+  return (5 - x)*exp(x)
+<lambdifygenerated-199>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x*log(x) - log(cos(x))
+<lambdifygenerated-210>:2: RuntimeWarning: overflow encountered in sinh
+  return -2*x + (2/3)*sinh(x)**3
+<lambdifygenerated-210>:2: RuntimeWarning: overflow encountered in power
+  return -2*x + (2/3)*sinh(x)**3
+<lambdifygenerated-214>:2: RuntimeWarning: invalid value encountered in power
+  return -2/3*sin(x)**(3/2) - 2*cos(x)
+<lambdifygenerated-220>:2: RuntimeWarning: overflow encountered in exp
+  return 1/3 - exp(x)
+<lambdifygenerated-243>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x**(5/2)*exp(2*x)
+<lambdifygenerated-247>:2: RuntimeWarning: invalid value encountered in scalar power
+  return -3/2*x**(25/2) + (3/2)*cos(2)**(sin(2)**(-1.0))*cos(x)
+<lambdifygenerated-262>:2: RuntimeWarning: overflow encountered in power
+  return 1/2 - 1/2*pi**(2*x)
+<lambdifygenerated-268>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x**3)*cosh(x)
+<lambdifygenerated-268>:2: RuntimeWarning: overflow encountered in cosh
+  return sinh(x**3)*cosh(x)
+<lambdifygenerated-275>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(cosh(x) - 3)
+<lambdifygenerated-276>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1/2 - x**(2/3))
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-279>:2: RuntimeWarning: overflow encountered in exp
+  return -1/2*exp(x)
+<lambdifygenerated-285>:2: RuntimeWarning: overflow encountered in cosh
+  return -cosh(x)**2
+<lambdifygenerated-285>:2: RuntimeWarning: overflow encountered in square
+  return -cosh(x)**2
+<lambdifygenerated-291>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-292>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)*exp(-exp(-2*x))
+<lambdifygenerated-294>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)*cosh(x)
+<lambdifygenerated-294>:2: RuntimeWarning: overflow encountered in cosh
+  return sinh(x)*cosh(x)
+<lambdifygenerated-294>:2: RuntimeWarning: overflow encountered in multiply
+  return sinh(x)*cosh(x)
+<lambdifygenerated-298>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 3*x*arcsin(x) - 1/2*arcsin(x)**2
+<lambdifygenerated-306>:2: RuntimeWarning: overflow encountered in exp
+  return -3*exp(x)
+<lambdifygenerated-308>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 5*x*arctanh(x)
+<lambdifygenerated-309>:2: RuntimeWarning: overflow encountered in exp
+  return -x**(3/2) + exp(x)
+<lambdifygenerated-313>:2: RuntimeWarning: overflow encountered in cosh
+  return -3*cosh(x)
+<lambdifygenerated-314>:2: RuntimeWarning: overflow encountered in cosh
+  return x**(2/3)*cosh(2*x)
+<lambdifygenerated-335>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x - 1)
+<lambdifygenerated-340>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) - cos(x)
+<lambdifygenerated-341>:2: RuntimeWarning: divide by zero encountered in log
+  return 2*x - 2*log(tanh(x) - 1)
+<lambdifygenerated-341>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - 2*log(tanh(x) - 1)
+<lambdifygenerated-350>:2: RuntimeWarning: overflow encountered in exp
+  return exp(16*x)
+<lambdifygenerated-351>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x)
+<lambdifygenerated-362>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(3*x**3)
+<lambdifygenerated-365>:2: RuntimeWarning: invalid value encountered in log
+  return -x - 1/2*log(x**2 + 1) - log(cos(x))
+<lambdifygenerated-370>:2: RuntimeWarning: overflow encountered in cosh
+  return 3*cosh(2*x)
+<lambdifygenerated-371>:2: RuntimeWarning: invalid value encountered in arccos
+  return -x**2 + (1/2)*x*arccos(x)
+<lambdifygenerated-375>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x + (2*x + 1)**2*exp(x)
+<lambdifygenerated-375>:2: RuntimeWarning: overflow encountered in multiply
+  return (1/2)*x + (2*x + 1)**2*exp(x)
+<lambdifygenerated-378>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(2*x) - sqrt(x**2 + 1)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-384>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x**2)
+<lambdifygenerated-397>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x + 1)
+<lambdifygenerated-397>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x + 1)
+<lambdifygenerated-401>:2: RuntimeWarning: overflow encountered in exp
+  return -35/4*exp(4*x)
+<lambdifygenerated-403>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x**2*exp(x)
+<lambdifygenerated-403>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x**2*exp(x)
+<lambdifygenerated-406>:2: RuntimeWarning: overflow encountered in sinh
+  return x - sinh(x)
+<lambdifygenerated-408>:2: RuntimeWarning: overflow encountered in exp
+  return -x**2 + exp(x)
+<lambdifygenerated-411>:2: RuntimeWarning: overflow encountered in sinh
+  return x + sinh(x**2)
+<lambdifygenerated-414>:2: RuntimeWarning: overflow encountered in exp
+  return (2/3)*x**(3/2) - exp(2*x)
+<lambdifygenerated-415>:2: RuntimeWarning: invalid value encountered in log
+  return 3*x*log(x + 6) - 6*log(x - 6)
+<lambdifygenerated-417>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(4*x)
+<lambdifygenerated-425>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x) + x
+<lambdifygenerated-425>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x) + x
+<lambdifygenerated-427>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + log(x)
+<lambdifygenerated-450>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x) - 2*x + cos(x)
+<lambdifygenerated-451>:2: RuntimeWarning: invalid value encountered in power
+  return (1/2)*log(tan(2*x + 3)**(2/3) + 1)
+<lambdifygenerated-457>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x - arctanh(x)
+<lambdifygenerated-461>:2: RuntimeWarning: overflow encountered in exp
+  return -2020*x**3 + (20*x**2 - 3170)*exp(x)
+<lambdifygenerated-461>:2: RuntimeWarning: overflow encountered in multiply
+  return -2020*x**3 + (20*x**2 - 3170)*exp(x)
+<lambdifygenerated-470>:2: RuntimeWarning: overflow encountered in sinh
+  return (2 - sinh(x))**(-x*sinh(x))
+<lambdifygenerated-470>:2: RuntimeWarning: invalid value encountered in power
+  return (2 - sinh(x))**(-x*sinh(x))
+<lambdifygenerated-473>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x*sin(x) - log(cos(x) - 1)
+<lambdifygenerated-474>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*arctanh(x)
+<lambdifygenerated-475>:2: RuntimeWarning: overflow encountered in exp
+  return (2/5)*x*exp(3*x**(3/2))
+<lambdifygenerated-478>:2: RuntimeWarning: overflow encountered in exp
+  return x**(3/4)*exp(2*x)
+<lambdifygenerated-479>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) - sqrt(x**2 + 1)
+<lambdifygenerated-482>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -2*x*arcsin(2*x) + x + sqrt(2*x**2 - 1)
+<lambdifygenerated-489>:2: RuntimeWarning: overflow encountered in cosh
+  return -1/2*cosh(2*x + 2)
+<lambdifygenerated-490>:2: RuntimeWarning: overflow encountered in exp
+  return 4*exp(2*x)
+<lambdifygenerated-491>:2: RuntimeWarning: invalid value encountered in log
+  return 2 - log(cos(x))
+<lambdifygenerated-497>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*sqrt(2)*arctanh(x**2)
+<lambdifygenerated-500>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 - 1/9*exp(9*x)
+<lambdifygenerated-505>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 - log(cos(x))
+<lambdifygenerated-507>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + tanh(x)
+<lambdifygenerated-508>:2: RuntimeWarning: invalid value encountered in log
+  return 3*x**2 - 1/6*log(cos(6*x))
+<lambdifygenerated-509>:2: RuntimeWarning: overflow encountered in exp
+  return x**4 - 1/3*exp(3*x)
+<lambdifygenerated-510>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(cos(x))
+<lambdifygenerated-513>:2: RuntimeWarning: overflow encountered in cosh
+  return 4*cosh(x)
+<lambdifygenerated-520>:2: RuntimeWarning: invalid value encountered in log
+  return -x*log(cos(x)) - log(cos(x))
+<lambdifygenerated-523>:2: RuntimeWarning: overflow encountered in exp
+  return -1/2*exp(2*x) + (1/2)*tan(x)
+<lambdifygenerated-528>:2: RuntimeWarning: invalid value encountered in log
+  return -1/3*x*log(x) - 1/10*log(cos(x))
+mean: 0.0
+top: 0.0
+<lambdifygenerated-544>:2: RuntimeWarning: overflow encountered in exp
+  return x**3 + x*exp(x)
+<lambdifygenerated-546>:2: RuntimeWarning: invalid value encountered in log
+  return -3*log(cos((1/3)*x))
+<lambdifygenerated-564>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**6 + (x - 1)*exp(x)
+<lambdifygenerated-567>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - x)
+<lambdifygenerated-568>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) + exp(x) - 2*arctanh(x)
+<lambdifygenerated-568>:2: RuntimeWarning: overflow encountered in exp
+  return x*arctanh(x) + exp(x) - 2*arctanh(x)
+<lambdifygenerated-575>:2: RuntimeWarning: overflow encountered in exp
+  return x + (tan(x) - 1)*exp(x)
+<lambdifygenerated-579>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*arctanh(2*x)
+<lambdifygenerated-584>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + cos(x)
+<lambdifygenerated-585>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-585>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-585>:2: RuntimeWarning: invalid value encountered in subtract
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-604>:2: RuntimeWarning: invalid value encountered in log
+  return -1/2*log(cos(2*x))
+<lambdifygenerated-605>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/2)*cosh(x)
+<lambdifygenerated-612>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x*(x + exp(x))
+<lambdifygenerated-612>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x*(x + exp(x))
+<lambdifygenerated-619>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(x) + sqrt(2*x - 1)
+<lambdifygenerated-622>:2: RuntimeWarning: overflow encountered in exp
+  return -2*x*log(x) + x - exp(x)
+<lambdifygenerated-623>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-626>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x + 2)
+<lambdifygenerated-627>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-644>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x) + 2*x
+<lambdifygenerated-649>:2: RuntimeWarning: invalid value encountered in log
+  return x**2 + x*log(x*sin(2*x)) - 2*x
+<lambdifygenerated-651>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 3*x*arctanh(x) - x + 3*arctanh(x)
+<lambdifygenerated-658>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*(x + 3)*exp(x)
+<lambdifygenerated-663>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(2*x)
+<lambdifygenerated-669>:2: RuntimeWarning: overflow encountered in exp
+  return x*(exp(x) + (1/2)*log(x)**2) + (1/2)*x
+<lambdifygenerated-670>:2: RuntimeWarning: invalid value encountered in power
+  return (32/3)*(2*x - 5)**(3/2)
+<lambdifygenerated-671>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*arctanh(x) - 2*arctanh(x)
+<lambdifygenerated-672>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(2*x)
+<lambdifygenerated-678>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-678>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-682>:2: RuntimeWarning: overflow encountered in exp
+  return -x*(x + 4) + exp(x)
+<lambdifygenerated-684>:2: RuntimeWarning: invalid value encountered in arccos
+  return 2*arccos(x)/x
+<lambdifygenerated-693>:2: RuntimeWarning: overflow encountered in cosh
+  return -2*cosh(x)**2
+<lambdifygenerated-693>:2: RuntimeWarning: overflow encountered in square
+  return -2*cosh(x)**2
+<lambdifygenerated-694>:2: RuntimeWarning: invalid value encountered in log
+  return -1/6*sqrt(3)*log(cos(3*x))
+<lambdifygenerated-696>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/2)*x**2 - x*cosh(x) - sinh(x)
+<lambdifygenerated-696>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 - x*cosh(x) - sinh(x)
+<lambdifygenerated-697>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(2*x)
+<lambdifygenerated-698>:2: RuntimeWarning: invalid value encountered in arcsin
+  return (x + 2)*arcsin(x)
+<lambdifygenerated-707>:2: RuntimeWarning: invalid value encountered in arccos
+  return -8*sqrt(x) - 2*x*arccos(x)
+<lambdifygenerated-715>:2: RuntimeWarning: invalid value encountered in arcsin
+  return sin(x) + arcsin(x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-722>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -1/2*arctanh(2*x)
+<lambdifygenerated-723>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(4*x)
+<lambdifygenerated-728>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(4*x)
+<lambdifygenerated-730>:2: RuntimeWarning: overflow encountered in exp
+  return -3/2*(x - 2)**2 - exp(x)
+<lambdifygenerated-732>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 5)
+<lambdifygenerated-735>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-740>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x)**2
+<lambdifygenerated-743>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 + sinh(x)
+<lambdifygenerated-744>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(2*x)
+<lambdifygenerated-756>:2: RuntimeWarning: invalid value encountered in arccos
+  return sqrt(x)*(x*arccos(x) - 2*x)
+<lambdifygenerated-758>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x)) + x
+<lambdifygenerated-763>:2: RuntimeWarning: invalid value encountered in arccos
+  return -1/2*arccos(x)
+<lambdifygenerated-764>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x))
+<lambdifygenerated-767>:2: RuntimeWarning: overflow encountered in exp
+  return exp(5*x)
+<lambdifygenerated-771>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-780>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x)
+<lambdifygenerated-782>:2: RuntimeWarning: overflow encountered in exp
+  return x**3*(x + 6)*exp(x)
+<lambdifygenerated-782>:2: RuntimeWarning: overflow encountered in multiply
+  return x**3*(x + 6)*exp(x)
+<lambdifygenerated-784>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/2)*x**2 - sinh(x)
+<lambdifygenerated-788>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x + 4)
+<lambdifygenerated-802>:2: RuntimeWarning: overflow encountered in exp
+  return (1/5)*(x - 1)*exp(x)
+<lambdifygenerated-805>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(2*x)
+<lambdifygenerated-816>:2: RuntimeWarning: overflow encountered in sinh
+  return 3*sinh(x)
+<lambdifygenerated-821>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)*cosh(x)
+<lambdifygenerated-821>:2: RuntimeWarning: overflow encountered in cosh
+  return sinh(x)*cosh(x)
+<lambdifygenerated-821>:2: RuntimeWarning: overflow encountered in multiply
+  return sinh(x)*cosh(x)
+<lambdifygenerated-822>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)*arctan(x)
+<lambdifygenerated-830>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x)**(-1.0)
+<lambdifygenerated-834>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*sinh(x)
+<lambdifygenerated-844>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x**3)
+<lambdifygenerated-845>:2: RuntimeWarning: invalid value encountered in log
+  return -2*log(cos(2*x))
+<lambdifygenerated-848>:2: RuntimeWarning: invalid value encountered in log
+  return -1/3*log(cos(3*x))
+<lambdifygenerated-849>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) - 2*log(tanh(x) + 1)
+<lambdifygenerated-850>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x)
+<lambdifygenerated-850>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x)
+<lambdifygenerated-854>:2: RuntimeWarning: overflow encountered in cosh
+  return 3*x*cosh(x)
+<lambdifygenerated-854>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x*cosh(x)
+<lambdifygenerated-860>:2: RuntimeWarning: overflow encountered in exp
+  return (x - 1)*exp(x) + 2
+<lambdifygenerated-869>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-869>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-869>:2: RuntimeWarning: invalid value encountered in subtract
+  return 2*x*sinh(x) - cosh(x)
+<lambdifygenerated-871>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(2*x))
+<lambdifygenerated-872>:2: RuntimeWarning: overflow encountered in exp
+  return (x + 3)*exp(x)
+<lambdifygenerated-879>:2: RuntimeWarning: invalid value encountered in log
+  return 3*log(x) - 3*log(cos(x))
+<lambdifygenerated-884>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x)**2
+<lambdifygenerated-884>:2: RuntimeWarning: overflow encountered in square
+  return cosh(x)**2
+<lambdifygenerated-892>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(2*x)
+<lambdifygenerated-895>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x)
+<lambdifygenerated-897>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(3*x)
+<lambdifygenerated-898>:2: RuntimeWarning: overflow encountered in exp
+  return 9*x + exp(x)
+<lambdifygenerated-908>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*exp(3*x)
+<lambdifygenerated-917>:2: RuntimeWarning: overflow encountered in exp
+  return 15*exp(5*x)
+<lambdifygenerated-918>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) + 5
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-927>:2: RuntimeWarning: overflow encountered in sinh
+  return 4*x + sinh(x)
+<lambdifygenerated-932>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x + arctanh(x)
+<lambdifygenerated-934>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(5*x)*cosh(5*x)
+<lambdifygenerated-934>:2: RuntimeWarning: overflow encountered in cosh
+  return sinh(5*x)*cosh(5*x)
+<lambdifygenerated-934>:2: RuntimeWarning: overflow encountered in multiply
+  return sinh(5*x)*cosh(5*x)
+<lambdifygenerated-936>:2: RuntimeWarning: invalid value encountered in arcsin
+  return 3*x + arcsin(x)
+<lambdifygenerated-942>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x*(x - arctanh(x))
+<lambdifygenerated-947>:2: RuntimeWarning: overflow encountered in exp
+  return x + 5*exp(x)
+<lambdifygenerated-948>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-948>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-949>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x*sinh(x)
+<lambdifygenerated-962>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x)
+<lambdifygenerated-970>:2: RuntimeWarning: invalid value encountered in arcsin
+  return -x**2 + x*arcsin(x) + sqrt(x**2 - 1)
+<lambdifygenerated-971>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + log(x)
+<lambdifygenerated-972>:2: RuntimeWarning: overflow encountered in exp
+  return x - 1/2*exp(2*x)
+<lambdifygenerated-977>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (tanh(2*x) - 1)*exp(2*x)
+<lambdifygenerated-977>:2: RuntimeWarning: invalid value encountered in multiply
+  return (1/2)*x**2 + (tanh(2*x) - 1)*exp(2*x)
+<lambdifygenerated-985>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(2*x)
+<lambdifygenerated-989>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-993>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 + (x - 1)*exp(x)
+<lambdifygenerated-994>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sinh(x)
+<lambdifygenerated-994>:2: RuntimeWarning: overflow encountered in sinh
+  return -log(cos(x)) + sinh(x)
+<lambdifygenerated-998>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/5)*cosh(5*x + 5)
+<lambdifygenerated-1000>:2: RuntimeWarning: overflow encountered in exp
+  return exp(3*x)
+<lambdifygenerated-1001>:2: RuntimeWarning: overflow encountered in sinh
+  return x*(x + sinh(x))
+<lambdifygenerated-1007>:2: RuntimeWarning: overflow encountered in sinh
+  return cos(x*sin(x))*sinh(x)
+<lambdifygenerated-1015>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x)
+<lambdifygenerated-1016>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x**2)
+<lambdifygenerated-1021>:2: RuntimeWarning: overflow encountered in exp
+  return x*(-5*x + cos(exp(x)))
+<lambdifygenerated-1021>:2: RuntimeWarning: invalid value encountered in cos
+  return x*(-5*x + cos(exp(x)))
+<lambdifygenerated-1024>:2: RuntimeWarning: overflow encountered in exp
+  return x*(3 - 3*x)*exp(x)
+<lambdifygenerated-1024>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(3 - 3*x)*exp(x)
+<lambdifygenerated-1026>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x*exp(5*x)
+<lambdifygenerated-1049>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x + arctanh(2*x)
+<lambdifygenerated-1067>:2: RuntimeWarning: overflow encountered in exp
+  return 14*x*exp(x)
+<lambdifygenerated-1067>:2: RuntimeWarning: overflow encountered in multiply
+  return 14*x*exp(x)
+<lambdifygenerated-1076>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(2*x)
+<lambdifygenerated-1080>:2: RuntimeWarning: divide by zero encountered in log
+  return x - 2*log(tanh(x + 5) - 1)
+<lambdifygenerated-1080>:2: RuntimeWarning: invalid value encountered in log
+  return x - 2*log(tanh(x + 5) - 1)
+<lambdifygenerated-1083>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+<lambdifygenerated-1084>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x) - cos(x)
+<lambdifygenerated-1090>:2: RuntimeWarning: overflow encountered in exp
+  return x*(arccosh(x) + 1) + exp(x)
+<lambdifygenerated-1092>:2: RuntimeWarning: overflow encountered in sinh
+  return 4*x + sinh(x)
+<lambdifygenerated-1113>:2: RuntimeWarning: overflow encountered in exp
+  return (3/2)*x*exp(2*x) + (1/2)*exp(4*x)
+<lambdifygenerated-1116>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + (1/2)*exp(2*x)
+<lambdifygenerated-1117>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*(x + arctanh(x))
+<lambdifygenerated-1119>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(2*x)
+mean: 0.0
+top: 0.0
+<lambdifygenerated-1134>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x) - arctanh(x)
+<lambdifygenerated-1134>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + cosh(x) - arctanh(x)
+<lambdifygenerated-1138>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(2*x))
+<lambdifygenerated-1140>:2: RuntimeWarning: invalid value encountered in log
+  return -log(cos(x)) + sinh(x)
+<lambdifygenerated-1140>:2: RuntimeWarning: overflow encountered in sinh
+  return -log(cos(x)) + sinh(x)
+<lambdifygenerated-1142>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(4*x) + x
+<lambdifygenerated-1144>:2: RuntimeWarning: overflow encountered in exp
+  return exp(2*x + 4)
+<lambdifygenerated-1145>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-1146>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2*arccos(x) - 1/2*arccos(x)
+<lambdifygenerated-1150>:2: RuntimeWarning: overflow encountered in exp
+  return (1/45)*exp(5*x)
+<lambdifygenerated-1162>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x) + 2
+<lambdifygenerated-1164>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+<lambdifygenerated-1167>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(2*x)
+<lambdifygenerated-1173>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 4)**2
+<lambdifygenerated-1174>:2: RuntimeWarning: overflow encountered in exp
+  return -x**2 + 3*x + exp(x)
+<lambdifygenerated-1178>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(2*x)
+<lambdifygenerated-1181>:2: RuntimeWarning: overflow encountered in exp
+  return x**3 + 3*x + exp(x)
+<lambdifygenerated-1182>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x + 2)
+<lambdifygenerated-1188>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x)
+<lambdifygenerated-1188>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*exp(x)
+<lambdifygenerated-1194>:2: RuntimeWarning: invalid value encountered in power
+  return (4/5)*cos(5*x)**(5/2)
+<lambdifygenerated-1200>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(3*x)
+<lambdifygenerated-1201>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 + x*arctan(x) - log(cos(x))
+<lambdifygenerated-1204>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + 2*x + exp(x)
+<lambdifygenerated-1206>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x)
+<lambdifygenerated-1207>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/5)*x**5 + x*arctanh(2*x) + 2*x
+<lambdifygenerated-1210>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-1212>:2: RuntimeWarning: overflow encountered in sinh
+  return 5*x*sinh(x)
+<lambdifygenerated-1212>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*sinh(x)
+<lambdifygenerated-1213>:2: RuntimeWarning: overflow encountered in cosh
+  return 5*cosh(x)
+<lambdifygenerated-1229>:2: RuntimeWarning: overflow encountered in exp
+  return x*exp(x + 5)
+<lambdifygenerated-1229>:2: RuntimeWarning: overflow encountered in multiply
+  return x*exp(x + 5)
+<lambdifygenerated-1233>:2: RuntimeWarning: invalid value encountered in log
+  return -4*log(x - 5)
+<lambdifygenerated-1239>:2: RuntimeWarning: invalid value encountered in log
+  return log(cos(x)) + tanh(x)
+<lambdifygenerated-1249>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*exp(x) - 2*x
+<lambdifygenerated-1249>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*exp(x) - 2*x
+<lambdifygenerated-1250>:2: RuntimeWarning: invalid value encountered in arctanh
+  return -5/2*arctanh(x)
+<lambdifygenerated-1254>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x**2 + exp(x) - cos(x)
+<lambdifygenerated-1257>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + 2*x
+<lambdifygenerated-1258>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(3*x) + 127*x - sqrt((x + 4)**2 + 1)
+<lambdifygenerated-1259>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x*arcsin(x + 5) - 5*sqrt(x**2 + 1) + arcsin(x + 5)
+<lambdifygenerated-1265>:2: RuntimeWarning: overflow encountered in exp
+  return x**2*exp(x) + x
+<lambdifygenerated-1265>:2: RuntimeWarning: overflow encountered in multiply
+  return x**2*exp(x) + x
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-1287>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(2*x**2)
+<lambdifygenerated-1293>:2: RuntimeWarning: invalid value encountered in arcsin
+  return sqrt(2*x + 1) + arcsin(x)
+<lambdifygenerated-1295>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x + arctanh(3*x)
+<lambdifygenerated-1303>:2: RuntimeWarning: overflow encountered in exp
+  return x**3 + exp(x)
+<lambdifygenerated-1305>:2: RuntimeWarning: overflow encountered in sinh
+  return 4*x**2*sinh(x)
+<lambdifygenerated-1305>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x**2*sinh(x)
+<lambdifygenerated-1309>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/5)*arccos(x)
+<lambdifygenerated-1311>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+<lambdifygenerated-1314>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x*exp(x) + x
+<lambdifygenerated-1314>:2: RuntimeWarning: overflow encountered in multiply
+  return 4*x*exp(x) + x
+<lambdifygenerated-1317>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*exp(x)
+<lambdifygenerated-1317>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*exp(x)
+<lambdifygenerated-1319>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-1319>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/numexpr/expressions.py:185: RuntimeWarning: invalid value encountered in sqrt
+  return ConstantNode(func(*[x.value for x in args]))
+<lambdifygenerated-1335>:2: RuntimeWarning: invalid value encountered in arccos
+  return x**2*arccos(x)
+<lambdifygenerated-1342>:2: RuntimeWarning: overflow encountered in exp
+  return -2*exp(x) + (1/2)*sin(x)**2 + sin(x)
+<lambdifygenerated-1344>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*(x*arctanh(x) + x)
+<lambdifygenerated-1360>:2: RuntimeWarning: overflow encountered in exp
+  return -exp(x) + sin(x)
+<lambdifygenerated-1372>:2: RuntimeWarning: overflow encountered in sinh
+  return sinh(x) + x**(-2.0)
+<lambdifygenerated-1384>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - 1/2*log(cos(2*x))
+<lambdifygenerated-1386>:2: RuntimeWarning: invalid value encountered in arcsin
+  return arcsin((1/2)*x)
+<lambdifygenerated-1398>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*exp(x)
+<lambdifygenerated-1401>:2: RuntimeWarning: invalid value encountered in arctanh
+  return (1/2)*x**2 - 1/3*arctanh(3*x)
+<lambdifygenerated-1402>:2: RuntimeWarning: overflow encountered in exp
+  return (2/3)*exp(3*x + 2)
+<lambdifygenerated-1405>:2: RuntimeWarning: overflow encountered in cosh
+  return x + cosh(x)
+<lambdifygenerated-1409>:2: RuntimeWarning: invalid value encountered in log
+  return 3*x - 3*log(x - 3)
+<lambdifygenerated-1412>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(3*x)
+<lambdifygenerated-1421>:2: RuntimeWarning: overflow encountered in cosh
+  return x*cosh(5*x)
+<lambdifygenerated-1425>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x) + 4)
+<lambdifygenerated-1428>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*arctanh(x) - x
+<lambdifygenerated-1429>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x*(x + exp(x))
+<lambdifygenerated-1429>:2: RuntimeWarning: overflow encountered in multiply
+  return 2*x*(x + exp(x))
+<lambdifygenerated-1431>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x**2*arctanh(x)
+<lambdifygenerated-1433>:2: RuntimeWarning: overflow encountered in exp
+  return 6*exp(x)
+<lambdifygenerated-1445>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 5)
+<lambdifygenerated-1448>:2: RuntimeWarning: invalid value encountered in arccos
+  return sin(x) + arccos(x)
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+mean: 0.0
+top: 0.0
+<lambdifygenerated-1450>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 + exp(x)
+<lambdifygenerated-1451>:2: RuntimeWarning: overflow encountered in exp
+  return 3*x + exp(x)
+<lambdifygenerated-1452>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x**3 + (x - 1)*exp(x)
+<lambdifygenerated-1463>:2: RuntimeWarning: overflow encountered in exp
+  return 4*x + exp(x)
+<lambdifygenerated-1465>:2: RuntimeWarning: overflow encountered in exp
+  return 10*exp(x)
+<lambdifygenerated-1482>:2: RuntimeWarning: overflow encountered in cosh
+  return (1/4)*cosh(x)
+<lambdifygenerated-1488>:2: RuntimeWarning: invalid value encountered in log
+  return -x*sin(x) - log(cos(x))
+<lambdifygenerated-1492>:2: RuntimeWarning: invalid value encountered in sqrt
+  return sqrt(1 - 2*x)
+<lambdifygenerated-1502>:2: RuntimeWarning: overflow encountered in exp
+  return x + exp(x) + 24
+<lambdifygenerated-1505>:2: RuntimeWarning: invalid value encountered in log
+  return -x + log(x - 3)
+<lambdifygenerated-1506>:2: RuntimeWarning: overflow encountered in sinh
+  return x*(x + sinh(x)) + exp(x)
+<lambdifygenerated-1506>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + sinh(x)) + exp(x)
+<lambdifygenerated-1509>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-1509>:2: RuntimeWarning: overflow encountered in multiply
+  return x*(x - 1)*exp(x)
+<lambdifygenerated-1522>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x)
+<lambdifygenerated-1526>:2: RuntimeWarning: overflow encountered in exp
+  return -x + exp(x)
+<lambdifygenerated-1527>:2: RuntimeWarning: overflow encountered in sinh
+  return x*sinh(x) + cosh(x)
+<lambdifygenerated-1527>:2: RuntimeWarning: overflow encountered in cosh
+  return x*sinh(x) + cosh(x)
+<lambdifygenerated-1534>:2: RuntimeWarning: overflow encountered in exp
+  return x*(x + exp(x) + 1)
+<lambdifygenerated-1535>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x + cosh(x)
+<lambdifygenerated-1537>:2: RuntimeWarning: invalid value encountered in log
+  return (4/5)*x**5 - log(cos(2*x))
+<lambdifygenerated-1540>:2: RuntimeWarning: overflow encountered in exp
+  return x - exp(x)
+<lambdifygenerated-1551>:2: RuntimeWarning: invalid value encountered in arctanh
+  return arctanh(x + 1)
+<lambdifygenerated-1553>:2: RuntimeWarning: overflow encountered in cosh
+  return 2*x*(x + cosh(x)) + x
+<lambdifygenerated-1556>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*exp(2*x**2)
+<lambdifygenerated-1564>:2: RuntimeWarning: overflow encountered in exp
+  return (1/12)*exp(x)
+<lambdifygenerated-1576>:2: RuntimeWarning: overflow encountered in exp
+  return (1/3)*x*exp(x)
+<lambdifygenerated-1585>:2: RuntimeWarning: overflow encountered in exp
+  return 8*x + exp(x)
+<lambdifygenerated-1594>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(2*x)
+<lambdifygenerated-1603>:2: RuntimeWarning: overflow encountered in sinh
+  return 3*x*sinh(x)
+<lambdifygenerated-1603>:2: RuntimeWarning: overflow encountered in multiply
+  return 3*x*sinh(x)
+<lambdifygenerated-1613>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 + 2*x + exp(x)
+<lambdifygenerated-1614>:2: RuntimeWarning: overflow encountered in exp
+  return -1/3*exp(3*x)
+<lambdifygenerated-1624>:2: RuntimeWarning: overflow encountered in exp
+  return 13*x**3 - 9*x + exp(x)
+<lambdifygenerated-1627>:2: RuntimeWarning: invalid value encountered in arccos
+  return (1/2)*x**2 + 2*x - arccos(x)
+<lambdifygenerated-1631>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(4*x)
+<lambdifygenerated-1632>:2: RuntimeWarning: overflow encountered in sinh
+  return 2*x + sinh(x)
+mean: 0.0
+top: 0.0
+avaliation.py:113: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  query_tensors = list(torch.tensor(query_tensors))
+<lambdifygenerated-1642>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(x)
+<lambdifygenerated-1654>:2: RuntimeWarning: overflow encountered in sinh
+  return -x + sinh(2*x)
+<lambdifygenerated-1657>:2: RuntimeWarning: overflow encountered in exp
+  return exp(x + 3)
+<lambdifygenerated-1664>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x) + 1
+<lambdifygenerated-1668>:2: RuntimeWarning: overflow encountered in exp
+  return (5*x - 5)*exp(x)
+<lambdifygenerated-1668>:2: RuntimeWarning: overflow encountered in multiply
+  return (5*x - 5)*exp(x)
+<lambdifygenerated-1678>:2: RuntimeWarning: overflow encountered in sinh
+  return (1/3)*x**3 - 2*sinh(x)
+<lambdifygenerated-1680>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*x + exp(x)
+<lambdifygenerated-1691>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(4*x)
+<lambdifygenerated-1695>:2: RuntimeWarning: overflow encountered in exp
+  return -1/4*exp(14*x)
+<lambdifygenerated-1698>:2: RuntimeWarning: overflow encountered in exp
+  return (4/5)*x + exp(x)
+<lambdifygenerated-1699>:2: RuntimeWarning: overflow encountered in exp
+  return (1 - x)*exp(x)
+<lambdifygenerated-1704>:2: RuntimeWarning: invalid value encountered in arccos
+  return 5*x*arccos(x)
+<lambdifygenerated-1706>:2: RuntimeWarning: overflow encountered in cosh
+  return cosh(x) - 6
+<lambdifygenerated-1709>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*x + arctanh(3*x)
+<lambdifygenerated-1710>:2: RuntimeWarning: invalid value encountered in arctanh
+  return 2*arctanh(x)
+<lambdifygenerated-1716>:2: RuntimeWarning: overflow encountered in exp
+  return x**2 - exp(x)
+<lambdifygenerated-1722>:2: RuntimeWarning: overflow encountered in exp
+  return 5*x*(x + exp(x))
+<lambdifygenerated-1722>:2: RuntimeWarning: overflow encountered in multiply
+  return 5*x*(x + exp(x))
+<lambdifygenerated-1728>:2: RuntimeWarning: overflow encountered in exp
+  return 2*x + exp(3*x)
+<lambdifygenerated-1730>:2: RuntimeWarning: invalid value encountered in log
+  return (1/2)*x**2 - log(cos(x))
+<lambdifygenerated-1732>:2: RuntimeWarning: overflow encountered in exp
+  return 5*exp(x) + tan(x)
+<lambdifygenerated-1733>:2: RuntimeWarning: invalid value encountered in arccos
+  return arccos(x + 5)
+<lambdifygenerated-1735>:2: RuntimeWarning: invalid value encountered in arccos
+  return x*arccos(x) + 1
+<lambdifygenerated-1738>:2: RuntimeWarning: invalid value encountered in arcsin
+  return x + arcsin(x) + 1
+<lambdifygenerated-1740>:2: RuntimeWarning: invalid value encountered in arctanh
+  return x*(x + arctanh(x)) + x
+<lambdifygenerated-1741>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(x) + sin(x)
+<lambdifygenerated-1745>:2: RuntimeWarning: invalid value encountered in log
+  return 2*x - log(cos(x))
+<lambdifygenerated-1765>:2: RuntimeWarning: overflow encountered in exp
+  return (1/4)*exp(x)
+<lambdifygenerated-1767>:2: RuntimeWarning: overflow encountered in cosh
+  return x*(x - cosh(x))
+<lambdifygenerated-1771>:2: RuntimeWarning: invalid value encountered in log
+  return -5*log(cos(5*x))
+<lambdifygenerated-1776>:2: RuntimeWarning: overflow encountered in exp
+  return (1/2)*exp(x)
+<lambdifygenerated-1791>:2: RuntimeWarning: overflow encountered in exp
+  return x + (x + 2)*exp(x)
+<lambdifygenerated-1797>:2: RuntimeWarning: overflow encountered in exp
+  return exp(6*x)
+mean: 0.0
+top: 0.0
+Traceback (most recent call last):
+  File "avaliation.py", line 125, in <module>
+    response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/trainer/ppo_trainer.py", line 457, in generate
+    response = self.accelerator.unwrap_model(self.model).generate(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/trl/models/modeling_value_head.py", line 198, in generate
+    return self.pretrained_model.generate(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 1648, in generate
+    return self.sample(
+  File "/home/augusto/miniconda3/envs/sr/lib/python3.8/site-packages/transformers/generation/utils.py", line 2789, in sample
+    if unfinished_sequences.max() == 0:
+KeyboardInterrupt
