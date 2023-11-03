@@ -108,15 +108,15 @@ for _, line in data.iterrows():
 
             response = ppo_trainer.generate(query.to(device), **generation_kwargs)
             response_tensors.append(response.squeeze()[-gen_len:])
-        print("5")
+        
         batch['response'] = [tokenizer.decode(r.squeeze()) for r in response_tensors]
-        print("6")
+        
         # rewards = [torch.tensor(output[1]["score"]) for output in pipe_outputs]
         exprs, rewards, r2 = reward_pipeline(response_tensors, experiment)
-        print("7")
+        
         #### Run PPO step
         stats = ppo_trainer.step(query_tensors, response_tensors, rewards)
-        print("8")
+        
         ppo_trainer.log_stats(stats, batch, rewards)
 
         #sort the rewards and expressions
