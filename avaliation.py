@@ -52,6 +52,7 @@ encoded_prompts = tokenizer.batch_encode_plus(prompts, return_tensors='pt')
 
 ppo_trainer = PPOTrainer(config, model, ref_model, tokenizer)
 
+
 device = ppo_trainer.accelerator.device
 if ppo_trainer.accelerator.num_processes == 1:
    device = 0 if torch.cuda.is_available() else "cpu" # to avoid a `pipeline` bug
@@ -69,7 +70,7 @@ for _, line in data.iterrows():
     log_saved = {'index':[], 'expr':[], 'reward': [], 'r2':[]}
     max_reward = mean_reward = 0 
     output_min_length = 4
-    output_max_length = 100
+    output_max_length = 50
     output_length_sampler = LengthSampler(output_min_length, output_max_length)
     
     generation_kwargs = {
@@ -94,7 +95,7 @@ for _, line in data.iterrows():
 
         #query_tensors = tokenizer(encoded_prompts['input_text'], padding=True, truncation=True, return_tensors="pt").input_ids
         query_tensors = encoded_prompts['input_ids']
-        query_tensors = list(torch.tensor(query_tensors))
+        query_tensors = list(query_tensors.clone().detach())
         
         batch = dict()
         #### Get response from gpt2
@@ -131,7 +132,13 @@ for _, line in data.iterrows():
 
         print(f'mean: {np.mean(rewards)}\ntop: {current_max_reward}\n')
         #print how many None expressions
-        print(f'None expressions: {rewards.count(0)}\n')
+        print(f'invalid: {rewards.count(0)}\n')
+
+        #save mean, top and invalid into a txt file
+        with open('log.txt', 'a') as f:
+            f.write(f'mean: {np.mean(rewards)}\ntop: {current_max_reward}\ninvalid: {rewards.count(0)}\n\n')
+        
+
         #check if the max reward is greater than the previous max reward
         if current_max_reward > max_reward:
             max_reward = current_max_reward
@@ -169,35 +176,3 @@ for _, line in data.iterrows():
     #save log_saved in a csv file
     df = pd.DataFrame(log_saved)
     df.to_csv('log_saved.csv', index=False, header=False)
-
-'''
-mean: 0.10224783420562744
-top: 0.4868054986000061
-
-mean: 0.035988666117191315
-top: 0.36547747254371643
-
-mean: 0.18584972620010376                                                                     │··················································
-top: 0.4414939284324646 
-
-mean: 0.18571177124977112                                                                     │··················································
-top: 0.45028427243232727
-
-mean: 0.20596802234649658                                                                     │··················································
-top: 0.4301460087299347  
-
-mean: 0.22327488660812378                                                                     │··················································
-top: 0.43351638317108154 
-
-mean: 0.23228320479393005                                                                     │··················································
-top: 0.48187118768692017
-
-mean: 0.23234891891479492                                                                     │··················································
-top: 0.47687315940856934 
-
-mean: 0.225738063454628
-top: 0.4927004873752594
-
-mean: 0.24391266703605652
-top: 0.641136646270752
-'''
