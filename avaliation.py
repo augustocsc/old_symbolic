@@ -21,10 +21,10 @@ from trl.core import LengthSampler, respond_to_batch
 
 config = PPOConfig(
     model_name="augustocsc/gpt-base", #add gpt2 model name here
-    #learning_rate=1.41e-5, #experiment with different lr?
+    learning_rate=1.41e-5, #experiment with different lr?
     #log_with=None, #"wandb",
-    #mini_batch_size = 16, # incase of memory issues while sampling, reduce batch size
-    #batch_size=256,
+    mini_batch_size = 16, # incase of memory issues while sampling, reduce batch size
+    batch_size=256,
 )
 
 def reward_pipeline(response_tensors, data):
@@ -38,7 +38,6 @@ def reward_pipeline(response_tensors, data):
 
 #all loaded from the pre-trained model
 #AutoModelForCausalLMWithValueHead is cus
-
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 model = AutoModelForCausalLMWithValueHead.from_pretrained(config.model_name)
@@ -46,6 +45,7 @@ ref_model = AutoModelForCausalLMWithValueHead.from_pretrained(config.model_name)
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
 tokenizer.pad_token = tokenizer.eos_token
+#def avaliation():
 
 prompts = ['Y' for i in range(config.batch_size)]
 encoded_prompts = tokenizer.batch_encode_plus(prompts, return_tensors='pt')
@@ -55,7 +55,7 @@ ppo_trainer = PPOTrainer(config, model, ref_model, tokenizer)
 
 device = ppo_trainer.accelerator.device
 if ppo_trainer.accelerator.num_processes == 1:
-   device = 0 if torch.cuda.is_available() else "cpu" # to avoid a `pipeline` bug
+    device = 0 if torch.cuda.is_available() else "cpu" # to avoid a `pipeline` bug
 
 #read the file data.csv
 data = pd.read_csv('data/test_expr.csv')
@@ -79,7 +79,6 @@ for _, line in data.iterrows():
         "top_p": 1.0,
         "do_sample": True,
         "pad_token_id": tokenizer.eos_token_id,
-        #"batch_size": 64
     }
 
     itt = 0
@@ -89,7 +88,7 @@ for _, line in data.iterrows():
     #epochs = 10
     #for epoch in tqdm(range(epochs)):
     epoch = 0
-    while max_reward < 0.95: #and mean_reward < 0.5:
+    while max_reward < 0.9 or mean_reward < 0.5:
         max_expr = ""
         max_reward = max_r2 = 0
 
@@ -107,7 +106,7 @@ for _, line in data.iterrows():
             gen_len = output_length_sampler()
             generation_kwargs["max_new_tokens"] = gen_len
 
-            response = ppo_trainer.generate(query.to(device), **generation_kwargs)
+            response = ppo_trainer.generate(query.to(device), **generation_kwargs, batch_size=8)
             response_tensors.append(response.squeeze()[-gen_len:])
         
         batch['response'] = [tokenizer.decode(r.squeeze()) for r in response_tensors]
@@ -123,7 +122,7 @@ for _, line in data.iterrows():
         #sort the rewards and expressions
         dict_exprs = dict(zip(rewards, exprs))
         dict_exprs = sorted(dict_exprs, reverse=True)
-      
+    
         #storing the max reward and expression
         max_index = np.argmax(rewards)
         current_max_reward = rewards[max_index]
