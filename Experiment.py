@@ -9,7 +9,7 @@ import time
 #case 3: expression and daatset are available
 #case 4: expression and interval are available
 class Experiment:
-  def __init__(self, x=None, y=None, experiment=None, save=True, save_folder='data/'):
+  def __init__(self, x=None, y=None, experiment=None, save=True, save_folder='data/input/'):
     experiment = experiment.replace(np.nan, None)
 
     # Set the seed for reproducibility

@@ -20,7 +20,7 @@ class Expression:
     self.infix = prefix_to_infix(self.prefix, opt_dict)
     
     if self.infix is None:
-        self.pred_y = None, None
+        self.pred_y = None
         self.score = 0
     else:
         self.y_pred = self.eval_expr(data.x)
