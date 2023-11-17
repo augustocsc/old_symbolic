@@ -1,7 +1,7 @@
 type,name,expression,dataset,low,high,size,noise,seed
 test_0,Linear Equation,2 * x + 3
 test_1,Quadratic Equation,x**2 - 5 * x + 6,quatratic_equation.csv,-1,1,"(1,100)",0,42
-test_2,Exponential Growth,3 * np.exp(0.1 * x),exponential_growth.csv,-1,1,"(1,20)",0,42
+test_2,Exponential Growth,  3 * np.exp(0.1 * x),exponential_growth.csv,-1,1,"(1,20)",0,42
 test_3,Logarithmic Equation,np.log2(x + 1),logarithmic_equation.csv,-1,1,"(1,20)",0,42
 test_4,Absolute Value,-x - 2,absolute_value.csv,-1,1,"(1,20)",0,42
 test_5,meu teste,-x**2 - 7,meu_teste.csv,-1,1,"(1,20)",0,42

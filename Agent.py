@@ -93,8 +93,9 @@ class Agent:
         #for each line in data pandas dataframe
         for _, line in data.iterrows():    
             experiment = Experiment(experiment=line)
+            print("\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
             print("Working with expression: ", experiment.expression)
-            
+            print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
             #create a folder with the name of the expression in the save_dir folder
             if not os.path.exists(f'{self.save_dir}/{experiment.name}'):
                 print(f'Creating folder {experiment.name}')
@@ -210,6 +211,6 @@ class Agent:
             #save the results in a csv file
             df = pd.DataFrame(results)
             df.columns = line.keys()
-            df.to_csv(f'{self.save_dir}/{experiment.name}/results.csv', index=False, header=False)
+            df.to_csv(f'{self.save_dir}/results.csv', index=False, header=False)
 
 
