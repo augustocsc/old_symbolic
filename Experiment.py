@@ -3,6 +3,7 @@ import pandas as pd
 import re
 import time
 
+#TODO: every experiment should print a set of informations that can be saved in a file
 #cases of use
 #case 1: data is available
 #case 2: only expression is available
@@ -27,7 +28,7 @@ class Experiment:
       self.dataset = save_folder + self.dataset
       self.low = -1 if experiment['low'] == None else experiment['low']
       self.high = 1 if experiment['high'] == None else experiment['high']
-      self.size = 100 if experiment['size'] == None else eval(experiment['size'])
+      self.size = 100 if experiment['size'] == None else eval(experiment['size'])   #TODO ensure that size works both with tuples and integers
       self.noise = 0 if experiment['noise'] == None else experiment['noise']
       self.seed = 42 if experiment['seed'] == None else int(experiment['seed'])
 

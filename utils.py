@@ -44,3 +44,11 @@ def map_expression(x):
     result = re.sub(pattern, 'x[0]', x)
     
     return result
+
+def compute(expression, x):
+    x = x[0]
+    expression = map_expression(expression)
+    if expression is not None:
+        return expression.evalf(subs={'x[0]':x})
+    else:
+        return None

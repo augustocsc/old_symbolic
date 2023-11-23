@@ -18,7 +18,7 @@ def get_parser():
     parser.add_argument("--seed", type=int, default=42,
                         help="Random seed")
     parser.add_argument("--stop_condition", type=str, default="epoch", choices=["epoch", "reward", "mean", "all"], 
-                        help="Stop condition") #implement a stop condition based on the mean of the rewards and a way to set the values of the stop condition
+                        help="Stop condition") #TODO implement a stop condition based on the mean of the rewards and a way to set the values of the stop condition
     
     # training parameters
     parser.add_argument("--batch_size", type=int, default=128,
