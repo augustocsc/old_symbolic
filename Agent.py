@@ -24,10 +24,14 @@ def save_epoch(epoch, rewards, exprs, r2):
     df = pd.DataFrame(log_saved)
     df.to_csv('log_saved.csv', index=False, header=False)
 
-def save_results(results):
+def save_results(results, line):
     df = pd.DataFrame(results)
     df.columns = line.keys()
-    df.to_csv('results.csv', index=False, header=False)
+    #if the file results.csv exists, append the results, otherwise create the file
+    if os.path.exists('results.csv'):
+        df.to_csv('results.csv', mode='a', index=False, header=False)
+    else:
+        df.to_csv('results.csv', index=False)
 
    
 class Agent:
@@ -79,19 +83,20 @@ class Agent:
         prompts = ['Y' for i in range(self.config.batch_size)]
         encoded_prompts = self.tokenizer.batch_encode_plus(prompts, return_tensors='pt')
 
-        ppo_trainer = PPOTrainer(self.config, self.model, self.ref_model, self.tokenizer)
-
-
-        self.device = ppo_trainer.accelerator.device
-        if ppo_trainer.accelerator.num_processes == 1:
-            self.device = 0 if torch.cuda.is_available() else "cpu" # to avoid a `pipeline` bug
-
         #read the file data.csv
         data = pd.read_csv(self.experiment_file)
         results = []
 
         #for each line in data pandas dataframe
         for _, line in data.iterrows():    
+
+            ppo_trainer = PPOTrainer(self.config, self.model, self.ref_model, self.tokenizer)
+
+
+            self.device = ppo_trainer.accelerator.device
+            if ppo_trainer.accelerator.num_processes == 1:
+                self.device = 0 if torch.cuda.is_available() else "cpu" # to avoid a `pipeline` bug
+
             experiment = Experiment(experiment=line)
             print("\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
             print("Working with expression: ", experiment.expression)
@@ -208,9 +213,12 @@ class Agent:
             results.append(line.to_list())
 
             print("Saving results...")
-            #save the results in a csv file
-            df = pd.DataFrame(results)
-            df.columns = line.keys()
-            df.to_csv(f'{self.save_dir}/results.csv', index=False, header=False)
+            #append the results in a csv file
+            save_results(results, line)
+            print("Results saved!")
+
+
+            
+            
 
 

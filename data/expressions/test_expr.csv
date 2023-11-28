@@ -1,11 +1,30 @@
 type,name,expression,dataset,low,high,size,noise,seed
-dso_2, Nguyen-3, x**5 + x**4 + x**3 + x**2 + x,nguyen_3.csv,-1,1,"(1,20)",0,42
-dso_3, Nguyen-4, x**6 + x**5 + x**4 + x**3 + x**2 + x,nguyen_4.csv,-1,1,"(1,20)",0,42
-dso_4, Nguyen-5, np.sin(x) * np.cos(x) - 1,nguyen_5.csv,-1,1,"(1,20)",0,42
-dso_5, Nguyen-6, np.sin(x) + np.sin(x + x**2),nguyen_6.csv,-1,1,"(1,20)",0,42
-dso_6, Nguyen-7, np.log(x + 1) + np.log(x**2 + 1),nguyen_7.csv,0,2,20,0,42
-dso_7, Nguyen-8, np.sqrt(x),nguyen_8.csv,0,4,20,0,42
-dso_8, Nguyen-2', 4*x**4 + 3*x**3 + 2*x**2 + x,nguyen_2_prime.csv,-1,1,"(1,20)",0,42
-dso_9, Nguyen-5', np.sin(x**2) * np.cos(x) - 2,nguyen_5_prime.csv,-1,1,"(1,20)",0,42
-dso_10, Nguyen-8', x ** (1./3),nguyen_8_prime.csv,0,4,20,0,42
-dso_11, Nguyen-8', (x**2)**(1./3),nguyen_8_prime_prime.csv,0,4,20,0,42
+test_0,Linear Equation,2 * x + 3,LinearEquation.csv, -1, 1,"(1,100)", 0, 42
+test_1,Quadratic Equation,x**2 - 5 * x + 6,quatratic_equation.csv,-1,1,"(1,100)",0,42
+test_2,Exponential Growth,  3 * np.exp(0.1 * x),exponential_growth.csv,-1,1,"(1,100)",0,42
+test_3,Logarithmic Equation,np.log2(x + 1),logarithmic_equation.csv,-1,1,"(1,100)",0,42
+test_4,Absolute Value,-x - 2,absolute_value.csv,-1,1,"(1,100)",0,42
+test_5,meu teste,-x**2 - 7,meu_teste.csv,-1,1,"(1,100)",0,42
+test_6,Cubic Polynomial,x**3 - 4 * x**2 + 2 * x - 5,cubic_polynomial.csv,-1,1,"(1,100)",0,42
+test_7,Trigonometric Expression,np.sin(x) + np.cos(x),trigonometric_expression.csv,-1,1,"(1,100)",0,42
+test_8,Hyperbolic Tangent,np.tanh(2 * x),hyperbolic_tangent.csv,-1,1,"(1,100)",0,42
+test_9,Polynomial with Exponential Term,x**3 + 2 * x**2 + 3 * np.exp(x) + 5,polynomial_with_exponential_term.csv,-1,1,"(1,100)",0,42
+test_10,Square Root with Quadratic Term,np.sqrt(x**2 + 9) - x**2,square_root_with_quadratic_term.csv,-1,1,"(1,100)",0,42
+test_11,Polynomial with Complex Roots,x**3 + 2 * x**2 + 2 * x + 5,polynomial_with_complex_roots.csv,-1,1,"(1,100)",0,42
+test_12,Sine Function Composition,np.sin(np.sin(x)),sine_function_composition.csv,-1,1,"(1,100)",0,42
+test_13,Gaussian Function,np.exp(-x**2),gaussian_function.csv,-1,1,"(1,100)",0,42
+test_14,Sigmoid Function,1 / (1 + np.exp(-x)),sigmoid_function.csv,-1,1,"(1,100)",0,42
+test_15,Exponential Decay with Sine,4 * np.exp(-0.2 * x) * np.sin(x),exponential_decay_with_sine.csv,-1,1,"(1,100)",0,42
+
+dso_0, Nguyen-1, x**3 + x**2 + x,nguyen_1.csv,-1,1,"(1,100)",0,42
+dso_1, Nguyen-2, x**4 + x**3 + x**2 + x,nguyen_2.csv,-1,1,"(1,100)",0,42
+dso_2, Nguyen-3, x**5 + x**4 + x**3 + x**2 + x,nguyen_3.csv,-1,1,"(1,100)",0,42
+dso_3, Nguyen-4, x**6 + x**5 + x**4 + x**3 + x**2 + x,nguyen_4.csv,-1,1,"(1,100)",0,42
+dso_4, Nguyen-5, np.sin(x) * np.cos(x) - 1,nguyen_5.csv,-1,1,"(1,100)",0,42
+dso_5, Nguyen-6, np.sin(x) + np.sin(x + x**2),nguyen_6.csv,-1,1,"(1,100)",0,42
+dso_6, Nguyen-7, np.log(x + 1) + np.log(x**2 + 1),nguyen_7.csv,0,2,"(1,100)",0,42
+dso_7, Nguyen-8, np.sqrt(x),nguyen_8.csv,0,4,"(1,100)",0,42
+dso_8, Nguyen-2', 4*x**4 + 3*x**3 + 2*x**2 + x,nguyen_2_prime.csv,-1,1,"(1,100)",0,42
+dso_9, Nguyen-5', np.sin(x**2) * np.cos(x) - 2,nguyen_5_prime.csv,-1,1,"(1,100)",0,42
+dso_10, Nguyen-8', x ** (1./3),nguyen_8_prime.csv,0,4,"(1,100)",0,42
+dso_11, Nguyen-8', (x**2)**(1./3),nguyen_8_prime_prime.csv,0,4,"(1,100)",0,42
