@@ -1,6 +1,7 @@
 from SymbolicMathematics.src.utils import AttrDict
 from SymbolicMathematics.src.envs import build_env
 import re
+import math
 
 params = params = AttrDict({
 
@@ -52,3 +53,14 @@ def compute(expression, x):
         return expression.evalf(subs={'x[0]':x})
     else:
         return None
+import re
+
+def is_float(value):
+    try:
+        float(value)
+        return True
+    except ValueError:
+        return False
+
+
+

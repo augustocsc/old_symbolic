@@ -575,7 +575,7 @@ Y add mul div INT- 1 INT+ 3 pow x INT+ 3 mul div INT+ 3 INT+ 2 pow x INT+ 2,-x**
 Y pow x INT+ 6,x**6,1,0,1
 Y mul div INT+ 1 INT+ 7 pow x INT+ 7,x**7/7,2,1,2
 Y mul INT+ 5 pow x INT+ 4,5*x**4,2,1,2
-Y pow x INT+ 5,x**5,1,0,1
+Y INT+ 5,x**5,1,0,1
 Y mul INT+ 2 mul x add INT+ 1 x,2*x*(x + 1),4,2,2
 Y add pow x INT+ 2 mul div INT+ 2 INT+ 3 pow x INT+ 3,2*x**3/3 + x**2,3,1,4
 Y mul INT+ 6 x,6*x,2,1,1

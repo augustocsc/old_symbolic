@@ -1,3 +1,4 @@
+#python main.py --save_dir='500_epochs' --epochs=300
 import argparse
 import numpy as np
 from datetime import datetime

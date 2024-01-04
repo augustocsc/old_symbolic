@@ -1,0 +1,29 @@
+type,name,expression,dataset,low,high,size,noise,seed,nrmse,result,mean_nrmse,r2,epoch,time
+test_0,Linear Equation,2 * x + 3,LinearEquation.csv,-1,1,"(1,100)",0,42,tensor(1.),,0.1392468810081482,1.0,100,1351.3514330387115
+test_1,Quadratic Equation,x**2 - 5 * x + 6,quatratic_equation.csv,-1,1,"(1,100)",0,42,tensor(0.8721),,0.13290640711784363,0.9784841843981195,100,1355.1166968345642
+test_2,Exponential Growth,  3 * np.exp(0.1 * x),exponential_growth.csv,-1,1,"(1,100)",0,42,tensor(0.4655),,0.01743047870695591,-0.31864204195334644,100,1337.2788536548615
+test_3,Logarithmic Equation,np.log2(x + 1),logarithmic_equation.csv,-1,1,"(1,100)",0,42,tensor(0.8277),,0.27403199672698975,0.9566435866981543,100,1365.5684411525726
+test_4,Absolute Value,-x - 2,absolute_value.csv,-1,1,"(1,100)",0,42,tensor(1.),,0.07503810524940491,1.0,100,1350.608704328537
+test_5,meu teste,-x**2 - 7,meu_teste.csv,-1,1,"(1,100)",0,42,tensor(0.2107),,0.010198571719229221,-13.024760950179015,100,1341.3916454315186
+test_6,Cubic Polynomial,x**3 - 4 * x**2 + 2 * x - 5,cubic_polynomial.csv,-1,1,"(1,100)",0,42,tensor(0.5206),,0.08174693584442139,0.1522939515323285,100,1353.263679742813
+test_7,Trigonometric Expression,np.sin(x) + np.cos(x),trigonometric_expression.csv,-1,1,"(1,100)",0,42,tensor(1.),,0.19301718473434448,1.0,100,1362.3491306304932
+test_8,Hyperbolic Tangent,np.tanh(2 * x),hyperbolic_tangent.csv,-1,1,"(1,100)",0,42,tensor(1.),,0.28399544954299927,1.0,100,1365.1835505962372
+test_9,Polynomial with Exponential Term,x**3 + 2 * x**2 + 3 * np.exp(x) + 5,polynomial_with_exponential_term.csv,-1,1,"(1,100)",0,42,tensor(0.6758),,0.09151137620210648,0.7699376486885068,100,1343.6777606010437
+test_10,Square Root with Quadratic Term,np.sqrt(x**2 + 9) - x**2,square_root_with_quadratic_term.csv,-1,1,"(1,100)",0,42,tensor(0.5954),,0.022248636931180954,0.5384005282425233,100,1331.5531256198883
+test_11,Polynomial with Complex Roots,x**3 + 2 * x**2 + 2 * x + 5,polynomial_with_complex_roots.csv,-1,1,"(1,100)",0,42,tensor(0.6936),,0.0995384007692337,0.8047883591998947,100,1340.8212928771973
+test_12,Sine Function Composition,np.sin(np.sin(x)),sine_function_composition.csv,-1,1,"(1,100)",0,42,tensor(1.),,0.27388864755630493,1.0,100,1348.1069436073303
+test_13,Gaussian Function,np.exp(-x**2),gaussian_function.csv,-1,1,"(1,100)",0,42,tensor(0.8660),,0.04557276889681816,0.9760479314144799,100,1340.7884500026703
+test_14,Sigmoid Function,1 / (1 + np.exp(-x)),sigmoid_function.csv,-1,1,"(1,100)",0,42,tensor(0.6540),,0.0537295788526535,0.7201716805217024,100,1349.2820091247559
+test_15,Exponential Decay with Sine,4 * np.exp(-0.2 * x) * np.sin(x),exponential_decay_with_sine.csv,-1,1,"(1,100)",0,42,tensor(0.8883),,0.3221627175807953,0.9841831489166527,100,1370.116795539856
+dso_0, Nguyen-1, x**3 + x**2 + x,nguyen_1.csv,-1,1,"(1,100)",0,42,tensor(1.),,0.31550663709640503,1.0,100,1371.1844248771667
+dso_1, Nguyen-2, x**4 + x**3 + x**2 + x,nguyen_2.csv,-1,1,"(1,100)",0,42,tensor(0.8827),,0.27323469519615173,0.9823255478641363,100,1360.6119894981384
+dso_2, Nguyen-3, x**5 + x**4 + x**3 + x**2 + x,nguyen_3.csv,-1,1,"(1,100)",0,42,tensor(0.8980),,0.29290759563446045,0.9870981016574889,100,1360.5648264884949
+dso_3, Nguyen-4, x**6 + x**5 + x**4 + x**3 + x**2 + x,nguyen_4.csv,-1,1,"(1,100)",0,42,tensor(0.8488),,0.29030972719192505,0.968291511578173,100,1358.541699886322
+dso_4, Nguyen-5, np.sin(x) * np.cos(x) - 1,nguyen_5.csv,-1,1,"(1,100)",0,42,tensor(0.7500),,0.07890890538692474,0.8889011979197581,100,1339.125890493393
+dso_5, Nguyen-6, np.sin(x) + np.sin(x + x**2),nguyen_6.csv,-1,1,"(1,100)",0,42,tensor(0.8842),,0.2906452417373657,0.9828356303130615,100,1357.9945039749146
+dso_6, Nguyen-7, np.log(x + 1) + np.log(x**2 + 1),nguyen_7.csv,0,2,"(1,100)",0,42,tensor(0.9550),,0.2158200591802597,0.997781590539289,100,1353.8258967399597
+dso_7, Nguyen-8, np.sqrt(x),nguyen_8.csv,0,4,"(1,100)",0,42,tensor(0.7883),,0.07970660924911499,0.9278878420716267,100,1362.7849750518799
+dso_8, Nguyen-2', 4*x**4 + 3*x**3 + 2*x**2 + x,nguyen_2_prime.csv,-1,1,"(1,100)",0,42,tensor(0.8322),,0.27084699273109436,0.9593425332721871,100,1376.0765957832336
+dso_9, Nguyen-5', np.sin(x**2) * np.cos(x) - 2,nguyen_5_prime.csv,-1,1,"(1,100)",0,42,tensor(0.5063),,0.021690405905246735,0.04914269155308559,100,1343.4283666610718
+dso_10, Nguyen-8', x ** (1./3),nguyen_8_prime.csv,0,4,"(1,100)",0,42,tensor(1.),,0.03985225781798363,1.0,100,1334.004992723465
+dso_11, Nguyen-8', (x**2)**(1./3),nguyen_8_prime_prime.csv,0,4,"(1,100)",0,42,tensor(1.),,0.10218094289302826,1.0,100,1339.5301535129547

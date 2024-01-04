@@ -24,14 +24,14 @@ def save_epoch(epoch, rewards, exprs, r2):
     df = pd.DataFrame(log_saved)
     df.to_csv('log_saved.csv', index=False, header=False)
 
-def save_results(results, line):
+def save_results(results, line, save_dir):
     df = pd.DataFrame(results)
     df.columns = line.keys()
     #if the file results.csv exists, append the results, otherwise create the file
-    if os.path.exists('results.csv'):
-        df.to_csv('results.csv', mode='a', index=False, header=False)
+    if os.path.exists(f'{save_dir}/results.csv'):
+        df.to_csv(f'{save_dir}/results.csv', mode='a', index=False, header=False)
     else:
-        df.to_csv('results.csv', index=False)
+        df.to_csv(f'{save_dir}/results.csv', index=False)
 
    
 class Agent:
@@ -43,6 +43,8 @@ class Agent:
             #log_with=None, #"wandb",
             mini_batch_size = params.mini_batch_size, # incase of memory issues while sampling, reduce batch size
             batch_size=params.batch_size,
+            seed = params.seed,
+            
         )
 
         self.save_dir = params.save_dir
@@ -50,7 +52,7 @@ class Agent:
 
 
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
+        #, torch_dtype=torch.float16
         self.model = AutoModelForCausalLMWithValueHead.from_pretrained(self.config.model_name)
         self.ref_model = AutoModelForCausalLMWithValueHead.from_pretrained(self.config.model_name)
         self.tokenizer = AutoTokenizer.from_pretrained("gpt2")
@@ -62,6 +64,9 @@ class Agent:
         self.stop_condition_type = params.stop_condition
         self.curr_epoch = 0
         self.max_reward = 0
+
+        #self.model.bfloat16()
+        #self.ref_model.bfloat16()
 
     def reward_pipeline(self, response_tensors, data):
         prefixes = [self.tokenizer.decode(response, skip_special_tokens=True) for response in response_tensors]
@@ -90,6 +95,8 @@ class Agent:
         #for each line in data pandas dataframe
         for _, line in data.iterrows():    
 
+            #define adam lr scheduler
+            
             ppo_trainer = PPOTrainer(self.config, self.model, self.ref_model, self.tokenizer)
 
 
@@ -99,7 +106,7 @@ class Agent:
 
             experiment = Experiment(experiment=line)
             print("\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-            print("Working with expression: ", experiment.expression)
+            print("Working with expression: ", experiment.name)
             print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
             #create a folder with the name of the expression in the save_dir folder
             if not os.path.exists(f'{self.save_dir}/{experiment.name}'):
@@ -129,7 +136,11 @@ class Agent:
             self.curr_epoch = 0
             while self.stop_condition():
                 max_expr = ""
-                print(f'\n------------------\nmax mean: {mean_reward}\n max top: {max_reward}\n')
+                
+                print("\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+                print("Working with expression: ", experiment.expression)
+                print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+                print(f'\nmax mean: {mean_reward}\n max top: {max_reward}\n')
 
                 #query_tensors = tokenizer(encoded_prompts['input_text'], padding=True, truncation=True, return_tensors="pt").input_ids
                 query_tensors = encoded_prompts['input_ids']
@@ -180,7 +191,7 @@ class Agent:
                 #check if the max reward is greater than the previous max reward
                 if current_max_reward > max_reward:
                     max_reward = current_max_reward
-                    max_expr = current_max_expr
+                    max_expr = current_max_expr         #TODO max expr is not being saved
                     max_r2 = current_max_r2
                 
                 #check if the mean reward is greater than the previous mean reward
@@ -214,9 +225,8 @@ class Agent:
 
             print("Saving results...")
             #append the results in a csv file
-            save_results(results, line)
+            save_results(results, line, save_dir=self.save_dir)
             print("Results saved!")
-
 
             
             

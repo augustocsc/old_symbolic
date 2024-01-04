@@ -1,0 +1,4 @@
+type,name,expression,dataset,low,high,size,noise,seed,nrmse,result,mean_nrmse,r2,epoch,time
+test_5,meu teste,-x**2 - 7,meu_teste.csv,-1,1,"(1,10000)",0,42,tensor(0.1094),,0.013806442730128765,-65.33044764309649,100,2744.7810649871826
+test_5,meu teste,-x**2 - 7,meu_teste.csv,-1,1,"(1,10000)",0,42,tensor(0.1094),,0.013806442730128765,-65.33044764309649,100,2744.7810649871826
+test_6,Cubic Polynomial,x**3 - 4 * x**2 + 2 * x - 5,_cubic_polynomial.csv,-1,1,"(1,10000)",0,42,tensor(0.5226),,0.09049667418003082,0.16541569116531862,100,2721.4500839710236`

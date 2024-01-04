@@ -1,0 +1,6 @@
+type,name,expression,dataset,low,high,size,noise,seed,nrmse,result,mean_nrmse,r2,epoch,time
+dso_3, Nguyen-4, x**6 + x**5 + x**4 + x**3 + x**2 + x,nguyen_4.csv,-1,1,"(1,20)",0,42,tensor(0.8287),,0.2243572175502777,0.9572485859124641,50,857.9005246162415
+test_2,Exponential Growth,  3 * np.exp(0.1 * x),_exponential_growth.csv,-1,1,"(1,10000)",0,42,tensor(0.4086),,0.01466583926230669,-1.094738821326258,50,853.3188717365265
+test_5,meu teste,-x**2 - 7,meu_teste.csv,-1,1,"(1,10000)",0,42,tensor(0.3350),,0.009709225967526436,-2.9407110518034343,50,854.7713465690613
+test_6,Cubic Polynomial,x**3 - 4 * x**2 + 2 * x - 5,_cubic_polynomial.csv,-1,1,"(1,10000)",0,42,tensor(0.5379),,0.060064077377319336,0.2618937614808805,50,856.6697225570679
+dso_9, Nguyen-5', np.sin(x**2) * np.cos(x) - 2,_nguyen_5_prime.csv,-1,1,"(1,10000)",0,42,tensor(0.2186),,0.013220053166151047,-11.782583417396973,50,844.140692949295

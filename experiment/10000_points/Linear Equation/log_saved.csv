@@ -1,0 +1,1152 @@
+Linear Equation_0_0,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc3e1190>>
+Linear Equation_0_1,x + 2/x,tensor(0.0035),-81747.97287240117
+Linear Equation_0_2,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc034a60>>
+Linear Equation_0_3,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc0345e0>>
+Linear Equation_0_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc0349a0>>
+Linear Equation_0_5,2*x**5,tensor(0.2721),-6.1535027568123475
+Linear Equation_0_6,3*x*log(1/x),tensor(0.),0
+Linear Equation_0_7,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ca610>>
+Linear Equation_0_8,x*(2*x + 4),tensor(0.2996),-4.462762512748269
+Linear Equation_0_9,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ca1f0>>
+Linear Equation_0_10,x + cosh(x),tensor(0.3758),-1.7588329632021056
+Linear Equation_0_11,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc03d4f0>>
+Linear Equation_0_12,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc0ddc70>>
+Linear Equation_0_13,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc0ddd90>>
+Linear Equation_0_14,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ce5b0>>
+Linear Equation_0_15,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ced30>>
+Linear Equation_0_16,x**2*(x**5 + x),tensor(0.2728),-6.102397043502572
+Linear Equation_0_17,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81cebb0>>
+Linear Equation_0_18,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81cef10>>
+Linear Equation_0_19,x*(x + 3),tensor(0.2944),-4.741719943195086
+Linear Equation_0_20,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ced60>>
+Linear Equation_0_21,2*cosh(x),tensor(0.4593),-0.38554800624382457
+Linear Equation_0_22,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6d00>>
+Linear Equation_0_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6be0>>
+Linear Equation_0_24,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6160>>
+Linear Equation_0_25,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6100>>
+Linear Equation_0_26,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6490>>
+Linear Equation_0_27,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6a60>>
+Linear Equation_0_28,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da1f0>>
+Linear Equation_0_29,3*x**4/2 + x,tensor(0.2926),-4.845488630471117
+Linear Equation_0_30,x**2*atan(4),tensor(0.2900),-4.9956533376421834
+Linear Equation_0_31,x + log(5),tensor(0.4350),-0.6865091839845583
+Linear Equation_0_32,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6580>>
+Linear Equation_0_33,1/log(x),tensor(0.),0
+Linear Equation_0_34,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81cecd0>>
+Linear Equation_0_35,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ce9d0>>
+Linear Equation_0_36,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ceaf0>>
+Linear Equation_0_37,-log(cos(x)),tensor(0.2756),-5.911974536605519
+Linear Equation_0_38,x**2/2 + x,tensor(0.2851),-5.289302105059255
+Linear Equation_0_39,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da040>>
+Linear Equation_0_40,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da910>>
+Linear Equation_0_41,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da700>>
+Linear Equation_0_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da3d0>>
+Linear Equation_0_43,x*(x + 1),tensor(0.2960),-4.656554008590349
+Linear Equation_0_44,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfeb0>>
+Linear Equation_0_45,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81df610>>
+Linear Equation_0_46,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfcd0>>
+Linear Equation_0_47,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfe80>>
+Linear Equation_0_48,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfd90>>
+Linear Equation_0_49,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81df250>>
+Linear Equation_0_50,sin(6*x)/6,tensor(0.2638),-6.784950494050366
+Linear Equation_0_51,x**2*sin(4)/2,tensor(0.2579),-7.2757685999788215
+Linear Equation_0_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81edbe0>>
+Linear Equation_0_53,log(3)/x**2,tensor(6.2597e-07),-2552051740020.017
+Linear Equation_0_54,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da880>>
+Linear Equation_0_55,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dad90>>
+Linear Equation_0_56,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da6a0>>
+Linear Equation_0_57,4*x*exp(2*x),tensor(0.1536),-29.378539261946585
+Linear Equation_0_58,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da760>>
+Linear Equation_0_59,3*x - exp(x),tensor(0.2160),-12.177672453837111
+Linear Equation_0_60,x - exp(x),tensor(0.2101),-13.129404205497332
+Linear Equation_0_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81df7f0>>
+Linear Equation_0_62,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6520>>
+Linear Equation_0_63,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d61f0>>
+Linear Equation_0_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6460>>
+Linear Equation_0_65,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6b50>>
+Linear Equation_0_66,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f26a0>>
+Linear Equation_0_67,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2640>>
+Linear Equation_0_68,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f29d0>>
+Linear Equation_0_69,x + atan(x),tensor(0.2772),-5.798175801192148
+Linear Equation_0_70,x + sqrt(x**2 + 1),tensor(0.3730),-1.8261261323138909
+Linear Equation_0_71,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed880>>
+Linear Equation_0_72,tan(4*x),tensor(0.0251),-1508.9465259758501
+Linear Equation_0_73,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed250>>
+Linear Equation_0_74,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817ab80>>
+Linear Equation_0_75,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a8e0>>
+Linear Equation_0_76,x**5/8,tensor(0.2656),-6.644729423462145
+Linear Equation_0_77,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817ad60>>
+Linear Equation_0_78,sin(2*x + 4),tensor(0.2363),-9.439656066166268
+Linear Equation_0_79,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817aa00>>
+Linear Equation_0_80,1/(x**2 + x),tensor(0.0023),-189739.37777636544
+Linear Equation_0_81,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed910>>
+Linear Equation_0_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed850>>
+Linear Equation_0_83,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed970>>
+Linear Equation_0_84,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed220>>
+Linear Equation_0_85,x**3*(x**2 + x),tensor(0.2810),-5.550258401531677
+Linear Equation_0_86,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed790>>
+Linear Equation_0_87,x**2/2,tensor(0.2744),-5.991843925409011
+Linear Equation_0_88,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81edee0>>
+Linear Equation_0_89,x**2/log(x),tensor(0.),0
+Linear Equation_0_90,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a130>>
+Linear Equation_0_91,x + sin(x + 1),tensor(0.3328),-3.0199247306858368
+Linear Equation_0_92,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81cea90>>
+Linear Equation_0_93,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ce6a0>>
+Linear Equation_0_94,cos(x) + 1,tensor(0.4153),-0.9820375011907065
+Linear Equation_0_95,46*x,tensor(0.0431),-492.3292786598786
+Linear Equation_0_96,x**2*cos(4),tensor(0.2529),-7.725657123992825
+Linear Equation_0_97,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81df850>>
+Linear Equation_0_98,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dff70>>
+Linear Equation_0_99,x*(sin(x) + 4),tensor(0.2794),-5.649426998767449
+Linear Equation_0_100,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818baf0>>
+Linear Equation_0_101,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b5e0>>
+Linear Equation_0_102,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818bac0>>
+Linear Equation_0_103,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b1c0>>
+Linear Equation_0_104,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b520>>
+Linear Equation_0_105,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818bd60>>
+Linear Equation_0_106,cos(x) + tan(x),tensor(0.3440),-2.6364832391199973
+Linear Equation_0_107,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b0d0>>
+Linear Equation_0_108,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818bf40>>
+Linear Equation_0_109,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190520>>
+Linear Equation_0_110,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190400>>
+Linear Equation_0_111,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81902e0>>
+Linear Equation_0_112,sin(4*x)/4,tensor(0.2658),-6.6326276559495865
+Linear Equation_0_113,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190c40>>
+Linear Equation_0_114,2*log(x**2),tensor(0.1230),-49.80516862083551
+Linear Equation_0_115,-x + exp(x),tensor(0.3522),-2.3819342071127028
+Linear Equation_0_116,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6550>>
+Linear Equation_0_117,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed3d0>>
+Linear Equation_0_118,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81eda30>>
+Linear Equation_0_119,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ce700>>
+Linear Equation_0_120,x*exp(x) + 2*x,tensor(0.2929),-4.826082361296608
+Linear Equation_0_121,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dad60>>
+Linear Equation_0_122,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2ee0>>
+Linear Equation_0_123,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2580>>
+Linear Equation_0_124,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2220>>
+Linear Equation_0_125,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f21f0>>
+Linear Equation_0_126,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2550>>
+Linear Equation_0_127,1/cos(x),tensor(0.3527),-2.3668699743670607
+Linear Equation_1_0,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc3e1970>>
+Linear Equation_1_1,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc3305b0>>
+Linear Equation_1_2,x**3/3,tensor(0.2673),-6.516774818804371
+Linear Equation_1_3,2*x**2 + (x - 1)*exp(x),tensor(0.2536),-7.658545985119638
+Linear Equation_1_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b670>>
+Linear Equation_1_5,tan(x + 5),tensor(0.0001),-63195510.93382855
+Linear Equation_1_6,exp(x + 3),tensor(0.0465),-420.3479335164328
+Linear Equation_1_7,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b2e0>>
+Linear Equation_1_8,log(3/2),tensor(0.),0
+Linear Equation_1_9,2*exp(x),tensor(0.6090),0.5878312400127381
+Linear Equation_1_10,x*(x**2 + x) + x,tensor(0.2992),-4.487469437785473
+Linear Equation_1_11,x**2*log(2),tensor(0.2781),-5.740539217956173
+Linear Equation_1_12,x + exp(acosh(x)),tensor(0.),0
+Linear Equation_1_13,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a250>>
+Linear Equation_1_14,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817adf0>>
+Linear Equation_1_15,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817ac70>>
+Linear Equation_1_16,(x + 5)**2,tensor(0.0482),-388.65054312830523
+Linear Equation_1_17,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b070>>
+Linear Equation_1_18,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b160>>
+Linear Equation_1_19,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b700>>
+Linear Equation_1_20,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810ba30>>
+Linear Equation_1_21,x + x*acos(2),tensor(0.),0
+Linear Equation_1_22,x**2,tensor(0.2839),-5.364280303906094
+Linear Equation_1_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b6d0>>
+Linear Equation_1_24,log(5*x),tensor(0.),0
+Linear Equation_1_25,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817ac40>>
+Linear Equation_1_26,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b040>>
+Linear Equation_1_27,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b970>>
+Linear Equation_1_28,x**2*asin(x),tensor(0.2719),-6.168260311499892
+Linear Equation_1_29,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e78b0>>
+Linear Equation_1_30,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7eb0>>
+Linear Equation_1_31,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7640>>
+Linear Equation_1_32,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7cd0>>
+Linear Equation_1_33,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7f40>>
+Linear Equation_1_34,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7730>>
+Linear Equation_1_35,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8be0>>
+Linear Equation_1_36,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8910>>
+Linear Equation_1_37,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8310>>
+Linear Equation_1_38,x/(x**2 + x),tensor(0.0024),-169251.1637357012
+Linear Equation_1_39,x*(5*x**2 - x),tensor(0.2481),-8.188019543597408
+Linear Equation_1_40,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816b790>>
+Linear Equation_1_41,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816b040>>
+Linear Equation_1_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816bd90>>
+Linear Equation_1_43,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816b7f0>>
+Linear Equation_1_44,-log(cos(x)) - cos(x),tensor(0.2312),-10.056694027496198
+Linear Equation_1_45,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816bb50>>
+Linear Equation_1_46,10*x**4,tensor(0.2726),-6.122202168661099
+Linear Equation_1_47,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8400>>
+Linear Equation_1_48,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f87f0>>
+Linear Equation_1_49,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b0d0>>
+Linear Equation_1_50,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b7c0>>
+Linear Equation_1_51,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b1c0>>
+Linear Equation_1_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b400>>
+Linear Equation_1_53,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810eb80>>
+Linear Equation_1_54,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810e7c0>>
+Linear Equation_1_55,2*sin(2*x),tensor(0.2742),-6.005019336838256
+Linear Equation_1_56,x**3*exp(5),tensor(0.0205),-2273.72577916525
+Linear Equation_1_57,5*x*tan(1),tensor(0.2026),-14.482158005102836
+Linear Equation_1_58,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810ea60>>
+Linear Equation_1_59,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810ec40>>
+Linear Equation_1_60,12*x**3 + x,tensor(0.1860),-18.146456639939583
+Linear Equation_1_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812a760>>
+Linear Equation_1_62,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812a970>>
+Linear Equation_1_63,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812af10>>
+Linear Equation_1_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812a8e0>>
+Linear Equation_1_65,x**2*asin(x),tensor(0.2719),-6.168260311499892
+Linear Equation_1_66,x*exp(x - 1) + 1,tensor(0.3597),-2.1693555111848495
+Linear Equation_1_67,5*log(x),tensor(0.),0
+Linear Equation_1_68,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810e2e0>>
+Linear Equation_1_69,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810e1c0>>
+Linear Equation_1_70,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810e3d0>>
+Linear Equation_1_71,(x + 1)**2,tensor(0.4043),-1.1715640493513777
+Linear Equation_1_72,2*x + sin(x + 2),tensor(0.3390),-2.802147761597136
+Linear Equation_1_73,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f27f0>>
+Linear Equation_1_74,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190880>>
+Linear Equation_1_75,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a370>>
+Linear Equation_1_76,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a100>>
+Linear Equation_1_77,x**3/3 + x**2,tensor(0.2868),-5.1843057638135175
+Linear Equation_1_78,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8bb0>>
+Linear Equation_1_79,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b8e0>>
+Linear Equation_1_80,cos(x) + sinh(x),tensor(0.3422),-2.6967493122168014
+Linear Equation_1_81,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810bb80>>
+Linear Equation_1_82,x + 3*cos(x),tensor(0.5776),0.46522253312883566
+Linear Equation_1_83,3*x**2 + x,tensor(0.3369),-2.8747395639361906
+Linear Equation_1_84,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e71f0>>
+Linear Equation_1_85,sin(log(x**3)),tensor(0.),0
+Linear Equation_1_86,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812a1c0>>
+Linear Equation_1_87,x**3*(x + 1),tensor(0.2829),-5.425519828216034
+Linear Equation_1_88,2*x*(x + 16),tensor(0.0618),-229.45712143439567
+Linear Equation_1_89,34*x + exp(x),tensor(0.0566),-276.59850792003215
+Linear Equation_1_90,4*x + 4,tensor(0.4326),-0.7206462748173967
+Linear Equation_1_91,2*x*asinh(x),tensor(0.2997),-4.45973186694069
+Linear Equation_1_92,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e73a0>>
+Linear Equation_1_93,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7400>>
+Linear Equation_1_94,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7d90>>
+Linear Equation_1_95,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7130>>
+Linear Equation_1_96,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7ac0>>
+Linear Equation_1_97,x**3*(2*x + 1),tensor(0.2937),-4.783649430113087
+Linear Equation_1_98,x + log(x)**2,tensor(0.),0
+Linear Equation_1_99,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81319a0>>
+Linear Equation_1_100,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131cd0>>
+Linear Equation_1_101,x*cosh(5),tensor(0.0268),-1313.7301654823461
+Linear Equation_1_102,exp(x) - cos(x),tensor(0.2968),-4.610805131134936
+Linear Equation_1_103,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810e5e0>>
+Linear Equation_1_104,-3*x**3 + x,tensor(0.2525),-7.7634272610158614
+Linear Equation_1_105,exp(x) + log(x) - 2*atan(x),tensor(0.),0
+Linear Equation_1_106,x*cos(x + 5),tensor(0.2843),-5.3360311681064685
+Linear Equation_1_107,4*x*cosh(x),tensor(0.2428),-8.729453218895578
+Linear Equation_1_108,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9f40>>
+Linear Equation_1_109,8*x**6,tensor(0.2850),-5.291614721136407
+Linear Equation_1_110,1/(x**2 + 1),tensor(0.3171),-3.637805152576867
+Linear Equation_1_111,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ca820>>
+Linear Equation_1_112,x**2/sin(2),tensor(0.2857),-5.24804508895487
+Linear Equation_1_113,x*log(x) - x,tensor(0.),0
+Linear Equation_1_114,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9160>>
+Linear Equation_1_115,x + x/(x + 2),tensor(0.2704),-6.276900311350511
+Linear Equation_1_116,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816be20>>
+Linear Equation_1_117,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816b1f0>>
+Linear Equation_1_118,5*x*sin(x),tensor(0.3348),-2.9492903709852896
+Linear Equation_1_119,log(x + 4),tensor(0.3781),-1.7061153640546425
+Linear Equation_1_120,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ca370>>
+Linear Equation_1_121,2*log(x),tensor(0.),0
+Linear Equation_1_122,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80caac0>>
+Linear Equation_1_123,-x**(3/2),tensor(0.),0
+Linear Equation_1_124,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816bbb0>>
+Linear Equation_1_125,2*x + log(5*x),tensor(0.),0
+Linear Equation_1_126,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816b1c0>>
+Linear Equation_1_127,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8d60>>
+Linear Equation_2_0,log(x + 2),tensor(0.3166),-3.659888083009683
+Linear Equation_2_1,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131760>>
+Linear Equation_2_2,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7b50>>
+Linear Equation_2_3,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80be430>>
+Linear Equation_2_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80805e0>>
+Linear Equation_2_5,x,tensor(0.2743),-5.996967995650307
+Linear Equation_2_6,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080e20>>
+Linear Equation_2_7,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080880>>
+Linear Equation_2_8,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080e50>>
+Linear Equation_2_9,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80804c0>>
+Linear Equation_2_10,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080df0>>
+Linear Equation_2_11,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080e80>>
+Linear Equation_2_12,x*sin(x) + 3*x + cos(x),tensor(0.3699),-1.9008933161325494
+Linear Equation_2_13,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080490>>
+Linear Equation_2_14,exp(x + 5),tensor(0.0059),-28585.300014632205
+Linear Equation_2_15,log(x) + tan(x),tensor(0.),0
+Linear Equation_2_16,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2af0>>
+Linear Equation_2_17,-sin(x) + cos(x),tensor(0.2985),-4.523609498860469
+Linear Equation_2_18,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080be0>>
+Linear Equation_2_19,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080cd0>>
+Linear Equation_2_20,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080af0>>
+Linear Equation_2_21,atan(x + 3),tensor(0.3592),-2.182597379137336
+Linear Equation_2_22,x*asin(x) + 3*x,tensor(0.2980),-4.551047644804775
+Linear Equation_2_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80806d0>>
+Linear Equation_2_24,sin(x + 2),tensor(0.3070),-4.096067493060632
+Linear Equation_2_25,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80be2b0>>
+Linear Equation_2_26,-2*log(cos(x)),tensor(0.2861),-5.229204532974365
+Linear Equation_2_27,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131df0>>
+Linear Equation_2_28,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131490>>
+Linear Equation_2_29,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131820>>
+Linear Equation_2_30,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131a60>>
+Linear Equation_2_31,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81313d0>>
+Linear Equation_2_32,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81318e0>>
+Linear Equation_2_33,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ceee0>>
+Linear Equation_2_34,x**2 + 7*x,tensor(0.2246),-10.914525913349463
+Linear Equation_2_35,x**3/3 + x**2,tensor(0.2868),-5.1843057638135175
+Linear Equation_2_36,x**3 - 1,tensor(0.2205),-11.496655738817967
+Linear Equation_2_37,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810e190>>
+Linear Equation_2_38,sqrt(3)*sqrt(x)*acos(x),tensor(0.),0
+Linear Equation_2_39,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ce040>>
+Linear Equation_2_40,22*x*(x + sin(x)),tensor(0.0655),-202.680083123663
+Linear Equation_2_41,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9a60>>
+Linear Equation_2_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c4400>>
+Linear Equation_2_43,8*x**9/9,tensor(0.2675),-6.497010927802727
+Linear Equation_2_44,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807f490>>
+Linear Equation_2_45,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807feb0>>
+Linear Equation_2_46,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fee0>>
+Linear Equation_2_47,8*x**2,tensor(0.3000),-4.444757985690619
+Linear Equation_2_48,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e9e80>>
+Linear Equation_2_49,tan(x + 3),tensor(0.2619),-6.942438541032082
+Linear Equation_2_50,x**3*sin(4),tensor(0.2590),-7.185509488446371
+Linear Equation_2_51,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9a90>>
+Linear Equation_2_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9760>>
+Linear Equation_2_53,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9d30>>
+Linear Equation_2_54,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9bb0>>
+Linear Equation_2_55,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812a610>>
+Linear Equation_2_56,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812a190>>
+Linear Equation_2_57,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812a730>>
+Linear Equation_2_58,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ca8b0>>
+Linear Equation_2_59,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ca1c0>>
+Linear Equation_2_60,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80caa60>>
+Linear Equation_2_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ca940>>
+Linear Equation_2_62,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80caf40>>
+Linear Equation_2_63,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ca040>>
+Linear Equation_2_64,x + cosh(sqrt(x)),tensor(0.),0
+Linear Equation_2_65,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c4f10>>
+Linear Equation_2_66,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c49a0>>
+Linear Equation_2_67,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c4580>>
+Linear Equation_2_68,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c4490>>
+Linear Equation_2_69,2*x**2 + 2,tensor(0.4615),-0.36105207736498546
+Linear Equation_2_70,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c4730>>
+Linear Equation_2_71,16*x**5/5,tensor(0.2731),-6.087786393534771
+Linear Equation_2_72,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810eca0>>
+Linear Equation_2_73,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80be730>>
+Linear Equation_2_74,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80bed30>>
+Linear Equation_2_75,x**2/2,tensor(0.2744),-5.991843925409011
+Linear Equation_2_76,sin(x + 5),tensor(0.2269),-10.615804125781843
+Linear Equation_2_77,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f89d0>>
+Linear Equation_2_78,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ceac0>>
+Linear Equation_2_79,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ce820>>
+Linear Equation_2_80,2*x*cos(x) - sin(x),tensor(0.2705),-6.2712085828114645
+Linear Equation_2_81,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fa60>>
+Linear Equation_2_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807f400>>
+Linear Equation_2_83,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807ff10>>
+Linear Equation_2_84,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fd90>>
+Linear Equation_2_85,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807f6a0>>
+Linear Equation_2_86,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fbe0>>
+Linear Equation_2_87,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807f700>>
+Linear Equation_2_88,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807f760>>
+Linear Equation_2_89,-x**2/4,tensor(0.2603),-7.073660221642413
+Linear Equation_2_90,exp(x + 1),tensor(0.6087),0.5866973807590357
+Linear Equation_2_91,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80807f0>>
+Linear Equation_2_92,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80800a0>>
+Linear Equation_2_93,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80809d0>>
+Linear Equation_2_94,x**2/(x + 3),tensor(0.2707),-6.25562590959713
+Linear Equation_2_95,x**2*atan(2*x),tensor(0.2723),-6.1433850416188385
+Linear Equation_2_96,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094370>>
+Linear Equation_2_97,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094d00>>
+Linear Equation_2_98,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80941f0>>
+Linear Equation_2_99,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094b50>>
+Linear Equation_2_100,4*x + 5,tensor(0.3347),-2.951950605109594
+Linear Equation_2_101,x*(-x + cos(x)),tensor(0.2523),-7.783585995867778
+Linear Equation_2_102,2*x*cos(x) - sin(x),tensor(0.2705),-6.2712085828114645
+Linear Equation_2_103,tan(x + 5),tensor(0.0001),-63195510.93382855
+Linear Equation_2_104,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80be0d0>>
+Linear Equation_2_105,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80be0a0>>
+Linear Equation_2_106,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80beac0>>
+Linear Equation_2_107,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80be3a0>>
+Linear Equation_2_108,x*acos(x) - 4*x,tensor(0.2145),-12.408078668898243
+Linear Equation_2_109,-x*sin(x) - cos(x),tensor(0.2120),-12.821395964200004
+Linear Equation_2_110,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9af0>>
+Linear Equation_2_111,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9e80>>
+Linear Equation_2_112,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9a30>>
+Linear Equation_2_113,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131910>>
+Linear Equation_2_114,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81312e0>>
+Linear Equation_2_115,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fc70>>
+Linear Equation_2_116,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fd00>>
+Linear Equation_2_117,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fb20>>
+Linear Equation_2_118,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fb80>>
+Linear Equation_2_119,5*x**2 + 1,tensor(0.3741),-1.7994680597492492
+Linear Equation_2_120,4*x**2 + 5*x,tensor(0.2993),-4.48006827668273
+Linear Equation_2_121,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c4af0>>
+Linear Equation_2_122,sqrt(x) + x + exp(x),tensor(0.),0
+Linear Equation_2_123,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e9b50>>
+Linear Equation_2_124,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094730>>
+Linear Equation_2_125,x*acosh(x) + x,tensor(0.),0
+Linear Equation_2_126,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80942e0>>
+Linear Equation_2_127,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094340>>
+Linear Equation_3_0,345*x**6,tensor(0.0122),-6544.471017038543
+Linear Equation_3_1,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfac0>>
+Linear Equation_3_2,x*log(2) + 2*x,tensor(0.2749),-5.9566830796800465
+Linear Equation_3_3,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81df190>>
+Linear Equation_3_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80944c0>>
+Linear Equation_3_5,5*log(x),tensor(0.),0
+Linear Equation_3_6,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131ee0>>
+Linear Equation_3_7,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8131f10>>
+Linear Equation_3_8,x + 6*tan(x),tensor(0.1883),-17.584705658678136
+Linear Equation_3_9,922*x**3,tensor(0.0033),-90230.78639834157
+Linear Equation_3_10,1/(x + cos(x)),tensor(0.0156),-3956.176284948109
+Linear Equation_3_11,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807f070>>
+Linear Equation_3_12,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fe50>>
+Linear Equation_3_13,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807f550>>
+Linear Equation_3_14,x**2 + 5*x,tensor(0.2633),-6.827710578114791
+Linear Equation_3_15,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80985e0>>
+Linear Equation_3_16,2*x + 3*log(x),tensor(0.),0
+Linear Equation_3_17,4*x + 6*log(x),tensor(0.),0
+Linear Equation_3_18,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e0c40>>
+Linear Equation_3_19,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b48b0>>
+Linear Equation_3_20,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b4250>>
+Linear Equation_3_21,-x**3 + x,tensor(0.2692),-6.372284131819364
+Linear Equation_3_22,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af370>>
+Linear Equation_3_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af3a0>>
+Linear Equation_3_24,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af2b0>>
+Linear Equation_3_25,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80afb20>>
+Linear Equation_3_26,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af160>>
+Linear Equation_3_27,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af8b0>>
+Linear Equation_3_28,x**4/4,tensor(0.2678),-6.478378342368514
+Linear Equation_3_29,x*acos(2*x),tensor(0.),0
+Linear Equation_3_30,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af220>>
+Linear Equation_3_31,tan(x - 1),tensor(0.0058),-29602.36346302827
+Linear Equation_3_32,x*cos(2) + x,tensor(0.2711),-6.226403840089977
+Linear Equation_3_33,x + tan(x + 1),tensor(0.0197),-2484.587661045463
+Linear Equation_3_34,1 - x**2,tensor(0.3073),-4.0814606436474214
+Linear Equation_3_35,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b4fa0>>
+Linear Equation_3_36,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b4a90>>
+Linear Equation_3_37,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b43a0>>
+Linear Equation_3_38,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b4c40>>
+Linear Equation_3_39,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b4850>>
+Linear Equation_3_40,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b4790>>
+Linear Equation_3_41,-log(cos(x)) + sin(x),tensor(0.2856),-5.255276708973996
+Linear Equation_3_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e9eb0>>
+Linear Equation_3_43,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af100>>
+Linear Equation_3_44,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80afdc0>>
+Linear Equation_3_45,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af130>>
+Linear Equation_3_46,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80afbb0>>
+Linear Equation_3_47,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80afac0>>
+Linear Equation_3_48,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af3d0>>
+Linear Equation_3_49,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ac5e0>>
+Linear Equation_3_50,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ac3a0>>
+Linear Equation_3_51,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ac700>>
+Linear Equation_3_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ac9a0>>
+Linear Equation_3_53,x**2*sin(x + 5),tensor(0.2538),-7.641191189255899
+Linear Equation_3_54,x*(x + Abs(x)),tensor(0.2935),-4.795074614374608
+Linear Equation_3_55,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ac130>>
+Linear Equation_3_56,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80acdc0>>
+Linear Equation_3_57,x*(2*x + log(x)),tensor(0.),0
+Linear Equation_3_58,-x**3 + 2*cos(x),tensor(0.3661),-1.9988547339906257
+Linear Equation_3_59,x*(-x + 2*cos(x)),tensor(0.2553),-7.5078921804053405
+Linear Equation_3_60,exp(2*x + 5),tensor(0.0030),-108204.23710548184
+Linear Equation_3_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094640>>
+Linear Equation_3_62,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094af0>>
+Linear Equation_3_63,3*x + exp(5),tensor(0.0079),-15972.465388747567
+Linear Equation_3_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8044d30>>
+Linear Equation_3_65,3*exp(x + 3),tensor(0.0147),-4491.364424422265
+Linear Equation_3_66,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80c42e0>>
+Linear Equation_3_67,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ce850>>
+Linear Equation_3_68,-tanh(x),tensor(0.2535),-7.672565335297399
+Linear Equation_3_69,x**2 + 8*cos(x),tensor(0.2101),-13.141630685209797
+Linear Equation_3_70,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ce700>>
+Linear Equation_3_71,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e9070>>
+Linear Equation_3_72,x + x*tan(4),tensor(0.2770),-5.814403221775469
+Linear Equation_3_73,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e05b0>>
+Linear Equation_3_74,sin(x)**2,tensor(0.2806),-5.57580767662783
+Linear Equation_3_75,x**2 + sinh(x),tensor(0.2968),-4.61211115004071
+Linear Equation_3_76,x*acosh(2*x),tensor(0.),0
+Linear Equation_3_77,x*tanh(5),tensor(0.2743),-5.997008606492271
+Linear Equation_3_78,1/sin(3),tensor(0.),0
+Linear Equation_3_79,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8098310>>
+Linear Equation_3_80,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80537f0>>
+Linear Equation_3_81,x*cos(x + 3),tensor(0.2533),-7.687303928555885
+Linear Equation_3_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80942b0>>
+Linear Equation_3_83,x + x*exp(5),tensor(0.0134),-5448.505653528388
+Linear Equation_3_84,sqrt(x) + tan(x),tensor(0.),0
+Linear Equation_3_85,x*cos(x + 1),tensor(0.2545),-7.57742178025835
+Linear Equation_3_86,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a805fd90>>
+Linear Equation_3_87,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a805f880>>
+Linear Equation_3_88,2*x - cos(x),tensor(0.2303),-10.170186415564313
+Linear Equation_3_89,log(x + 4),tensor(0.3781),-1.7061153640546425
+Linear Equation_3_90,sin(x) + acos(x),tensor(0.3747),-1.7844543285248555
+Linear Equation_3_91,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a805f130>>
+Linear Equation_3_92,25*x**2,tensor(0.1108),-63.34455235941026
+Linear Equation_3_93,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80afaf0>>
+Linear Equation_3_94,x*log(x**2),tensor(0.2548),-7.550482772613062
+Linear Equation_3_95,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e9d00>>
+Linear Equation_3_96,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8053ca0>>
+Linear Equation_3_97,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8053280>>
+Linear Equation_3_98,x*tan(1),tensor(0.2768),-5.825372889965325
+Linear Equation_3_99,x + sin(x) + 2,tensor(0.5348),0.2433890134881388
+Linear Equation_3_100,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e03d0>>
+Linear Equation_3_101,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e00a0>>
+Linear Equation_3_102,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e04f0>>
+Linear Equation_3_103,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e02b0>>
+Linear Equation_3_104,x*(x - 1),tensor(0.2665),-6.57221277430058
+Linear Equation_3_105,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e0280>>
+Linear Equation_3_106,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80e0550>>
+Linear Equation_3_107,x*exp(x + 2),tensor(0.1833),-18.855794911261427
+Linear Equation_3_108,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80afb80>>
+Linear Equation_3_109,x*(x*log(sqrt(x)) + x),tensor(0.),0
+Linear Equation_3_110,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8044580>>
+Linear Equation_3_111,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8044340>>
+Linear Equation_3_112,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8044760>>
+Linear Equation_3_113,2*x**3 + x*sin(x) + cos(x),tensor(0.3731),-1.8220983385885394
+Linear Equation_3_114,log(x*(x + 2)**2),tensor(0.),0
+Linear Equation_3_115,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8044400>>
+Linear Equation_3_116,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e9d0>>
+Linear Equation_3_117,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e850>>
+Linear Equation_3_118,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e6d0>>
+Linear Equation_3_119,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e4c0>>
+Linear Equation_3_120,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e400>>
+Linear Equation_3_121,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806edf0>>
+Linear Equation_3_122,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e2b0>>
+Linear Equation_3_123,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806ea00>>
+Linear Equation_3_124,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e6a0>>
+Linear Equation_3_125,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806ef10>>
+Linear Equation_3_126,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806ea60>>
+Linear Equation_3_127,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806eee0>>
+Linear Equation_4_0,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094eb0>>
+Linear Equation_4_1,x - exp(x),tensor(0.2101),-13.129404205497332
+Linear Equation_4_2,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0af0>>
+Linear Equation_4_3,-x**4 + x,tensor(0.2615),-6.971435182032574
+Linear Equation_4_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cda60>>
+Linear Equation_4_5,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cd250>>
+Linear Equation_4_6,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cda90>>
+Linear Equation_4_7,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cd9d0>>
+Linear Equation_4_8,x**3/3 + x**2,tensor(0.2868),-5.1843057638135175
+Linear Equation_4_9,sin(x),tensor(0.2737),-6.042904933124297
+Linear Equation_4_10,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dae20>>
+Linear Equation_4_11,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d09a0>>
+Linear Equation_4_12,x + sin(x + 3),tensor(0.2733),-6.072951981704864
+Linear Equation_4_13,85/x,tensor(8.2284e-05),-147673151.06826502
+Linear Equation_4_14,(x + 1)*cos(x),tensor(0.3363),-2.8943647472981415
+Linear Equation_4_15,5*exp(x**2),tensor(0.1851),-18.38643310868651
+Linear Equation_4_16,x**2*exp(5),tensor(0.0177),-3087.409025942499
+Linear Equation_4_17,x*(4*x**2 + x),tensor(0.2939),-4.770279028449012
+Linear Equation_4_18,2*atan(x),tensor(0.2771),-5.808240379528054
+Linear Equation_4_19,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e160>>
+Linear Equation_4_20,sin(x + 4),tensor(0.2276),-10.522366734665619
+Linear Equation_4_21,x/sin(3),tensor(0.2137),-12.539080616428082
+Linear Equation_4_22,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80aceb0>>
+Linear Equation_4_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80acca0>>
+Linear Equation_4_24,2*x**2 + x + 2,tensor(0.5619),0.39234444603896335
+Linear Equation_4_25,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a805f490>>
+Linear Equation_4_26,x*exp(3*x),tensor(0.2395),-9.082252315521409
+Linear Equation_4_27,sqrt(3*x + 2),tensor(0.),0
+Linear Equation_4_28,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b87c0>>
+Linear Equation_4_29,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80af5e0>>
+Linear Equation_4_30,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cd910>>
+Linear Equation_4_31,2*tan(x + 2),tensor(0.0005),-3678175.396878375
+Linear Equation_4_32,x + log(x) + 1,tensor(0.),0
+Linear Equation_4_33,x*(x - 2)**2,tensor(0.1945),-16.155217348884783
+Linear Equation_4_34,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8053490>>
+Linear Equation_4_35,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d2490>>
+Linear Equation_4_36,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d2730>>
+Linear Equation_4_37,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d2ee0>>
+Linear Equation_4_38,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d2dc0>>
+Linear Equation_4_39,x**2 + 5,tensor(0.3035),-4.264141556000238
+Linear Equation_4_40,4*x**4 + 4*x,tensor(0.2975),-4.575513831481493
+Linear Equation_4_41,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d29a0>>
+Linear Equation_4_42,8/x,tensor(0.0009),-1308048.7552013155
+Linear Equation_4_43,x**2*sin(2*x),tensor(0.2721),-6.158279806103636
+Linear Equation_4_44,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881da820>>
+Linear Equation_4_45,cosh(x + 2),tensor(0.3771),-1.729576344731392
+Linear Equation_4_46,x**2 + sin(x),tensor(0.2951),-4.703657357576908
+Linear Equation_4_47,4*x**2 + 2,tensor(0.4027),-1.2001425858669177
+Linear Equation_4_48,sqrt(3)*x**2,tensor(0.2974),-4.58060367348537
+Linear Equation_4_49,sin(2*x + 3),tensor(0.2493),-8.071093567982704
+Linear Equation_4_50,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0850>>
+Linear Equation_4_51,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0460>>
+Linear Equation_4_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0100>>
+Linear Equation_4_53,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0910>>
+Linear Equation_4_54,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0940>>
+Linear Equation_4_55,x - 3,tensor(0.1605),-26.3434665544518
+Linear Equation_4_56,4*x*(-x - 1),tensor(0.1706),-22.63680518784276
+Linear Equation_4_57,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e190>>
+Linear Equation_4_58,x**3/9,tensor(0.2658),-6.632505986476609
+Linear Equation_4_59,sqrt(x + 2),tensor(0.3845),-1.5625368234442245
+Linear Equation_4_60,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cdf40>>
+Linear Equation_4_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8e50>>
+Linear Equation_4_62,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8ca0>>
+Linear Equation_4_63,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8b50>>
+Linear Equation_4_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8340>>
+Linear Equation_4_65,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8af0>>
+Linear Equation_4_66,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8d60>>
+Linear Equation_4_67,-3*x**2 + x,tensor(0.2183),-11.816237015761695
+Linear Equation_4_68,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd7c0>>
+Linear Equation_4_69,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ddc70>>
+Linear Equation_4_70,x*acos(x + 2),tensor(0.),0
+Linear Equation_4_71,x*log(x) + 33*x,tensor(0.),0
+Linear Equation_4_72,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dddc0>>
+Linear Equation_4_73,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd520>>
+Linear Equation_4_74,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd610>>
+Linear Equation_4_75,2*x**2*(x - 1)**2,tensor(0.2518),-7.833657168215824
+Linear Equation_4_76,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ee9a0>>
+Linear Equation_4_77,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881eee80>>
+Linear Equation_4_78,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ee460>>
+Linear Equation_4_79,6*x**5,tensor(0.2650),-6.689215008715522
+Linear Equation_4_80,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8700>>
+Linear Equation_4_81,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b89d0>>
+Linear Equation_4_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8460>>
+Linear Equation_4_83,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8640>>
+Linear Equation_4_84,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b86a0>>
+Linear Equation_4_85,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8430>>
+Linear Equation_4_86,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b83d0>>
+Linear Equation_4_87,x*(1 - cos(x)),tensor(0.2681),-6.450104366053098
+Linear Equation_4_88,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806efa0>>
+Linear Equation_4_89,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8b80>>
+Linear Equation_4_90,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8c40>>
+Linear Equation_4_91,x**2 + cosh(x),tensor(0.3737),-1.8084621636403329
+Linear Equation_4_92,x + cos(x) - 5,tensor(0.1383),-37.84150941597762
+Linear Equation_4_93,4*x*(x + 3),tensor(0.1582),-27.31978206531059
+Linear Equation_4_94,-sin(x),tensor(0.2526),-7.7550438793051395
+Linear Equation_4_95,4,tensor(0.),0
+Linear Equation_4_96,exp(x + 2),tensor(0.1461),-33.15137658235097
+Linear Equation_4_97,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd250>>
+Linear Equation_4_98,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cda00>>
+Linear Equation_4_99,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881cd3a0>>
+Linear Equation_4_100,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8053040>>
+Linear Equation_4_101,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0d60>>
+Linear Equation_4_102,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0760>>
+Linear Equation_4_103,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0370>>
+Linear Equation_4_104,x**2 + x + exp(x),tensor(0.4236),-0.8517775047486349
+Linear Equation_4_105,cosh(2*x)/2,tensor(0.3234),-3.375281259005715
+Linear Equation_4_106,x*cos(x + 3),tensor(0.2533),-7.687303928555885
+Linear Equation_4_107,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881daf70>>
+Linear Equation_4_108,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d27c0>>
+Linear Equation_4_109,2*tan(x),tensor(0.2753),-5.931986012362075
+Linear Equation_4_110,-x**3 - 1,tensor(0.2132),-12.61238884531651
+Linear Equation_4_111,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f16d0>>
+Linear Equation_4_112,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1b20>>
+Linear Equation_4_113,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1dc0>>
+Linear Equation_4_114,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1d00>>
+Linear Equation_4_115,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1c40>>
+Linear Equation_4_116,2*x,tensor(0.2772),-5.799816825345279
+Linear Equation_4_117,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881daee0>>
+Linear Equation_4_118,x*exp(x) - 2*x,tensor(0.2739),-6.025753835336117
+Linear Equation_4_119,x + sin(x + 3),tensor(0.2733),-6.072951981704864
+Linear Equation_4_120,x/(2*cos(5)),tensor(0.2772),-5.801337590336451
+Linear Equation_4_121,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1850>>
+Linear Equation_4_122,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f18b0>>
+Linear Equation_4_123,x + cosh(x) + 1,tensor(0.5322),0.22723194596673169
+Linear Equation_4_124,sqrt(2)*sqrt(x),tensor(0.),0
+Linear Equation_4_125,x**2 - exp(x),tensor(0.2147),-12.37799174240431
+Linear Equation_4_126,1 - x,tensor(0.3055),-4.16716476465022
+Linear Equation_4_127,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd430>>
+Linear Equation_5_0,2*x + tan(5),tensor(0.1528),-29.758572294153865
+Linear Equation_5_1,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e2e0>>
+Linear Equation_5_2,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e520>>
+Linear Equation_5_3,x**2 + sin(x)*cos(x),tensor(0.2925),-4.850852844980694
+Linear Equation_5_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e7f0>>
+Linear Equation_5_5,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0f70>>
+Linear Equation_5_6,x*sin(x) - x + cos(x),tensor(0.3139),-3.777766621523697
+Linear Equation_5_7,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0a60>>
+Linear Equation_5_8,sin(2*x + 4),tensor(0.2363),-9.439656066166268
+Linear Equation_5_9,-cos(x),tensor(0.2237),-11.039171871085143
+Linear Equation_5_10,8*x**2,tensor(0.3000),-4.444757985690619
+Linear Equation_5_11,(x + 5)/x,tensor(0.0014),-510949.9457676591
+Linear Equation_5_12,-sin(x),tensor(0.2526),-7.7550438793051395
+Linear Equation_5_13,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806eb80>>
+Linear Equation_5_14,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806ed00>>
+Linear Equation_5_15,x**2/2,tensor(0.2744),-5.991843925409011
+Linear Equation_5_16,x + 2*exp(2*x),tensor(0.2609),-7.022932946264927
+Linear Equation_5_17,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881acc70>>
+Linear Equation_5_18,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881acc10>>
+Linear Equation_5_19,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ace20>>
+Linear Equation_5_20,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ac970>>
+Linear Equation_5_21,-log(tan(2*x) + 1),tensor(0.),0
+Linear Equation_5_22,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ee2e0>>
+Linear Equation_5_23,atanh(x) + 4,tensor(0.5159),0.11975530175103055
+Linear Equation_5_24,sqrt(2)*acosh(x),tensor(0.),0
+Linear Equation_5_25,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd700>>
+Linear Equation_5_26,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd8e0>>
+Linear Equation_5_27,-x**2/9 + exp(x),tensor(0.3738),-1.8075203085649583
+Linear Equation_5_28,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a5700>>
+Linear Equation_5_29,x**4/2,tensor(0.2705),-6.27277205751609
+Linear Equation_5_30,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0f40>>
+Linear Equation_5_31,x**2*(x + sin(x) + 2),tensor(0.3177),-3.610876039837864
+Linear Equation_5_32,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a5a00>>
+Linear Equation_5_33,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193b50>>
+Linear Equation_5_34,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193820>>
+Linear Equation_5_35,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193640>>
+Linear Equation_5_36,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193070>>
+Linear Equation_5_37,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193bb0>>
+Linear Equation_5_38,x + cosh(x),tensor(0.3758),-1.7588329632021056
+Linear Equation_5_39,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6790>>
+Linear Equation_5_40,2*sin(2*x),tensor(0.2742),-6.005019336838256
+Linear Equation_5_41,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881937f0>>
+Linear Equation_5_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193e80>>
+Linear Equation_5_43,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881935b0>>
+Linear Equation_5_44,sqrt(2)*sqrt(x),tensor(0.),0
+Linear Equation_5_45,3*x**2 + log(x),tensor(0.),0
+Linear Equation_5_46,log(x) + 3,tensor(0.),0
+Linear Equation_5_47,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193040>>
+Linear Equation_5_48,x + sin(x) + 2,tensor(0.5348),0.2433890134881388
+Linear Equation_5_49,2*x*sin(x),tensor(0.2991),-4.489978057739626
+Linear Equation_5_50,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881dd7f0>>
+Linear Equation_5_51,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ddf70>>
+Linear Equation_5_52,exp(x) + 4,tensor(0.3382),-2.828191764459154
+Linear Equation_5_53,2*x**2 + 2*x,tensor(0.3229),-3.3979221278499994
+Linear Equation_5_54,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8044cd0>>
+Linear Equation_5_55,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a806e670>>
+Linear Equation_5_56,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f11f0>>
+Linear Equation_5_57,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1a90>>
+Linear Equation_5_58,x*log(x + 5),tensor(0.2814),-5.523468696109764
+Linear Equation_5_59,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ee0a0>>
+Linear Equation_5_60,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193850>>
+Linear Equation_5_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193730>>
+Linear Equation_5_62,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193cd0>>
+Linear Equation_5_63,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193c40>>
+Linear Equation_5_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193130>>
+Linear Equation_5_65,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881934c0>>
+Linear Equation_5_66,pi*(x + cos(x)),tensor(0.5681),0.42179196289810517
+Linear Equation_5_67,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881933d0>>
+Linear Equation_5_68,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6b80>>
+Linear Equation_5_69,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6af0>>
+Linear Equation_5_70,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6c70>>
+Linear Equation_5_71,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6e20>>
+Linear Equation_5_72,x**5,tensor(0.2694),-6.356524156408769
+Linear Equation_5_73,x + 2,tensor(0.5015),0.012012348722601485
+Linear Equation_5_74,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ac1f0>>
+Linear Equation_5_75,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ac550>>
+Linear Equation_5_76,2*x + 5,tensor(0.3652),-2.0221408112645687
+Linear Equation_5_77,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ac220>>
+Linear Equation_5_78,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0fd0>>
+Linear Equation_5_79,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0580>>
+Linear Equation_5_80,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0670>>
+Linear Equation_5_81,x + sin(x) + 4,tensor(0.5343),0.24005170893578343
+Linear Equation_5_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0970>>
+Linear Equation_5_83,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0790>>
+Linear Equation_5_84,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0ee0>>
+Linear Equation_5_85,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b02b0>>
+Linear Equation_5_86,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7610>>
+Linear Equation_5_87,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7ac0>>
+Linear Equation_5_88,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7310>>
+Linear Equation_5_89,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7850>>
+Linear Equation_5_90,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7100>>
+Linear Equation_5_91,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7a90>>
+Linear Equation_5_92,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7be0>>
+Linear Equation_5_93,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7190>>
+Linear Equation_5_94,cosh(x),tensor(0.3490),-2.479336285445355
+Linear Equation_5_95,22*log(sin(x)),tensor(0.),0
+Linear Equation_5_96,x*(x - atanh(x)),tensor(0.2552),-7.520553466151769
+Linear Equation_5_97,(x + 2)/x**5,tensor(2.1036e-19),-2.2598834646881745e+37
+Linear Equation_5_98,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881d0f10>>
+Linear Equation_5_99,x*cosh(5),tensor(0.0268),-1313.7301654823461
+Linear Equation_5_100,3*x - 3,tensor(0.1600),-26.555274223389176
+Linear Equation_5_101,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0d00>>
+Linear Equation_5_102,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a5bb0>>
+Linear Equation_5_103,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a5190>>
+Linear Equation_5_104,2*sin(x + 1),tensor(0.4048),-1.162310659853412
+Linear Equation_5_105,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881ac7f0>>
+Linear Equation_5_106,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1460>>
+Linear Equation_5_107,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7fd0>>
+Linear Equation_5_108,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7af0>>
+Linear Equation_5_109,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7640>>
+Linear Equation_5_110,exp(x) - log(cos(x)),tensor(0.3975),-1.2971107731064562
+Linear Equation_5_111,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7760>>
+Linear Equation_5_112,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a65b0>>
+Linear Equation_5_113,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a64c0>>
+Linear Equation_5_114,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6e50>>
+Linear Equation_5_115,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6610>>
+Linear Equation_5_116,1/(x + 5),tensor(0.2764),-5.853067297277919
+Linear Equation_5_117,x**3 + tan(x),tensor(0.2766),-5.838063446146611
+Linear Equation_5_118,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6190>>
+Linear Equation_5_119,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6c40>>
+Linear Equation_5_120,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193310>>
+Linear Equation_5_121,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193dc0>>
+Linear Equation_5_122,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193df0>>
+Linear Equation_5_123,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193460>>
+Linear Equation_5_124,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193b20>>
+Linear Equation_5_125,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881934f0>>
+Linear Equation_5_126,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193eb0>>
+Linear Equation_5_127,x - 3,tensor(0.1605),-26.3434665544518
+Linear Equation_6_0,2*x + 3,tensor(1.),1.0
+Linear Equation_6_1,x**5/5,tensor(0.2660),-6.615982721306703
+Linear Equation_6_2,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a805feb0>>
+Linear Equation_6_3,x**3*tan(5)/3,tensor(0.2557),-7.47018456186877
+Linear Equation_6_4,x + tan(x) + 1,tensor(0.3638),-2.057622276043795
+Linear Equation_6_5,9*x**5,tensor(0.2449),-8.50618694044621
+Linear Equation_6_6,x*(x + 1),tensor(0.2960),-4.656554008590349
+Linear Equation_6_7,2*x + cosh(x),tensor(0.3856),-1.5385358160375993
+Linear Equation_6_8,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816ecd0>>
+Linear Equation_6_9,sin(2*x + 1),tensor(0.2965),-4.627285215445117
+Linear Equation_6_10,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588193f40>>
+Linear Equation_6_11,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588172f70>>
+Linear Equation_6_12,x + 1,tensor(0.3573),-2.236942620647711
+Linear Equation_6_13,x + sin(x) + 1,tensor(0.3652),-2.02154794268411
+Linear Equation_6_14,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e460>>
+Linear Equation_6_15,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e5e0>>
+Linear Equation_6_16,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816a400>>
+Linear Equation_6_17,-2*log(x),tensor(0.),0
+Linear Equation_6_18,sqrt(1 - x**6)/3,tensor(0.2833),-5.397319730453856
+Linear Equation_6_19,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b8c10>>
+Linear Equation_6_20,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816a100>>
+Linear Equation_6_21,6*x + 5,tensor(0.2760),-5.882585099269589
+Linear Equation_6_22,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881eeac0>>
+Linear Equation_6_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a805fd60>>
+Linear Equation_6_24,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e040>>
+Linear Equation_6_25,x*(x**2 + x),tensor(0.2917),-4.8955245566126315
+Linear Equation_6_26,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6df0>>
+Linear Equation_6_27,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6040>>
+Linear Equation_6_28,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816a550>>
+Linear Equation_6_29,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6220>>
+Linear Equation_6_30,2*x**2 + x,tensor(0.3176),-3.615811198018977
+Linear Equation_6_31,x**2 - cos(x),tensor(0.2371),-9.350086744962633
+Linear Equation_6_32,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2d00>>
+Linear Equation_6_33,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817ae80>>
+Linear Equation_6_34,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5cc03dc40>>
+Linear Equation_6_35,x*(x + log(x)),tensor(0.),0
+Linear Equation_6_36,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588172640>>
+Linear Equation_6_37,x + sin(x) + 2,tensor(0.5348),0.2433890134881388
+Linear Equation_6_38,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81cef70>>
+Linear Equation_6_39,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881b0730>>
+Linear Equation_6_40,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfa30>>
+Linear Equation_6_41,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81df0d0>>
+Linear Equation_6_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfa60>>
+Linear Equation_6_43,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfb50>>
+Linear Equation_6_44,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881703d0>>
+Linear Equation_6_45,sin(x) + cos(x),tensor(0.3394),-2.7881908040088352
+Linear Equation_6_46,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881700a0>>
+Linear Equation_6_47,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588170070>>
+Linear Equation_6_48,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588170ee0>>
+Linear Equation_6_49,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588170b20>>
+Linear Equation_6_50,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588170430>>
+Linear Equation_6_51,x*(x**2 + x),tensor(0.2917),-4.8955245566126315
+Linear Equation_6_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81d6610>>
+Linear Equation_6_53,x*exp(x) - x,tensor(0.2903),-4.975526704208127
+Linear Equation_6_54,x + 5,tensor(0.3548),-2.3075451769601685
+Linear Equation_6_55,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a4c0>>
+Linear Equation_6_56,x**2 + sin(x),tensor(0.2951),-4.703657357576908
+Linear Equation_6_57,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881f1040>>
+Linear Equation_6_58,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81daa60>>
+Linear Equation_6_59,1 - x,tensor(0.3055),-4.16716476465022
+Linear Equation_6_60,x**3 - cos(x),tensor(0.2271),-10.58464733467431
+Linear Equation_6_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7460>>
+Linear Equation_6_62,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a76d0>>
+Linear Equation_6_63,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a7ee0>>
+Linear Equation_6_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6c10>>
+Linear Equation_6_65,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a66a0>>
+Linear Equation_6_66,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6250>>
+Linear Equation_6_67,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e760>>
+Linear Equation_6_68,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e610>>
+Linear Equation_6_69,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816ec40>>
+Linear Equation_6_70,sqrt(5)*x**2,tensor(0.3062),-4.1343896053382325
+Linear Equation_6_71,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816ab50>>
+Linear Equation_6_72,x**2*(2*x + 3),tensor(0.3376),-2.8501076691273055
+Linear Equation_6_73,x + sin(x + 2),tensor(0.3280),-3.199004539789513
+Linear Equation_6_74,x**3/2,tensor(0.2683),-6.436895541812552
+Linear Equation_6_75,x + exp(x) - 5,tensor(0.1442),-34.23823214358166
+Linear Equation_6_76,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101340>>
+Linear Equation_6_77,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881017c0>>
+Linear Equation_6_78,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881016a0>>
+Linear Equation_6_79,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101550>>
+Linear Equation_6_80,x**2 + 2*x,tensor(0.2999),-4.4490338883533465
+Linear Equation_6_81,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588175d60>>
+Linear Equation_6_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588175580>>
+Linear Equation_6_83,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588175df0>>
+Linear Equation_6_84,1/(2*x + 1),tensor(0.0087),-13038.512683619716
+Linear Equation_6_85,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588175f40>>
+Linear Equation_6_86,x/3,tensor(0.2687),-6.4062944286751815
+Linear Equation_6_87,x*(x**2 + x),tensor(0.2917),-4.8955245566126315
+Linear Equation_6_88,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881018b0>>
+Linear Equation_6_89,log(sin(x)),tensor(0.),0
+Linear Equation_6_90,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105eb0>>
+Linear Equation_6_91,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105550>>
+Linear Equation_6_92,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105910>>
+Linear Equation_6_93,x**2 + log(x),tensor(0.),0
+Linear Equation_6_94,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101a90>>
+Linear Equation_6_95,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101e50>>
+Linear Equation_6_96,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101df0>>
+Linear Equation_6_97,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101940>>
+Linear Equation_6_98,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101a60>>
+Linear Equation_6_99,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101f10>>
+Linear Equation_6_100,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101220>>
+Linear Equation_6_101,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101c10>>
+Linear Equation_6_102,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101ee0>>
+Linear Equation_6_103,x + asinh(x),tensor(0.2772),-5.797499005339628
+Linear Equation_6_104,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101160>>
+Linear Equation_6_105,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101cd0>>
+Linear Equation_6_106,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881015b0>>
+Linear Equation_6_107,-x**2 + x,tensor(0.2539),-7.6370531591988495
+Linear Equation_6_108,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105a30>>
+Linear Equation_6_109,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881059d0>>
+Linear Equation_6_110,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105820>>
+Linear Equation_6_111,(-sqrt(x) + x)/x,tensor(0.),0
+Linear Equation_6_112,x**3 + x + cos(x),tensor(0.3460),-2.5723605362759776
+Linear Equation_6_113,(1 - x)*sin(x),tensor(0.2553),-7.506424238608121
+Linear Equation_6_114,x + cos(x) + 2,tensor(0.6546),0.7215258318642951
+Linear Equation_6_115,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588136340>>
+Linear Equation_6_116,cos(3*x + 2),tensor(0.2491),-8.085085725774269
+Linear Equation_6_117,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81cee50>>
+Linear Equation_6_118,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81cea00>>
+Linear Equation_6_119,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105070>>
+Linear Equation_6_120,-x**3 + x + log(x),tensor(0.),0
+Linear Equation_6_121,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dffa0>>
+Linear Equation_6_122,x**3 + 2*x,tensor(0.2752),-5.937675484617602
+Linear Equation_6_123,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816edf0>>
+Linear Equation_6_124,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588175b50>>
+Linear Equation_6_125,sqrt(x) + x + 4,tensor(0.),0
+Linear Equation_6_126,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da2b0>>
+Linear Equation_6_127,x*(x*sin(x) + x),tensor(0.2910),-4.936627712841383
+Linear Equation_7_0,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6d60>>
+Linear Equation_7_1,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed370>>
+Linear Equation_7_2,sin(4*x),tensor(0.2650),-6.694612338645487
+Linear Equation_7_3,x - acos(x),tensor(0.2010),-14.810183422166437
+Linear Equation_7_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81da8b0>>
+Linear Equation_7_5,x**5 + x,tensor(0.2761),-5.872670429977794
+Linear Equation_7_6,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588136820>>
+Linear Equation_7_7,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881932e0>>
+Linear Equation_7_8,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81903d0>>
+Linear Equation_7_9,-x,tensor(0.2511),-7.891888861496588
+Linear Equation_7_10,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817aee0>>
+Linear Equation_7_11,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f2dc0>>
+Linear Equation_7_12,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f21c0>>
+Linear Equation_7_13,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b940>>
+Linear Equation_7_14,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b700>>
+Linear Equation_7_15,cosh(x),tensor(0.3490),-2.479336285445355
+Linear Equation_7_16,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812efd0>>
+Linear Equation_7_17,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812eb50>>
+Linear Equation_7_18,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812efa0>>
+Linear Equation_7_19,-x*cos(x) - x + sin(x),tensor(0.2539),-7.632793481400364
+Linear Equation_7_20,x + 3,tensor(0.6666),0.749896912460629
+Linear Equation_7_21,x*(x + sin(x)),tensor(0.3007),-4.409824016544984
+Linear Equation_7_22,x**3 + 2*x,tensor(0.2752),-5.937675484617602
+Linear Equation_7_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b4c0>>
+Linear Equation_7_24,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a818b9a0>>
+Linear Equation_7_25,(2*x + 2)*exp(x),tensor(0.3753),-1.770143627216311
+Linear Equation_7_26,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81ed430>>
+Linear Equation_7_27,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8186580>>
+Linear Equation_7_28,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817af10>>
+Linear Equation_7_29,10*x**3,tensor(0.2192),-11.687151256861338
+Linear Equation_7_30,x**2/10,tensor(0.2669),-6.547835634379291
+Linear Equation_7_31,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190be0>>
+Linear Equation_7_32,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a580>>
+Linear Equation_7_33,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817aa90>>
+Linear Equation_7_34,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812eee0>>
+Linear Equation_7_35,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812e580>>
+Linear Equation_7_36,x*(x - 1),tensor(0.2665),-6.57221277430058
+Linear Equation_7_37,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881700d0>>
+Linear Equation_7_38,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588170460>>
+Linear Equation_7_39,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588170be0>>
+Linear Equation_7_40,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588170fd0>>
+Linear Equation_7_41,3*x - 3*log(cos(x)),tensor(0.3090),-4.00095021952143
+Linear Equation_7_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812ea00>>
+Linear Equation_7_43,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812e430>>
+Linear Equation_7_44,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812e370>>
+Linear Equation_7_45,x - cos(x),tensor(0.2289),-10.354576055785355
+Linear Equation_7_46,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881012b0>>
+Linear Equation_7_47,x*(sin(x) + 1),tensor(0.2940),-4.767869599704521
+Linear Equation_7_48,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58810a0a0>>
+Linear Equation_7_49,(x + cos(x))/x,tensor(0.0069),-20434.94407487881
+Linear Equation_7_50,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588172eb0>>
+Linear Equation_7_51,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58810a460>>
+Linear Equation_7_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58810a160>>
+Linear Equation_7_53,32*x**2,tensor(0.0857),-112.76978769127723
+Linear Equation_7_54,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e9a0>>
+Linear Equation_7_55,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812eb80>>
+Linear Equation_7_56,tan(2*x + 3),tensor(0.0058),-29675.405879483198
+Linear Equation_7_57,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816a0a0>>
+Linear Equation_7_58,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a5b50>>
+Linear Equation_7_59,exp(x) - cos(x),tensor(0.2968),-4.610805131134936
+Linear Equation_7_60,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58811db50>>
+Linear Equation_7_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58811d0a0>>
+Linear Equation_7_62,x*(2*x + 5),tensor(0.2780),-5.745491967815519
+Linear Equation_7_63,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105520>>
+Linear Equation_7_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f190>>
+Linear Equation_7_65,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f4f0>>
+Linear Equation_7_66,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f130>>
+Linear Equation_7_67,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812fa60>>
+Linear Equation_7_68,x + cosh(x) + 2,tensor(0.6470),0.702226449503285
+Linear Equation_7_69,x**2/2,tensor(0.2744),-5.991843925409011
+Linear Equation_7_70,exp(x) + 1,tensor(0.5401),0.2746663075476544
+Linear Equation_7_71,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588171a30>>
+Linear Equation_7_72,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588101760>>
+Linear Equation_7_73,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881016d0>>
+Linear Equation_7_74,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588175160>>
+Linear Equation_7_75,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588175880>>
+Linear Equation_7_76,log(x + tan(x)),tensor(0.),0
+Linear Equation_7_77,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588105df0>>
+Linear Equation_7_78,x**3 + cos(x),tensor(0.3338),-2.9828082352551437
+Linear Equation_7_79,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190c10>>
+Linear Equation_7_80,1/30,tensor(0.),0
+Linear Equation_7_81,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81f28e0>>
+Linear Equation_7_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a817a310>>
+Linear Equation_7_83,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8186610>>
+Linear Equation_7_84,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b040>>
+Linear Equation_7_85,2*x + cos(x),tensor(0.3473),-2.5312195103972477
+Linear Equation_7_86,x**2/2 + exp(x),tensor(0.3956),-1.334478346296212
+Linear Equation_7_87,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58811a6d0>>
+Linear Equation_7_88,800*x**2,tensor(0.0032),-94717.56630139069
+Linear Equation_7_89,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881311c0>>
+Linear Equation_7_90,x**3 + x + sin(x),tensor(0.2757),-5.901182357437652
+Linear Equation_7_91,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812fa00>>
+Linear Equation_7_92,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f490>>
+Linear Equation_7_93,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f550>>
+Linear Equation_7_94,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812fdf0>>
+Linear Equation_7_95,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812fee0>>
+Linear Equation_7_96,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812ffd0>>
+Linear Equation_7_97,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f1f0>>
+Linear Equation_7_98,-x - cos(x),tensor(0.2157),-12.223973861463671
+Linear Equation_7_99,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881317c0>>
+Linear Equation_7_100,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588131190>>
+Linear Equation_7_101,x*(sqrt(x) + x),tensor(0.),0
+Linear Equation_7_102,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f9d0>>
+Linear Equation_7_103,x*sin(log(x)),tensor(0.),0
+Linear Equation_7_104,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190c70>>
+Linear Equation_7_105,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8190580>>
+Linear Equation_7_106,acos(x) + 3,tensor(0.3209),-3.47969542966299
+Linear Equation_7_107,2*x - cos(x),tensor(0.2303),-10.170186415564313
+Linear Equation_7_108,4*x*exp(x),tensor(0.2904),-4.971673951269584
+Linear Equation_7_109,x*tanh(2*x),tensor(0.2887),-5.07292583865476
+Linear Equation_7_110,sin(x)**3,tensor(0.2695),-6.346865805752954
+Linear Equation_7_111,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7d60>>
+Linear Equation_7_112,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81316a0>>
+Linear Equation_7_113,-x - exp(x),tensor(0.1948),-16.081960657472518
+Linear Equation_7_114,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a812ac70>>
+Linear Equation_7_115,x*(x + cos(x)),tensor(0.2932),-4.809906430535191
+Linear Equation_7_116,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816b4c0>>
+Linear Equation_7_117,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8a30>>
+Linear Equation_7_118,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8186fd0>>
+Linear Equation_7_119,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8186f40>>
+Linear Equation_7_120,2*x + 1,tensor(0.3652),-2.0221408112645687
+Linear Equation_7_121,14*x**5,tensor(0.2040),-14.230069193908406
+Linear Equation_7_122,x - sin(x),tensor(0.2661),-6.605678817173255
+Linear Equation_7_123,5*x + 3,tensor(0.4000),-1.250927787854339
+Linear Equation_7_124,exp(2*x),tensor(0.4268),-0.8043247827908855
+Linear Equation_7_125,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812ec10>>
+Linear Equation_7_126,x - acos(x),tensor(0.2010),-14.810183422166437
+Linear Equation_7_127,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812f5b0>>
+Linear Equation_8_0,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881723a0>>
+Linear Equation_8_1,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e2e0>>
+Linear Equation_8_2,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58816e580>>
+Linear Equation_8_3,-cos(x + 1),tensor(0.2466),-8.334870190943455
+Linear Equation_8_4,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81e7190>>
+Linear Equation_8_5,2*x*cos(x) - 12*sin(x),tensor(0.1384),-37.76134542337417
+Linear Equation_8_6,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9580>>
+Linear Equation_8_7,x**2 - cos(x),tensor(0.2371),-9.350086744962633
+Linear Equation_8_8,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880e9850>>
+Linear Equation_8_9,log(x**2 + 1),tensor(0.2801),-5.608601326832565
+Linear Equation_8_10,-cos(x) + tan(x),tensor(0.2296),-10.256367997555001
+Linear Equation_8_11,x**4,tensor(0.2758),-5.892581629250669
+Linear Equation_8_12,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4760>>
+Linear Equation_8_13,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f42b0>>
+Linear Equation_8_14,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4fd0>>
+Linear Equation_8_15,x**3*(6*x + 1),tensor(0.3118),-3.8706820478037702
+Linear Equation_8_16,x + exp(x),tensor(0.3853),-1.5446489273953294
+Linear Equation_8_17,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810b5e0>>
+Linear Equation_8_18,x*(sqrt(x) + x),tensor(0.),0
+Linear Equation_8_19,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a62e0>>
+Linear Equation_8_20,exp(x + 4),tensor(0.0163),-3656.2270484677006
+Linear Equation_8_21,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58812e940>>
+Linear Equation_8_22,x*exp(x + 3),tensor(0.0665),-196.00552992961389
+Linear Equation_8_23,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588131400>>
+Linear Equation_8_24,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880cefa0>>
+Linear Equation_8_25,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880cea30>>
+Linear Equation_8_26,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880cea60>>
+Linear Equation_8_27,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f2df0>>
+Linear Equation_8_28,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f2340>>
+Linear Equation_8_29,x/10,tensor(0.2662),-6.602080328617155
+Linear Equation_8_30,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881291c0>>
+Linear Equation_8_31,exp(x + 1),tensor(0.6087),0.5866973807590357
+Linear Equation_8_32,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588129820>>
+Linear Equation_8_33,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588129340>>
+Linear Equation_8_34,(sin(x) - 1)*exp(x)/7,tensor(0.2584),-7.237868949688121
+Linear Equation_8_35,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4370>>
+Linear Equation_8_36,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4e50>>
+Linear Equation_8_37,x*(3*x**3 + x),tensor(0.3070),-4.095914288444991
+Linear Equation_8_38,x + 16,tensor(0.0812),-127.16501067148289
+Linear Equation_8_39,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f27f0>>
+Linear Equation_8_40,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ed7f0>>
+Linear Equation_8_41,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880eddf0>>
+Linear Equation_8_42,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ed400>>
+Linear Equation_8_43,x*(3*x + 1),tensor(0.3369),-2.8747395639361906
+Linear Equation_8_44,x*sin(x) + x,tensor(0.2940),-4.767869599704521
+Linear Equation_8_45,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880d7c70>>
+Linear Equation_8_46,x**2*cos(3),tensor(0.2469),-8.306247689996624
+Linear Equation_8_47,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880eda90>>
+Linear Equation_8_48,1/8,tensor(0.),0
+Linear Equation_8_49,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880d7b80>>
+Linear Equation_8_50,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880eac40>>
+Linear Equation_8_51,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ea670>>
+Linear Equation_8_52,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ea730>>
+Linear Equation_8_53,x + exp(x) + 1,tensor(0.5766),0.4608564989450842
+Linear Equation_8_54,4*x*exp(x),tensor(0.2904),-4.971673951269584
+Linear Equation_8_55,x*exp(x + 2),tensor(0.1833),-18.855794911261427
+Linear Equation_8_56,x*(x + 6),tensor(0.2438),-8.621015158192757
+Linear Equation_8_57,5*x**2,tensor(0.3322),-3.0408119202800217
+Linear Equation_8_58,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a807fcd0>>
+Linear Equation_8_59,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a81dfbe0>>
+Linear Equation_8_60,4*x**2 + 4*x,tensor(0.3275),-3.2180767214794326
+Linear Equation_8_61,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80ca400>>
+Linear Equation_8_62,x + 3*sin(x),tensor(0.2658),-6.626624313249167
+Linear Equation_8_63,25*x**4,tensor(0.1407),-36.28615884952292
+Linear Equation_8_64,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8e80>>
+Linear Equation_8_65,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8100>>
+Linear Equation_8_66,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ed970>>
+Linear Equation_8_67,x*(x**2 + x - 3),tensor(0.2392),-9.12092696356656
+Linear Equation_8_68,-x**3/3,tensor(0.2625),-6.8955984875918706
+Linear Equation_8_69,x*log(3*x) - x,tensor(0.),0
+Linear Equation_8_70,x - tan(x),tensor(0.2613),-6.988991757118207
+Linear Equation_8_71,49*x**2,tensor(0.0550),-293.9354220723399
+Linear Equation_8_72,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588131af0>>
+Linear Equation_8_73,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58811a730>>
+Linear Equation_8_74,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58811a490>>
+Linear Equation_8_75,2*x**3*exp(x),tensor(0.3010),-4.392165543847555
+Linear Equation_8_76,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f2e50>>
+Linear Equation_8_77,x + exp(x + 5),tensor(0.0059),-28663.08617654517
+Linear Equation_8_78,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880e9e50>>
+Linear Equation_8_79,x**2,tensor(0.2839),-5.364280303906094
+Linear Equation_8_80,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb58811aca0>>
+Linear Equation_8_81,2*x + 9,tensor(0.1609),-26.199267301381116
+Linear Equation_8_82,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5881a6eb0>>
+Linear Equation_8_83,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ce4c0>>
+Linear Equation_8_84,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880e9160>>
+Linear Equation_8_85,3*x**2 + sin(x),tensor(0.3355),-2.9241757359478906
+Linear Equation_8_86,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80f8220>>
+Linear Equation_8_87,x + log(x + 1),tensor(0.2550),-7.534629181093052
+Linear Equation_8_88,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a816b130>>
+Linear Equation_8_89,x*(x + tan(x) + 3),tensor(0.3208),-3.4807582532839376
+Linear Equation_8_90,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b91f0>>
+Linear Equation_8_91,2*x + 5,tensor(0.3652),-2.0221408112645687
+Linear Equation_8_92,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a810beb0>>
+Linear Equation_8_93,x**3/3,tensor(0.2673),-6.516774818804371
+Linear Equation_8_94,x*log(2*x + 1),tensor(0.),0
+Linear Equation_8_95,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f2b20>>
+Linear Equation_8_96,20*x**3,tensor(0.1380),-38.030339067968036
+Linear Equation_8_97,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4190>>
+Linear Equation_8_98,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4c40>>
+Linear Equation_8_99,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4a60>>
+Linear Equation_8_100,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f49d0>>
+Linear Equation_8_101,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4730>>
+Linear Equation_8_102,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4b20>>
+Linear Equation_8_103,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f45e0>>
+Linear Equation_8_104,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4d60>>
+Linear Equation_8_105,x*(x + 3),tensor(0.2944),-4.741719943195086
+Linear Equation_8_106,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880f4250>>
+Linear Equation_8_107,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8080910>>
+Linear Equation_8_108,1/sin(x),tensor(0.0069),-20436.97483741945
+Linear Equation_8_109,x + log(x) + 1,tensor(0.),0
+Linear Equation_8_110,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb588082670>>
+Linear Equation_8_111,x*exp(x + 5),tensor(0.0087),-13075.068318555699
+Linear Equation_8_112,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ea3d0>>
+Linear Equation_8_113,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ead60>>
+Linear Equation_8_114,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ea490>>
+Linear Equation_8_115,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880828e0>>
+Linear Equation_8_116,x**3/3,tensor(0.2673),-6.516774818804371
+Linear Equation_8_117,x**2 + x + 1,tensor(0.3924),-1.3967348086664946
+Linear Equation_8_118,(x + 8)**2,tensor(0.0183),-2874.810296032872
+Linear Equation_8_119,4*x**2,tensor(0.3287),-3.172172251453661
+Linear Equation_8_120,6*x**2 + 4*x,tensor(0.3287),-3.172075636164939
+Linear Equation_8_121,-x**5 + 4*x,tensor(0.2672),-6.5246995038144675
+Linear Equation_8_122,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5880ea100>>
+Linear Equation_8_123,x + sin(x + 3),tensor(0.2733),-6.072951981704864
+Linear Equation_8_124,2*sin(x)*cos(x),tensor(0.2757),-5.903150855330974
+Linear Equation_8_125,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80b9130>>
+Linear Equation_8_126,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a8094a00>>
+Linear Equation_8_127,None,tensor(0.),<bound method Expression.r2 of <Expression.Expression object at 0x7fb5a80945b0>>

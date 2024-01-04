@@ -1,0 +1,9 @@
+type,name,expression,dataset,low,high,size,noise,seed,nrmse,result,mean_nrmse,r2,epoch,time
+test_2,Exponential Growth,  3 * np.exp(0.1 * x),exponential_growth.csv,-1,1,"(1,1000)",0,42,tensor(0.4311),,0.012252358719706535,-0.7417024066594886,50,1509.4978625774384
+test_5,meu teste,-x**2 - 7,meu_teste.csv,-1,1,"(1,1000)",0,42,tensor(0.2858),,0.01183889526873827,-5.242546112238704,50,1523.4457423686981
+test_6,Cubic Polynomial,x**3 - 4 * x**2 + 2 * x - 5,cubic_polynomial.csv,-1,1,"(1,1000)",0,42,tensor(0.5982),,0.08821754902601242,0.5488476802649391,50,1523.4790499210358
+test_9,Polynomial with Exponential Term,x**3 + 2 * x**2 + 3 * np.exp(x) + 5,polynomial_with_exponential_term.csv,-1,1,"(1,1000)",0,42,tensor(0.6717),,0.09297451376914978,0.7610785180042599,50,1522.0988879203796
+test_10,Square Root with Quadratic Term,np.sqrt(x**2 + 9) - x**2,square_root_with_quadratic_term.csv,-1,1,"(1,1000)",0,42,tensor(0.8794),,0.0213964581489563,0.9811771015886878,50,1520.4261529445648
+test_11,Polynomial with Complex Roots,x**3 + 2 * x**2 + 2 * x + 5,polynomial_with_complex_roots.csv,-1,1,"(1,1000)",0,42,tensor(0.6884),,0.1028386652469635,0.7951727157856087,50,1520.264927148819
+dso_4, Nguyen-5, np.sin(x) * np.cos(x) - 1,nguyen_5.csv,-1,1,"(1,1000)",0,42,tensor(0.6395),,0.08731665462255478,0.6822425026772498,50,1519.8754410743713
+dso_9, Nguyen-5', np.sin(x**2) * np.cos(x) - 2,nguyen_5_prime.csv,-1,1,"(1,1000)",0,42,tensor(0.5145),,0.02032652497291565,0.10922793551662247,50,1475.4289388656616
